@@ -1,7 +1,7 @@
 import z3
 import argparse
 import sys
-from utils import right_inclusive_range, int2bitvec, bitvec2int
+from utils import right_inclusive_range, int2bitvec, bitvec2int, get_latest_function_synthesized
 
 
 def init_argparse():
@@ -195,11 +195,11 @@ def main():
 
     code = 0
     if not args.output is None:
-        code = get_latest_function_synthesized(output)
-        mode = 'a' if code >= 0  else 'r'
-        with open(output, mode) as f:
+        code = get_latest_function_synthesized(args.output)
+        mode = 'a+' if code >= 0  else 'w+'
+        with open(args.output, mode) as f:
             for code in range(code + 1, max_function_code):
-                synthesize_mig(code, max_complexity, f)
+                synthesize_mig(code, max_complexity=max_complexity, file=f)
         return
 
     for code in range(max_function_code):

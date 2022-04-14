@@ -87,9 +87,13 @@ def reverse_readline(filename, buf_size=8192):
 
 def get_latest_function_synthesized(filename):
     try:
-        while 'mig' != line and not line is None:
-            line = reverse_readline(filename)
-        code = int(reverse_readline(filename))
+        
+        line_gen = reverse_readline(filename)
+        line = ""
+        while 'mig' != line:
+            line = next(line_gen)
+        code = int(next(line_gen))
         return code
     except Exception as e:
+        print(f'File parsing error: {e}')
         return -1
