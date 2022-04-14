@@ -1,6 +1,5 @@
 venv
 trash
-results
 __pycache__
 .pytest_cache
 runtime
