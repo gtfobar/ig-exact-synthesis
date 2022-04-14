@@ -5,3 +5,4 @@ __pycache__
 .pytest_cache
 runtime
 *.ipynb_checkpoints*
+workspace.code-workspace

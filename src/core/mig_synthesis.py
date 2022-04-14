@@ -1,10 +1,12 @@
 import z3
 import argparse
+import sys
 from utils import right_inclusive_range, int2bitvec, bitvec2int
 
 
 def init_argparse():
     parser = argparse.ArgumentParser(description='Exact synthesis of MIG.')
+    parser.add_argument('-o', '--output', help='File to write results to.\nIf file already contain sythesized MIGs, code of the latest synthesized function will be determined. Synthesis will be performed for all 5-input functions with greater code')
     parser.add_argument('-f', '--function', help='Mincode of function. If not specified,\nsynthesis will be performed for all 5-input functions', type=int)
 
     args = parser.parse_args()
@@ -172,7 +174,7 @@ class Z3ModelWrapper():
         for a in asserts:
             this.asserts.append(a)
 
-def synthesize_mig(mincode, max_complexity=10):
+def synthesize_mig(mincode, max_complexity=10, file=sys.stdout):
     f = BoolFunction(mincode, 5)
     gate = BoolFunction(BoolFunction.MAJ_MINCODE, 3)
 
@@ -180,17 +182,28 @@ def synthesize_mig(mincode, max_complexity=10):
         m = Z3ModelWrapper(complexity, f, gate)
         if m.check():
             # print(f'MIN COMPLEXITY FOUND: {complexity}')
-            print(m)
+            print(m, file=file)
             break
 
 def main():
     args = init_argparse()
     max_complexity = 10
+    max_function_code = 0x1000
     if not args.function is None:
         synthesize_mig(args.function, max_complexity)
-    else:
-        for mincode in range(0xffff):
-            synthesize_mig(mincode, max_complexity)
+        return
+
+    code = 0
+    if not args.output is None:
+        code = get_latest_function_synthesized(output)
+        mode = 'a' if code >= 0  else 'r'
+        with open(output, mode) as f:
+            for code in range(code + 1, max_function_code):
+                synthesize_mig(code, max_complexity, f)
+        return
+
+    for code in range(max_function_code):
+        synthesize_mig(code, max_complexity)
     
 if __name__ == "__main__":
     main()
