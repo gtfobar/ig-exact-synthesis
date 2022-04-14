@@ -1,1 +1,7 @@
-venv/*
+venv
+trash
+results
+__pycache__
+.pytest_cache
+runtime
+*.ipynb_checkpoints*
