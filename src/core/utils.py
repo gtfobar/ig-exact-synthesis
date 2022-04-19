@@ -97,3 +97,87 @@ def get_latest_function_synthesized(filename):
     except Exception as e:
         print(f'File parsing error: {e}')
         return -1
+
+# +
+def swap_vars(f, x, y, n):
+    visited = set()
+    for i in range(0, 1 << n):
+        if i in visited:
+            continue
+        visited.add(i)
+        var_values = int2bitvec(n, i)
+        if var_values[x] == var_values[y]:
+            continue
+        var_values[x], var_values[y] = var_values[y], var_values[x]
+        j = bitvec2int(var_values)
+        f[i], f[j] = f[j], f[i]
+        visited.add(j)
+# +
+def get_permuted(f, permutation, n):
+    permuted = f[:]
+    for i, j in enumerate(permutation):
+        if i == j:
+            continue
+        swap_vars(permuted, i, j, n)
+        idx = permutation.index(i)
+        permutation[i], permutation[idx] = permutation[idx], permutation[i]
+    return permuted
+
+
+# invert k-th variable of func f
+def invert_var(f, k, n):
+    visited = set()
+    for i in range(0, 1 << n):
+        if i in visited:
+            continue
+        visited.add(i)
+        var_values = int2bitvec(n, i)
+        var_values[k] = 1 - var_values[k] # invert k-th var
+        j = bitvec2int(var_values)
+        f[i], f[j] = f[j], f[i]
+        visited.add(j)
+
+def get_inverted(f, combination, n):
+    inverted = f[:]
+    for i, value in enumerate(combination):
+        if value == 0:
+            continue
+        invert_var(inverted, i, n)
+    return inverted
+
+def get_permutations(n):
+    result = [[]]
+    for k in range(0, n):
+        done = result
+        result = []
+        for permutation in done:
+            for i in range(0, k + 1):
+                tmp = permutation[:]
+                tmp.insert(i, k)
+                result.append(tmp)
+    return result
+
+def get_combinations(n):
+    result = [[]]
+    for k in range(0, n):
+        done = result
+        result = []
+        for combination in done:
+            for i in {0, 1}:
+                tmp = combination[:]
+                tmp += [i]
+                result.append(tmp)
+    return result
+
+def get_mincode(code, n=5):
+    # print(f"Hello from {mps.current_process()}")
+    permutations = get_permutations(n)
+    combinations = get_combinations(n)
+    mincode = 2 ** 32
+    f = int2bitvec(2 ** n, code)
+    for permutation in permutations:
+        permuted = get_permuted(f, permutation, n)
+        for combination in combinations:
+            inverted = get_inverted(permuted, combination, n)
+            mincode = min(mincode, bitvec2int(inverted))
+    return mincode

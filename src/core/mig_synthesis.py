@@ -7,19 +7,20 @@ from utils import right_inclusive_range, int2bitvec, bitvec2int, get_latest_func
 def init_argparse():
     parser = argparse.ArgumentParser(description='Exact synthesis of MIG.')
     parser.add_argument('-o', '--output', help='File to write results to.\nIf file already contain sythesized MIGs, code of the latest synthesized function will be determined. Synthesis will be performed for all 5-input functions with greater code')
-    parser.add_argument('-f', '--function', help='Mincode of function. If not specified,\nsynthesis will be performed for all 5-input functions', type=int)
+    parser.add_argument('-f', '--function', help='Code of function. If not specified,\nsynthesis will be performed for all 5-input functions', type=int)
 
     args = parser.parse_args()
     return args
 
 class BoolFunction():
-    MAJ_MINCODE = 0b00010111
-    FULLADDER_MINCODE = 0b01101001
+    MAJ_CODE = 0b00010111
+    FULLADDER_CODE= 0b01101001
 
-    def __init__(this, mincode, arity):
-        this.mincode = mincode
+    def __init__(this, code, arity):
+        this.code = code
         this.arity = arity
         this.bitlength = 2 ** arity
+        this.mincode = get_mincode(this.code, this.arity)
 
 class Z3ModelWrapper():
 
@@ -78,7 +79,7 @@ class Z3ModelWrapper():
     def init_variables(this):
         # this line can be removed, because gate semantics is given solely by constraints
         # this.vars['gate'] = z3.BitVec('gate', this.gate.bitlength)
-        this.vars['f'] = z3.BitVecVal(this.f.mincode, this.f.bitlength)
+        this.vars['f'] = z3.BitVecVal(this.f.code, this.f.bitlength)
         this.create_bitvec('output_polarity', 1)
 
         for gate in right_inclusive_range(this.f.arity, this.f.arity + this.complexity):
@@ -174,9 +175,9 @@ class Z3ModelWrapper():
         for a in asserts:
             this.asserts.append(a)
 
-def synthesize_mig(mincode, max_complexity=10, file=sys.stdout):
-    f = BoolFunction(mincode, 5)
-    gate = BoolFunction(BoolFunction.MAJ_MINCODE, 3)
+def synthesize_mig(code, max_complexity=10, file=sys.stdout):
+    f = BoolFunction(code, 5)
+    gate = BoolFunction(BoolFunction.MAJ_CODE, 3)
 
     for complexity in range(max_complexity):
         m = Z3ModelWrapper(complexity, f, gate)
@@ -187,7 +188,7 @@ def synthesize_mig(mincode, max_complexity=10, file=sys.stdout):
 
 def main():
     args = init_argparse()
-    max_complexity = 10
+    max_complexity = 11
     max_function_code = 0x1000
     if not args.function is None:
         synthesize_mig(args.function, max_complexity)
