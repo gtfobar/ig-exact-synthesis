@@ -1,13 +1,13 @@
 import z3
 import argparse
 import sys
-from utils import right_inclusive_range, int2bitvec, bitvec2int, get_latest_function_synthesized
+from utils import right_inclusive_range, int2bitvec, bitvec2int, get_latest_function_synthesized, get_mincode
 
 
 def init_argparse():
     parser = argparse.ArgumentParser(description='Exact synthesis of MIG.')
     parser.add_argument('-o', '--output', help='File to write results to.\nIf file already contain sythesized MIGs, code of the latest synthesized function will be determined. Synthesis will be performed for all 5-input functions with greater code')
-    parser.add_argument('-f', '--function', help='Code of function. If not specified,\nsynthesis will be performed for all 5-input functions', type=int)
+    parser.add_argument('function_codes', metavar='f1, f2, f3', nargs='*', help='Function codes. If not specified,\nsynthesis will be performed for all 5-input functions', type=int)
 
     args = parser.parse_args()
     return args
@@ -44,6 +44,8 @@ class Z3ModelWrapper():
         return this.solver.model().eval(expr)
 
     def __str__(this):
+        if this.f.mincode != this.f.code:
+            return ''
         polarity = this.eval(~this.vars['output_polarity'])
         result = f'{this.f.mincode}\nmig\n{this.complexity}\n{this.f.arity + this.complexity} {polarity}\n'
 
@@ -52,6 +54,9 @@ class Z3ModelWrapper():
                 s = this.vars[f'gate_input_{gate}_{gate_input}']
                 p = this.vars[f'gate_input_polarity_{gate}_{gate_input}']
                 result += f'{this.eval(s)} {this.eval(~p)} '
+
+        result += '\n\n'
+
         return result
 
     def check(this):
@@ -183,28 +188,32 @@ def synthesize_mig(code, max_complexity=10, file=sys.stdout):
         m = Z3ModelWrapper(complexity, f, gate)
         if m.check():
             # print(f'MIN COMPLEXITY FOUND: {complexity}')
-            print(m, file=file)
+            print(m, file=file, end='')
             break
 
 def main():
     args = init_argparse()
     max_complexity = 11
-    max_function_code = 0x1000
-    if not args.function is None:
-        synthesize_mig(args.function, max_complexity)
-        return
 
-    code = 0
+    if args.output is None:
+        output = sys.stdout
+    else:
+        with open(f'{args.output}.meta', 'a+') as meta:
+            print(str(sys.argv), file=meta)
+        output = open(args.output, 'a+')
+
+    if args.function_codes is None:
+        max_function_code = 0x1000
+        latest_code = get_latest_function_synthesized(args.output)
+        for code in range(latest_code + 1, max_function_code):
+            synthesize_mig(code, max_complexity=max_complexity, file=output)
+    else:
+        for code in args.function_codes:
+            synthesize_mig(code, max_complexity=max_complexity, file=output)
+
+
     if not args.output is None:
-        code = get_latest_function_synthesized(args.output)
-        mode = 'a+' if code >= 0  else 'w+'
-        with open(args.output, mode) as f:
-            for code in range(code + 1, max_function_code):
-                synthesize_mig(code, max_complexity=max_complexity, file=f)
-        return
-
-    for code in range(max_function_code):
-        synthesize_mig(code, max_complexity)
+        output.close()
     
 if __name__ == "__main__":
     main()
