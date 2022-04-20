@@ -58,7 +58,7 @@ class Z3ModelWrapper():
             return ''
 
         if not this.check_result:
-            return 'unsat'
+            return ''
 
         polarity = this.eval(~this.vars['output_polarity'])
         result = f'{this.f.mincode}\nmig\n{this.complexity}\n{this.f.arity + this.complexity} {polarity}\n'
@@ -212,6 +212,7 @@ def synthesize_mig(code, max_complexity=MAX_COMPLEXITY):
 
         elapsed = time.time() - start
         logging.info(f'[Time elapsed: {elapsed}] unsat')
+    return m
 
 def check_complexity(code, complexity):
     f = BoolFunction(code, 5)
