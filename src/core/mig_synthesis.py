@@ -194,6 +194,7 @@ def synthesize_mig(code, max_complexity=10, file=sys.stdout):
             break
 
 def main():
+    z3.set_param('parallel.enable', True)
     args = init_argparse()
     max_complexity = 11
 
