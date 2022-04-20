@@ -1,18 +1,21 @@
 import z3
 import argparse
 import sys
-import debugprint
+import logging, sys
 from utils import right_inclusive_range, int2bitvec, bitvec2int, get_latest_function_synthesized, get_mincode
 
-debug = debugprint.Debug('ig-exact-synthesis')
+logging.basicConfig(stream=sys.stderr, level=logging.DEBUG)
 z3.set_param('parallel.enable', True)
+MAX_COMPLEXITY = 10
 
 def init_argparse():
     parser = argparse.ArgumentParser(description='Exact synthesis of MIG.')
-    parser.add_argument('-o', '--output', help='File to write results to.\n')
-    parser.add_argument('-i', '--input', help='File to read function codes from.\n')
+    parser.add_argument('-o', '--output', help='Write results to file.')
+    parser.add_argument('-i', '--input', help='Read function codes from file.')
+    parser.add_argument('-c', '--check', help='Check complexity.', type=int)
+    parser.add_argument('-d', '--dir', help='Write results to directory, separate file for each function.')
+    parser.add_argument('-m', '--max-complexity', help='Maximum complexity.', type=int) # todo
     parser.add_argument('function_codes', metavar='f1, f2, f3', nargs='*', help='Function codes.', type=int)
-
 
     args = parser.parse_args()
     return args
@@ -50,8 +53,12 @@ class Z3ModelWrapper():
 
     def __str__(this):
         if this.f.mincode != this.f.code:
-            debug('code != mincode  =>  skipping\n')
+            logging.info('code != mincode  =>  skipping\n')
             return ''
+
+        if not this.check_result:
+            return 'unsat'
+
         polarity = this.eval(~this.vars['output_polarity'])
         result = f'{this.f.mincode}\nmig\n{this.complexity}\n{this.f.arity + this.complexity} {polarity}\n'
 
@@ -60,9 +67,6 @@ class Z3ModelWrapper():
                 s = this.vars[f'gate_input_{gate}_{gate_input}']
                 p = this.vars[f'gate_input_polarity_{gate}_{gate_input}']
                 result += f'{this.eval(s)} {this.eval(~p)} '
-
-        result += '\n\n'
-
         return result
 
     def check(this):
@@ -186,39 +190,42 @@ class Z3ModelWrapper():
         for a in asserts:
             this.asserts.append(a)
 
-def synthesize_mig(code, max_complexity=11):
+def synthesize_mig(code, max_complexity=MAX_COMPLEXITY):
     f = BoolFunction(code, 5)
     gate = BoolFunction(BoolFunction.MAJ_CODE, 3)
 
-    for complexity in range(max_complexity):
-        debug(f'checking {complexity}...')
+    for complexity in range(max_complexity + 1):
+        logging.info(f'checking {complexity}...')
         m = Z3ModelWrapper(complexity, f, gate)
         if m.check():
-            debug('sat')
+            logging.info('***** sat *****\n')
             return m
-        debug('unsat')
+        logging.info('unsat')
 
 def check_complexity(code, complexity):
     f = BoolFunction(code, 5)
     gate = BoolFunction(BoolFunction.MAJ_CODE, 3)
 
     m = Z3ModelWrapper(complexity, f, gate)
+    logging.info(f'checking {complexity}...')
     if m.check():
-        return m
+        logging.info('***** sat *****\n')
     else:
-        return None
+        logging.info('unsat')
+    return m
 
-def main():
-    args = init_argparse()
-    max_complexity = 11
+def to_dir(codes, args):
+    for code in codes:
+        logging.info(f'***** Function {code} *****')
+        with open(f'{args.dir}/{code}', 'w+') as output:
+            if args.check is None:
+                m = synthesize_mig(code, MAX_COMPLEXITY + 1)
+            else:
+                m = check_complexity(code, args.check)
+            output.write(str(m))
 
-    if args.output is None:
-        output = sys.stdout
-    else:
-        with open(f'{args.output}.meta', 'a+') as meta:
-            print(str(sys.argv), file=meta)
-        output = open(args.output, 'a+')
-
+def get_function_codes(args):
+    max_function_code = 0x1000
     function_codes = []
 
     if args.input is not None:
@@ -228,16 +235,38 @@ def main():
     if args.function_codes is not None:
         function_codes += args.function_codes
 
-    if function_codes:
-        for code in function_codes:
-            m = synthesize_mig(code, max_complexity=max_complexity)
-            print(m, file=output, end='')
-    else:
-        max_function_code = 0x1000
+    if not function_codes:
         latest_code = get_latest_function_synthesized(args.output)
-        for code in range(latest_code + 1, max_function_code):
-            synthesize_mig(code, max_complexity=max_complexity)
-            print(m, file=output, end='')
+        function_codes = range(latest_code + 1, max_function_code)
+    
+    return function_codes
+
+def main():
+    args = init_argparse()
+    function_codes = get_function_codes(args)
+    print(function_codes)
+
+    global MAX_COMPLEXITY
+    if args.max_complexity is not None:
+        MAX_COMPLEXITY = args.max_complexity
+
+    if args.dir is not None:
+        to_dir(function_codes, args)
+        return
+
+    if args.output is None:
+        output = sys.stdout
+    else:
+        with open(f'{args.output}.meta', 'a+') as meta:
+            meta.write(str(sys.argv))
+        output = open(args.output, 'a+')
+        
+    for code in function_codes:
+        if args.check is None:
+            m = synthesize_mig(code, max_complexity)
+        else:
+            m = check_complexity(code, args.check)
+        output.write(str(m))
         
     if not args.output is None:
         output.close()
