@@ -6,8 +6,10 @@ from utils import right_inclusive_range, int2bitvec, bitvec2int, get_latest_func
 
 def init_argparse():
     parser = argparse.ArgumentParser(description='Exact synthesis of MIG.')
-    parser.add_argument('-o', '--output', help='File to write results to.\nIf file already contain sythesized MIGs, code of the latest synthesized function will be determined. Synthesis will be performed for all 5-input functions with greater code')
-    parser.add_argument('function_codes', metavar='f1, f2, f3', nargs='*', help='Function codes. If not specified,\nsynthesis will be performed for all 5-input functions', type=int)
+    parser.add_argument('-o', '--output', help='File to write results to.\n')
+    parser.add_argument('-i', '--input', help='File to read function codes from.\n')
+    parser.add_argument('function_codes', metavar='f1, f2, f3', nargs='*', help='Function codes.', type=int)
+
 
     args = parser.parse_args()
     return args
@@ -202,16 +204,24 @@ def main():
             print(str(sys.argv), file=meta)
         output = open(args.output, 'a+')
 
-    if args.function_codes is None:
+    function_codes = []
+
+    if args.input is not None:
+        with open(args.input, 'r') as inputt:
+            function_codes += map(int, inputt.read().split())
+
+    if args.function_codes is not None:
+        function_codes += args.function_codes
+
+    if function_codes:
+        for code in function_codes:
+            synthesize_mig(code, max_complexity=max_complexity, file=output)
+    else:
         max_function_code = 0x1000
         latest_code = get_latest_function_synthesized(args.output)
         for code in range(latest_code + 1, max_function_code):
             synthesize_mig(code, max_complexity=max_complexity, file=output)
-    else:
-        for code in args.function_codes:
-            synthesize_mig(code, max_complexity=max_complexity, file=output)
-
-
+        
     if not args.output is None:
         output.close()
     
