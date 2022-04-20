@@ -280,8 +280,9 @@ def main():
         output = open(args.output, 'a+')
         
     for code in function_codes:
+        logging.info(f'\n***** Function {code} *****')
         if args.check is None:
-            m = synthesize_mig(code, max_complexity)
+            m = synthesize_mig(code, MAX_COMPLEXITY + 1)
         else:
             m = check_complexity(code, args.check)
         output.write(str(m))
