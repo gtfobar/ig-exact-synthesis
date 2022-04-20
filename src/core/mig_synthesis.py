@@ -215,6 +215,8 @@ def check_complexity(code, complexity):
     return m
 
 def to_dir(codes, args):
+    with open(f'{args.dir}/meta', 'a+') as meta:
+            meta.write(f'{sys.argv}\n')
     for code in codes:
         logging.info(f'***** Function {code} *****')
         with open(f'{args.dir}/{code}', 'w+') as output:
@@ -244,7 +246,7 @@ def get_function_codes(args):
 def main():
     args = init_argparse()
     function_codes = get_function_codes(args)
-    print(function_codes)
+    logging.info(function_codes)
 
     global MAX_COMPLEXITY
     if args.max_complexity is not None:
