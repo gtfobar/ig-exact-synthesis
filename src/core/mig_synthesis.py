@@ -239,7 +239,7 @@ def to_dir(codes, args):
         logging.info(f'\n***** Function {code} *****')
         with open(f'{args.dir}/{code}', 'w+') as output:
             if args.check is None:
-                m = synthesize_mig(code, MAX_COMPLEXITY + 1)
+                m = synthesize_mig(code, MAX_COMPLEXITY)
             else:
                 m = check_complexity(code, args.check)
             output.write(str(m))
@@ -284,7 +284,7 @@ def main():
     for code in function_codes:
         logging.info(f'\n***** Function {code} *****')
         if args.check is None:
-            m = synthesize_mig(code, MAX_COMPLEXITY + 1)
+            m = synthesize_mig(code, MAX_COMPLEXITY)
         else:
             m = check_complexity(code, args.check)
         output.write(str(m))
