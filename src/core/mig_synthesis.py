@@ -1,8 +1,11 @@
 import z3
 import argparse
 import sys
+import debugprint
 from utils import right_inclusive_range, int2bitvec, bitvec2int, get_latest_function_synthesized, get_mincode
 
+debug = debugprint.Debug('ig-exact-synthesis')
+z3.set_param('parallel.enable', True)
 
 def init_argparse():
     parser = argparse.ArgumentParser(description='Exact synthesis of MIG.')
@@ -47,6 +50,7 @@ class Z3ModelWrapper():
 
     def __str__(this):
         if this.f.mincode != this.f.code:
+            debug('code != mincode  =>  skipping\n')
             return ''
         polarity = this.eval(~this.vars['output_polarity'])
         result = f'{this.f.mincode}\nmig\n{this.complexity}\n{this.f.arity + this.complexity} {polarity}\n'
@@ -182,19 +186,29 @@ class Z3ModelWrapper():
         for a in asserts:
             this.asserts.append(a)
 
-def synthesize_mig(code, max_complexity=10, file=sys.stdout):
+def synthesize_mig(code, max_complexity=11):
     f = BoolFunction(code, 5)
     gate = BoolFunction(BoolFunction.MAJ_CODE, 3)
 
     for complexity in range(max_complexity):
+        debug(f'checking {complexity}...')
         m = Z3ModelWrapper(complexity, f, gate)
         if m.check():
-            # print(f'MIN COMPLEXITY FOUND: {complexity}')
-            print(m, file=file, end='')
-            break
+            debug('sat')
+            return m
+        debug('unsat')
+
+def check_complexity(code, complexity):
+    f = BoolFunction(code, 5)
+    gate = BoolFunction(BoolFunction.MAJ_CODE, 3)
+
+    m = Z3ModelWrapper(complexity, f, gate)
+    if m.check():
+        return m
+    else:
+        return None
 
 def main():
-    z3.set_param('parallel.enable', True)
     args = init_argparse()
     max_complexity = 11
 
@@ -216,12 +230,14 @@ def main():
 
     if function_codes:
         for code in function_codes:
-            synthesize_mig(code, max_complexity=max_complexity, file=output)
+            m = synthesize_mig(code, max_complexity=max_complexity)
+            print(m, file=output, end='')
     else:
         max_function_code = 0x1000
         latest_code = get_latest_function_synthesized(args.output)
         for code in range(latest_code + 1, max_function_code):
-            synthesize_mig(code, max_complexity=max_complexity, file=output)
+            synthesize_mig(code, max_complexity=max_complexity)
+            print(m, file=output, end='')
         
     if not args.output is None:
         output.close()
