@@ -1,4 +1,5 @@
 import z3
+import time
 import argparse
 import sys
 import logging, sys
@@ -195,30 +196,45 @@ def synthesize_mig(code, max_complexity=MAX_COMPLEXITY):
     gate = BoolFunction(BoolFunction.MAJ_CODE, 3)
 
     for complexity in range(max_complexity + 1):
-        logging.info(f'checking {complexity}...')
         m = Z3ModelWrapper(complexity, f, gate)
+
+        start = time.time()
+        logging.info(f'checking {complexity}...')
+
         if m.check():
-            logging.info('***** sat *****\n')
+
+            elapsed = time.time() - start
+            logging.info(f'[+{elapsed}] ***** sat *****\n')
+
             return m
-        logging.info('unsat')
+
+        elapsed = time.time() - start
+        logging.info(f'[Time elapsed: {elapsed}] unsat')
 
 def check_complexity(code, complexity):
     f = BoolFunction(code, 5)
     gate = BoolFunction(BoolFunction.MAJ_CODE, 3)
 
     m = Z3ModelWrapper(complexity, f, gate)
+
+    start = time.time()
     logging.info(f'checking {complexity}...')
+
     if m.check():
         logging.info('***** sat *****\n')
     else:
         logging.info('unsat')
+
+    elapsed = time.time() - start
+    logging.info(f'Time elapsed: {elapsed}')
+
     return m
 
 def to_dir(codes, args):
     with open(f'{args.dir}/meta', 'a+') as meta:
             meta.write(f'{sys.argv}\n')
     for code in codes:
-        logging.info(f'***** Function {code} *****')
+        logging.info(f'\n***** Function {code} *****')
         with open(f'{args.dir}/{code}', 'w+') as output:
             if args.check is None:
                 m = synthesize_mig(code, MAX_COMPLEXITY + 1)
