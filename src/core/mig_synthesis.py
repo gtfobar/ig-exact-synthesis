@@ -45,7 +45,8 @@ def synthesize_mig(code, max_complexity=MAX_COMPLEXITY):
         elif check_result:
             logging.info(f'[Time elapsed: {elapsed}] ***** sat *****\n')
             return m
-        logging.info('[Time elapsed: {elapsed}] unsat')
+        logging.info(f'[Time elapsed: {elapsed}] unsat')
+    logging.info(f'Reached maximum complexity of {max_complexity}. Exiting...')
     return m
 
 def check_complexity(code, complexity):

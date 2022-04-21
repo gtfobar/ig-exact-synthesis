@@ -26720,3 +26720,2381 @@ Terminated
 
 ./start.sh -o results/mig_all -m 5 -o results/mig_all &>> log/mig_all.log 
 
+INFO:root:range(64, 4096)
+INFO:root:
+***** Function 64 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00020074844360351562] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 65 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001780986785888672] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 66 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018405914306640625] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 67 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001819133758544922] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 68 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00020170211791992188] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 69 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00017905235290527344] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 70 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001780986785888672] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 71 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00023102760314941406] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 72 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0007576942443847656] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 73 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00016736984252929688] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 74 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019168853759765625] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 75 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001850128173828125] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 76 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018143653869628906] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 77 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001938343048095703] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 78 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001723766326904297] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 79 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00023698806762695312] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 80 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.000171661376953125] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 81 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002155303955078125] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 82 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0008683204650878906] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 83 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001804828643798828] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 84 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002110004425048828] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 85 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001964569091796875] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 86 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002105236053466797] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 87 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019502639770507812] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 88 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00022172927856445312] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 89 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002002716064453125] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 90 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019478797912597656] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 91 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018310546875] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 92 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00016951560974121094] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 93 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002028942108154297] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 94 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001881122589111328] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 95 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001747608184814453] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 96 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019121170043945312] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 97 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00022983551025390625] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 98 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002377033233642578] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 99 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018525123596191406] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 100 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002319812774658203] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 101 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019478797912597656] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 102 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0007679462432861328] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 103 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.000186920166015625] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 104 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00021147727966308594] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 105 *****
+INFO:root:checking 0...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 1...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 2...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 3...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 4...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 5...
+INFO:root:[Time elapsed: 41.887545585632324] ***** sat *****
+
+INFO:root:Writing to results/mig_all:
+105
+mig
+5
+10 0
+3 0 4 1 5 0 3 0 4 0 5 1 3 1 6 0 7 0 1 0 2 0 8 1 0 0 8 0 9 0 
+
+
+
+INFO:root:
+***** Function 106 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0008902549743652344] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 107 *****
+INFO:root:checking 0...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 1...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 2...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 3...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 4...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 5...
+INFO:root:[Time elapsed: 5.236915588378906] ***** sat *****
+
+INFO:root:Writing to results/mig_all:
+107
+mig
+5
+10 0
+0 0 1 0 2 0 3 0 4 0 5 1 2 0 4 0 5 1 0 1 3 0 8 0 6 0 7 0 9 1 
+
+
+
+INFO:root:
+***** Function 108 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018286705017089844] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 109 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001819133758544922] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 110 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002205371856689453] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 111 *****
+INFO:root:checking 0...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 1...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 2...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 3...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 4...
+INFO:root:[Time elapsed: 6.173276901245117] ***** sat *****
+
+INFO:root:Writing to results/mig_all:
+111
+mig
+4
+9 0
+1 0 4 1 5 0 3 0 4 1 5 0 2 0 6 1 7 0 0 0 1 0 8 0 
+
+
+
+INFO:root:
+***** Function 112 *****
+Traceback (most recent call last):
+  File "/home/spoon_engine/ig-exact-synthesis/src/core/mig_synthesis.py", line 126, in <module>
+    main()
+  File "/home/spoon_engine/ig-exact-synthesis/src/core/mig_synthesis.py", line 123, in main
+    to_file(function_codes, args)
+  File "/home/spoon_engine/ig-exact-synthesis/src/core/mig_synthesis.py", line 106, in to_file
+    m = synthesize_mig(code, MAX_COMPLEXITY)
+  File "/home/spoon_engine/ig-exact-synthesis/src/core/mig_synthesis.py", line 29, in synthesize_mig
+    f = BoolFunction(code, 5)
+  File "/home/spoon_engine/ig-exact-synthesis/src/core/bool_function.py", line 11, in __init__
+    this.mincode = get_mincode(this.code, this.arity)
+  File "/home/spoon_engine/ig-exact-synthesis/src/core/utils.py", line 183, in get_mincode
+    inverted = get_inverted(permuted, combination, n)
+  File "/home/spoon_engine/ig-exact-synthesis/src/core/utils.py", line 147, in get_inverted
+    invert_var(inverted, i, n)
+  File "/home/spoon_engine/ig-exact-synthesis/src/core/utils.py", line 138, in invert_var
+    j = bitvec2int(var_values)
+  File "/home/spoon_engine/ig-exact-synthesis/src/core/utils.py", line 28, in bitvec2int
+    result += xi * (2 ** i)
+KeyboardInterrupt
+
+./start.sh -o results/mig_all -m 5 -o results/mig_all &>> log/mig_all.log
+
+INFO:root:range(112, 4096)
+INFO:root:
+***** Function 112 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019884109497070312] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 113 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019812583923339844] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 114 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00020456314086914062] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 115 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002124309539794922] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 116 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00020599365234375] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 117 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018095970153808594] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 118 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018978118896484375] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 119 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001800060272216797] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 120 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0008921623229980469] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 121 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018787384033203125] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 122 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00022673606872558594] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 123 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00023221969604492188] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 124 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001811981201171875] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 125 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001976490020751953] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 126 *****
+INFO:root:checking 0...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 1...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 2...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 3...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 4...
+INFO:root:[Time elapsed: 5.048182249069214] ***** sat *****
+
+INFO:root:Writing to results/mig_all:
+126
+mig
+4
+9 0
+3 0 4 0 5 1 1 1 5 0 6 0 2 0 5 0 6 0 0 0 7 1 8 0 
+
+
+
+INFO:root:
+***** Function 127 *****
+INFO:root:checking 0...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 1...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 2...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 3...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 4...
+INFO:root:[Time elapsed: 6.210253715515137] ***** sat *****
+
+INFO:root:Writing to results/mig_all:
+127
+mig
+4
+9 0
+0 0 1 0 2 0 0 0 4 1 5 0 3 0 4 1 7 0 4 0 6 0 8 0 
+
+
+
+INFO:root:
+***** Function 128 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002040863037109375] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 129 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00020384788513183594] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 130 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00020456314086914062] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 131 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002079010009765625] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 132 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018310546875] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 133 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00017642974853515625] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 134 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.000217437744140625] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 135 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00017642974853515625] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 136 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001728534698486328] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 137 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.000888824462890625] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 138 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018668174743652344] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 139 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001964569091796875] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 140 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002448558807373047] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 141 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00023102760314941406] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 142 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019407272338867188] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 143 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00023984909057617188] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 144 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019359588623046875] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 145 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018787384033203125] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 146 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00021314620971679688] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 147 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0007219314575195312] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 148 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001842975616455078] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 149 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002219676971435547] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 150 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002231597900390625] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 151 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018835067749023438] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 152 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019216537475585938] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 153 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00016880035400390625] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 154 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018835067749023438] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 155 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018596649169921875] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 156 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00022673606872558594] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 157 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0007753372192382812] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 158 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001919269561767578] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 159 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001938343048095703] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 160 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001938343048095703] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 161 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002167224884033203] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 162 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002124309539794922] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 163 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018978118896484375] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 164 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.000179290771484375] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 165 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001838207244873047] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 166 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001747608184814453] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 167 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019407272338867188] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 168 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001723766326904297] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 169 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001933574676513672] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 170 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002193450927734375] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 171 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001666545867919922] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 172 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018215179443359375] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 173 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00021839141845703125] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 174 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00023221969604492188] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 175 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00022864341735839844] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 176 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0007662773132324219] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 177 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002002716064453125] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 178 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018596649169921875] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 179 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018548965454101562] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 180 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00017786026000976562] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 181 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002040863037109375] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 182 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00021004676818847656] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 183 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002257823944091797] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 184 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00020813941955566406] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 185 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00020313262939453125] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 186 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0007758140563964844] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 187 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002155303955078125] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 188 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019216537475585938] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 189 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00020766258239746094] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 190 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002002716064453125] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 191 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00021028518676757812] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 192 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001914501190185547] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 193 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018405914306640625] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 194 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001952648162841797] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 195 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001862049102783203] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 196 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0008625984191894531] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 197 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019025802612304688] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 198 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019168853759765625] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 199 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019025802612304688] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 200 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019502639770507812] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 201 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00021791458129882812] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 202 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019407272338867188] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 203 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002605915069580078] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 204 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00017070770263671875] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 205 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00016736984252929688] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 206 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00022292137145996094] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 207 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00020051002502441406] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 208 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00021910667419433594] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 209 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00020575523376464844] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 210 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001983642578125] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 211 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00024199485778808594] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 212 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002448558807373047] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 213 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00023031234741210938] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 214 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00027751922607421875] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 215 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0008215904235839844] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 216 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001747608184814453] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 217 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00017595291137695312] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 218 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00020885467529296875] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 219 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00020813941955566406] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 220 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019693374633789062] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 221 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018739700317382812] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 222 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00016880035400390625] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 223 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00022912025451660156] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 224 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018072128295898438] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 225 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019502639770507812] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 226 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00022602081298828125] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 227 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00017976760864257812] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 228 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019931793212890625] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 229 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00023221969604492188] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 230 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019860267639160156] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 231 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001933574676513672] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 232 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002071857452392578] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 233 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00016880035400390625] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 234 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001938343048095703] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 235 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0008683204650878906] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 236 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001881122589111328] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 237 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001838207244873047] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 238 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.000240325927734375] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 239 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00025153160095214844] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 240 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.000247955322265625] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 241 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019788742065429688] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 242 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00022745132446289062] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 243 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018835067749023438] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 244 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019168853759765625] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 245 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001983642578125] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 246 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.000217437744140625] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 247 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018477439880371094] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 248 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018548965454101562] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 249 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001964569091796875] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 250 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00022649765014648438] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 251 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00017642974853515625] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 252 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00020170211791992188] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 253 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.000209808349609375] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 254 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018906593322753906] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 255 *****
+INFO:root:checking 0...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 1...
+INFO:root:[Time elapsed: 0.16988563537597656] ***** sat *****
+
+INFO:root:Writing to results/mig_all:
+255
+mig
+1
+6 0
+0 0 1 0 2 0 
+
+
+
+INFO:root:
+***** Function 256 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002033710479736328] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 257 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.000209808349609375] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 258 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001850128173828125] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 259 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018906593322753906] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 260 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002295970916748047] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 261 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019550323486328125] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 262 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019240379333496094] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 263 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019884109497070312] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 264 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0007562637329101562] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 265 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018310546875] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 266 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018787384033203125] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 267 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018715858459472656] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 268 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002155303955078125] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 269 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0004467964172363281] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 270 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019669532775878906] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 271 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018143653869628906] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 272 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001995563507080078] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 273 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019097328186035156] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 274 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00021505355834960938] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 275 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00026917457580566406] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 276 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00021123886108398438] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 277 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001976490020751953] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 278 *****
+INFO:root:checking 0...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 1...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 2...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 3...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 4...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 5...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:Reached maximum complexity of 5. Exiting...
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 279 *****
+INFO:root:checking 0...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 1...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 2...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 3...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 4...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 5...
+INFO:root:[Time elapsed: 194.55248188972473] ***** sat *****
+
+INFO:root:Writing to results/mig_all:
+279
+mig
+5
+10 0
+0 0 4 0 5 1 1 0 4 1 6 0 2 0 5 0 6 0 3 0 7 1 8 0 0 0 1 0 9 0 
+
+
+
+INFO:root:
+***** Function 280 *****
+INFO:root:checking 0...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 1...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 2...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 3...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 4...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 5...
+Traceback (most recent call last):
+  File "/home/spoon_engine/ig-exact-synthesis/src/core/mig_synthesis.py", line 127, in <module>
+    main()
+  File "/home/spoon_engine/ig-exact-synthesis/src/core/mig_synthesis.py", line 124, in main
+    to_file(function_codes, args)
+  File "/home/spoon_engine/ig-exact-synthesis/src/core/mig_synthesis.py", line 107, in to_file
+    m = synthesize_mig(code, MAX_COMPLEXITY)
+  File "/home/spoon_engine/ig-exact-synthesis/src/core/mig_synthesis.py", line 39, in synthesize_mig
+    check_result = m.check()
+  File "/home/spoon_engine/ig-exact-synthesis/src/core/z3_model_wrapper.py", line 72, in check
+    this.add_input_connections_constraint(f_input_value, gate)
+  File "/home/spoon_engine/ig-exact-synthesis/src/core/z3_model_wrapper.py", line 155, in add_input_connections_constraint
+    this.add_assert(z3.Implies(s == j, a == b + ~p))
+  File "/home/spoon_engine/ig-exact-synthesis/venv/lib/python3.9/site-packages/z3/z3.py", line 1010, in __eq__
+    return BoolRef(Z3_mk_eq(self.ctx_ref(), a.as_ast(), b.as_ast()), self.ctx)
+  File "/home/spoon_engine/ig-exact-synthesis/venv/lib/python3.9/site-packages/z3/z3.py", line 342, in __init__
+    Z3_inc_ref(self.ctx.ref(), self.as_ast())
+  File "/home/spoon_engine/ig-exact-synthesis/venv/lib/python3.9/site-packages/z3/z3core.py", line 1519, in Z3_inc_ref
+    _elems.f(a0, a1)
+KeyboardInterrupt
+
+./start.sh -o results/mig_all -m 5 -o results/mig_all &>> log/mig_all.log 
+
+INFO:root:range(280, 4096)
+INFO:root:
+***** Function 280 *****
+INFO:root:checking 0...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 1...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 2...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 3...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 4...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 5...
+INFO:root:[Time elapsed: 36.96622109413147] ***** sat *****
+
+INFO:root:Writing to results/mig_all:
+280
+mig
+5
+10 0
+2 1 3 0 5 0 1 1 2 0 6 0 3 0 4 0 6 1 4 0 5 1 7 0 0 0 8 0 9 1 
+
+
+
+INFO:root:
+***** Function 281 *****
+INFO:root:checking 0...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 1...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 2...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 3...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 4...
+INFO:root:[Time elapsed: 1.4401113986968994] ***** sat *****
+
+INFO:root:Writing to results/mig_all:
+281
+mig
+4
+9 0
+1 0 4 0 5 1 2 1 3 0 4 0 3 0 5 0 7 1 0 0 6 0 8 0 
+
+
+
+INFO:root:
+***** Function 282 *****
+INFO:root:checking 0...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 1...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 2...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 3...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 4...
+INFO:root:[Time elapsed: 2.7224056720733643] ***** sat *****
+
+INFO:root:Writing to results/mig_all:
+282
+mig
+4
+9 0
+2 0 3 0 4 1 1 1 5 0 6 0 2 0 3 0 5 0 0 0 7 1 8 0 
+
+
+
+INFO:root:
+***** Function 283 *****
+INFO:root:checking 0...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 1...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 2...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 3...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 4...
+INFO:root:[Time elapsed: 1.373067855834961] ***** sat *****
+
+INFO:root:Writing to results/mig_all:
+283
+mig
+4
+9 0
+2 0 3 0 5 0 0 0 4 1 5 0 1 0 6 1 7 0 0 0 1 0 8 1 
+
+
+
+INFO:root:
+***** Function 284 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019359588623046875] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 285 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002181529998779297] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 286 *****
+INFO:root:checking 0...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 1...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 2...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 3...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 4...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 5...
+INFO:root:[Time elapsed: 28.053077220916748] ***** sat *****
+
+INFO:root:Writing to results/mig_all:
+286
+mig
+5
+10 0
+1 1 4 0 5 0 2 0 3 1 6 0 1 1 3 0 7 0 2 0 6 0 7 1 0 0 8 1 9 0 
+
+
+
+INFO:root:
+***** Function 287 *****
+INFO:root:checking 0...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 1...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 2...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 3...
+INFO:root:[Time elapsed: 1.2637462615966797] ***** sat *****
+
+INFO:root:Writing to results/mig_all:
+287
+mig
+3
+8 0
+1 1 4 0 5 0 2 0 3 0 6 0 0 0 1 0 7 0 
+
+
+
+INFO:root:
+***** Function 288 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00017523765563964844] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 289 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019550323486328125] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 290 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00018477439880371094] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 291 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0002048015594482422] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 292 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0011487007141113281] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 293 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.000202178955078125] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 294 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00021600723266601562] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 295 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001659393310546875] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 296 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.00019812583923339844] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 297 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001857280731201172] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 298 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.0001704692840576172] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 299 *****
+INFO:root:checking 0...
+INFO:root:Z3ModelWrapper: Validation Error (code != mincode)
+
+INFO:root:[Time elapsed: 0.000213623046875] error
+
+INFO:root:Attempt to write empty string to results/mig_all
+
+INFO:root:
+***** Function 300 *****
+INFO:root:checking 0...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 1...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 2...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 3...
+INFO:root:[Time elapsed: {elapsed}] unsat
+INFO:root:checking 4...
