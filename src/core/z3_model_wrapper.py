@@ -45,8 +45,7 @@ class Z3ModelWrapper():
                 s = this.vars[f'gate_input_{gate}_{gate_input}']
                 p = this.vars[f'gate_input_polarity_{gate}_{gate_input}']
                 result += f'{this.eval(s)} {this.eval(~p)} '
-
-        result += '\n\n'
+        result += '\n'
         return result
 
     def check(this):
