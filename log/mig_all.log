@@ -26716,3 +26716,7 @@ INFO:root:checking 4...
 INFO:root:[Time elapsed: 4.158626556396484] unsat
 INFO:root:checking 5...
 Terminated
+
+
+./start.sh -o results/mig_all -m 5 -o results/mig_all &>> log/mig_all.log 
+
