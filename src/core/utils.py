@@ -1,3 +1,5 @@
+import logging
+
 ## Useful stuff from intel_altera
 def vector_to_int(vector):
     result = 0
@@ -181,3 +183,23 @@ def get_mincode(code, n=5):
             inverted = get_inverted(permuted, combination, n)
             mincode = min(mincode, bitvec2int(inverted))
     return mincode
+
+def write_string(string, filename, mode):
+    if string == '':
+        logging.info(f'Attempt to write empty string to {filename}\n')
+        return
+
+    if filename is None:
+        logging.info(f'Filename is None, writing to stdout:\n{string}\n')
+        sys.stdout.write(string)
+        return
+
+    with open(filename, mode) as file:
+        logging.info(f'Writing to {filename}:\n{string}\n')
+        file.write(string)
+
+def write_string_rewrite(string, filename):
+    write_string(string, filename, 'w+')
+
+def write_string_append(string, filename):
+    write_string(string, filename, 'a+')
