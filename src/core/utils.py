@@ -1,4 +1,5 @@
 import logging
+import sys
 
 ## Useful stuff from intel_altera
 def vector_to_int(vector):
@@ -203,3 +204,8 @@ def write_string_rewrite(string, filename):
 
 def write_string_append(string, filename):
     write_string(string, filename, 'a+')
+
+def get_int_arg(key, args, default):
+    value = vars(args)[key]
+    arg = default if value is None else int(value)
+    return arg

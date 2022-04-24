@@ -1,3 +1,4 @@
 z3-solver==4.8.15.0
 pytest==7.1.1
 argparse==1.4.0
+pebble==4.6.3

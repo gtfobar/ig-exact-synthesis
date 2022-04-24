@@ -4,14 +4,20 @@ import sys
 import logging
 from bool_function import BoolFunction
 from z3_model_wrapper import Z3ModelWrapper
+from concurrent.futures import TimeoutError
+from pebble import ProcessPool, ProcessExpired
+from functools import partial
 from utils import (
     get_latest_function_synthesized,
     write_string_rewrite,
-    write_string_append
+    write_string_append,
+    get_int_arg
 )
 
 logging.basicConfig(stream=sys.stderr, level=logging.DEBUG)
-MAX_COMPLEXITY = 10
+DEFAULT_MAX_COMPLEXITY = 10
+DEFAULT_JOBS = 1
+DEFAULT_TIMEOUT = None
 
 def init_argparse():
     parser = argparse.ArgumentParser(description='Exact synthesis of MIG.')
@@ -19,13 +25,16 @@ def init_argparse():
     parser.add_argument('-i', '--input', help='Read function codes from file.')
     parser.add_argument('-c', '--check', help='Check complexity.', type=int)
     parser.add_argument('-d', '--dir', help='Write results to directory, separate file for each function.')
-    parser.add_argument('-m', '--max-complexity', help='Maximum complexity.', type=int) # todo
+    parser.add_argument('-m', '--max-complexity', help=f'Maximum complexity. Default is {DEFAULT_MAX_COMPLEXITY}', type=int)
+    parser.add_argument('-j', '--jobs', help=f'Number of concurrent jobs. Default is {DEFAULT_JOBS}')
+    parser.add_argument('-t', '--timeout', help=f'Timeout for single function.')
     parser.add_argument('function_codes', metavar='f1, f2, f3', nargs='*', help='Function codes.', type=int)
+    parser.add_argument('-s', '--sequential', action='store_true', help='Sequential computing. Do not use parallelist')
 
     args = parser.parse_args()
     return args
 
-def synthesize_mig(code, max_complexity=MAX_COMPLEXITY):
+def synthesize_mig(code, max_complexity=DEFAULT_MAX_COMPLEXITY):
     f = BoolFunction(code, 5)
     gate = BoolFunction(BoolFunction.MAJ_CODE, 3)
 
@@ -35,18 +44,18 @@ def synthesize_mig(code, max_complexity=MAX_COMPLEXITY):
         m = Z3ModelWrapper(complexity, f, gate)
 
         start = time.time()
-        logging.info(f'checking {complexity}...')
+        logging.info(f'{code}:{complexity} checking ...')
         check_result = m.check()
         elapsed = time.time() - start
 
         if check_result is None:
-            logging.info(f'[Time elapsed: {elapsed}] error\n')
+            logging.info(f'{code}:{complexity}:[Time elapsed: {elapsed}] error\n')
             return m
         elif check_result:
-            logging.info(f'[Time elapsed: {elapsed}] ***** sat *****\n')
+            logging.info(f'{code}:{complexity}:[Time elapsed: {elapsed}] ***** sat *****\n')
             return m
-        logging.info(f'[Time elapsed: {elapsed}] unsat')
-    logging.info(f'Reached maximum complexity of {max_complexity}. Exiting...')
+        logging.info(f'{code}:{complexity}:[Time elapsed: {elapsed}] unsat')
+    logging.info(f'{code}:Reached maximum complexity of {max_complexity}. Exiting...')
     return m
 
 def check_complexity(code, complexity):
@@ -56,18 +65,18 @@ def check_complexity(code, complexity):
     m = Z3ModelWrapper(complexity, f, gate)
 
     start = time.time()
-    logging.info(f'checking {complexity}...')
+    logging.info(f'{code}:{complexity}: checking ...')
     check_result = m.check()
     elapsed = time.time() - start
 
     if check_result is None:
-        logging.info('error')
+        logging.info(f'{code}:error')
     elif check_result:
-        logging.info('***** sat *****\n')
+        logging.info(f'{code}:***** sat *****\n')
     else:
-        logging.info('unsat')
+        logging.info(f'{code}:unsat')
     
-    logging.info(f'Time elapsed: {elapsed}')
+    logging.info(f'{code}:Time elapsed: {elapsed}')
 
     return m
 
@@ -90,38 +99,65 @@ def get_function_codes(args):
     
     return function_codes
 
-def to_dir(function_codes, args):
-    write_string_append(f'{sys.argv}\n', f'{args.dir}/meta')
-    for code in function_codes:
-        logging.info(f'\n***** Function {code} *****')
-        if args.check is None:
-            m = synthesize_mig(code, MAX_COMPLEXITY)
-        else:
-            m = check_complexity(code, args.check)
-        write_string_rewrite(str(m), f'{args.dir}/{code}')
+def compute_single_function(code, args):
+    # logging.info(f'\n***** Function {code} *****')
+    if args.check is None:
+        max_complexity = get_int_arg('max_complexity', args, DEFAULT_MAX_COMPLEXITY)
+        m = synthesize_mig(code, max_complexity)
+    else:
+        m = check_complexity(code, args.check)
+    return m
 
-def to_file(function_codes, args):
+def write_single_result(result, code, args):
+    if args.dir is None:
+        write_string_append(str(result), args.output)
+    else: 
+        write_string_rewrite(str(result), f'{args.dir}/{code}')
+
+def process_single_function(args, code):
+    result = compute_single_function(code, args)
+    write_single_result(result, code, args)
+
+def compute_in_parallel(function_codes, args):
+    if not args.dir is None:
+        write_string_append(f'{sys.argv}\n', f'{args.dir}/meta')
+    jobs = get_int_arg('jobs', args, DEFAULT_JOBS)
+    timeout = get_int_arg('timeout', args, DEFAULT_TIMEOUT)
+    logging.info(f'Starting parallel computing with {jobs} jobs, {timeout} timeout')
+
+    with ProcessPool(max_workers=jobs) as pool:
+        partial_process_single_function = partial(process_single_function, args)
+        future = pool.map(partial_process_single_function, function_codes, timeout=timeout)
+        
+        iterator = future.result()
+
+        while True:
+            try:
+                result = next(iterator)
+            except StopIteration:
+                break
+            except TimeoutError as error:
+                logging.info("function took longer than %d seconds" % error.args[1])
+            except ProcessExpired as error:
+                logging.info("%s. Exit code: %d" % (error, error.exitcode))
+            except Exception as error:
+                logging.info("function raised %s" % error)
+                logging.info(error.traceback)  # Python's traceback of remote process
+    
+        
+def compute(function_codes, args):
+    if not args.dir is None:
+        write_string_append(f'{sys.argv}\n', f'{args.dir}/meta')
     for code in function_codes:
-        logging.info(f'\n***** Function {code} *****')
-        if args.check is None:
-            m = synthesize_mig(code, MAX_COMPLEXITY)
-        else:
-            m = check_complexity(code, args.check)
-        write_string_append(str(m), args.output)
+        process_single_function(args, code)
 
 def main():
     args = init_argparse()
     function_codes = get_function_codes(args)
-
-    global MAX_COMPLEXITY
-    if args.max_complexity is not None:
-        MAX_COMPLEXITY = args.max_complexity
-
-    if args.dir is not None:
-        to_dir(function_codes, args)
-        return
-
-    to_file(function_codes, args)
+    if args.sequential:
+        compute(function_codes, args)
+    else:
+        compute_in_parallel(function_codes, args)
     
 if __name__ == "__main__":
     main()
