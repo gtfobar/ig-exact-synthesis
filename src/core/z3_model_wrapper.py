@@ -30,7 +30,7 @@ class Z3ModelWrapper():
             raise Exception("Call Z3ModelWrapper.check() first")
         return this.solver.model().eval(expr)
 
-    def __str__(this):
+    def to_mks1(this):
         if this.f.mincode != this.f.code:
             return ''
 
@@ -101,6 +101,8 @@ class Z3ModelWrapper():
                 for gate_input in right_inclusive_range(0, this.gate.arity):
                     this.create_bitvec(f'gate_input_value_{f_input_value}_{gate}_{gate_input}', 1)
 
+
+
     def add_gate_constraints(this, gate):
         for gate_input in right_inclusive_range(0, this.gate.arity):
             s = this.vars[f'gate_input_{gate}_{gate_input}']
@@ -141,6 +143,11 @@ class Z3ModelWrapper():
         p_out = this.vars['output_polarity']
         f = this.evaluate_f(f_input_value)
         this.add_assert(bt_out == ~p_out + f)
+
+    def add_function_semantics_constraint_optimized(this, f_input_value):
+        bt_out = this.vars[f'gate_output_value_{f_input_value}_{this.f.arity + this.complexity}']
+        f = this.evaluate_f(f_input_value)
+        this.add_assert(bt_out == f)
 
 
     def add_input_connections_constraint(this, f_input_value, gate):

@@ -4,6 +4,7 @@ import sys
 import logging
 from bool_function import BoolFunction
 from z3_model_wrapper import Z3ModelWrapper
+from z3_model_wrapper_optimized import Z3ModelWrapperOptimized
 from concurrent.futures import TimeoutError
 from pebble import ProcessPool, ProcessExpired
 from functools import partial
@@ -16,6 +17,7 @@ from utils import (
 
 logging.basicConfig(stream=sys.stderr, level=logging.DEBUG)
 DEFAULT_MAX_COMPLEXITY = 10
+DEFUALT_COMPLEXITY = 5
 DEFAULT_JOBS = 1
 DEFAULT_TIMEOUT = None
 
@@ -26,22 +28,30 @@ def init_argparse():
     parser.add_argument('-c', '--check', help='Check complexity.', type=int)
     parser.add_argument('-d', '--dir', help='Write results to directory, separate file for each function.')
     parser.add_argument('-m', '--max-complexity', help=f'Maximum complexity. Default is {DEFAULT_MAX_COMPLEXITY}', type=int)
-    parser.add_argument('-j', '--jobs', help=f'Number of concurrent jobs. Default is {DEFAULT_JOBS}')
-    parser.add_argument('-t', '--timeout', help=f'Timeout for single function.')
+    parser.add_argument('-j', '--jobs', help=f'Number of concurrent jobs. Default is {DEFAULT_JOBS}', type=int)
+    parser.add_argument('-t', '--timeout', help=f'Timeout for single function.', type=int)
+    parser.add_argument('-O', '--optimized', help=f'Use optimization technics.', type=int)
     parser.add_argument('function_codes', metavar='f1, f2, f3', nargs='*', help='Function codes.', type=int)
-    parser.add_argument('-s', '--sequential', action='store_true', help='Sequential computing. Do not use parallelist')
+    parser.add_argument('-s', '--sequential', action='store_true', help='Sequential computing. Do not use parallelism')
 
+    parser.set_defaults(optimized=0)
     args = parser.parse_args()
     return args
 
-def synthesize_mig(code, max_complexity=DEFAULT_MAX_COMPLEXITY):
+def synthesize_mig(code, args):
     f = BoolFunction(code, 5)
     gate = BoolFunction(BoolFunction.MAJ_CODE, 3)
+    max_complexity = get_int_arg('max_complexity', args, DEFAULT_MAX_COMPLEXITY)
+
+    if args.optimized == 0:
+        z3_model_class = Z3ModelWrapper
+    else:
+        z3_model_class = Z3ModelWrapperOptimized 
 
     m = None
 
     for complexity in range(max_complexity + 1):
-        m = Z3ModelWrapper(complexity, f, gate)
+        m = z3_model_class(complexity, f, gate)
 
         start = time.time()
         logging.info(f'{code}:{complexity} checking ...')
@@ -58,11 +68,18 @@ def synthesize_mig(code, max_complexity=DEFAULT_MAX_COMPLEXITY):
     logging.info(f'{code}:Reached maximum complexity of {max_complexity}. Exiting...')
     return m
 
-def check_complexity(code, complexity):
+def check_complexity(code, args):
     f = BoolFunction(code, 5)
     gate = BoolFunction(BoolFunction.MAJ_CODE, 3)
 
-    m = Z3ModelWrapper(complexity, f, gate)
+    complexity = get_int_arg('check', args, DEFUALT_COMPLEXITY)
+
+    
+    if args.optimized == 0:
+        z3_model_class = Z3ModelWrapper
+    else:
+        z3_model_class = Z3ModelWrapperOptimized 
+    m = z3_model_class(complexity, f, gate)
 
     start = time.time()
     logging.info(f'{code}:{complexity}: checking ...')
@@ -102,17 +119,16 @@ def get_function_codes(args):
 def compute_single_function(code, args):
     # logging.info(f'\n***** Function {code} *****')
     if args.check is None:
-        max_complexity = get_int_arg('max_complexity', args, DEFAULT_MAX_COMPLEXITY)
-        m = synthesize_mig(code, max_complexity)
+        m = synthesize_mig(code, args)
     else:
-        m = check_complexity(code, args.check)
+        m = check_complexity(code, args)
     return m
 
 def write_single_result(result, code, args):
     if args.dir is None:
-        write_string_append(str(result), args.output)
+        write_string_append(result.to_mks1(), args.output)
     else: 
-        write_string_rewrite(str(result), f'{args.dir}/{code}')
+        write_string_rewrite(result.to_mks1(), f'{args.dir}/{code}')
 
 def process_single_function(args, code):
     result = compute_single_function(code, args)

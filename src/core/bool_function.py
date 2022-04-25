@@ -9,3 +9,7 @@ class BoolFunction():
         this.arity = arity
         this.bitlength = 2 ** arity
         this.mincode = get_mincode(this.code, this.arity)
+
+    def is_normal():
+        mask = 1 << (this.bitlength - 1)
+        return 1 if (this.code & mask) else 0
