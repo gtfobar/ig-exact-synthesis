@@ -175,6 +175,8 @@ def compute_in_parallel(function_codes, args):
     
         
 def improve_single(args, mig):
+    if not args['dir'] is None:
+        write_string_append(f'{sys.argv}\n', f'{args["dir"]}/meta')
     write_string_rewrite(str(mig.mincode), f'{args["input"]}.meta')
     args['check'] = mig.complexity - 1
     result = check_complexity(mig.mincode, args)
