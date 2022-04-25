@@ -17,7 +17,7 @@ from utils import (
 )
 
 DEFAULT_MAX_COMPLEXITY = 10
-DEFUALT_COMPLEXITY = 5
+DEFUALT_COMPLEXITY = None # don't touch!!
 DEFAULT_JOBS = 1
 DEFAULT_TIMEOUT = None
 DEFAULT_OPTIMIZED = 1
@@ -27,7 +27,7 @@ def init_argparse():
     parser = argparse.ArgumentParser(description='Exact synthesis of MIG.')
     parser.add_argument('-o', '--output', help='Write results to file.')
     parser.add_argument('-i', '--input', help='Read function codes from file.')
-    parser.add_argument('-c', '--check', help='Check complexity.', type=int)
+    parser.add_argument('-c', '--check_complexity', help='Check complexity.', type=int)
     parser.add_argument('-d', '--dir', help='Write results to directory, separate file for each function.')
     parser.add_argument('-m', '--max-complexity', help=f'Maximum complexity. Default is {DEFAULT_MAX_COMPLEXITY}', type=int)
     parser.add_argument('-j', '--jobs', help=f'Number of concurrent jobs. Default is {DEFAULT_JOBS}', type=int)
@@ -41,11 +41,12 @@ def init_argparse():
     parser.set_defaults(
         optimized=DEFAULT_OPTIMIZED,
         jobs=DEFAULT_JOBS,
-        check=DEFUALT_COMPLEXITY,
+        check_complexity=DEFUALT_COMPLEXITY,
         timeout=DEFAULT_TIMEOUT,
         max_complexity=DEFAULT_MAX_COMPLEXITY,
-        log=DEFAULT_LOG
-        )
+        log=DEFAULT_LOG,
+        improve=False)
+
     args = parser.parse_args()
     return args
 
@@ -86,12 +87,14 @@ def check_complexity(code, args):
     gate = BoolFunction(BoolFunction.MAJ_CODE, 3)
 
     # complexity = get_int_arg('check', args, DEFUALT_COMPLEXITY)
-    complexity = args.get('check', DEFUALT_COMPLEXITY)
+    complexity = args['check_complexity']
   
     if args['optimized'] == 0:
+        logging.info('Optimizations disabled')
         z3_model_class = Z3ModelWrapper
     else:
-        z3_model_class = Z3ModelWrapperOptimized 
+        z3_model_class = Z3ModelWrapperOptimized
+        logging.info('Optimizations enabled')
     m = z3_model_class(complexity, f, gate)
 
     start = time.time()
@@ -181,14 +184,14 @@ def improve_single(args, mig):
     if not args['dir'] is None:
         write_string_append(f'{sys.argv}\n', f'{args["dir"]}/meta')
     write_string_rewrite(str(mig.mincode), f'{args["input"]}.meta')
-    args['check'] = mig.complexity - 1
+    args['check_complexity'] = mig.complexity - 1
     result = check_complexity(mig.mincode, args)
     if result.check_result:
         logging.info(f'MIG complexity for {mig.mincode} IMPROVED! CONGRATULATIONS!')
     write_single_result(result, mig.mincode, args)
 
 def get_migs(args):
-    migs = mks1_parse_mig(args['input'])
+    migs = mks1_parse_mig(args['input'], args['complexity'])
     try:
         with open(f'{args["input"]}.meta', 'r') as meta:
             improve_checkpoint = int(meta.readline().strip())

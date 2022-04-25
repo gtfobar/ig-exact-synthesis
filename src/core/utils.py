@@ -215,14 +215,22 @@ def get_int_arg(key, args, default):
     arg = default if value is None else int(value)
     return arg
 
-def mks1_parse_mig(filename):
+def mks1_parse_mig(filename, complexity=None):
     migs = []
     with open(filename, 'r') as f:
         while True:
             try:
                 mig_str = ''.join(list(islice(f, 5)))
+                mig = MIG(mig_str)
+                
+                if not complexity is None and complexity != mig.complexity:
+                    continue   
+
                 migs.append(MIG(mig_str))
-            except:
+            except Exception as e:
+                logging.info(f'Read all database? {e}')
                 break
             
     return migs
+
+def 
