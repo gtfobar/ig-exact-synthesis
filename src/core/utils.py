@@ -218,7 +218,6 @@ def get_int_arg(key, args, default):
 def mks1_parse_mig(filename):
     migs = []
     with open(filename, 'r') as f:
-        print(list(islice(f, 5)))
         while True:
             try:
                 mig_str = ''.join(list(islice(f, 5)))

@@ -16,12 +16,12 @@ from utils import (
     mks1_parse_mig
 )
 
-logging.basicConfig(stream=sys.stderr, level=logging.DEBUG)
 DEFAULT_MAX_COMPLEXITY = 10
 DEFUALT_COMPLEXITY = 5
 DEFAULT_JOBS = 1
 DEFAULT_TIMEOUT = None
-DEFAULT_OPTIMIZED = 0
+DEFAULT_OPTIMIZED = 1
+DEFAULT_LOG='log/default.log'
 
 def init_argparse():
     parser = argparse.ArgumentParser(description='Exact synthesis of MIG.')
@@ -36,13 +36,16 @@ def init_argparse():
     parser.add_argument('function_codes', metavar='f1, f2, f3', nargs='*', help='Function codes.', type=int)
     parser.add_argument('-s', '--sequential', action='store_true', help='Sequential computing. Do not use parallelism')
     parser.add_argument('-I', '--improve',  action='store_true', help=f'Try to improve functions from file')
+    parser.add_argument('-l', '--log', help=f'Log file.')
 
     parser.set_defaults(
         optimized=DEFAULT_OPTIMIZED,
         jobs=DEFAULT_JOBS,
         check=DEFUALT_COMPLEXITY,
         timeout=DEFAULT_TIMEOUT,
-        max_complexity=DEFAULT_MAX_COMPLEXITY)
+        max_complexity=DEFAULT_MAX_COMPLEXITY,
+        log=DEFAULT_LOG
+        )
     args = parser.parse_args()
     return args
 
@@ -235,6 +238,13 @@ def compute(function_codes, args):
 
 def main():
     args = vars(init_argparse())
+
+    logging.basicConfig(
+        filename=args['log'],
+        level=logging.DEBUG,
+        format='%(asctime)s.%(msecs)03d - %(funcName)s: %(message)s',
+        datefmt='%m-%d %H:%M:%S',
+    )
 
     if args['improve']:
         improve_in_parallel(args)
