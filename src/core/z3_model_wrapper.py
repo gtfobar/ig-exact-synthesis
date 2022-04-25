@@ -149,7 +149,6 @@ class Z3ModelWrapper():
         f = this.evaluate_f(f_input_value)
         this.add_assert(bt_out == f)
 
-
     def add_input_connections_constraint(this, f_input_value, gate):
         for gate_input in right_inclusive_range(0, this.gate.arity):
             a = this.vars[f'gate_input_value_{f_input_value}_{gate}_{gate_input}']

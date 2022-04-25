@@ -1,6 +1,8 @@
 import logging
 import sys
 import os
+from itertools import islice
+from mig import MIG
 
 ## Useful stuff from intel_altera
 def vector_to_int(vector):
@@ -212,3 +214,16 @@ def get_int_arg(key, args, default):
     value = vars(args)[key]
     arg = default if value is None else int(value)
     return arg
+
+def mks1_parse_mig(filename):
+    migs = []
+    with open(filename, 'r') as f:
+        print(list(islice(f, 5)))
+        while True:
+            try:
+                mig_str = ''.join(list(islice(f, 5)))
+                migs.append(MIG(mig_str))
+            except:
+                break
+            
+    return migs
