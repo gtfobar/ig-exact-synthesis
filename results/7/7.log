@@ -1,0 +1,227 @@
+/try_to_improve.sh 7 &>> results/7/7.log
+INFO:root:[5737, 5761, 5769, 5801, 5865, 6014, 6017, 6627, 7913, 15830, 27031, 27039, 27071, 27581, 65814, 65822, 65854, 65896]
+INFO:root:
+***** Function 5737 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 3054.2309427261353
+INFO:root:
+***** Function 5761 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 3406.121296644211
+INFO:root:
+***** Function 5769 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 3099.1730723381042
+INFO:root:
+***** Function 5801 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 2974.130920648575
+INFO:root:
+***** Function 5865 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 2829.942111968994
+INFO:root:
+***** Function 6014 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 3627.9374811649323
+INFO:root:
+***** Function 6017 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 5532.147800207138
+INFO:root:
+***** Function 6627 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 5437.424376249313
+INFO:root:
+***** Function 7913 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 2545.2552688121796
+INFO:root:
+***** Function 15830 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 1672.038830280304
+INFO:root:
+***** Function 27031 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 2396.9715144634247
+INFO:root:
+***** Function 27039 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 6262.0958251953125
+INFO:root:
+***** Function 27071 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 6202.40110373497
+INFO:root:
+***** Function 27581 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 1912.981446504593
+INFO:root:
+***** Function 65814 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 0.7091341018676758
+INFO:root:
+***** Function 65822 *****
+Traceback (most recent call last):
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/mig_synthesis.py", line 293, in <module>
+    main()
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/mig_synthesis.py", line 272, in main
+    to_dir(function_codes, args)
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/mig_synthesis.py", line 242, in to_dir
+    m = check_complexity(code, args.check)
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/mig_synthesis.py", line 215, in check_complexity
+    f = BoolFunction(code, 5)
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/mig_synthesis.py", line 32, in __init__
+    this.mincode = get_mincode(this.code, this.arity)
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/utils.py", line 181, in get_mincode
+    inverted = get_inverted(permuted, combination, n)
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/utils.py", line 145, in get_inverted
+    invert_var(inverted, i, n)
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/utils.py", line 130, in invert_var
+    for i in range(0, 1 << n):
+KeyboardInterrupt
+usage: mig_synthesis.py [-h] [-o OUTPUT] [-i INPUT] [-c CHECK] [-d DIR]
+                        [-m MAX_COMPLEXITY]
+                        [f1, f2, f3 ...]
+mig_synthesis.py: error: argument f1, f2, f3: invalid int value: 'input/7/7.2'
+usage: mig_synthesis.py [-h] [-o OUTPUT] [-i INPUT] [-c CHECK] [-d DIR]
+                        [-m MAX_COMPLEXITY]
+                        [f1, f2, f3 ...]
+mig_synthesis.py: error: argument f1, f2, f3: invalid int value: 'input/7/7.2'
+usage: mig_synthesis.py [-h] [-o OUTPUT] [-i INPUT] [-c CHECK] [-d DIR]
+                        [-m MAX_COMPLEXITY]
+                        [f1, f2, f3 ...]
+mig_synthesis.py: error: argument f1, f2, f3: invalid int value: 'input/7/7.2'
+./start.sh -i "input/7/7.1
+input/7/7.2
+input/7/7.3" -c 6 -d results/7
+usage: mig_synthesis.py [-h] [-o OUTPUT] [-i INPUT] [-c CHECK] [-d DIR]
+                        [-m MAX_COMPLEXITY]
+                        [f1, f2, f3 ...]
+mig_synthesis.py: error: argument f1, f2, f3: invalid int value: 'input/7/7.2'
+INFO:root:[65822, 65854, 65896]
+INFO:root:
+***** Function 65822 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 672.1480860710144
+INFO:root:
+***** Function 65854 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 594.0328977108002
+INFO:root:
+***** Function 65896 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 2441.126302242279
+INFO:root:[65814, 65822, 65854, 65896, 65898, 65902, 65918, 65926, 65942, 65944, 65946, 65950, 65980, 66108, 66152, 66153, 66172, 66364, 66366, 66392, 66398, 66408, 66410, 66412]
+INFO:root:
+***** Function 65814 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 644.3097965717316
+INFO:root:
+***** Function 65822 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 1015.2637360095978
+INFO:root:
+***** Function 65854 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 669.7409515380859
+INFO:root:
+***** Function 65896 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 2946.0901141166687
+INFO:root:
+***** Function 65898 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 1399.676526069641
+INFO:root:
+***** Function 65902 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 2028.6503021717072
+INFO:root:
+***** Function 65918 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 727.4172177314758
+INFO:root:
+***** Function 65926 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 1768.7559134960175
+INFO:root:
+***** Function 65942 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 775.2175257205963
+INFO:root:
+***** Function 65944 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 1421.3517243862152
+INFO:root:
+***** Function 65946 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 1917.432583808899
+INFO:root:
+***** Function 65950 *****
+INFO:root:checking 6...
+INFO:root:[65950, 65980, 66108, 66152, 66153, 66172, 66364, 66366, 66392, 66398, 66408, 66410, 66412]
+INFO:root:
+***** Function 65950 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 647.6510016918182
+INFO:root:
+***** Function 65980 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 1810.9547624588013
+INFO:root:
+***** Function 66108 *****
+INFO:root:checking 6...
+INFO:root:unsat
+INFO:root:Time elapsed: 0.9614152908325195
+INFO:root:
+***** Function 66152 *****
+Traceback (most recent call last):
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/mig_synthesis.py", line 293, in <module>
+    main()
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/mig_synthesis.py", line 272, in main
+    to_dir(function_codes, args)
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/mig_synthesis.py", line 242, in to_dir
+    m = check_complexity(code, args.check)
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/mig_synthesis.py", line 215, in check_complexity
+    f = BoolFunction(code, 5)
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/mig_synthesis.py", line 32, in __init__
+    this.mincode = get_mincode(this.code, this.arity)
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/utils.py", line 181, in get_mincode
+    inverted = get_inverted(permuted, combination, n)
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/utils.py", line 145, in get_inverted
+    invert_var(inverted, i, n)
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/utils.py", line 130, in invert_var
+    for i in range(0, 1 << n):
+KeyboardInterrupt

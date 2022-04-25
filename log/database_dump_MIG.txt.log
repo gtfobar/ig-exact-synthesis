@@ -1,0 +1,796 @@
+INFO:root:Starting parallel improvint of  with 6 jobs, 300 timeout
+DEBUG:root:616001
+['23839869\n', 'mig\n', '8\n', '13 0\n', '2 1 5 1 3 1 0 0 2 1 4 0 0 1 1 0 3 1 0 1 2 1 5 0 3 1 9 0 4 0 6 0 4 0 8 0 7 1 9 1 1 0 10 0 11 1 12 0\n']
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23840062
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23840065
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23840066
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23840067
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23840069
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23840070
+
+INFO:root:23840062:7: checking ...
+INFO:root:23840065:6: checking ...
+INFO:root:23840069:7: checking ...
+INFO:root:23840066:7: checking ...
+INFO:root:23840067:6: checking ...
+INFO:root:23840070:7: checking ...
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23840071
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23840072
+
+INFO:root:23840071:7: checking ...
+INFO:root:23840072:6: checking ...
+INFO:root:Starting parallel improvint of  with 6 jobs, 300 timeout
+DEBUG:root:616125
+['23839869\n', 'mig\n', '8\n', '13 0\n', '2 1 5 1 3 1 0 0 2 1 4 0 0 1 1 0 3 1 0 1 2 1 5 0 3 1 9 0 4 0 6 0 4 0 8 0 7 1 9 1 1 0 10 0 11 1 12 0\n']
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839870
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839890
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839891
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839894
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839895
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839898
+
+INFO:root:23839891:7: checking ...
+INFO:root:23839890:8: checking ...
+INFO:root:23839870:7: checking ...
+INFO:root:23839894:8: checking ...
+INFO:root:23839898:8: checking ...
+INFO:root:23839895:8: checking ...
+INFO:root:function took longer than 300 seconds
+INFO:root:function took longer than 300 seconds
+INFO:root:function took longer than 300 seconds
+INFO:root:function took longer than 300 seconds
+INFO:root:function took longer than 300 seconds
+INFO:root:function took longer than 300 seconds
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839899
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839902
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839903
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839904
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839905
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839906
+
+INFO:root:23839903:7: checking ...
+INFO:root:23839905:7: checking ...
+INFO:root:23839899:7: checking ...
+INFO:root:23839902:8: checking ...
+INFO:root:23839904:7: checking ...
+INFO:root:23839906:7: checking ...
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839907
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839908
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839909
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839910
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839911
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839912
+
+INFO:root:23839909:7: checking ...
+INFO:root:23839910:8: checking ...
+INFO:root:23839907:7: checking ...
+INFO:root:23839908:7: checking ...
+INFO:root:23839911:7: checking ...
+INFO:root:23839912:7: checking ...
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839913
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839914
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839916
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839917
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839918
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839920
+
+INFO:root:23839913:7: checking ...
+INFO:root:23839914:6: checking ...
+INFO:root:23839920:7: checking ...
+INFO:root:23839916:7: checking ...
+INFO:root:23839917:7: checking ...
+INFO:root:23839918:7: checking ...
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839921
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839922
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839923
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839924
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839925
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839926
+
+INFO:root:23839921:7: checking ...
+INFO:root:23839922:7: checking ...
+INFO:root:23839926:8: checking ...
+INFO:root:23839923:7: checking ...
+INFO:root:23839924:7: checking ...
+INFO:root:23839925:7: checking ...
+INFO:root:Starting parallel improvint of  with 6 jobs, 300 timeout
+DEBUG:root:616096
+['23839869\n', 'mig\n', '8\n', '13 0\n', '2 1 5 1 3 1 0 0 2 1 4 0 0 1 1 0 3 1 0 1 2 1 5 0 3 1 9 0 4 0 6 0 4 0 8 0 7 1 9 1 1 0 10 0 11 1 12 0\n']
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839926
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839927
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839928
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839929
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839930
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839932
+
+INFO:root:23839929:7: checking ...
+INFO:root:23839932:7: checking ...
+INFO:root:23839926:8: checking ...
+INFO:root:23839930:7: checking ...
+INFO:root:23839928:7: checking ...
+INFO:root:23839927:7: checking ...
+INFO:root:23839932:unsat
+INFO:root:23839932:Time elapsed: 143.07230687141418
+INFO:root:Attempt to write empty string to results/improved/23839932
+
+INFO:root:23839929:unsat
+INFO:root:23839929:Time elapsed: 143.07320499420166
+INFO:root:Attempt to write empty string to results/improved/23839929
+
+INFO:root:23839926:unsat
+INFO:root:23839927:unsat
+INFO:root:23839928:unsat
+INFO:root:23839930:unsat
+INFO:root:23839926:Time elapsed: 143.07462239265442
+INFO:root:23839927:Time elapsed: 143.06067728996277
+INFO:root:23839928:Time elapsed: 143.07208466529846
+INFO:root:23839930:Time elapsed: 143.0746591091156
+INFO:root:Attempt to write empty string to results/improved/23839926
+
+INFO:root:Attempt to write empty string to results/improved/23839927
+
+INFO:root:Attempt to write empty string to results/improved/23839928
+
+INFO:root:Attempt to write empty string to results/improved/23839930
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839933
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839934
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839954
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839955
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839958
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839959
+
+INFO:root:23839955:7: checking ...
+INFO:root:23839933:8: checking ...
+Traceback (most recent call last):
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/mig_synthesis.py", line 212, in improve_in_parallel
+    future = pool.map(partial_improve_single, migs, timeout=timeout)
+  File "/usr/lib/python3.9/concurrent/futures/_base.py", line 441, in result
+    self._condition.wait(timeout)
+  File "/usr/lib/python3.9/threading.py", line 312, in wait
+    waiter.acquire()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/mig_synthesis.py", line 248, in <module>
+    
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/mig_synthesis.py", line 238, in main
+    
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/mig_synthesis.py", line 225, in improve_in_parallel
+    except Exception as error:
+  File "/home/alexander/personal/ig-exact-synthesis/venv/lib/python3.9/site-packages/pebble/pool/base_pool.py", line 44, in __exit__
+    self.join()
+  File "/home/alexander/personal/ig-exact-synthesis/venv/lib/python3.9/site-packages/pebble/pool/base_pool.py", line 72, in join
+    self._wait_queue_depletion(timeout)
+  File "/home/alexander/personal/ig-exact-synthesis/venv/lib/python3.9/site-packages/pebble/pool/base_pool.py", line 86, in _wait_queue_depletion
+    time.sleep(SLEEP_UNIT)
+KeyboardInterrupt
+INFO:root:Starting parallel improvint of  with 6 jobs, 300 timeout
+DEBUG:root:616125
+['23839869\n', 'mig\n', '8\n', '13 0\n', '2 1 5 1 3 1 0 0 2 1 4 0 0 1 1 0 3 1 0 1 2 1 5 0 3 1 9 0 4 0 6 0 4 0 8 0 7 1 9 1 1 0 10 0 11 1 12 0\n']
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839870
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839890
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839891
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839894
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839895
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839898
+
+INFO:root:23839890:8: checking ...
+INFO:root:23839895:8: checking ...
+INFO:root:23839894:8: checking ...
+INFO:root:23839870:7: checking ...
+INFO:root:23839898:8: checking ...
+INFO:root:23839891:7: checking ...
+INFO:root:23839891:unsat
+INFO:root:23839891:Time elapsed: 24.12926959991455
+INFO:root:Attempt to write empty string to results/improved
+
+INFO:root:23839894:unsat
+INFO:root:23839894:Time elapsed: 24.14071559906006
+INFO:root:Attempt to write empty string to results/improved
+
+INFO:root:23839870:unsat
+INFO:root:23839870:Time elapsed: 24.14453411102295
+INFO:root:Attempt to write empty string to results/improved
+
+INFO:root:23839890:unsat
+INFO:root:23839890:Time elapsed: 24.339935302734375
+INFO:root:Attempt to write empty string to results/improved
+
+INFO:root:23839895:unsat
+INFO:root:23839898:unsat
+INFO:root:23839895:Time elapsed: 24.15840768814087
+INFO:root:23839898:Time elapsed: 24.139872789382935
+INFO:root:Attempt to write empty string to results/improved
+
+INFO:root:Attempt to write empty string to results/improved
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839899
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839902
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839903
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839904
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839905
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839906
+
+INFO:root:23839905:7: checking ...
+INFO:root:23839903:7: checking ...
+Traceback (most recent call last):
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/mig_synthesis.py", line 214, in improve_in_parallel
+    iterator = future.result()
+  File "/usr/lib/python3.9/concurrent/futures/_base.py", line 441, in result
+    self._condition.wait(timeout)
+  File "/usr/lib/python3.9/threading.py", line 312, in wait
+    waiter.acquire()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/mig_synthesis.py", line 250, in <module>
+    main()
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/mig_synthesis.py", line 240, in main
+    improve_in_parallel(args)
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/mig_synthesis.py", line 227, in improve_in_parallel
+    logging.info(error.traceback)  # Python's traceback of remote process
+  File "/home/alexander/personal/ig-exact-synthesis/venv/lib/python3.9/site-packages/pebble/pool/base_pool.py", line 44, in __exit__
+    self.join()
+  File "/home/alexander/personal/ig-exact-synthesis/venv/lib/python3.9/site-packages/pebble/pool/base_pool.py", line 72, in join
+    self._wait_queue_depletion(timeout)
+  File "/home/alexander/personal/ig-exact-synthesis/venv/lib/python3.9/site-packages/pebble/pool/base_pool.py", line 86, in _wait_queue_depletion
+    time.sleep(SLEEP_UNIT)
+KeyboardInterrupt
+INFO:root:Starting parallel improvint of  with 6 jobs, 300 timeout
+DEBUG:root:616114
+['23839869\n', 'mig\n', '8\n', '13 0\n', '2 1 5 1 3 1 0 0 2 1 4 0 0 1 1 0 3 1 0 1 2 1 5 0 3 1 9 0 4 0 6 0 4 0 8 0 7 1 9 1 1 0 10 0 11 1 12 0\n']
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839906
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839907
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839908
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839909
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839910
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839911
+
+INFO:root:23839906:7: checking ...
+INFO:root:23839911:7: checking ...
+INFO:root:23839907:7: checking ...
+INFO:root:23839909:7: checking ...
+INFO:root:23839908:7: checking ...
+INFO:root:23839910:8: checking ...
+INFO:root:function took longer than 300 seconds
+INFO:root:function took longer than 300 seconds
+INFO:root:function took longer than 300 seconds
+INFO:root:function took longer than 300 seconds
+INFO:root:function took longer than 300 seconds
+INFO:root:function took longer than 300 seconds
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839912
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839913
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839914
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839916
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839917
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839918
+
+INFO:root:23839916:7: checking ...
+INFO:root:23839914:6: checking ...
+INFO:root:23839912:7: checking ...
+INFO:root:23839913:7: checking ...
+INFO:root:23839917:7: checking ...
+INFO:root:23839918:7: checking ...
+INFO:root:23839912:unsat
+INFO:root:23839912:Time elapsed: 179.29639625549316
+INFO:root:Attempt to write empty string to results/improved
+
+INFO:root:23839916:unsat
+INFO:root:23839914:unsat
+INFO:root:23839916:Time elapsed: 179.51083326339722
+INFO:root:23839914:Time elapsed: 179.49272441864014
+INFO:root:Attempt to write empty string to results/improved
+
+INFO:root:Attempt to write empty string to results/improved
+
+INFO:root:23839918:unsat
+INFO:root:23839918:Time elapsed: 179.20538473129272
+INFO:root:Attempt to write empty string to results/improved
+
+INFO:root:23839917:unsat
+INFO:root:23839917:Time elapsed: 179.20799040794373
+INFO:root:Attempt to write empty string to results/improved
+
+INFO:root:23839913:unsat
+INFO:root:23839913:Time elapsed: 179.2769341468811
+INFO:root:Attempt to write empty string to results/improved
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839920
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839921
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839922
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839923
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839924
+
+INFO:root:Writing to input/database_dump_MIG.txt.meta:
+23839925
+
+INFO:root:23839921:7: checking ...
+INFO:root:23839920:7: checking ...
+Traceback (most recent call last):
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/mig_synthesis.py", line 218, in improve_in_parallel
+    iterator = future.result()
+  File "/home/alexander/personal/ig-exact-synthesis/venv/lib/python3.9/site-packages/pebble/pool/base_pool.py", line 206, in next
+    result = next(self._results)
+  File "/home/alexander/personal/ig-exact-synthesis/venv/lib/python3.9/site-packages/pebble/pool/base_pool.py", line 200, in <genexpr>
+    chunk_result(f, timeout) for f in futures)
+  File "/home/alexander/personal/ig-exact-synthesis/venv/lib/python3.9/site-packages/pebble/pool/base_pool.py", line 232, in chunk_result
+    return future.result(timeout=timeout)
+  File "/usr/lib/python3.9/concurrent/futures/_base.py", line 441, in result
+    self._condition.wait(timeout)
+  File "/usr/lib/python3.9/threading.py", line 316, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/mig_synthesis.py", line 250, in <module>
+    if args['improve']:
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/mig_synthesis.py", line 240, in main
+    def main():
+  File "/home/alexander/personal/ig-exact-synthesis/src/core/mig_synthesis.py", line 227, in improve_in_parallel
+    except ProcessExpired as error:
+  File "/home/alexander/personal/ig-exact-synthesis/venv/lib/python3.9/site-packages/pebble/pool/base_pool.py", line 44, in __exit__
+    self.join()
+  File "/home/alexander/personal/ig-exact-synthesis/venv/lib/python3.9/site-packages/pebble/pool/base_pool.py", line 72, in join
+    self._wait_queue_depletion(timeout)
+  File "/home/alexander/personal/ig-exact-synthesis/venv/lib/python3.9/site-packages/pebble/pool/base_pool.py", line 86, in _wait_queue_depletion
+    time.sleep(SLEEP_UNIT)
+KeyboardInterrupt
+04-25 21:36:55.634 - improve_in_parallel: Starting parallel improvint of  with 6 jobs, 300 timeout
+04-25 21:36:56.979 - improve_in_parallel: 616114
+04-25 21:36:57.010 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839906
+
+04-25 21:36:57.015 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839907
+
+04-25 21:36:57.016 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839908
+
+04-25 21:36:57.016 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839909
+
+04-25 21:36:57.017 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839910
+
+04-25 21:36:57.017 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839911
+
+04-25 21:36:57.622 - check_complexity: 23839909:7: checking ...
+04-25 21:36:57.651 - check_complexity: 23839910:8: checking ...
+04-25 21:36:57.714 - check_complexity: 23839911:7: checking ...
+04-25 21:36:57.718 - check_complexity: 23839906:7: checking ...
+04-25 21:36:57.733 - check_complexity: 23839907:7: checking ...
+04-25 21:36:57.733 - check_complexity: 23839908:7: checking ...
+04-25 21:37:42.537 - check_complexity: 23839909:unsat
+04-25 21:37:42.537 - check_complexity: 23839909:Time elapsed: 44.91523885726929
+04-25 21:37:42.537 - write_string: Attempt to write empty string to results/improved
+
+04-25 21:37:42.538 - check_complexity: 23839906:unsat
+04-25 21:37:42.538 - check_complexity: 23839906:Time elapsed: 44.82010364532471
+04-25 21:37:42.538 - write_string: Attempt to write empty string to results/improved
+
+04-25 21:37:42.542 - check_complexity: 23839911:unsat
+04-25 21:37:42.542 - check_complexity: 23839911:Time elapsed: 44.827945947647095
+04-25 21:37:42.542 - write_string: Attempt to write empty string to results/improved
+
+04-25 21:37:42.542 - check_complexity: 23839907:unsat
+04-25 21:37:42.542 - check_complexity: 23839908:unsat
+04-25 21:37:42.542 - check_complexity: 23839908:Time elapsed: 44.80928015708923
+04-25 21:37:42.542 - check_complexity: 23839907:Time elapsed: 44.80928015708923
+04-25 21:37:42.543 - write_string: Attempt to write empty string to results/improved
+
+04-25 21:37:42.543 - write_string: Attempt to write empty string to results/improved
+
+04-25 21:37:42.545 - check_complexity: 23839910:unsat
+04-25 21:37:42.545 - check_complexity: 23839910:Time elapsed: 44.89402365684509
+04-25 21:37:42.545 - write_string: Attempt to write empty string to results/improved
+
+04-25 21:37:42.559 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839912
+
+04-25 21:37:42.565 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839913
+
+04-25 21:37:42.569 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839914
+
+04-25 21:37:42.569 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839916
+
+04-25 21:37:42.573 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839917
+
+04-25 21:37:42.574 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839918
+
+04-25 21:38:09.452 - improve_in_parallel: Starting parallel improvint of  with 6 jobs, 300 timeout
+04-25 21:38:10.787 - improve_in_parallel: 616126
+04-25 21:38:10.809 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839869
+
+04-25 21:38:10.814 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839870
+
+04-25 21:38:10.815 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839890
+
+04-25 21:38:10.815 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839891
+
+04-25 21:38:10.816 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839894
+
+04-25 21:38:10.816 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839895
+
+04-25 21:38:11.266 - check_complexity: 23839891:7: checking ...
+04-25 21:38:11.418 - check_complexity: 23839894:8: checking ...
+04-25 21:38:11.493 - check_complexity: 23839890:8: checking ...
+04-25 21:38:11.496 - check_complexity: 23839869:7: checking ...
+04-25 21:38:11.496 - check_complexity: 23839870:7: checking ...
+04-25 21:38:11.499 - check_complexity: 23839895:8: checking ...
+04-25 21:43:10.859 - improve_in_parallel: function took longer than 300 seconds
+04-25 21:43:10.875 - improve_in_parallel: function took longer than 300 seconds
+04-25 21:43:10.903 - improve_in_parallel: function took longer than 300 seconds
+04-25 21:43:10.904 - improve_in_parallel: function took longer than 300 seconds
+04-25 21:43:10.912 - improve_in_parallel: function took longer than 300 seconds
+04-25 21:43:10.921 - improve_in_parallel: function took longer than 300 seconds
+04-25 21:43:10.952 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839898
+
+04-25 21:43:10.967 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839899
+
+04-25 21:43:10.982 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839902
+
+04-25 21:43:10.997 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839903
+
+04-25 21:43:11.010 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839904
+
+04-25 21:43:11.023 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839905
+
+04-25 21:43:11.422 - check_complexity: 23839899:7: checking ...
+04-25 21:43:11.654 - check_complexity: 23839898:8: checking ...
+04-25 21:43:11.699 - check_complexity: 23839905:7: checking ...
+04-25 21:43:11.705 - check_complexity: 23839904:7: checking ...
+04-25 21:43:11.706 - check_complexity: 23839902:8: checking ...
+04-25 21:43:11.712 - check_complexity: 23839903:7: checking ...
+04-25 21:48:11.115 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839906
+
+04-25 21:48:11.141 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839907
+
+04-25 21:48:11.380 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839908
+
+04-25 21:48:11.395 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839909
+
+04-25 21:48:11.414 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839910
+
+04-25 21:48:11.432 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839911
+
+04-25 21:48:11.822 - check_complexity: 23839907:7: checking ...
+04-25 21:48:11.841 - check_complexity: 23839906:7: checking ...
+04-25 21:48:11.979 - check_complexity: 23839911:7: checking ...
+04-25 21:48:12.088 - check_complexity: 23839908:7: checking ...
+04-25 21:48:12.100 - check_complexity: 23839909:7: checking ...
+04-25 21:48:12.128 - check_complexity: 23839910:8: checking ...
+04-25 21:49:18.624 - check_complexity: 23839909:unsat
+04-25 21:49:18.624 - check_complexity: 23839906:unsat
+04-25 21:49:18.624 - check_complexity: 23839909:Time elapsed: 66.52340126037598
+04-25 21:49:18.624 - check_complexity: 23839906:Time elapsed: 66.7824215888977
+04-25 21:49:18.624 - write_string: Attempt to write empty string to results/improved
+
+04-25 21:49:18.624 - write_string: Attempt to write empty string to results/improved
+
+04-25 21:49:18.624 - check_complexity: 23839907:unsat
+04-25 21:49:18.625 - check_complexity: 23839907:Time elapsed: 66.80237793922424
+04-25 21:49:18.625 - write_string: Attempt to write empty string to results/improved
+
+04-25 21:49:18.625 - check_complexity: 23839911:unsat
+04-25 21:49:18.626 - check_complexity: 23839911:Time elapsed: 66.64656710624695
+04-25 21:49:18.626 - write_string: Attempt to write empty string to results/improved
+
+04-25 21:49:18.629 - check_complexity: 23839910:unsat
+04-25 21:49:18.629 - check_complexity: 23839910:Time elapsed: 66.50084280967712
+04-25 21:49:18.629 - write_string: Attempt to write empty string to results/improved
+
+04-25 21:49:18.651 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839912
+
+04-25 21:49:18.657 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839913
+
+04-25 21:49:18.657 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839914
+
+04-25 21:49:18.666 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839916
+
+04-25 21:52:04.561 - improve_in_parallel: Starting parallel improvint of  with 6 jobs, 300 timeout
+04-25 21:52:05.852 - improve_in_parallel: 616126
+04-25 21:52:05.874 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839869
+
+04-25 21:52:05.880 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839870
+
+04-25 21:52:05.885 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839890
+
+04-25 21:52:05.886 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839891
+
+04-25 21:52:05.886 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839894
+
+04-25 21:52:05.886 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839895
+
+04-25 21:52:06.350 - check_complexity: Optimizations enabled
+04-25 21:52:06.354 - check_complexity: 23839870:7: checking ...
+04-25 21:52:06.402 - check_complexity: Optimizations enabled
+04-25 21:52:06.407 - check_complexity: 23839894:8: checking ...
+04-25 21:52:06.547 - check_complexity: Optimizations enabled
+04-25 21:52:06.551 - check_complexity: Optimizations enabled
+04-25 21:52:06.552 - check_complexity: 23839869:7: checking ...
+04-25 21:52:06.555 - check_complexity: Optimizations enabled
+04-25 21:52:06.556 - check_complexity: Optimizations enabled
+04-25 21:52:06.556 - check_complexity: 23839890:8: checking ...
+04-25 21:52:06.561 - check_complexity: 23839891:7: checking ...
+04-25 21:52:06.561 - check_complexity: 23839895:8: checking ...
+04-25 21:57:05.918 - improve_in_parallel: function took longer than 300 seconds
+04-25 21:57:05.931 - improve_in_parallel: function took longer than 300 seconds
+04-25 21:57:05.948 - improve_in_parallel: function took longer than 300 seconds
+04-25 21:57:05.963 - improve_in_parallel: function took longer than 300 seconds
+04-25 21:57:05.976 - improve_in_parallel: function took longer than 300 seconds
+04-25 21:57:05.984 - improve_in_parallel: function took longer than 300 seconds
+04-25 21:57:06.016 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839898
+
+04-25 21:57:06.033 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839899
+
+04-25 21:57:06.049 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839902
+
+04-25 21:57:06.128 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839904
+
+04-25 21:57:06.128 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839903
+
+04-25 21:57:06.128 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839905
+
+04-25 21:57:06.456 - check_complexity: Optimizations enabled
+04-25 21:57:06.460 - check_complexity: 23839899:7: checking ...
+04-25 21:57:06.601 - check_complexity: Optimizations enabled
+04-25 21:57:06.606 - check_complexity: 23839905:7: checking ...
+04-25 21:57:06.662 - check_complexity: Optimizations enabled
+04-25 21:57:06.667 - check_complexity: 23839898:8: checking ...
+04-25 21:57:06.676 - check_complexity: Optimizations enabled
+04-25 21:57:06.680 - check_complexity: 23839904:7: checking ...
+04-25 21:57:06.741 - check_complexity: Optimizations enabled
+04-25 21:57:06.746 - check_complexity: 23839902:8: checking ...
+04-25 21:57:06.830 - check_complexity: Optimizations enabled
+04-25 21:57:06.835 - check_complexity: 23839903:7: checking ...
+04-25 22:02:06.353 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839906
+
+04-25 22:02:06.370 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839907
+
+04-25 22:02:06.394 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839908
+
+04-25 22:02:06.416 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839909
+
+04-25 22:02:06.439 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839910
+
+04-25 22:02:06.590 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839911
+
+04-25 22:02:06.851 - check_complexity: Optimizations enabled
+04-25 22:02:06.855 - check_complexity: 23839906:7: checking ...
+04-25 22:02:06.859 - check_complexity: Optimizations enabled
+04-25 22:02:06.863 - check_complexity: 23839908:7: checking ...
+04-25 22:02:07.058 - check_complexity: Optimizations enabled
+04-25 22:02:07.063 - check_complexity: 23839907:7: checking ...
+04-25 22:02:07.122 - check_complexity: Optimizations enabled
+04-25 22:02:07.128 - check_complexity: 23839909:7: checking ...
+04-25 22:02:07.128 - check_complexity: Optimizations enabled
+04-25 22:02:07.133 - check_complexity: 23839910:8: checking ...
+04-25 22:02:07.309 - check_complexity: Optimizations enabled
+04-25 22:02:07.314 - check_complexity: 23839911:7: checking ...
+04-25 22:07:06.684 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839912
+
+04-25 22:07:06.701 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839913
+
+04-25 22:07:06.719 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839914
+
+04-25 22:07:06.742 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839916
+
+04-25 22:07:06.763 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839917
+
+04-25 22:07:06.910 - write_string: Writing to input/database_dump_MIG.txt.meta:
+23839918
+
+04-25 22:07:07.149 - check_complexity: Optimizations enabled
+04-25 22:07:07.153 - check_complexity: 23839914:6: checking ...
+04-25 22:07:07.337 - check_complexity: Optimizations enabled
+04-25 22:07:07.341 - check_complexity: 23839918:7: checking ...
+04-25 22:07:07.358 - check_complexity: Optimizations enabled
+04-25 22:07:07.363 - check_complexity: 23839912:7: checking ...
+04-25 22:07:07.394 - check_complexity: Optimizations enabled
+04-25 22:07:07.399 - check_complexity: 23839913:7: checking ...
+04-25 22:07:07.446 - check_complexity: Optimizations enabled
+04-25 22:07:07.451 - check_complexity: 23839916:7: checking ...
+04-25 22:07:07.466 - check_complexity: Optimizations enabled
+04-25 22:07:07.471 - check_complexity: 23839917:7: checking ...
