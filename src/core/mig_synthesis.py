@@ -103,13 +103,13 @@ def check_complexity(code, args):
     elapsed = time.time() - start
 
     if check_result is None:
-        logging.info(f'{code}:error')
+        logging.info(f'{code}:{complexity}:error')
     elif check_result:
-        logging.info(f'{code}:***** sat *****\n')
+        logging.info(f'{code}:{complexity}:***** sat *****\n')
     else:
-        logging.info(f'{code}:unsat')
+        logging.info(f'{code}:{complexity}:unsat')
     
-    logging.info(f'{code}:Time elapsed: {elapsed}')
+    logging.info(f'{code}:{complexity}:Time elapsed: {elapsed}')
 
     return m
 
@@ -151,8 +151,6 @@ def process_single_function(args, code):
     write_single_result(result, code, args)
 
 def compute_in_parallel(function_codes, args):
-    if not args['dir'] is None:
-        write_string_append(f'{sys.argv}\n', f'{args["dir"]}/meta')
     # jobs = get_int_arg('jobs', args, DEFAULT_JOBS)
     # timeout = get_int_arg('timeout', args, DEFAULT_TIMEOUT)
     jobs = args.get('jobs', DEFAULT_JOBS)
@@ -182,18 +180,29 @@ def compute_in_parallel(function_codes, args):
         
 def improve_single(args, mig):
     if not args['dir'] is None:
-        write_string_append(f'{sys.argv}\n', f'{args["dir"]}/meta')
-    write_string_rewrite(str(mig.mincode), f'{args["input"]}.meta')
+        write_string_rewrite(str(mig.mincode), f'{args["dir"]}/meta')
+    elif not args['output'] is None:
+        write_string_rewrite(str(mig.mincode), f'{args["output"]}.meta')
     args['check_complexity'] = mig.complexity - 1
     result = check_complexity(mig.mincode, args)
     if result.check_result:
         logging.info(f'MIG complexity for {mig.mincode} IMPROVED! CONGRATULATIONS!')
+    elif not args['dir'] is None:
+        write_string_append(str(mig.mincode)+'\n', f'{args["dir"]}/unsat')
+    elif not args['output'] is None:
+        write_string_append(str(mig.mincode)+'\n', f'{args["output"]}.unsat')
     write_single_result(result, mig.mincode, args)
 
 def get_migs(args):
-    migs = mks1_parse_mig(args['input'], args['complexity'])
+    migs = mks1_parse_mig(args['input'], args['check_complexity'])
     try:
-        with open(f'{args["input"]}.meta', 'r') as meta:
+        if not args['dir'] is None:
+            meta_filename = f'{args["dir"]}/meta'
+        elif not args['output'] is None:
+            meta_filename = f'{args["output"]}.meta'
+        else:
+            meta_filename = None
+        with open(meta_filename, 'r') as meta:
             improve_checkpoint = int(meta.readline().strip())
     except:
         return migs
@@ -225,7 +234,7 @@ def improve_in_parallel(args):
             except StopIteration:
                 break
             except TimeoutError as error:
-                logging.info("function took longer than %d seconds" % error.args[1])
+                logging.info(error.args)
             except ProcessExpired as error:
                 logging.info("%s. Exit code: %d" % (error, error.exitcode))
             except Exception as error:
@@ -248,6 +257,8 @@ def main():
         format='%(asctime)s.%(msecs)03d - %(funcName)s: %(message)s',
         datefmt='%m-%d %H:%M:%S',
     )
+
+    logging.info(sys.argv)
 
     if args['improve']:
         improve_in_parallel(args)

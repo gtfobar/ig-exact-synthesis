@@ -232,5 +232,3 @@ def mks1_parse_mig(filename, complexity=None):
                 break
             
     return migs
-
-def 
