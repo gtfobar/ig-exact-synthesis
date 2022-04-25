@@ -2,6 +2,7 @@ import logging
 import z3
 from utils import (
     right_inclusive_range,
+    not_inclusive_range,
     int2bitvec,
     bitvec2int,
     get_mincode
@@ -11,7 +12,13 @@ z3.set_param('parallel.enable', True)
 
 class Z3ModelWrapperOptimized():
 
-    def __init__(this, complexity, f, gate):
+    ALL_OPTIMIZATIONS_ENABLED = {
+            'structural_hashing': True,
+            'associativity': True,
+            'colexicographic_ordering': True
+        }
+
+    def __init__(this, complexity, f, gate, optimizations=ALL_OPTIMIZATIONS_ENABLED):
         this.solver = z3.Solver()
         this.asserts = []
         this.vars = {}
@@ -19,6 +26,7 @@ class Z3ModelWrapperOptimized():
         this.f = f
         this.gate = gate
         this.check_result = None
+        this.optimizations = optimizations
 
     def evaluate_f(this, x):
         i = this.f.bitlength - x - 1
@@ -61,6 +69,15 @@ class Z3ModelWrapperOptimized():
 
         this.init_variables()
 
+        if this.optimizations['structural_hashing']:
+            this.add_symmetry_breaking_structural_hashing_constraints()
+
+        if this.optimizations['associativity']:
+            this.add_symmetry_breaking_associativity_constraint()
+
+        if this.optimizations['colexicographic_ordering']:
+            this.add_symmetry_breaking_colexicographic_ordering()
+
         for gate in right_inclusive_range(this.f.arity, this.f.arity + this.complexity):
             this.add_gate_constraints(gate)
 
@@ -102,6 +119,76 @@ class Z3ModelWrapperOptimized():
                 # atic - gate input values
                 for gate_input in right_inclusive_range(0, this.gate.arity):
                     this.create_bitvec(f'gate_input_value_{f_input_value}_{gate}_{gate_input}', 1)
+
+    def add_symmetry_breaking_structural_hashing_constraints(this):
+        for gate_i in right_inclusive_range(this.f.arity, this.f.arity + this.complexity):
+            s1_i = this.vars[f'gate_input_{gate_i}_1']
+            s2_i = this.vars[f'gate_input_{gate_i}_2']
+            s3_i = this.vars[f'gate_input_{gate_i}_3']
+
+            p1_i = this.vars[f'gate_input_polarity_{gate_i}_1']
+            p2_i = this.vars[f'gate_input_polarity_{gate_i}_2']
+            p3_i = this.vars[f'gate_input_polarity_{gate_i}_3']
+            
+            for gate_j in right_inclusive_range(gate_i, this.f.arity + this.complexity):
+                s1_j = this.vars[f'gate_input_{gate_j}_1']
+                s2_j = this.vars[f'gate_input_{gate_j}_2']
+                s3_j = this.vars[f'gate_input_{gate_j}_3']
+
+                p1_j = this.vars[f'gate_input_polarity_{gate_j}_1']
+                p2_j = this.vars[f'gate_input_polarity_{gate_j}_2']
+                p3_j = this.vars[f'gate_input_polarity_{gate_j}_3']
+
+                this.add_assert(z3.Or(
+                    s1_i != s1_j,
+                    s2_i != s2_j,
+                    s3_i != s3_j,
+                    p1_i != p1_j,
+                    p2_i != p2_j,
+                    p3_i != p3_j))
+
+    def add_symmetry_breaking_associativity_constraint(this):
+        for i in right_inclusive_range(this.f.arity, this.f.arity + this.complexity):
+            for j in right_inclusive_range(i, this.f.arity + this.complexity):
+                for alpha in [1, 2, 3]:
+                    s_alpha_j = this.vars[f'gate_input_{j}_{alpha}']
+                    p_alpha_j = this.vars[f'gate_input_polarity_{j}_{alpha}']
+                    for beta in [1, 2, 3]:
+                        if alpha == beta:
+                            continue
+                        s_beta_j = this.vars[f'gate_input_{j}_{beta}']
+                        not_alpha_not_beta = 6 - alpha - beta
+                        s_not_alpha_not_beta_j = this.vars[f'gate_input_{j}_{not_alpha_not_beta}']
+
+                        for gamma in [1, 2, 3]:
+                            s_gamma_i = this.vars[f'gate_input_{i}_{gamma}']
+                            p_gamma_i = this.vars[f'gate_input_polarity_{i}_{gamma}']
+                            most_right_not_gamma = 5 - max(2, gamma)
+                            s_most_right_not_gamma_i = this.vars[f'gate_input_{i}_{most_right_not_gamma}']
+
+                            this.add_assert(z3.Implies(
+                                z3.And(s_beta_j == i, s_alpha_j == s_gamma_i, p_alpha_j == p_gamma_i),
+                                s_most_right_not_gamma_i <= s_not_alpha_not_beta_j))
+          
+
+    def add_symmetry_breaking_colexicographic_ordering(this):
+        for gate in not_inclusive_range(this.f.arity, this.f.arity + this.complexity):
+            next_gate = gate + 1
+            s1 = this.vars[f'gate_input_{gate}_1']
+            s2 = this.vars[f'gate_input_{gate}_2']
+            s3 = this.vars[f'gate_input_{gate}_3']
+
+            s_next_1 = this.vars[f'gate_input_{next_gate}_1']
+            s_next_2 = this.vars[f'gate_input_{next_gate}_2']
+            s_next_3 = this.vars[f'gate_input_{next_gate}_3']
+        
+            this.add_assert(z3.Implies(
+                # Mistake in article?
+                # s_next_3 == gate
+                s_next_3 != gate,
+                z3.Or(s1 < s_next_1,
+                    z3.And(s1 == s_next_1, s2 < s_next_2),
+                    z3.And(s1 == s_next_1, s2 == s_next_2, s3 <= s_next_3))))
 
     def add_gate_constraints(this, gate):
         for gate_input in right_inclusive_range(0, this.gate.arity):

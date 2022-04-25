@@ -1,5 +1,6 @@
 import logging
 import sys
+import os
 
 ## Useful stuff from intel_altera
 def vector_to_int(vector):
@@ -54,7 +55,9 @@ def evaluate_fun(f, x):
 def right_inclusive_range(start, end):
     return range(start + 1, end + 1)
 
-import os
+
+def not_inclusive_range(start, end):
+    return range(start + 1, end)
 
 def reverse_readline(filename, buf_size=8192):
     """A generator that returns the lines of a file in reverse order"""
