@@ -114,7 +114,7 @@ def check_complexity(code, args):
     return m
 
 def get_function_codes(args):
-    max_function_code = 0x1000
+    max_function_code = 0x100000000
     function_codes = []
 
     if args['input'] is not None:
