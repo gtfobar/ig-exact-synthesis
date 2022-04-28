@@ -1,0 +1,3 @@
+['/mnt/c/Users/alexander/Documents/cmc/8 sem/ВКР/ig-exact-synthesis/src/core/mig_synthesis.py', '-i', 'input/9/9.1', '-c', '8', '-d', 'results/9']
+['/mnt/c/Users/alexander/Documents/cmc/8 sem/ВКР/ig-exact-synthesis/src/core/mig_synthesis.py', '-i', 'input/9/9.1', '-c', '8', '-d', 'results/9']
+['/mnt/c/Users/alexander/Documents/cmc/8 sem/ВКР/ig-exact-synthesis/src/core/mig_synthesis.py', '-i', 'input/9/9.1', '-c', '8', '-d', 'results/9', '-t', '1', '-j', '7']
