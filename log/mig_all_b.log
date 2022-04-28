@@ -1,0 +1,2983 @@
+04-26 01:34:10.906 - main: ['/home/spoon_engine/ig-exact-synthesis/src/core/mig_synthesis.py', '-o', 'results/mig_all_b', '-l', 'log/mig_all_b.log', '-t', '500', '-s']
+04-26 01:34:10.906 - get_function_codes: range(67228, 4294967296)
+04-26 01:34:11.462 - synthesize_mig: 67228:0 checking ...
+04-26 01:34:11.462 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-26 01:34:11.462 - synthesize_mig: 67228:0:[Time elapsed: 0.0002429485321044922] error
+
+04-26 01:34:11.462 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-26 01:34:12.014 - synthesize_mig: 67229:0 checking ...
+04-26 01:34:12.014 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-26 01:34:12.014 - synthesize_mig: 67229:0:[Time elapsed: 0.00024437904357910156] error
+
+04-26 01:34:12.014 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-26 01:34:12.562 - synthesize_mig: 67230:0 checking ...
+04-26 01:34:12.593 - synthesize_mig: 67230:0:[Time elapsed: 0.03081369400024414] unsat
+04-26 01:34:12.596 - synthesize_mig: 67230:1 checking ...
+04-26 01:34:12.767 - synthesize_mig: 67230:1:[Time elapsed: 0.1707782745361328] unsat
+04-26 01:34:12.773 - synthesize_mig: 67230:2 checking ...
+04-26 01:34:13.133 - synthesize_mig: 67230:2:[Time elapsed: 0.3605532646179199] unsat
+04-26 01:34:13.142 - synthesize_mig: 67230:3 checking ...
+04-26 01:34:13.970 - synthesize_mig: 67230:3:[Time elapsed: 0.8280308246612549] unsat
+04-26 01:34:13.981 - synthesize_mig: 67230:4 checking ...
+04-26 01:34:16.665 - synthesize_mig: 67230:4:[Time elapsed: 2.6845335960388184] unsat
+04-26 01:34:16.681 - synthesize_mig: 67230:5 checking ...
+04-26 01:34:17.803 - synthesize_mig: 67230:5:[Time elapsed: 1.1220898628234863] unsat
+04-26 01:34:17.822 - synthesize_mig: 67230:6 checking ...
+04-26 01:34:26.864 - main: ['/home/spoon_engine/ig-exact-synthesis/src/core/mig_synthesis.py', '-o', 'results/mig_all_b', '-l', 'log/mig_all_b.log', '-t', '500', '-s']
+04-26 01:34:26.865 - get_function_codes: range(67228, 4294967296)
+04-26 01:34:27.423 - synthesize_mig: 67228:0 checking ...
+04-26 01:34:27.423 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-26 01:34:27.423 - synthesize_mig: 67228:0:[Time elapsed: 0.00024318695068359375] error
+
+04-26 01:34:27.423 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-26 01:34:27.977 - synthesize_mig: 67229:0 checking ...
+04-26 01:34:27.977 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-26 01:34:27.977 - synthesize_mig: 67229:0:[Time elapsed: 0.000522613525390625] error
+
+04-26 01:34:27.978 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-26 01:34:28.529 - synthesize_mig: 67230:0 checking ...
+04-26 01:34:28.562 - synthesize_mig: 67230:0:[Time elapsed: 0.032798051834106445] unsat
+04-26 01:34:28.565 - synthesize_mig: 67230:1 checking ...
+04-26 01:34:28.734 - synthesize_mig: 67230:1:[Time elapsed: 0.1688854694366455] unsat
+04-26 01:34:28.740 - synthesize_mig: 67230:2 checking ...
+04-26 01:34:29.090 - synthesize_mig: 67230:2:[Time elapsed: 0.3499791622161865] unsat
+04-26 01:34:29.098 - synthesize_mig: 67230:3 checking ...
+04-26 01:34:29.906 - synthesize_mig: 67230:3:[Time elapsed: 0.807877779006958] unsat
+04-26 01:34:29.916 - synthesize_mig: 67230:4 checking ...
+04-26 01:34:32.566 - synthesize_mig: 67230:4:[Time elapsed: 2.6495730876922607] unsat
+04-26 01:34:32.580 - synthesize_mig: 67230:5 checking ...
+04-26 01:35:52.120 - synthesize_mig: 67230:5:[Time elapsed: 79.53967022895813] unsat
+04-26 01:35:52.143 - synthesize_mig: 67230:6 checking ...
+04-26 02:16:35.162 - synthesize_mig: 67230:6:[Time elapsed: 2443.0187010765076] unsat
+04-26 02:16:35.184 - synthesize_mig: 67230:7 checking ...
+04-26 02:20:07.315 - synthesize_mig: 67230:7:[Time elapsed: 212.1302843093872] ***** sat *****
+
+04-26 02:20:07.322 - write_string: Writing to results/mig_all_b:
+67230
+mig
+7
+12 0
+1 0 3 0 4 1 0 0 1 0 4 0 1 1 6 0 7 0 2 0 5 0 6 0 3 0 5 0 7 1 0 0 8 1 9 0 3 0 10 1 11 0 
+
+
+04-26 02:20:08.016 - synthesize_mig: 67231:0 checking ...
+04-26 02:20:08.054 - synthesize_mig: 67231:0:[Time elapsed: 0.037482261657714844] unsat
+04-26 02:20:08.058 - synthesize_mig: 67231:1 checking ...
+04-26 02:20:08.248 - synthesize_mig: 67231:1:[Time elapsed: 0.18932032585144043] unsat
+04-26 02:20:08.254 - synthesize_mig: 67231:2 checking ...
+04-26 02:20:08.615 - synthesize_mig: 67231:2:[Time elapsed: 0.36165475845336914] unsat
+04-26 02:20:08.624 - synthesize_mig: 67231:3 checking ...
+04-26 02:20:09.511 - synthesize_mig: 67231:3:[Time elapsed: 0.887009859085083] unsat
+04-26 02:20:09.522 - synthesize_mig: 67231:4 checking ...
+04-26 02:20:17.636 - synthesize_mig: 67231:4:[Time elapsed: 8.113723993301392] unsat
+04-26 02:20:17.651 - synthesize_mig: 67231:5 checking ...
+04-26 02:23:19.364 - synthesize_mig: 67231:5:[Time elapsed: 181.71254706382751] ***** sat *****
+
+04-26 02:23:19.368 - write_string: Writing to results/mig_all_b:
+67231
+mig
+5
+10 0
+0 0 1 0 5 0 3 0 4 0 6 0 2 0 4 1 5 0 0 0 1 0 5 1 7 0 8 0 9 0 
+
+
+04-26 02:23:19.948 - synthesize_mig: 67232:0 checking ...
+04-26 02:23:19.976 - synthesize_mig: 67232:0:[Time elapsed: 0.028076171875] unsat
+04-26 02:23:19.979 - synthesize_mig: 67232:1 checking ...
+04-26 02:23:20.144 - synthesize_mig: 67232:1:[Time elapsed: 0.1651310920715332] unsat
+04-26 02:23:20.150 - synthesize_mig: 67232:2 checking ...
+04-26 02:23:20.495 - synthesize_mig: 67232:2:[Time elapsed: 0.34488844871520996] unsat
+04-26 02:23:20.503 - synthesize_mig: 67232:3 checking ...
+04-26 02:23:21.276 - synthesize_mig: 67232:3:[Time elapsed: 0.7730333805084229] unsat
+04-26 02:23:21.287 - synthesize_mig: 67232:4 checking ...
+04-26 02:23:25.214 - synthesize_mig: 67232:4:[Time elapsed: 3.927042245864868] unsat
+04-26 02:23:25.229 - synthesize_mig: 67232:5 checking ...
+04-26 02:25:08.946 - synthesize_mig: 67232:5:[Time elapsed: 103.71652054786682] unsat
+04-26 02:25:08.966 - synthesize_mig: 67232:6 checking ...
+04-26 03:04:01.042 - synthesize_mig: 67232:6:[Time elapsed: 2332.0760357379913] ***** sat *****
+
+04-26 03:04:01.051 - write_string: Writing to results/mig_all_b:
+67232
+mig
+6
+11 0
+1 0 2 1 3 0 2 1 4 0 5 0 0 0 4 1 6 0 1 0 5 1 8 0 0 0 3 0 7 0 6 1 9 0 10 0 
+
+
+04-26 03:04:01.692 - synthesize_mig: 67233:0 checking ...
+04-26 03:04:01.730 - synthesize_mig: 67233:0:[Time elapsed: 0.03789782524108887] unsat
+04-26 03:04:01.735 - synthesize_mig: 67233:1 checking ...
+04-26 03:04:01.958 - synthesize_mig: 67233:1:[Time elapsed: 0.22244811058044434] unsat
+04-26 03:04:01.966 - synthesize_mig: 67233:2 checking ...
+04-26 03:04:02.445 - synthesize_mig: 67233:2:[Time elapsed: 0.4788246154785156] unsat
+04-26 03:04:02.454 - synthesize_mig: 67233:3 checking ...
+04-26 03:04:03.359 - synthesize_mig: 67233:3:[Time elapsed: 0.9050111770629883] unsat
+04-26 03:04:03.371 - synthesize_mig: 67233:4 checking ...
+04-26 03:04:09.653 - synthesize_mig: 67233:4:[Time elapsed: 6.282004117965698] unsat
+04-26 03:04:09.669 - synthesize_mig: 67233:5 checking ...
+04-26 03:06:43.431 - synthesize_mig: 67233:5:[Time elapsed: 153.76264548301697] unsat
+04-26 03:06:43.451 - synthesize_mig: 67233:6 checking ...
+04-26 03:07:41.266 - synthesize_mig: 67233:6:[Time elapsed: 57.81507396697998] ***** sat *****
+
+04-26 03:07:41.270 - write_string: Writing to results/mig_all_b:
+67233
+mig
+6
+11 0
+1 1 2 0 3 0 2 0 3 0 5 1 0 0 3 0 4 1 5 1 6 0 8 0 0 0 7 0 8 1 8 0 9 1 10 0 
+
+
+04-26 03:07:41.839 - synthesize_mig: 67234:0 checking ...
+04-26 03:07:41.866 - synthesize_mig: 67234:0:[Time elapsed: 0.026942014694213867] unsat
+04-26 03:07:41.869 - synthesize_mig: 67234:1 checking ...
+04-26 03:07:42.035 - synthesize_mig: 67234:1:[Time elapsed: 0.1663219928741455] unsat
+04-26 03:07:42.040 - synthesize_mig: 67234:2 checking ...
+04-26 03:07:42.378 - synthesize_mig: 67234:2:[Time elapsed: 0.33719897270202637] unsat
+04-26 03:07:42.385 - synthesize_mig: 67234:3 checking ...
+04-26 03:07:43.082 - synthesize_mig: 67234:3:[Time elapsed: 0.6970410346984863] unsat
+04-26 03:07:43.094 - synthesize_mig: 67234:4 checking ...
+04-26 03:07:46.265 - synthesize_mig: 67234:4:[Time elapsed: 3.1706976890563965] unsat
+04-26 03:07:46.278 - synthesize_mig: 67234:5 checking ...
+04-26 03:09:35.806 - synthesize_mig: 67234:5:[Time elapsed: 109.52706289291382] unsat
+04-26 03:09:35.828 - synthesize_mig: 67234:6 checking ...
+04-26 03:16:01.351 - synthesize_mig: 67234:6:[Time elapsed: 385.52331829071045] ***** sat *****
+
+04-26 03:16:01.355 - write_string: Writing to results/mig_all_b:
+67234
+mig
+6
+11 0
+2 0 3 0 5 1 0 0 3 0 4 1 1 0 5 0 6 1 1 0 5 0 7 1 0 0 6 1 7 0 8 1 9 0 10 0 
+
+
+04-26 03:16:01.982 - synthesize_mig: 67235:0 checking ...
+04-26 03:16:02.018 - synthesize_mig: 67235:0:[Time elapsed: 0.03620147705078125] unsat
+04-26 03:16:02.024 - synthesize_mig: 67235:1 checking ...
+04-26 03:16:02.255 - synthesize_mig: 67235:1:[Time elapsed: 0.23103713989257812] unsat
+04-26 03:16:02.268 - synthesize_mig: 67235:2 checking ...
+04-26 03:16:02.714 - synthesize_mig: 67235:2:[Time elapsed: 0.44656944274902344] unsat
+04-26 03:16:02.725 - synthesize_mig: 67235:3 checking ...
+04-26 03:16:03.601 - synthesize_mig: 67235:3:[Time elapsed: 0.8759331703186035] unsat
+04-26 03:16:03.613 - synthesize_mig: 67235:4 checking ...
+04-26 03:16:12.208 - synthesize_mig: 67235:4:[Time elapsed: 8.595210313796997] unsat
+04-26 03:16:12.224 - synthesize_mig: 67235:5 checking ...
+04-26 03:19:31.797 - synthesize_mig: 67235:5:[Time elapsed: 199.57265400886536] unsat
+04-26 03:19:31.816 - synthesize_mig: 67235:6 checking ...
+04-26 03:31:10.625 - synthesize_mig: 67235:6:[Time elapsed: 698.8086230754852] ***** sat *****
+
+04-26 03:31:10.634 - write_string: Writing to results/mig_all_b:
+67235
+mig
+6
+11 0
+2 0 3 0 5 1 0 0 3 0 4 1 0 0 6 0 7 1 1 0 5 0 7 1 6 0 7 0 9 0 6 1 8 0 10 0 
+
+
+04-26 03:31:11.220 - synthesize_mig: 67236:0 checking ...
+04-26 03:31:11.250 - synthesize_mig: 67236:0:[Time elapsed: 0.030572891235351562] unsat
+04-26 03:31:11.253 - synthesize_mig: 67236:1 checking ...
+04-26 03:31:11.431 - synthesize_mig: 67236:1:[Time elapsed: 0.1773359775543213] unsat
+04-26 03:31:11.436 - synthesize_mig: 67236:2 checking ...
+04-26 03:31:11.786 - synthesize_mig: 67236:2:[Time elapsed: 0.35086584091186523] unsat
+04-26 03:31:11.795 - synthesize_mig: 67236:3 checking ...
+04-26 03:31:12.563 - synthesize_mig: 67236:3:[Time elapsed: 0.7687473297119141] unsat
+04-26 03:31:12.575 - synthesize_mig: 67236:4 checking ...
+04-26 03:31:16.925 - synthesize_mig: 67236:4:[Time elapsed: 4.349668502807617] unsat
+04-26 03:31:16.941 - synthesize_mig: 67236:5 checking ...
+04-26 03:33:09.620 - synthesize_mig: 67236:5:[Time elapsed: 112.67964959144592] unsat
+04-26 03:33:09.643 - synthesize_mig: 67236:6 checking ...
+04-26 05:28:38.016 - synthesize_mig: 67236:6:[Time elapsed: 6928.372946977615] unsat
+04-26 05:28:38.042 - synthesize_mig: 67236:7 checking ...
+04-26 05:34:32.508 - synthesize_mig: 67236:7:[Time elapsed: 354.46568608283997] ***** sat *****
+
+04-26 05:34:32.513 - write_string: Writing to results/mig_all_b:
+67236
+mig
+7
+12 0
+1 0 4 0 5 0 2 0 4 1 6 0 1 0 3 1 4 0 3 0 7 0 8 0 3 0 5 0 7 0 0 0 6 0 8 1 9 0 10 1 11 0 
+
+
+04-26 05:34:33.088 - synthesize_mig: 67237:0 checking ...
+04-26 05:34:33.119 - synthesize_mig: 67237:0:[Time elapsed: 0.030866146087646484] unsat
+04-26 05:34:33.123 - synthesize_mig: 67237:1 checking ...
+04-26 05:34:33.306 - synthesize_mig: 67237:1:[Time elapsed: 0.18260478973388672] unsat
+04-26 05:34:33.312 - synthesize_mig: 67237:2 checking ...
+04-26 05:34:33.661 - synthesize_mig: 67237:2:[Time elapsed: 0.34917449951171875] unsat
+04-26 05:34:33.670 - synthesize_mig: 67237:3 checking ...
+04-26 05:34:34.499 - synthesize_mig: 67237:3:[Time elapsed: 0.8286664485931396] unsat
+04-26 05:34:34.510 - synthesize_mig: 67237:4 checking ...
+04-26 05:34:42.177 - synthesize_mig: 67237:4:[Time elapsed: 7.667468786239624] unsat
+04-26 05:34:42.191 - synthesize_mig: 67237:5 checking ...
+04-26 05:37:17.473 - synthesize_mig: 67237:5:[Time elapsed: 155.2822141647339] unsat
+04-26 05:37:17.491 - synthesize_mig: 67237:6 checking ...
+04-26 06:47:34.808 - synthesize_mig: 67237:6:[Time elapsed: 4217.316546916962] ***** sat *****
+
+04-26 06:47:34.813 - write_string: Writing to results/mig_all_b:
+67237
+mig
+6
+11 0
+2 1 4 0 5 0 0 0 3 0 4 1 1 0 5 1 7 0 2 0 3 1 5 0 0 0 3 0 6 0 8 0 9 0 10 0 
+
+
+04-26 06:47:35.373 - synthesize_mig: 67238:0 checking ...
+04-26 06:47:35.402 - synthesize_mig: 67238:0:[Time elapsed: 0.029140949249267578] unsat
+04-26 06:47:35.405 - synthesize_mig: 67238:1 checking ...
+04-26 06:47:35.577 - synthesize_mig: 67238:1:[Time elapsed: 0.17199325561523438] unsat
+04-26 06:47:35.582 - synthesize_mig: 67238:2 checking ...
+04-26 06:47:35.916 - synthesize_mig: 67238:2:[Time elapsed: 0.33364367485046387] unsat
+04-26 06:47:35.924 - synthesize_mig: 67238:3 checking ...
+04-26 06:47:36.666 - synthesize_mig: 67238:3:[Time elapsed: 0.7421801090240479] unsat
+04-26 06:47:36.678 - synthesize_mig: 67238:4 checking ...
+04-26 06:47:40.216 - synthesize_mig: 67238:4:[Time elapsed: 3.5376040935516357] unsat
+04-26 06:47:40.231 - synthesize_mig: 67238:5 checking ...
+04-26 06:49:20.229 - synthesize_mig: 67238:5:[Time elapsed: 99.99761128425598] unsat
+04-26 06:49:20.246 - synthesize_mig: 67238:6 checking ...
+04-26 06:52:13.817 - synthesize_mig: 67238:6:[Time elapsed: 173.57047200202942] ***** sat *****
+
+04-26 06:52:13.821 - write_string: Writing to results/mig_all_b:
+67238
+mig
+6
+11 0
+1 0 4 0 5 0 1 0 2 1 3 0 4 0 6 1 7 0 0 0 1 0 5 1 0 0 3 0 6 0 8 1 9 0 10 0 
+
+
+04-26 06:52:14.400 - synthesize_mig: 67239:0 checking ...
+04-26 06:52:14.427 - synthesize_mig: 67239:0:[Time elapsed: 0.02649521827697754] unsat
+04-26 06:52:14.430 - synthesize_mig: 67239:1 checking ...
+04-26 06:52:14.600 - synthesize_mig: 67239:1:[Time elapsed: 0.17016839981079102] unsat
+04-26 06:52:14.606 - synthesize_mig: 67239:2 checking ...
+04-26 06:52:14.959 - synthesize_mig: 67239:2:[Time elapsed: 0.352769136428833] unsat
+04-26 06:52:14.969 - synthesize_mig: 67239:3 checking ...
+04-26 06:52:15.858 - synthesize_mig: 67239:3:[Time elapsed: 0.8884730339050293] unsat
+04-26 06:52:15.870 - synthesize_mig: 67239:4 checking ...
+04-26 06:52:22.012 - synthesize_mig: 67239:4:[Time elapsed: 6.1416826248168945] unsat
+04-26 06:52:22.027 - synthesize_mig: 67239:5 checking ...
+04-26 06:53:35.409 - synthesize_mig: 67239:5:[Time elapsed: 73.38221788406372] ***** sat *****
+
+04-26 06:53:35.412 - write_string: Writing to results/mig_all_b:
+67239
+mig
+5
+10 0
+0 0 3 0 4 1 2 0 3 0 5 1 1 1 5 0 6 0 0 0 6 1 7 0 1 0 8 0 9 0 
+
+
+04-26 06:53:35.986 - synthesize_mig: 67240:0 checking ...
+04-26 06:53:36.014 - synthesize_mig: 67240:0:[Time elapsed: 0.0279238224029541] unsat
+04-26 06:53:36.017 - synthesize_mig: 67240:1 checking ...
+04-26 06:53:36.189 - synthesize_mig: 67240:1:[Time elapsed: 0.17254257202148438] unsat
+04-26 06:53:36.195 - synthesize_mig: 67240:2 checking ...
+04-26 06:53:36.543 - synthesize_mig: 67240:2:[Time elapsed: 0.34754014015197754] unsat
+04-26 06:53:36.551 - synthesize_mig: 67240:3 checking ...
+04-26 06:53:37.463 - synthesize_mig: 67240:3:[Time elapsed: 0.9111995697021484] unsat
+04-26 06:53:37.473 - synthesize_mig: 67240:4 checking ...
+04-26 06:53:41.375 - synthesize_mig: 67240:4:[Time elapsed: 3.901505708694458] unsat
+04-26 06:53:41.389 - synthesize_mig: 67240:5 checking ...
+04-26 06:55:53.154 - synthesize_mig: 67240:5:[Time elapsed: 131.76447677612305] unsat
+04-26 06:55:53.173 - synthesize_mig: 67240:6 checking ...
+04-26 09:03:46.257 - synthesize_mig: 67240:6:[Time elapsed: 7673.083602428436] unsat
+04-26 09:03:46.288 - synthesize_mig: 67240:7 checking ...
+04-26 09:13:20.682 - synthesize_mig: 67240:7:[Time elapsed: 574.3942642211914] ***** sat *****
+
+04-26 09:13:20.687 - write_string: Writing to results/mig_all_b:
+67240
+mig
+7
+12 0
+1 0 2 0 4 1 2 0 5 1 6 0 0 0 1 0 5 1 2 0 7 1 8 0 3 0 4 0 6 1 0 0 3 0 7 1 9 0 10 1 11 0 
+
+
+04-26 09:13:21.260 - synthesize_mig: 67241:0 checking ...
+04-26 09:13:21.288 - synthesize_mig: 67241:0:[Time elapsed: 0.028063535690307617] unsat
+04-26 09:13:21.292 - synthesize_mig: 67241:1 checking ...
+04-26 09:13:21.475 - synthesize_mig: 67241:1:[Time elapsed: 0.18349528312683105] unsat
+04-26 09:13:21.481 - synthesize_mig: 67241:2 checking ...
+04-26 09:13:21.839 - synthesize_mig: 67241:2:[Time elapsed: 0.35764193534851074] unsat
+04-26 09:13:21.848 - synthesize_mig: 67241:3 checking ...
+04-26 09:13:22.604 - synthesize_mig: 67241:3:[Time elapsed: 0.7566635608673096] unsat
+04-26 09:13:22.617 - synthesize_mig: 67241:4 checking ...
+04-26 09:13:28.047 - synthesize_mig: 67241:4:[Time elapsed: 5.430059194564819] unsat
+04-26 09:13:28.062 - synthesize_mig: 67241:5 checking ...
+04-26 09:15:41.450 - synthesize_mig: 67241:5:[Time elapsed: 133.38809180259705] unsat
+04-26 09:15:41.472 - synthesize_mig: 67241:6 checking ...
+04-26 09:21:42.292 - synthesize_mig: 67241:6:[Time elapsed: 360.8193483352661] ***** sat *****
+
+04-26 09:21:42.296 - write_string: Writing to results/mig_all_b:
+67241
+mig
+6
+11 0
+2 1 4 0 5 0 0 0 1 0 5 1 1 1 3 0 4 0 0 0 3 0 6 0 2 0 7 1 8 0 2 0 9 0 10 1 
+
+
+04-26 09:21:42.901 - synthesize_mig: 67242:0 checking ...
+04-26 09:21:42.930 - synthesize_mig: 67242:0:[Time elapsed: 0.02976703643798828] unsat
+04-26 09:21:42.934 - synthesize_mig: 67242:1 checking ...
+04-26 09:21:43.118 - synthesize_mig: 67242:1:[Time elapsed: 0.183746337890625] unsat
+04-26 09:21:43.125 - synthesize_mig: 67242:2 checking ...
+04-26 09:21:43.481 - synthesize_mig: 67242:2:[Time elapsed: 0.3562901020050049] unsat
+04-26 09:21:43.490 - synthesize_mig: 67242:3 checking ...
+04-26 09:21:44.226 - synthesize_mig: 67242:3:[Time elapsed: 0.7355427742004395] unsat
+04-26 09:21:44.238 - synthesize_mig: 67242:4 checking ...
+04-26 09:21:48.180 - synthesize_mig: 67242:4:[Time elapsed: 3.9414820671081543] unsat
+04-26 09:21:48.196 - synthesize_mig: 67242:5 checking ...
+04-26 09:23:43.774 - synthesize_mig: 67242:5:[Time elapsed: 115.57816910743713] unsat
+04-26 09:23:43.795 - synthesize_mig: 67242:6 checking ...
+04-26 09:28:05.851 - synthesize_mig: 67242:6:[Time elapsed: 262.0564923286438] ***** sat *****
+
+04-26 09:28:05.855 - write_string: Writing to results/mig_all_b:
+67242
+mig
+6
+11 0
+2 1 4 0 5 0 0 1 2 0 4 0 1 0 2 0 3 1 1 1 5 0 7 0 0 0 6 0 8 1 2 0 9 1 10 0 
+
+
+04-26 09:28:06.427 - synthesize_mig: 67243:0 checking ...
+04-26 09:28:06.455 - synthesize_mig: 67243:0:[Time elapsed: 0.028312206268310547] unsat
+04-26 09:28:06.459 - synthesize_mig: 67243:1 checking ...
+04-26 09:28:06.630 - synthesize_mig: 67243:1:[Time elapsed: 0.17132258415222168] unsat
+04-26 09:28:06.636 - synthesize_mig: 67243:2 checking ...
+04-26 09:28:06.999 - synthesize_mig: 67243:2:[Time elapsed: 0.3630819320678711] unsat
+04-26 09:28:07.009 - synthesize_mig: 67243:3 checking ...
+04-26 09:28:07.819 - synthesize_mig: 67243:3:[Time elapsed: 0.8100385665893555] unsat
+04-26 09:28:07.831 - synthesize_mig: 67243:4 checking ...
+04-26 09:28:16.210 - synthesize_mig: 67243:4:[Time elapsed: 8.379137992858887] unsat
+04-26 09:28:16.227 - synthesize_mig: 67243:5 checking ...
+04-26 09:29:12.468 - synthesize_mig: 67243:5:[Time elapsed: 56.240355491638184] ***** sat *****
+
+04-26 09:29:12.470 - write_string: Writing to results/mig_all_b:
+67243
+mig
+5
+10 0
+2 1 4 0 5 0 0 1 2 0 4 0 0 0 3 0 6 0 1 1 5 0 7 0 2 0 8 0 9 1 
+
+
+04-26 09:29:13.058 - synthesize_mig: 67244:0 checking ...
+04-26 09:29:13.087 - synthesize_mig: 67244:0:[Time elapsed: 0.028968095779418945] unsat
+04-26 09:29:13.091 - synthesize_mig: 67244:1 checking ...
+04-26 09:29:13.266 - synthesize_mig: 67244:1:[Time elapsed: 0.17481040954589844] unsat
+04-26 09:29:13.272 - synthesize_mig: 67244:2 checking ...
+04-26 09:29:13.620 - synthesize_mig: 67244:2:[Time elapsed: 0.34761643409729004] unsat
+04-26 09:29:13.628 - synthesize_mig: 67244:3 checking ...
+04-26 09:29:14.436 - synthesize_mig: 67244:3:[Time elapsed: 0.8079943656921387] unsat
+04-26 09:29:14.448 - synthesize_mig: 67244:4 checking ...
+04-26 09:29:18.008 - synthesize_mig: 67244:4:[Time elapsed: 3.560196876525879] unsat
+04-26 09:29:18.025 - synthesize_mig: 67244:5 checking ...
+04-26 09:31:19.083 - synthesize_mig: 67244:5:[Time elapsed: 121.0571436882019] unsat
+04-26 09:31:19.103 - synthesize_mig: 67244:6 checking ...
+04-26 11:07:05.801 - main: ['/home/spoon_engine/ig-exact-synthesis/src/core/mig_synthesis.py', '-o', 'results/mig_all_b', '-l', 'log/mig_all_b.log', '-m', '6', '-s']
+04-26 11:07:05.801 - get_function_codes: range(67244, 4294967296)
+04-26 11:07:06.395 - synthesize_mig: 67244:0 checking ...
+04-26 11:07:06.436 - synthesize_mig: 67244:0:[Time elapsed: 0.041149139404296875] unsat
+04-26 11:07:06.439 - synthesize_mig: 67244:1 checking ...
+04-26 11:07:06.620 - synthesize_mig: 67244:1:[Time elapsed: 0.18100595474243164] unsat
+04-26 11:07:06.626 - synthesize_mig: 67244:2 checking ...
+04-26 11:07:06.987 - synthesize_mig: 67244:2:[Time elapsed: 0.36103248596191406] unsat
+04-26 11:07:06.994 - synthesize_mig: 67244:3 checking ...
+04-26 11:07:07.816 - synthesize_mig: 67244:3:[Time elapsed: 0.8211843967437744] unsat
+04-26 11:07:07.826 - synthesize_mig: 67244:4 checking ...
+04-26 11:07:11.971 - synthesize_mig: 67244:4:[Time elapsed: 4.145049571990967] unsat
+04-26 11:07:11.986 - synthesize_mig: 67244:5 checking ...
+04-26 11:09:05.905 - synthesize_mig: 67244:5:[Time elapsed: 113.91862154006958] unsat
+04-26 11:09:05.922 - synthesize_mig: 67244:6 checking ...
+04-26 12:34:31.621 - synthesize_mig: 67244:6:[Time elapsed: 5125.698387622833] unsat
+04-26 12:34:31.621 - synthesize_mig: 67244:Reached maximum complexity of 6. Exiting...
+04-26 12:34:31.621 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-26 12:34:32.224 - synthesize_mig: 67245:0 checking ...
+04-26 12:34:32.255 - synthesize_mig: 67245:0:[Time elapsed: 0.0311892032623291] unsat
+04-26 12:34:32.259 - synthesize_mig: 67245:1 checking ...
+04-26 12:34:32.464 - synthesize_mig: 67245:1:[Time elapsed: 0.20495367050170898] unsat
+04-26 12:34:32.470 - synthesize_mig: 67245:2 checking ...
+04-26 12:34:32.884 - synthesize_mig: 67245:2:[Time elapsed: 0.41352128982543945] unsat
+04-26 12:34:32.893 - synthesize_mig: 67245:3 checking ...
+04-26 12:34:33.810 - synthesize_mig: 67245:3:[Time elapsed: 0.9170007705688477] unsat
+04-26 12:34:33.822 - synthesize_mig: 67245:4 checking ...
+04-26 12:34:40.938 - synthesize_mig: 67245:4:[Time elapsed: 7.115754842758179] unsat
+04-26 12:34:40.953 - synthesize_mig: 67245:5 checking ...
+04-26 12:36:47.458 - synthesize_mig: 67245:5:[Time elapsed: 126.50536704063416] unsat
+04-26 12:36:47.476 - synthesize_mig: 67245:6 checking ...
+04-26 12:54:15.316 - synthesize_mig: 67245:6:[Time elapsed: 1047.8392679691315] ***** sat *****
+
+04-26 12:54:15.320 - write_string: Writing to results/mig_all_b:
+67245
+mig
+6
+11 0
+0 0 3 0 4 0 0 1 2 0 5 0 1 1 6 0 7 0 2 0 5 1 6 0 0 0 3 0 5 0 8 1 9 0 10 0 
+
+
+04-26 12:54:15.920 - synthesize_mig: 67246:0 checking ...
+04-26 12:54:15.953 - synthesize_mig: 67246:0:[Time elapsed: 0.0329134464263916] unsat
+04-26 12:54:15.957 - synthesize_mig: 67246:1 checking ...
+04-26 12:54:16.134 - synthesize_mig: 67246:1:[Time elapsed: 0.1778874397277832] unsat
+04-26 12:54:16.140 - synthesize_mig: 67246:2 checking ...
+04-26 12:54:16.508 - synthesize_mig: 67246:2:[Time elapsed: 0.3673734664916992] unsat
+04-26 12:54:16.516 - synthesize_mig: 67246:3 checking ...
+04-26 12:54:17.232 - synthesize_mig: 67246:3:[Time elapsed: 0.7159380912780762] unsat
+04-26 12:54:17.243 - synthesize_mig: 67246:4 checking ...
+04-26 12:54:20.889 - synthesize_mig: 67246:4:[Time elapsed: 3.6466803550720215] unsat
+04-26 12:54:20.912 - synthesize_mig: 67246:5 checking ...
+04-26 12:56:31.281 - synthesize_mig: 67246:5:[Time elapsed: 130.36935877799988] unsat
+04-26 12:56:31.300 - synthesize_mig: 67246:6 checking ...
+04-26 12:58:43.002 - synthesize_mig: 67246:6:[Time elapsed: 131.70224475860596] ***** sat *****
+
+04-26 12:58:43.007 - write_string: Writing to results/mig_all_b:
+67246
+mig
+6
+11 0
+0 0 3 0 4 0 3 1 5 0 6 0 2 0 5 0 6 1 0 0 1 0 7 1 1 0 6 0 8 1 6 0 9 0 10 1 
+
+
+04-26 12:58:43.593 - synthesize_mig: 67247:0 checking ...
+04-26 12:58:43.623 - synthesize_mig: 67247:0:[Time elapsed: 0.029862165451049805] unsat
+04-26 12:58:43.626 - synthesize_mig: 67247:1 checking ...
+04-26 12:58:43.800 - synthesize_mig: 67247:1:[Time elapsed: 0.17390227317810059] unsat
+04-26 12:58:43.806 - synthesize_mig: 67247:2 checking ...
+04-26 12:58:44.165 - synthesize_mig: 67247:2:[Time elapsed: 0.3589448928833008] unsat
+04-26 12:58:44.173 - synthesize_mig: 67247:3 checking ...
+04-26 12:58:45.125 - synthesize_mig: 67247:3:[Time elapsed: 0.9524307250976562] unsat
+04-26 12:58:45.136 - synthesize_mig: 67247:4 checking ...
+04-26 12:58:55.349 - synthesize_mig: 67247:4:[Time elapsed: 10.212832927703857] unsat
+04-26 12:58:55.367 - synthesize_mig: 67247:5 checking ...
+04-26 12:59:16.990 - synthesize_mig: 67247:5:[Time elapsed: 21.623411893844604] ***** sat *****
+
+04-26 12:59:16.994 - write_string: Writing to results/mig_all_b:
+67247
+mig
+5
+10 0
+1 0 4 0 5 0 0 1 2 0 4 0 1 1 5 0 7 0 0 0 3 0 6 0 2 0 8 1 9 0 
+
+
+04-26 12:59:17.593 - synthesize_mig: 67248:0 checking ...
+04-26 12:59:17.621 - synthesize_mig: 67248:0:[Time elapsed: 0.02757430076599121] unsat
+04-26 12:59:17.625 - synthesize_mig: 67248:1 checking ...
+04-26 12:59:17.806 - synthesize_mig: 67248:1:[Time elapsed: 0.18143272399902344] unsat
+04-26 12:59:17.812 - synthesize_mig: 67248:2 checking ...
+04-26 12:59:18.217 - synthesize_mig: 67248:2:[Time elapsed: 0.40491724014282227] unsat
+04-26 12:59:18.225 - synthesize_mig: 67248:3 checking ...
+04-26 12:59:19.058 - synthesize_mig: 67248:3:[Time elapsed: 0.832413911819458] unsat
+04-26 12:59:19.071 - synthesize_mig: 67248:4 checking ...
+04-26 12:59:23.090 - synthesize_mig: 67248:4:[Time elapsed: 4.0190629959106445] unsat
+04-26 12:59:23.107 - synthesize_mig: 67248:5 checking ...
+04-26 13:01:24.616 - synthesize_mig: 67248:5:[Time elapsed: 121.50892615318298] unsat
+04-26 13:01:24.635 - synthesize_mig: 67248:6 checking ...
+04-26 15:15:51.347 - synthesize_mig: 67248:6:[Time elapsed: 8066.711585044861] unsat
+04-26 15:15:51.348 - synthesize_mig: 67248:Reached maximum complexity of 6. Exiting...
+04-26 15:15:51.348 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-26 15:15:51.951 - synthesize_mig: 67249:0 checking ...
+04-26 15:15:51.983 - synthesize_mig: 67249:0:[Time elapsed: 0.03178238868713379] unsat
+04-26 15:15:51.987 - synthesize_mig: 67249:1 checking ...
+04-26 15:15:52.205 - synthesize_mig: 67249:1:[Time elapsed: 0.21798229217529297] unsat
+04-26 15:15:52.213 - synthesize_mig: 67249:2 checking ...
+04-26 15:15:52.648 - synthesize_mig: 67249:2:[Time elapsed: 0.43424057960510254] unsat
+04-26 15:15:52.658 - synthesize_mig: 67249:3 checking ...
+04-26 15:15:53.585 - synthesize_mig: 67249:3:[Time elapsed: 0.9269592761993408] unsat
+04-26 15:15:53.602 - synthesize_mig: 67249:4 checking ...
+04-26 15:16:00.244 - synthesize_mig: 67249:4:[Time elapsed: 6.642192363739014] unsat
+04-26 15:16:00.263 - synthesize_mig: 67249:5 checking ...
+04-26 15:18:24.744 - synthesize_mig: 67249:5:[Time elapsed: 144.48115038871765] unsat
+04-26 15:18:24.768 - synthesize_mig: 67249:6 checking ...
+04-26 15:25:52.647 - synthesize_mig: 67249:6:[Time elapsed: 447.879239320755] ***** sat *****
+
+04-26 15:25:52.652 - write_string: Writing to results/mig_all_b:
+67249
+mig
+6
+11 0
+1 0 2 0 3 0 0 0 2 1 4 0 2 1 4 0 5 0 3 0 5 0 7 1 0 0 7 1 8 0 6 0 9 1 10 0 
+
+
+04-26 15:25:53.265 - synthesize_mig: 67250:0 checking ...
+04-26 15:25:53.295 - synthesize_mig: 67250:0:[Time elapsed: 0.03006720542907715] unsat
+04-26 15:25:53.299 - synthesize_mig: 67250:1 checking ...
+04-26 15:25:53.472 - synthesize_mig: 67250:1:[Time elapsed: 0.17243313789367676] unsat
+04-26 15:25:53.478 - synthesize_mig: 67250:2 checking ...
+04-26 15:25:53.814 - synthesize_mig: 67250:2:[Time elapsed: 0.33599042892456055] unsat
+04-26 15:25:53.823 - synthesize_mig: 67250:3 checking ...
+04-26 15:25:54.602 - synthesize_mig: 67250:3:[Time elapsed: 0.778789758682251] unsat
+04-26 15:25:54.614 - synthesize_mig: 67250:4 checking ...
+04-26 15:25:57.501 - synthesize_mig: 67250:4:[Time elapsed: 2.886847972869873] unsat
+04-26 15:25:57.517 - synthesize_mig: 67250:5 checking ...
+04-26 15:27:23.633 - synthesize_mig: 67250:5:[Time elapsed: 86.11619567871094] unsat
+04-26 15:27:23.653 - synthesize_mig: 67250:6 checking ...
+04-26 15:30:24.093 - synthesize_mig: 67250:6:[Time elapsed: 180.4401741027832] ***** sat *****
+
+04-26 15:30:24.098 - write_string: Writing to results/mig_all_b:
+67250
+mig
+6
+11 0
+1 0 2 0 3 0 2 1 4 0 5 0 1 0 4 0 6 1 3 0 5 0 8 1 0 0 7 0 8 1 6 0 9 1 10 0 
+
+
+04-26 15:30:24.677 - synthesize_mig: 67251:0 checking ...
+04-26 15:30:24.705 - synthesize_mig: 67251:0:[Time elapsed: 0.028232574462890625] unsat
+04-26 15:30:24.708 - synthesize_mig: 67251:1 checking ...
+04-26 15:30:24.892 - synthesize_mig: 67251:1:[Time elapsed: 0.18389034271240234] unsat
+04-26 15:30:24.898 - synthesize_mig: 67251:2 checking ...
+04-26 15:30:25.239 - synthesize_mig: 67251:2:[Time elapsed: 0.34090185165405273] unsat
+04-26 15:30:25.248 - synthesize_mig: 67251:3 checking ...
+04-26 15:30:26.208 - synthesize_mig: 67251:3:[Time elapsed: 0.9606685638427734] unsat
+04-26 15:30:26.221 - synthesize_mig: 67251:4 checking ...
+04-26 15:30:35.905 - synthesize_mig: 67251:4:[Time elapsed: 9.68411898612976] unsat
+04-26 15:30:35.920 - synthesize_mig: 67251:5 checking ...
+04-26 15:35:03.302 - synthesize_mig: 67251:5:[Time elapsed: 267.38171553611755] unsat
+04-26 15:35:03.328 - synthesize_mig: 67251:6 checking ...
+04-26 15:53:21.337 - synthesize_mig: 67251:6:[Time elapsed: 1098.009141921997] ***** sat *****
+
+04-26 15:53:21.342 - write_string: Writing to results/mig_all_b:
+67251
+mig
+6
+11 0
+2 0 3 0 4 0 2 0 5 1 6 0 0 0 3 0 5 0 1 0 7 0 8 0 0 0 4 0 7 0 6 1 9 0 10 0 
+
+
+04-26 15:53:21.932 - synthesize_mig: 67252:0 checking ...
+04-26 15:53:21.959 - synthesize_mig: 67252:0:[Time elapsed: 0.026845216751098633] unsat
+04-26 15:53:21.963 - synthesize_mig: 67252:1 checking ...
+04-26 15:53:22.142 - synthesize_mig: 67252:1:[Time elapsed: 0.1797499656677246] unsat
+04-26 15:53:22.148 - synthesize_mig: 67252:2 checking ...
+04-26 15:53:22.551 - synthesize_mig: 67252:2:[Time elapsed: 0.4026005268096924] unsat
+04-26 15:53:22.563 - synthesize_mig: 67252:3 checking ...
+04-26 15:53:23.363 - synthesize_mig: 67252:3:[Time elapsed: 0.8002395629882812] unsat
+04-26 15:53:23.378 - synthesize_mig: 67252:4 checking ...
+04-26 15:53:26.804 - synthesize_mig: 67252:4:[Time elapsed: 3.4266605377197266] unsat
+04-26 15:53:26.826 - synthesize_mig: 67252:5 checking ...
+04-26 15:55:37.698 - synthesize_mig: 67252:5:[Time elapsed: 130.87243247032166] unsat
+04-26 15:55:37.721 - synthesize_mig: 67252:6 checking ...
+04-26 17:48:26.179 - synthesize_mig: 67252:6:[Time elapsed: 6768.457288980484] unsat
+04-26 17:48:26.179 - synthesize_mig: 67252:Reached maximum complexity of 6. Exiting...
+04-26 17:48:26.179 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-26 17:48:26.761 - synthesize_mig: 67253:0 checking ...
+04-26 17:48:26.790 - synthesize_mig: 67253:0:[Time elapsed: 0.028851985931396484] unsat
+04-26 17:48:26.794 - synthesize_mig: 67253:1 checking ...
+04-26 17:48:26.962 - synthesize_mig: 67253:1:[Time elapsed: 0.16875219345092773] unsat
+04-26 17:48:26.969 - synthesize_mig: 67253:2 checking ...
+04-26 17:48:27.315 - synthesize_mig: 67253:2:[Time elapsed: 0.34563469886779785] unsat
+04-26 17:48:27.324 - synthesize_mig: 67253:3 checking ...
+04-26 17:48:28.205 - synthesize_mig: 67253:3:[Time elapsed: 0.8817837238311768] unsat
+04-26 17:48:28.217 - synthesize_mig: 67253:4 checking ...
+04-26 17:48:35.303 - synthesize_mig: 67253:4:[Time elapsed: 7.086045026779175] unsat
+04-26 17:48:35.325 - synthesize_mig: 67253:5 checking ...
+04-26 17:51:33.344 - synthesize_mig: 67253:5:[Time elapsed: 178.0185260772705] unsat
+04-26 17:51:33.364 - synthesize_mig: 67253:6 checking ...
+04-26 19:47:14.268 - synthesize_mig: 67253:6:[Time elapsed: 6940.903444766998] unsat
+04-26 19:47:14.268 - synthesize_mig: 67253:Reached maximum complexity of 6. Exiting...
+04-26 19:47:14.269 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-26 19:47:14.857 - synthesize_mig: 67254:0 checking ...
+04-26 19:47:14.887 - synthesize_mig: 67254:0:[Time elapsed: 0.0299985408782959] unsat
+04-26 19:47:14.890 - synthesize_mig: 67254:1 checking ...
+04-26 19:47:15.057 - synthesize_mig: 67254:1:[Time elapsed: 0.16641664505004883] unsat
+04-26 19:47:15.063 - synthesize_mig: 67254:2 checking ...
+04-26 19:47:15.399 - synthesize_mig: 67254:2:[Time elapsed: 0.3364582061767578] unsat
+04-26 19:47:15.408 - synthesize_mig: 67254:3 checking ...
+04-26 19:47:16.102 - synthesize_mig: 67254:3:[Time elapsed: 0.6934683322906494] unsat
+04-26 19:47:16.114 - synthesize_mig: 67254:4 checking ...
+04-26 19:47:19.308 - synthesize_mig: 67254:4:[Time elapsed: 3.1937623023986816] unsat
+04-26 19:47:19.337 - synthesize_mig: 67254:5 checking ...
+04-26 19:48:19.047 - synthesize_mig: 67254:5:[Time elapsed: 59.710166454315186] unsat
+04-26 19:48:19.071 - synthesize_mig: 67254:6 checking ...
+04-26 19:50:25.531 - synthesize_mig: 67254:6:[Time elapsed: 126.46052861213684] ***** sat *****
+
+04-26 19:50:25.535 - write_string: Writing to results/mig_all_b:
+67254
+mig
+6
+11 0
+3 1 4 0 5 0 0 0 3 0 5 0 1 0 4 0 7 0 0 0 1 0 6 1 1 0 2 1 3 0 8 0 9 0 10 1 
+
+
+04-26 19:50:26.103 - synthesize_mig: 67255:0 checking ...
+04-26 19:50:26.129 - synthesize_mig: 67255:0:[Time elapsed: 0.026229381561279297] unsat
+04-26 19:50:26.133 - synthesize_mig: 67255:1 checking ...
+04-26 19:50:26.314 - synthesize_mig: 67255:1:[Time elapsed: 0.18072915077209473] unsat
+04-26 19:50:26.319 - synthesize_mig: 67255:2 checking ...
+04-26 19:50:26.660 - synthesize_mig: 67255:2:[Time elapsed: 0.3409082889556885] unsat
+04-26 19:50:26.668 - synthesize_mig: 67255:3 checking ...
+04-26 19:50:27.494 - synthesize_mig: 67255:3:[Time elapsed: 0.825294017791748] unsat
+04-26 19:50:27.506 - synthesize_mig: 67255:4 checking ...
+04-26 19:50:36.588 - synthesize_mig: 67255:4:[Time elapsed: 9.08218002319336] unsat
+04-26 19:50:36.606 - synthesize_mig: 67255:5 checking ...
+04-26 19:54:29.313 - synthesize_mig: 67255:5:[Time elapsed: 232.70758700370789] unsat
+04-26 19:54:29.335 - synthesize_mig: 67255:6 checking ...
+04-26 22:26:14.953 - synthesize_mig: 67255:6:[Time elapsed: 9105.617913007736] ***** sat *****
+
+04-26 22:26:14.958 - write_string: Writing to results/mig_all_b:
+67255
+mig
+6
+11 0
+1 0 4 0 5 0 0 0 1 0 3 1 4 0 5 1 7 0 2 0 4 1 6 0 0 0 3 0 6 0 8 0 9 0 10 0 
+
+
+04-26 22:26:15.549 - synthesize_mig: 67256:0 checking ...
+04-26 22:26:15.577 - synthesize_mig: 67256:0:[Time elapsed: 0.027911901473999023] unsat
+04-26 22:26:15.580 - synthesize_mig: 67256:1 checking ...
+04-26 22:26:15.763 - synthesize_mig: 67256:1:[Time elapsed: 0.18304109573364258] unsat
+04-26 22:26:15.769 - synthesize_mig: 67256:2 checking ...
+04-26 22:26:16.128 - synthesize_mig: 67256:2:[Time elapsed: 0.3594181537628174] unsat
+04-26 22:26:16.138 - synthesize_mig: 67256:3 checking ...
+04-26 22:26:16.957 - synthesize_mig: 67256:3:[Time elapsed: 0.81917405128479] unsat
+04-26 22:26:16.970 - synthesize_mig: 67256:4 checking ...
+04-26 22:26:20.765 - synthesize_mig: 67256:4:[Time elapsed: 3.7958602905273438] unsat
+04-26 22:26:20.780 - synthesize_mig: 67256:5 checking ...
+04-26 22:27:37.357 - synthesize_mig: 67256:5:[Time elapsed: 76.57644367218018] unsat
+04-26 22:27:37.375 - synthesize_mig: 67256:6 checking ...
+04-27 00:05:18.454 - synthesize_mig: 67256:6:[Time elapsed: 5861.078511238098] unsat
+04-27 00:05:18.454 - synthesize_mig: 67256:Reached maximum complexity of 6. Exiting...
+04-27 00:05:18.455 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 00:05:19.077 - synthesize_mig: 67257:0 checking ...
+04-27 00:05:19.113 - synthesize_mig: 67257:0:[Time elapsed: 0.03618669509887695] unsat
+04-27 00:05:19.117 - synthesize_mig: 67257:1 checking ...
+04-27 00:05:19.327 - synthesize_mig: 67257:1:[Time elapsed: 0.20983147621154785] unsat
+04-27 00:05:19.332 - synthesize_mig: 67257:2 checking ...
+04-27 00:05:19.660 - synthesize_mig: 67257:2:[Time elapsed: 0.3279726505279541] unsat
+04-27 00:05:19.668 - synthesize_mig: 67257:3 checking ...
+04-27 00:05:20.566 - synthesize_mig: 67257:3:[Time elapsed: 0.8984589576721191] unsat
+04-27 00:05:20.580 - synthesize_mig: 67257:4 checking ...
+04-27 00:05:26.287 - synthesize_mig: 67257:4:[Time elapsed: 5.706494331359863] unsat
+04-27 00:05:26.302 - synthesize_mig: 67257:5 checking ...
+04-27 00:07:42.863 - synthesize_mig: 67257:5:[Time elapsed: 136.56050825119019] unsat
+04-27 00:07:42.884 - synthesize_mig: 67257:6 checking ...
+04-27 00:48:46.055 - synthesize_mig: 67257:6:[Time elapsed: 2463.170499563217] ***** sat *****
+
+04-27 00:48:46.059 - write_string: Writing to results/mig_all_b:
+67257
+mig
+6
+11 0
+2 0 4 0 5 0 2 1 4 0 5 0 0 0 3 1 4 0 1 0 6 1 8 0 0 0 3 0 7 0 2 0 9 0 10 0 
+
+
+04-27 00:48:46.650 - synthesize_mig: 67258:0 checking ...
+04-27 00:48:46.678 - synthesize_mig: 67258:0:[Time elapsed: 0.028531551361083984] unsat
+04-27 00:48:46.682 - synthesize_mig: 67258:1 checking ...
+04-27 00:48:46.856 - synthesize_mig: 67258:1:[Time elapsed: 0.17389488220214844] unsat
+04-27 00:48:46.862 - synthesize_mig: 67258:2 checking ...
+04-27 00:48:47.219 - synthesize_mig: 67258:2:[Time elapsed: 0.35726475715637207] unsat
+04-27 00:48:47.228 - synthesize_mig: 67258:3 checking ...
+04-27 00:48:47.984 - synthesize_mig: 67258:3:[Time elapsed: 0.7554545402526855] unsat
+04-27 00:48:47.997 - synthesize_mig: 67258:4 checking ...
+04-27 00:48:50.924 - synthesize_mig: 67258:4:[Time elapsed: 2.9271223545074463] unsat
+04-27 00:48:50.940 - synthesize_mig: 67258:5 checking ...
+04-27 00:50:15.102 - synthesize_mig: 67258:5:[Time elapsed: 84.16189527511597] unsat
+04-27 00:50:15.123 - synthesize_mig: 67258:6 checking ...
+04-27 01:53:17.107 - synthesize_mig: 67258:6:[Time elapsed: 3781.983827829361] unsat
+04-27 01:53:17.107 - synthesize_mig: 67258:Reached maximum complexity of 6. Exiting...
+04-27 01:53:17.107 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 01:53:17.680 - synthesize_mig: 67259:0 checking ...
+04-27 01:53:17.709 - synthesize_mig: 67259:0:[Time elapsed: 0.029183387756347656] unsat
+04-27 01:53:17.713 - synthesize_mig: 67259:1 checking ...
+04-27 01:53:17.886 - synthesize_mig: 67259:1:[Time elapsed: 0.17267179489135742] unsat
+04-27 01:53:17.892 - synthesize_mig: 67259:2 checking ...
+04-27 01:53:18.223 - synthesize_mig: 67259:2:[Time elapsed: 0.33138585090637207] unsat
+04-27 01:53:18.233 - synthesize_mig: 67259:3 checking ...
+04-27 01:53:19.196 - synthesize_mig: 67259:3:[Time elapsed: 0.9627466201782227] unsat
+04-27 01:53:19.208 - synthesize_mig: 67259:4 checking ...
+04-27 01:53:28.930 - synthesize_mig: 67259:4:[Time elapsed: 9.722139358520508] unsat
+04-27 01:53:28.946 - synthesize_mig: 67259:5 checking ...
+04-27 01:57:15.873 - synthesize_mig: 67259:5:[Time elapsed: 226.92756724357605] unsat
+04-27 01:57:15.896 - synthesize_mig: 67259:6 checking ...
+04-27 02:09:54.510 - synthesize_mig: 67259:6:[Time elapsed: 758.6138932704926] ***** sat *****
+
+04-27 02:09:54.515 - write_string: Writing to results/mig_all_b:
+67259
+mig
+6
+11 0
+1 0 2 0 3 0 0 0 2 1 5 0 2 0 4 1 5 0 0 0 1 0 5 1 4 0 6 0 7 0 8 0 9 0 10 0 
+
+
+04-27 02:09:55.107 - synthesize_mig: 67260:0 checking ...
+04-27 02:09:55.135 - synthesize_mig: 67260:0:[Time elapsed: 0.02768731117248535] unsat
+04-27 02:09:55.139 - synthesize_mig: 67260:1 checking ...
+04-27 02:09:55.312 - synthesize_mig: 67260:1:[Time elapsed: 0.17380857467651367] unsat
+04-27 02:09:55.319 - synthesize_mig: 67260:2 checking ...
+04-27 02:09:55.675 - synthesize_mig: 67260:2:[Time elapsed: 0.3557400703430176] unsat
+04-27 02:09:55.684 - synthesize_mig: 67260:3 checking ...
+04-27 02:09:56.449 - synthesize_mig: 67260:3:[Time elapsed: 0.7653501033782959] unsat
+04-27 02:09:56.462 - synthesize_mig: 67260:4 checking ...
+04-27 02:09:59.731 - synthesize_mig: 67260:4:[Time elapsed: 3.269021987915039] unsat
+04-27 02:09:59.747 - synthesize_mig: 67260:5 checking ...
+04-27 02:11:05.854 - synthesize_mig: 67260:5:[Time elapsed: 66.10708546638489] unsat
+04-27 02:11:05.872 - synthesize_mig: 67260:6 checking ...
+04-27 03:19:38.778 - synthesize_mig: 67260:6:[Time elapsed: 4112.905023097992] unsat
+04-27 03:19:38.778 - synthesize_mig: 67260:Reached maximum complexity of 6. Exiting...
+04-27 03:19:38.778 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 03:19:39.344 - synthesize_mig: 67261:0 checking ...
+04-27 03:19:39.370 - synthesize_mig: 67261:0:[Time elapsed: 0.02631974220275879] unsat
+04-27 03:19:39.373 - synthesize_mig: 67261:1 checking ...
+04-27 03:19:39.538 - synthesize_mig: 67261:1:[Time elapsed: 0.16524028778076172] unsat
+04-27 03:19:39.544 - synthesize_mig: 67261:2 checking ...
+04-27 03:19:39.885 - synthesize_mig: 67261:2:[Time elapsed: 0.340745210647583] unsat
+04-27 03:19:39.894 - synthesize_mig: 67261:3 checking ...
+04-27 03:19:40.700 - synthesize_mig: 67261:3:[Time elapsed: 0.8061892986297607] unsat
+04-27 03:19:40.712 - synthesize_mig: 67261:4 checking ...
+04-27 03:19:47.367 - synthesize_mig: 67261:4:[Time elapsed: 6.655271530151367] unsat
+04-27 03:19:47.384 - synthesize_mig: 67261:5 checking ...
+04-27 03:22:33.249 - synthesize_mig: 67261:5:[Time elapsed: 165.8655652999878] unsat
+04-27 03:22:33.275 - synthesize_mig: 67261:6 checking ...
+04-27 05:44:54.452 - synthesize_mig: 67261:6:[Time elapsed: 8541.176845788956] unsat
+04-27 05:44:54.452 - synthesize_mig: 67261:Reached maximum complexity of 6. Exiting...
+04-27 05:44:54.452 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:44:55.039 - synthesize_mig: 67262:0 checking ...
+04-27 05:44:55.065 - synthesize_mig: 67262:0:[Time elapsed: 0.02666950225830078] unsat
+04-27 05:44:55.068 - synthesize_mig: 67262:1 checking ...
+04-27 05:44:55.238 - synthesize_mig: 67262:1:[Time elapsed: 0.16980433464050293] unsat
+04-27 05:44:55.245 - synthesize_mig: 67262:2 checking ...
+04-27 05:44:55.587 - synthesize_mig: 67262:2:[Time elapsed: 0.34171175956726074] unsat
+04-27 05:44:55.595 - synthesize_mig: 67262:3 checking ...
+04-27 05:44:56.284 - synthesize_mig: 67262:3:[Time elapsed: 0.6884608268737793] unsat
+04-27 05:44:56.295 - synthesize_mig: 67262:4 checking ...
+04-27 05:44:59.557 - synthesize_mig: 67262:4:[Time elapsed: 3.262042760848999] unsat
+04-27 05:44:59.572 - synthesize_mig: 67262:5 checking ...
+04-27 05:46:24.476 - synthesize_mig: 67262:5:[Time elapsed: 84.90368700027466] unsat
+04-27 05:46:24.495 - synthesize_mig: 67262:6 checking ...
+04-27 05:48:58.258 - synthesize_mig: 67262:6:[Time elapsed: 153.76370286941528] ***** sat *****
+
+04-27 05:48:58.262 - write_string: Writing to results/mig_all_b:
+67262
+mig
+6
+11 0
+3 1 4 0 5 0 0 0 3 0 5 0 1 0 4 1 7 0 0 0 1 0 6 1 1 0 2 0 7 0 8 1 9 0 10 0 
+
+
+04-27 05:48:58.853 - synthesize_mig: 67263:0 checking ...
+04-27 05:48:58.883 - synthesize_mig: 67263:0:[Time elapsed: 0.029680252075195312] unsat
+04-27 05:48:58.887 - synthesize_mig: 67263:1 checking ...
+04-27 05:48:59.105 - synthesize_mig: 67263:1:[Time elapsed: 0.21809816360473633] unsat
+04-27 05:48:59.112 - synthesize_mig: 67263:2 checking ...
+04-27 05:48:59.551 - synthesize_mig: 67263:2:[Time elapsed: 0.4382655620574951] unsat
+04-27 05:48:59.560 - synthesize_mig: 67263:3 checking ...
+04-27 05:49:00.681 - synthesize_mig: 67263:3:[Time elapsed: 1.1201794147491455] unsat
+04-27 05:49:00.693 - synthesize_mig: 67263:4 checking ...
+04-27 05:49:11.814 - synthesize_mig: 67263:4:[Time elapsed: 11.12095832824707] unsat
+04-27 05:49:11.833 - synthesize_mig: 67263:5 checking ...
+04-27 05:53:07.103 - synthesize_mig: 67263:5:[Time elapsed: 235.26978182792664] ***** sat *****
+
+04-27 05:53:07.107 - write_string: Writing to results/mig_all_b:
+67263
+mig
+5
+10 0
+3 1 4 0 5 0 0 0 3 0 5 0 0 0 1 0 6 1 1 0 4 0 7 0 2 0 8 0 9 0 
+
+
+04-27 05:53:07.692 - synthesize_mig: 67264:0 checking ...
+04-27 05:53:07.692 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:07.692 - synthesize_mig: 67264:0:[Time elapsed: 0.00022029876708984375] error
+
+04-27 05:53:07.692 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:08.246 - synthesize_mig: 67265:0 checking ...
+04-27 05:53:08.246 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:08.247 - synthesize_mig: 67265:0:[Time elapsed: 0.0003879070281982422] error
+
+04-27 05:53:08.247 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:08.822 - synthesize_mig: 67266:0 checking ...
+04-27 05:53:08.822 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:08.822 - synthesize_mig: 67266:0:[Time elapsed: 0.00023627281188964844] error
+
+04-27 05:53:08.822 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:09.371 - synthesize_mig: 67267:0 checking ...
+04-27 05:53:09.371 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:09.371 - synthesize_mig: 67267:0:[Time elapsed: 0.00021719932556152344] error
+
+04-27 05:53:09.371 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:09.923 - synthesize_mig: 67268:0 checking ...
+04-27 05:53:09.923 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:09.923 - synthesize_mig: 67268:0:[Time elapsed: 0.0002052783966064453] error
+
+04-27 05:53:09.923 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:10.466 - synthesize_mig: 67269:0 checking ...
+04-27 05:53:10.467 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:10.467 - synthesize_mig: 67269:0:[Time elapsed: 0.00019288063049316406] error
+
+04-27 05:53:10.467 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:11.024 - synthesize_mig: 67270:0 checking ...
+04-27 05:53:11.024 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:11.024 - synthesize_mig: 67270:0:[Time elapsed: 0.0002410411834716797] error
+
+04-27 05:53:11.024 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:11.581 - synthesize_mig: 67271:0 checking ...
+04-27 05:53:11.581 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:11.581 - synthesize_mig: 67271:0:[Time elapsed: 0.0004520416259765625] error
+
+04-27 05:53:11.582 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:12.136 - synthesize_mig: 67272:0 checking ...
+04-27 05:53:12.136 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:12.140 - synthesize_mig: 67272:0:[Time elapsed: 0.0036323070526123047] error
+
+04-27 05:53:12.140 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:12.688 - synthesize_mig: 67273:0 checking ...
+04-27 05:53:12.688 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:12.688 - synthesize_mig: 67273:0:[Time elapsed: 0.00022482872009277344] error
+
+04-27 05:53:12.688 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:13.239 - synthesize_mig: 67274:0 checking ...
+04-27 05:53:13.240 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:13.240 - synthesize_mig: 67274:0:[Time elapsed: 0.00019979476928710938] error
+
+04-27 05:53:13.240 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:13.802 - synthesize_mig: 67275:0 checking ...
+04-27 05:53:13.802 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:13.802 - synthesize_mig: 67275:0:[Time elapsed: 0.00022172927856445312] error
+
+04-27 05:53:13.802 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:14.378 - synthesize_mig: 67276:0 checking ...
+04-27 05:53:14.378 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:14.378 - synthesize_mig: 67276:0:[Time elapsed: 0.00023603439331054688] error
+
+04-27 05:53:14.379 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:14.924 - synthesize_mig: 67277:0 checking ...
+04-27 05:53:14.924 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:14.924 - synthesize_mig: 67277:0:[Time elapsed: 0.00023436546325683594] error
+
+04-27 05:53:14.924 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:15.474 - synthesize_mig: 67278:0 checking ...
+04-27 05:53:15.474 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:15.474 - synthesize_mig: 67278:0:[Time elapsed: 0.0002231597900390625] error
+
+04-27 05:53:15.474 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:16.028 - synthesize_mig: 67279:0 checking ...
+04-27 05:53:16.028 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:16.028 - synthesize_mig: 67279:0:[Time elapsed: 0.00023627281188964844] error
+
+04-27 05:53:16.028 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:16.578 - synthesize_mig: 67280:0 checking ...
+04-27 05:53:16.579 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:16.579 - synthesize_mig: 67280:0:[Time elapsed: 0.0002627372741699219] error
+
+04-27 05:53:16.579 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:17.143 - synthesize_mig: 67281:0 checking ...
+04-27 05:53:17.143 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:17.143 - synthesize_mig: 67281:0:[Time elapsed: 0.0002803802490234375] error
+
+04-27 05:53:17.143 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:17.694 - synthesize_mig: 67282:0 checking ...
+04-27 05:53:17.694 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:17.695 - synthesize_mig: 67282:0:[Time elapsed: 0.00024199485778808594] error
+
+04-27 05:53:17.695 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:18.254 - synthesize_mig: 67283:0 checking ...
+04-27 05:53:18.254 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:18.254 - synthesize_mig: 67283:0:[Time elapsed: 0.00023818016052246094] error
+
+04-27 05:53:18.254 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:18.801 - synthesize_mig: 67284:0 checking ...
+04-27 05:53:18.801 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:18.801 - synthesize_mig: 67284:0:[Time elapsed: 0.0002715587615966797] error
+
+04-27 05:53:18.801 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:19.348 - synthesize_mig: 67285:0 checking ...
+04-27 05:53:19.348 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:19.348 - synthesize_mig: 67285:0:[Time elapsed: 0.0002493858337402344] error
+
+04-27 05:53:19.348 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:19.902 - synthesize_mig: 67286:0 checking ...
+04-27 05:53:19.902 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:19.902 - synthesize_mig: 67286:0:[Time elapsed: 0.0002467632293701172] error
+
+04-27 05:53:19.902 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:20.451 - synthesize_mig: 67287:0 checking ...
+04-27 05:53:20.451 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:20.451 - synthesize_mig: 67287:0:[Time elapsed: 0.00024008750915527344] error
+
+04-27 05:53:20.451 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:21.003 - synthesize_mig: 67288:0 checking ...
+04-27 05:53:21.003 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:21.003 - synthesize_mig: 67288:0:[Time elapsed: 0.00026988983154296875] error
+
+04-27 05:53:21.004 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:21.551 - synthesize_mig: 67289:0 checking ...
+04-27 05:53:21.552 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:21.552 - synthesize_mig: 67289:0:[Time elapsed: 0.0002276897430419922] error
+
+04-27 05:53:21.552 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:22.109 - synthesize_mig: 67290:0 checking ...
+04-27 05:53:22.109 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:22.109 - synthesize_mig: 67290:0:[Time elapsed: 0.00021910667419433594] error
+
+04-27 05:53:22.110 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:22.672 - synthesize_mig: 67291:0 checking ...
+04-27 05:53:22.672 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:22.672 - synthesize_mig: 67291:0:[Time elapsed: 0.0002758502960205078] error
+
+04-27 05:53:22.672 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:23.239 - synthesize_mig: 67292:0 checking ...
+04-27 05:53:23.239 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:23.239 - synthesize_mig: 67292:0:[Time elapsed: 0.00027298927307128906] error
+
+04-27 05:53:23.239 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:23.817 - synthesize_mig: 67293:0 checking ...
+04-27 05:53:23.817 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:23.817 - synthesize_mig: 67293:0:[Time elapsed: 0.0002491474151611328] error
+
+04-27 05:53:23.817 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:24.385 - synthesize_mig: 67294:0 checking ...
+04-27 05:53:24.385 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:24.385 - synthesize_mig: 67294:0:[Time elapsed: 0.0002574920654296875] error
+
+04-27 05:53:24.385 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:24.953 - synthesize_mig: 67295:0 checking ...
+04-27 05:53:24.954 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 05:53:24.954 - synthesize_mig: 67295:0:[Time elapsed: 0.0004482269287109375] error
+
+04-27 05:53:24.954 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 05:53:25.503 - synthesize_mig: 67296:0 checking ...
+04-27 05:53:25.539 - synthesize_mig: 67296:0:[Time elapsed: 0.03618478775024414] unsat
+04-27 05:53:25.543 - synthesize_mig: 67296:1 checking ...
+04-27 05:53:25.729 - synthesize_mig: 67296:1:[Time elapsed: 0.18648386001586914] unsat
+04-27 05:53:25.735 - synthesize_mig: 67296:2 checking ...
+04-27 05:53:26.081 - synthesize_mig: 67296:2:[Time elapsed: 0.3459784984588623] unsat
+04-27 05:53:26.090 - synthesize_mig: 67296:3 checking ...
+04-27 05:53:26.838 - synthesize_mig: 67296:3:[Time elapsed: 0.7474985122680664] unsat
+04-27 05:53:26.850 - synthesize_mig: 67296:4 checking ...
+04-27 05:53:30.881 - synthesize_mig: 67296:4:[Time elapsed: 4.030629873275757] unsat
+04-27 05:53:30.898 - synthesize_mig: 67296:5 checking ...
+04-27 05:55:20.385 - synthesize_mig: 67296:5:[Time elapsed: 109.48691010475159] unsat
+04-27 05:55:20.404 - synthesize_mig: 67296:6 checking ...
+04-27 05:58:48.156 - synthesize_mig: 67296:6:[Time elapsed: 207.75215601921082] ***** sat *****
+
+04-27 05:58:48.160 - write_string: Writing to results/mig_all_b:
+67296
+mig
+6
+11 0
+2 1 4 0 5 0 0 0 4 0 5 1 0 0 3 0 6 0 1 0 4 1 7 0 1 0 2 1 3 0 8 0 9 0 10 1 
+
+
+04-27 05:58:48.751 - synthesize_mig: 67297:0 checking ...
+04-27 05:58:48.782 - synthesize_mig: 67297:0:[Time elapsed: 0.030989408493041992] unsat
+04-27 05:58:48.786 - synthesize_mig: 67297:1 checking ...
+04-27 05:58:48.969 - synthesize_mig: 67297:1:[Time elapsed: 0.1837015151977539] unsat
+04-27 05:58:48.975 - synthesize_mig: 67297:2 checking ...
+04-27 05:58:49.328 - synthesize_mig: 67297:2:[Time elapsed: 0.3531372547149658] unsat
+04-27 05:58:49.339 - synthesize_mig: 67297:3 checking ...
+04-27 05:58:50.338 - synthesize_mig: 67297:3:[Time elapsed: 0.999443531036377] unsat
+04-27 05:58:50.352 - synthesize_mig: 67297:4 checking ...
+04-27 05:58:56.493 - synthesize_mig: 67297:4:[Time elapsed: 6.141781330108643] unsat
+04-27 05:58:56.509 - synthesize_mig: 67297:5 checking ...
+04-27 06:01:28.282 - synthesize_mig: 67297:5:[Time elapsed: 151.7731864452362] unsat
+04-27 06:01:28.301 - synthesize_mig: 67297:6 checking ...
+04-27 06:05:21.524 - synthesize_mig: 67297:6:[Time elapsed: 233.22283744812012] ***** sat *****
+
+04-27 06:05:21.528 - write_string: Writing to results/mig_all_b:
+67297
+mig
+6
+11 0
+2 1 4 0 5 0 0 0 4 1 5 0 1 0 5 1 7 0 2 0 3 0 8 1 0 0 3 0 6 0 2 0 9 1 10 0 
+
+
+04-27 06:05:22.119 - synthesize_mig: 67298:0 checking ...
+04-27 06:05:22.149 - synthesize_mig: 67298:0:[Time elapsed: 0.029236555099487305] unsat
+04-27 06:05:22.153 - synthesize_mig: 67298:1 checking ...
+04-27 06:05:22.334 - synthesize_mig: 67298:1:[Time elapsed: 0.1805553436279297] unsat
+04-27 06:05:22.340 - synthesize_mig: 67298:2 checking ...
+04-27 06:05:22.712 - synthesize_mig: 67298:2:[Time elapsed: 0.37166452407836914] unsat
+04-27 06:05:22.723 - synthesize_mig: 67298:3 checking ...
+04-27 06:05:23.511 - synthesize_mig: 67298:3:[Time elapsed: 0.7876386642456055] unsat
+04-27 06:05:23.528 - synthesize_mig: 67298:4 checking ...
+04-27 06:05:27.581 - synthesize_mig: 67298:4:[Time elapsed: 4.053363084793091] unsat
+04-27 06:05:27.598 - synthesize_mig: 67298:5 checking ...
+04-27 06:07:09.196 - synthesize_mig: 67298:5:[Time elapsed: 101.59814095497131] unsat
+04-27 06:07:09.216 - synthesize_mig: 67298:6 checking ...
+04-27 08:14:57.351 - synthesize_mig: 67298:6:[Time elapsed: 7668.135338306427] unsat
+04-27 08:14:57.352 - synthesize_mig: 67298:Reached maximum complexity of 6. Exiting...
+04-27 08:14:57.352 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 08:14:57.965 - synthesize_mig: 67299:0 checking ...
+04-27 08:14:57.997 - synthesize_mig: 67299:0:[Time elapsed: 0.03126883506774902] unsat
+04-27 08:14:58.001 - synthesize_mig: 67299:1 checking ...
+04-27 08:14:58.188 - synthesize_mig: 67299:1:[Time elapsed: 0.18662261962890625] unsat
+04-27 08:14:58.195 - synthesize_mig: 67299:2 checking ...
+04-27 08:14:58.561 - synthesize_mig: 67299:2:[Time elapsed: 0.3654460906982422] unsat
+04-27 08:14:58.570 - synthesize_mig: 67299:3 checking ...
+04-27 08:14:59.495 - synthesize_mig: 67299:3:[Time elapsed: 0.9250352382659912] unsat
+04-27 08:14:59.508 - synthesize_mig: 67299:4 checking ...
+04-27 08:15:11.545 - synthesize_mig: 67299:4:[Time elapsed: 12.036799907684326] unsat
+04-27 08:15:11.561 - synthesize_mig: 67299:5 checking ...
+04-27 08:18:48.236 - synthesize_mig: 67299:5:[Time elapsed: 216.6744203567505] unsat
+04-27 08:18:48.257 - synthesize_mig: 67299:6 checking ...
+04-27 09:37:00.147 - synthesize_mig: 67299:6:[Time elapsed: 4691.889929771423] ***** sat *****
+
+04-27 09:37:00.151 - write_string: Writing to results/mig_all_b:
+67299
+mig
+6
+11 0
+1 1 4 0 5 0 2 1 4 0 5 0 1 0 3 1 4 0 2 0 3 0 6 1 0 0 7 1 8 0 7 0 9 0 10 0 
+
+
+04-27 09:37:00.723 - synthesize_mig: 67300:0 checking ...
+04-27 09:37:00.723 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 09:37:00.724 - synthesize_mig: 67300:0:[Time elapsed: 0.00033211708068847656] error
+
+04-27 09:37:00.724 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 09:37:01.281 - synthesize_mig: 67301:0 checking ...
+04-27 09:37:01.281 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 09:37:01.281 - synthesize_mig: 67301:0:[Time elapsed: 0.0002923011779785156] error
+
+04-27 09:37:01.281 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 09:37:01.971 - synthesize_mig: 67302:0 checking ...
+04-27 09:37:02.021 - synthesize_mig: 67302:0:[Time elapsed: 0.05010175704956055] unsat
+04-27 09:37:02.027 - synthesize_mig: 67302:1 checking ...
+04-27 09:37:02.288 - synthesize_mig: 67302:1:[Time elapsed: 0.26111912727355957] unsat
+04-27 09:37:02.298 - synthesize_mig: 67302:2 checking ...
+04-27 09:37:02.758 - synthesize_mig: 67302:2:[Time elapsed: 0.46060943603515625] unsat
+04-27 09:37:02.770 - synthesize_mig: 67302:3 checking ...
+04-27 09:37:03.562 - synthesize_mig: 67302:3:[Time elapsed: 0.7920818328857422] unsat
+04-27 09:37:03.575 - synthesize_mig: 67302:4 checking ...
+04-27 09:37:07.039 - synthesize_mig: 67302:4:[Time elapsed: 3.463801622390747] unsat
+04-27 09:37:07.056 - synthesize_mig: 67302:5 checking ...
+04-27 09:39:10.964 - synthesize_mig: 67302:5:[Time elapsed: 123.90777492523193] unsat
+04-27 09:39:10.988 - synthesize_mig: 67302:6 checking ...
+04-27 09:44:40.253 - synthesize_mig: 67302:6:[Time elapsed: 329.26434111595154] ***** sat *****
+
+04-27 09:44:40.256 - write_string: Writing to results/mig_all_b:
+67302
+mig
+6
+11 0
+0 0 3 0 4 0 1 0 2 1 3 0 3 1 4 0 7 0 5 0 6 1 7 0 0 0 5 0 8 1 1 0 9 1 10 0 
+
+
+04-27 09:44:40.839 - synthesize_mig: 67303:0 checking ...
+04-27 09:44:40.866 - synthesize_mig: 67303:0:[Time elapsed: 0.02694988250732422] unsat
+04-27 09:44:40.869 - synthesize_mig: 67303:1 checking ...
+04-27 09:44:41.046 - synthesize_mig: 67303:1:[Time elapsed: 0.17638134956359863] unsat
+04-27 09:44:41.051 - synthesize_mig: 67303:2 checking ...
+04-27 09:44:41.403 - synthesize_mig: 67303:2:[Time elapsed: 0.3513956069946289] unsat
+04-27 09:44:41.411 - synthesize_mig: 67303:3 checking ...
+04-27 09:44:42.341 - synthesize_mig: 67303:3:[Time elapsed: 0.9292268753051758] unsat
+04-27 09:44:42.353 - synthesize_mig: 67303:4 checking ...
+04-27 09:44:49.438 - synthesize_mig: 67303:4:[Time elapsed: 7.084200859069824] unsat
+04-27 09:44:49.454 - synthesize_mig: 67303:5 checking ...
+04-27 09:47:48.738 - synthesize_mig: 67303:5:[Time elapsed: 179.28398418426514] unsat
+04-27 09:47:48.759 - synthesize_mig: 67303:6 checking ...
+04-27 10:00:38.088 - synthesize_mig: 67303:6:[Time elapsed: 769.3295817375183] ***** sat *****
+
+04-27 10:00:38.093 - write_string: Writing to results/mig_all_b:
+67303
+mig
+6
+11 0
+1 0 4 0 5 0 0 0 1 0 3 1 1 1 4 0 5 0 0 0 3 0 6 0 2 0 7 0 8 0 8 1 9 0 10 0 
+
+
+04-27 10:00:38.696 - synthesize_mig: 67304:0 checking ...
+04-27 10:00:38.728 - synthesize_mig: 67304:0:[Time elapsed: 0.03140735626220703] unsat
+04-27 10:00:38.731 - synthesize_mig: 67304:1 checking ...
+04-27 10:00:38.914 - synthesize_mig: 67304:1:[Time elapsed: 0.1824324131011963] unsat
+04-27 10:00:38.921 - synthesize_mig: 67304:2 checking ...
+04-27 10:00:39.275 - synthesize_mig: 67304:2:[Time elapsed: 0.3540771007537842] unsat
+04-27 10:00:39.285 - synthesize_mig: 67304:3 checking ...
+04-27 10:00:40.042 - synthesize_mig: 67304:3:[Time elapsed: 0.756791353225708] unsat
+04-27 10:00:40.054 - synthesize_mig: 67304:4 checking ...
+04-27 10:00:44.880 - synthesize_mig: 67304:4:[Time elapsed: 4.825876712799072] unsat
+04-27 10:00:44.898 - synthesize_mig: 67304:5 checking ...
+04-27 10:03:02.006 - synthesize_mig: 67304:5:[Time elapsed: 137.10743379592896] unsat
+04-27 10:03:02.033 - synthesize_mig: 67304:6 checking ...
+04-27 12:17:02.378 - synthesize_mig: 67304:6:[Time elapsed: 8040.345001935959] unsat
+04-27 12:17:02.378 - synthesize_mig: 67304:Reached maximum complexity of 6. Exiting...
+04-27 12:17:02.379 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 12:17:02.993 - synthesize_mig: 67305:0 checking ...
+04-27 12:17:03.021 - synthesize_mig: 67305:0:[Time elapsed: 0.027695178985595703] unsat
+04-27 12:17:03.024 - synthesize_mig: 67305:1 checking ...
+04-27 12:17:03.204 - synthesize_mig: 67305:1:[Time elapsed: 0.17954325675964355] unsat
+04-27 12:17:03.210 - synthesize_mig: 67305:2 checking ...
+04-27 12:17:03.577 - synthesize_mig: 67305:2:[Time elapsed: 0.36693263053894043] unsat
+04-27 12:17:03.585 - synthesize_mig: 67305:3 checking ...
+04-27 12:17:04.417 - synthesize_mig: 67305:3:[Time elapsed: 0.8315038681030273] unsat
+04-27 12:17:04.429 - synthesize_mig: 67305:4 checking ...
+04-27 12:17:09.990 - synthesize_mig: 67305:4:[Time elapsed: 5.560672283172607] unsat
+04-27 12:17:10.009 - synthesize_mig: 67305:5 checking ...
+04-27 12:19:25.891 - synthesize_mig: 67305:5:[Time elapsed: 135.88184905052185] unsat
+04-27 12:19:25.911 - synthesize_mig: 67305:6 checking ...
+04-27 12:21:11.120 - synthesize_mig: 67305:6:[Time elapsed: 105.2093288898468] ***** sat *****
+
+04-27 12:21:11.124 - write_string: Writing to results/mig_all_b:
+67305
+mig
+6
+11 0
+1 1 2 0 3 0 4 0 5 0 6 1 0 0 1 0 4 1 5 1 7 0 8 0 0 0 3 0 7 0 2 0 9 0 10 0 
+
+
+04-27 12:21:11.711 - synthesize_mig: 67306:0 checking ...
+04-27 12:21:11.739 - synthesize_mig: 67306:0:[Time elapsed: 0.027912616729736328] unsat
+04-27 12:21:11.742 - synthesize_mig: 67306:1 checking ...
+04-27 12:21:11.923 - synthesize_mig: 67306:1:[Time elapsed: 0.18050456047058105] unsat
+04-27 12:21:11.929 - synthesize_mig: 67306:2 checking ...
+04-27 12:21:12.327 - synthesize_mig: 67306:2:[Time elapsed: 0.3980116844177246] unsat
+04-27 12:21:12.338 - synthesize_mig: 67306:3 checking ...
+04-27 12:21:13.210 - synthesize_mig: 67306:3:[Time elapsed: 0.8721425533294678] unsat
+04-27 12:21:13.223 - synthesize_mig: 67306:4 checking ...
+04-27 12:21:17.028 - synthesize_mig: 67306:4:[Time elapsed: 3.8046810626983643] unsat
+04-27 12:21:17.044 - synthesize_mig: 67306:5 checking ...
+04-27 12:23:38.958 - synthesize_mig: 67306:5:[Time elapsed: 141.9139392375946] unsat
+04-27 12:23:38.983 - synthesize_mig: 67306:6 checking ...
+04-27 14:13:20.492 - synthesize_mig: 67306:6:[Time elapsed: 6581.508408069611] unsat
+04-27 14:13:20.492 - synthesize_mig: 67306:Reached maximum complexity of 6. Exiting...
+04-27 14:13:20.492 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 14:13:21.073 - synthesize_mig: 67307:0 checking ...
+04-27 14:13:21.101 - synthesize_mig: 67307:0:[Time elapsed: 0.028344392776489258] unsat
+04-27 14:13:21.105 - synthesize_mig: 67307:1 checking ...
+04-27 14:13:21.276 - synthesize_mig: 67307:1:[Time elapsed: 0.17135357856750488] unsat
+04-27 14:13:21.281 - synthesize_mig: 67307:2 checking ...
+04-27 14:13:21.631 - synthesize_mig: 67307:2:[Time elapsed: 0.3493387699127197] unsat
+04-27 14:13:21.639 - synthesize_mig: 67307:3 checking ...
+04-27 14:13:22.554 - synthesize_mig: 67307:3:[Time elapsed: 0.9147305488586426] unsat
+04-27 14:13:22.566 - synthesize_mig: 67307:4 checking ...
+04-27 14:13:30.916 - synthesize_mig: 67307:4:[Time elapsed: 8.349294185638428] unsat
+04-27 14:13:30.934 - synthesize_mig: 67307:5 checking ...
+04-27 14:16:03.023 - synthesize_mig: 67307:5:[Time elapsed: 152.08901810646057] unsat
+04-27 14:16:03.043 - synthesize_mig: 67307:6 checking ...
+04-27 14:32:12.421 - synthesize_mig: 67307:6:[Time elapsed: 969.377340555191] ***** sat *****
+
+04-27 14:32:12.425 - write_string: Writing to results/mig_all_b:
+67307
+mig
+6
+11 0
+0 0 3 1 5 0 2 0 4 0 6 1 2 1 4 0 5 0 1 1 5 0 7 0 0 0 3 0 8 0 2 0 9 1 10 0 
+
+
+04-27 14:32:13.009 - synthesize_mig: 67308:0 checking ...
+04-27 14:32:13.009 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 14:32:13.010 - synthesize_mig: 67308:0:[Time elapsed: 0.0002589225769042969] error
+
+04-27 14:32:13.010 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 14:32:13.565 - synthesize_mig: 67309:0 checking ...
+04-27 14:32:13.565 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 14:32:13.565 - synthesize_mig: 67309:0:[Time elapsed: 0.00021958351135253906] error
+
+04-27 14:32:13.565 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 14:32:14.119 - synthesize_mig: 67310:0 checking ...
+04-27 14:32:14.149 - synthesize_mig: 67310:0:[Time elapsed: 0.030193567276000977] unsat
+04-27 14:32:14.153 - synthesize_mig: 67310:1 checking ...
+04-27 14:32:14.342 - synthesize_mig: 67310:1:[Time elapsed: 0.18917489051818848] unsat
+04-27 14:32:14.350 - synthesize_mig: 67310:2 checking ...
+04-27 14:32:14.774 - synthesize_mig: 67310:2:[Time elapsed: 0.4238274097442627] unsat
+04-27 14:32:14.785 - synthesize_mig: 67310:3 checking ...
+04-27 14:32:15.498 - synthesize_mig: 67310:3:[Time elapsed: 0.7131035327911377] unsat
+04-27 14:32:15.511 - synthesize_mig: 67310:4 checking ...
+04-27 14:32:18.871 - synthesize_mig: 67310:4:[Time elapsed: 3.3597402572631836] unsat
+04-27 14:32:18.886 - synthesize_mig: 67310:5 checking ...
+04-27 14:34:35.511 - synthesize_mig: 67310:5:[Time elapsed: 136.62476778030396] unsat
+04-27 14:34:35.529 - synthesize_mig: 67310:6 checking ...
+04-27 14:36:13.458 - synthesize_mig: 67310:6:[Time elapsed: 97.92880535125732] ***** sat *****
+
+04-27 14:36:13.463 - write_string: Writing to results/mig_all_b:
+67310
+mig
+6
+11 0
+1 0 4 0 5 0 1 0 4 0 5 1 3 1 5 0 7 0 2 1 5 0 7 0 0 0 6 0 8 1 1 0 9 1 10 0 
+
+
+04-27 14:36:14.120 - synthesize_mig: 67311:0 checking ...
+04-27 14:36:14.156 - synthesize_mig: 67311:0:[Time elapsed: 0.03637266159057617] unsat
+04-27 14:36:14.161 - synthesize_mig: 67311:1 checking ...
+04-27 14:36:14.372 - synthesize_mig: 67311:1:[Time elapsed: 0.21097779273986816] unsat
+04-27 14:36:14.378 - synthesize_mig: 67311:2 checking ...
+04-27 14:36:14.758 - synthesize_mig: 67311:2:[Time elapsed: 0.3804919719696045] unsat
+04-27 14:36:14.767 - synthesize_mig: 67311:3 checking ...
+04-27 14:36:15.922 - synthesize_mig: 67311:3:[Time elapsed: 1.1554806232452393] unsat
+04-27 14:36:15.936 - synthesize_mig: 67311:4 checking ...
+04-27 14:36:27.852 - synthesize_mig: 67311:4:[Time elapsed: 11.916022777557373] unsat
+04-27 14:36:27.869 - synthesize_mig: 67311:5 checking ...
+04-27 14:39:11.190 - synthesize_mig: 67311:5:[Time elapsed: 163.32087922096252] ***** sat *****
+
+04-27 14:39:11.195 - write_string: Writing to results/mig_all_b:
+67311
+mig
+5
+10 0
+0 0 1 0 4 1 1 0 4 0 5 0 1 0 5 1 6 0 0 0 3 0 7 0 2 0 8 0 9 0 
+
+
+04-27 14:39:11.801 - synthesize_mig: 67312:0 checking ...
+04-27 14:39:11.828 - synthesize_mig: 67312:0:[Time elapsed: 0.027014970779418945] unsat
+04-27 14:39:11.831 - synthesize_mig: 67312:1 checking ...
+04-27 14:39:12.014 - synthesize_mig: 67312:1:[Time elapsed: 0.1823594570159912] unsat
+04-27 14:39:12.021 - synthesize_mig: 67312:2 checking ...
+04-27 14:39:12.403 - synthesize_mig: 67312:2:[Time elapsed: 0.3826265335083008] unsat
+04-27 14:39:12.416 - synthesize_mig: 67312:3 checking ...
+04-27 14:39:13.359 - synthesize_mig: 67312:3:[Time elapsed: 0.9432494640350342] unsat
+04-27 14:39:13.375 - synthesize_mig: 67312:4 checking ...
+04-27 14:39:17.956 - synthesize_mig: 67312:4:[Time elapsed: 4.580475568771362] unsat
+04-27 14:39:17.977 - synthesize_mig: 67312:5 checking ...
+04-27 14:41:03.361 - synthesize_mig: 67312:5:[Time elapsed: 105.38395810127258] unsat
+04-27 14:41:03.388 - synthesize_mig: 67312:6 checking ...
+04-27 14:41:49.519 - synthesize_mig: 67312:6:[Time elapsed: 46.1306517124176] ***** sat *****
+
+04-27 14:41:49.524 - write_string: Writing to results/mig_all_b:
+67312
+mig
+6
+11 0
+1 1 4 0 5 0 2 1 4 0 5 0 1 0 3 1 6 0 1 0 2 1 3 0 0 0 7 0 8 1 1 0 9 1 10 0 
+
+
+04-27 14:41:50.123 - synthesize_mig: 67313:0 checking ...
+04-27 14:41:50.150 - synthesize_mig: 67313:0:[Time elapsed: 0.027795076370239258] unsat
+04-27 14:41:50.154 - synthesize_mig: 67313:1 checking ...
+04-27 14:41:50.330 - synthesize_mig: 67313:1:[Time elapsed: 0.1764988899230957] unsat
+04-27 14:41:50.337 - synthesize_mig: 67313:2 checking ...
+04-27 14:41:50.702 - synthesize_mig: 67313:2:[Time elapsed: 0.36501574516296387] unsat
+04-27 14:41:50.712 - synthesize_mig: 67313:3 checking ...
+04-27 14:41:51.566 - synthesize_mig: 67313:3:[Time elapsed: 0.8537263870239258] unsat
+04-27 14:41:51.578 - synthesize_mig: 67313:4 checking ...
+04-27 14:41:58.459 - synthesize_mig: 67313:4:[Time elapsed: 6.880661725997925] unsat
+04-27 14:41:58.478 - synthesize_mig: 67313:5 checking ...
+04-27 14:44:25.718 - synthesize_mig: 67313:5:[Time elapsed: 147.24027371406555] unsat
+04-27 14:44:25.738 - synthesize_mig: 67313:6 checking ...
+04-27 14:49:38.788 - synthesize_mig: 67313:6:[Time elapsed: 313.0499658584595] ***** sat *****
+
+04-27 14:49:38.792 - write_string: Writing to results/mig_all_b:
+67313
+mig
+6
+11 0
+1 1 2 0 3 0 0 0 3 0 4 1 2 0 3 0 5 1 2 0 5 0 7 0 0 0 7 1 8 0 6 1 9 0 10 0 
+
+
+04-27 14:49:39.370 - synthesize_mig: 67314:0 checking ...
+04-27 14:49:39.401 - synthesize_mig: 67314:0:[Time elapsed: 0.030530214309692383] unsat
+04-27 14:49:39.405 - synthesize_mig: 67314:1 checking ...
+04-27 14:49:39.583 - synthesize_mig: 67314:1:[Time elapsed: 0.17815160751342773] unsat
+04-27 14:49:39.590 - synthesize_mig: 67314:2 checking ...
+04-27 14:49:39.934 - synthesize_mig: 67314:2:[Time elapsed: 0.344724178314209] unsat
+04-27 14:49:39.944 - synthesize_mig: 67314:3 checking ...
+04-27 14:49:40.725 - synthesize_mig: 67314:3:[Time elapsed: 0.7811942100524902] unsat
+04-27 14:49:40.738 - synthesize_mig: 67314:4 checking ...
+04-27 14:49:44.045 - synthesize_mig: 67314:4:[Time elapsed: 3.3071932792663574] unsat
+04-27 14:49:44.064 - synthesize_mig: 67314:5 checking ...
+04-27 14:51:13.794 - synthesize_mig: 67314:5:[Time elapsed: 89.72957444190979] unsat
+04-27 14:51:13.815 - synthesize_mig: 67314:6 checking ...
+04-27 14:59:09.381 - synthesize_mig: 67314:6:[Time elapsed: 475.56593132019043] ***** sat *****
+
+04-27 14:59:09.385 - write_string: Writing to results/mig_all_b:
+67314
+mig
+6
+11 0
+1 0 3 1 4 0 2 1 4 0 5 0 1 0 2 0 3 0 0 0 6 1 7 0 3 0 5 0 6 1 8 0 9 0 10 1 
+
+
+04-27 14:59:09.990 - synthesize_mig: 67315:0 checking ...
+04-27 14:59:10.017 - synthesize_mig: 67315:0:[Time elapsed: 0.02681422233581543] unsat
+04-27 14:59:10.020 - synthesize_mig: 67315:1 checking ...
+04-27 14:59:10.195 - synthesize_mig: 67315:1:[Time elapsed: 0.17575311660766602] unsat
+04-27 14:59:10.202 - synthesize_mig: 67315:2 checking ...
+04-27 14:59:10.548 - synthesize_mig: 67315:2:[Time elapsed: 0.34588050842285156] unsat
+04-27 14:59:10.557 - synthesize_mig: 67315:3 checking ...
+04-27 14:59:11.569 - synthesize_mig: 67315:3:[Time elapsed: 1.0114314556121826] unsat
+04-27 14:59:11.585 - synthesize_mig: 67315:4 checking ...
+04-27 14:59:22.962 - synthesize_mig: 67315:4:[Time elapsed: 11.377327919006348] unsat
+04-27 14:59:22.978 - synthesize_mig: 67315:5 checking ...
+04-27 15:03:23.661 - synthesize_mig: 67315:5:[Time elapsed: 240.68234372138977] unsat
+04-27 15:03:23.684 - synthesize_mig: 67315:6 checking ...
+04-27 15:39:53.460 - synthesize_mig: 67315:6:[Time elapsed: 2189.7761855125427] ***** sat *****
+
+04-27 15:39:53.464 - write_string: Writing to results/mig_all_b:
+67315
+mig
+6
+11 0
+0 0 3 0 4 1 2 0 3 0 5 1 2 0 5 0 6 0 0 0 6 0 7 1 1 0 7 0 8 0 6 1 9 0 10 0 
+
+
+04-27 15:39:54.067 - synthesize_mig: 67316:0 checking ...
+04-27 15:39:54.067 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 15:39:54.067 - synthesize_mig: 67316:0:[Time elapsed: 0.00026869773864746094] error
+
+04-27 15:39:54.067 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 15:39:54.664 - synthesize_mig: 67317:0 checking ...
+04-27 15:39:54.664 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 15:39:54.664 - synthesize_mig: 67317:0:[Time elapsed: 0.00029659271240234375] error
+
+04-27 15:39:54.664 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 15:39:55.243 - synthesize_mig: 67318:0 checking ...
+04-27 15:39:55.274 - synthesize_mig: 67318:0:[Time elapsed: 0.03144025802612305] unsat
+04-27 15:39:55.277 - synthesize_mig: 67318:1 checking ...
+04-27 15:39:55.462 - synthesize_mig: 67318:1:[Time elapsed: 0.18433403968811035] unsat
+04-27 15:39:55.468 - synthesize_mig: 67318:2 checking ...
+04-27 15:39:55.811 - synthesize_mig: 67318:2:[Time elapsed: 0.34294962882995605] unsat
+04-27 15:39:55.820 - synthesize_mig: 67318:3 checking ...
+04-27 15:39:56.548 - synthesize_mig: 67318:3:[Time elapsed: 0.7273926734924316] unsat
+04-27 15:39:56.561 - synthesize_mig: 67318:4 checking ...
+04-27 15:39:59.675 - synthesize_mig: 67318:4:[Time elapsed: 3.114832639694214] unsat
+04-27 15:39:59.692 - synthesize_mig: 67318:5 checking ...
+04-27 15:41:30.805 - synthesize_mig: 67318:5:[Time elapsed: 91.11307168006897] unsat
+04-27 15:41:30.829 - synthesize_mig: 67318:6 checking ...
+04-27 15:42:59.600 - synthesize_mig: 67318:6:[Time elapsed: 88.7703583240509] ***** sat *****
+
+04-27 15:42:59.604 - write_string: Writing to results/mig_all_b:
+67318
+mig
+6
+11 0
+1 0 4 0 5 0 1 0 2 0 3 0 1 0 4 1 5 0 0 0 3 1 7 0 4 0 7 1 8 0 6 0 9 0 10 1 
+
+
+04-27 15:43:00.184 - synthesize_mig: 67319:0 checking ...
+04-27 15:43:00.212 - synthesize_mig: 67319:0:[Time elapsed: 0.02792048454284668] unsat
+04-27 15:43:00.216 - synthesize_mig: 67319:1 checking ...
+04-27 15:43:00.396 - synthesize_mig: 67319:1:[Time elapsed: 0.18089938163757324] unsat
+04-27 15:43:00.404 - synthesize_mig: 67319:2 checking ...
+04-27 15:43:00.769 - synthesize_mig: 67319:2:[Time elapsed: 0.3657057285308838] unsat
+04-27 15:43:00.781 - synthesize_mig: 67319:3 checking ...
+04-27 15:43:02.109 - synthesize_mig: 67319:3:[Time elapsed: 1.328202724456787] unsat
+04-27 15:43:02.132 - synthesize_mig: 67319:4 checking ...
+04-27 15:43:14.781 - synthesize_mig: 67319:4:[Time elapsed: 12.649096488952637] unsat
+04-27 15:43:14.801 - synthesize_mig: 67319:5 checking ...
+04-27 15:47:55.514 - synthesize_mig: 67319:5:[Time elapsed: 280.7130880355835] unsat
+04-27 15:47:55.538 - synthesize_mig: 67319:6 checking ...
+04-27 15:49:06.623 - synthesize_mig: 67319:6:[Time elapsed: 71.08518648147583] ***** sat *****
+
+04-27 15:49:06.628 - write_string: Writing to results/mig_all_b:
+67319
+mig
+6
+11 0
+1 0 2 0 3 0 1 0 4 0 5 0 0 0 2 1 5 0 3 0 4 0 8 1 0 0 7 0 8 1 6 0 9 1 10 0 
+
+
+04-27 15:49:07.252 - synthesize_mig: 67320:0 checking ...
+04-27 15:49:07.282 - synthesize_mig: 67320:0:[Time elapsed: 0.029496192932128906] unsat
+04-27 15:49:07.286 - synthesize_mig: 67320:1 checking ...
+04-27 15:49:07.478 - synthesize_mig: 67320:1:[Time elapsed: 0.1922154426574707] unsat
+04-27 15:49:07.484 - synthesize_mig: 67320:2 checking ...
+04-27 15:49:07.869 - synthesize_mig: 67320:2:[Time elapsed: 0.38542675971984863] unsat
+04-27 15:49:07.881 - synthesize_mig: 67320:3 checking ...
+04-27 15:49:08.638 - synthesize_mig: 67320:3:[Time elapsed: 0.7565062046051025] unsat
+04-27 15:49:08.650 - synthesize_mig: 67320:4 checking ...
+04-27 15:49:11.908 - synthesize_mig: 67320:4:[Time elapsed: 3.258167028427124] unsat
+04-27 15:49:11.924 - synthesize_mig: 67320:5 checking ...
+04-27 15:50:54.248 - synthesize_mig: 67320:5:[Time elapsed: 102.32370662689209] unsat
+04-27 15:50:54.280 - synthesize_mig: 67320:6 checking ...
+04-27 17:12:26.075 - synthesize_mig: 67320:6:[Time elapsed: 4891.795011281967] ***** sat *****
+
+04-27 17:12:26.080 - write_string: Writing to results/mig_all_b:
+67320
+mig
+6
+11 0
+2 0 4 0 5 0 1 0 4 0 5 0 1 0 3 1 6 0 2 1 3 0 8 0 0 0 7 0 8 1 1 0 9 1 10 0 
+
+
+04-27 17:12:26.699 - synthesize_mig: 67321:0 checking ...
+04-27 17:12:26.727 - synthesize_mig: 67321:0:[Time elapsed: 0.028280258178710938] unsat
+04-27 17:12:26.731 - synthesize_mig: 67321:1 checking ...
+04-27 17:12:26.912 - synthesize_mig: 67321:1:[Time elapsed: 0.18021345138549805] unsat
+04-27 17:12:26.918 - synthesize_mig: 67321:2 checking ...
+04-27 17:12:27.300 - synthesize_mig: 67321:2:[Time elapsed: 0.38201451301574707] unsat
+04-27 17:12:27.311 - synthesize_mig: 67321:3 checking ...
+04-27 17:12:28.091 - synthesize_mig: 67321:3:[Time elapsed: 0.7793171405792236] unsat
+04-27 17:12:28.103 - synthesize_mig: 67321:4 checking ...
+04-27 17:12:32.052 - synthesize_mig: 67321:4:[Time elapsed: 3.9482617378234863] unsat
+04-27 17:12:32.070 - synthesize_mig: 67321:5 checking ...
+04-27 17:14:40.904 - synthesize_mig: 67321:5:[Time elapsed: 128.83411741256714] unsat
+04-27 17:14:40.926 - synthesize_mig: 67321:6 checking ...
+04-27 17:21:15.516 - synthesize_mig: 67321:6:[Time elapsed: 394.59015798568726] ***** sat *****
+
+04-27 17:21:15.520 - write_string: Writing to results/mig_all_b:
+67321
+mig
+6
+11 0
+0 0 3 0 5 1 2 0 4 0 6 1 2 0 4 1 6 0 1 1 3 0 7 0 0 0 3 0 8 1 2 0 9 1 10 0 
+
+
+04-27 17:21:16.110 - synthesize_mig: 67322:0 checking ...
+04-27 17:21:16.139 - synthesize_mig: 67322:0:[Time elapsed: 0.028021812438964844] unsat
+04-27 17:21:16.142 - synthesize_mig: 67322:1 checking ...
+04-27 17:21:16.317 - synthesize_mig: 67322:1:[Time elapsed: 0.1747303009033203] unsat
+04-27 17:21:16.324 - synthesize_mig: 67322:2 checking ...
+04-27 17:21:16.685 - synthesize_mig: 67322:2:[Time elapsed: 0.36104750633239746] unsat
+04-27 17:21:16.696 - synthesize_mig: 67322:3 checking ...
+04-27 17:21:17.487 - synthesize_mig: 67322:3:[Time elapsed: 0.7904541492462158] unsat
+04-27 17:21:17.503 - synthesize_mig: 67322:4 checking ...
+04-27 17:21:20.689 - synthesize_mig: 67322:4:[Time elapsed: 3.186169385910034] unsat
+04-27 17:21:20.707 - synthesize_mig: 67322:5 checking ...
+04-27 17:22:53.683 - synthesize_mig: 67322:5:[Time elapsed: 92.97573161125183] unsat
+04-27 17:22:53.706 - synthesize_mig: 67322:6 checking ...
+04-27 18:31:36.432 - synthesize_mig: 67322:6:[Time elapsed: 4122.726278781891] unsat
+04-27 18:31:36.432 - synthesize_mig: 67322:Reached maximum complexity of 6. Exiting...
+04-27 18:31:36.433 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:31:37.021 - synthesize_mig: 67323:0 checking ...
+04-27 18:31:37.051 - synthesize_mig: 67323:0:[Time elapsed: 0.02978682518005371] unsat
+04-27 18:31:37.054 - synthesize_mig: 67323:1 checking ...
+04-27 18:31:37.254 - synthesize_mig: 67323:1:[Time elapsed: 0.19954490661621094] unsat
+04-27 18:31:37.260 - synthesize_mig: 67323:2 checking ...
+04-27 18:31:37.634 - synthesize_mig: 67323:2:[Time elapsed: 0.3737306594848633] unsat
+04-27 18:31:37.643 - synthesize_mig: 67323:3 checking ...
+04-27 18:31:38.620 - synthesize_mig: 67323:3:[Time elapsed: 0.9774622917175293] unsat
+04-27 18:31:38.633 - synthesize_mig: 67323:4 checking ...
+04-27 18:31:46.980 - synthesize_mig: 67323:4:[Time elapsed: 8.346888065338135] unsat
+04-27 18:31:46.997 - synthesize_mig: 67323:5 checking ...
+04-27 18:37:03.689 - synthesize_mig: 67323:5:[Time elapsed: 316.6918261051178] unsat
+04-27 18:37:03.714 - synthesize_mig: 67323:6 checking ...
+04-27 18:46:29.857 - synthesize_mig: 67323:6:[Time elapsed: 566.1426498889923] ***** sat *****
+
+04-27 18:46:29.861 - write_string: Writing to results/mig_all_b:
+67323
+mig
+6
+11 0
+2 0 3 0 5 1 0 0 3 0 4 1 2 1 5 0 7 0 1 0 5 0 6 0 0 0 6 1 7 0 8 1 9 0 10 0 
+
+
+04-27 18:46:30.442 - synthesize_mig: 67324:0 checking ...
+04-27 18:46:30.443 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:46:30.443 - synthesize_mig: 67324:0:[Time elapsed: 0.00028061866760253906] error
+
+04-27 18:46:30.443 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:46:31.012 - synthesize_mig: 67325:0 checking ...
+04-27 18:46:31.012 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:46:31.012 - synthesize_mig: 67325:0:[Time elapsed: 0.0002579689025878906] error
+
+04-27 18:46:31.012 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:46:31.573 - synthesize_mig: 67326:0 checking ...
+04-27 18:46:31.602 - synthesize_mig: 67326:0:[Time elapsed: 0.0289306640625] unsat
+04-27 18:46:31.605 - synthesize_mig: 67326:1 checking ...
+04-27 18:46:31.783 - synthesize_mig: 67326:1:[Time elapsed: 0.17786240577697754] unsat
+04-27 18:46:31.788 - synthesize_mig: 67326:2 checking ...
+04-27 18:46:32.135 - synthesize_mig: 67326:2:[Time elapsed: 0.34641170501708984] unsat
+04-27 18:46:32.147 - synthesize_mig: 67326:3 checking ...
+04-27 18:46:32.840 - synthesize_mig: 67326:3:[Time elapsed: 0.6936383247375488] unsat
+04-27 18:46:32.852 - synthesize_mig: 67326:4 checking ...
+04-27 18:46:35.554 - synthesize_mig: 67326:4:[Time elapsed: 2.7021450996398926] unsat
+04-27 18:46:35.569 - synthesize_mig: 67326:5 checking ...
+04-27 18:47:47.548 - synthesize_mig: 67326:5:[Time elapsed: 71.97901058197021] unsat
+04-27 18:47:47.571 - synthesize_mig: 67326:6 checking ...
+04-27 18:52:01.078 - synthesize_mig: 67326:6:[Time elapsed: 253.5074543952942] ***** sat *****
+
+04-27 18:52:01.083 - write_string: Writing to results/mig_all_b:
+67326
+mig
+6
+11 0
+0 0 3 0 5 0 3 1 4 0 6 0 1 0 4 1 6 0 0 0 1 0 7 1 1 0 2 0 6 0 8 1 9 0 10 0 
+
+
+04-27 18:52:01.730 - synthesize_mig: 67327:0 checking ...
+04-27 18:52:01.767 - synthesize_mig: 67327:0:[Time elapsed: 0.036826133728027344] unsat
+04-27 18:52:01.773 - synthesize_mig: 67327:1 checking ...
+04-27 18:52:01.994 - synthesize_mig: 67327:1:[Time elapsed: 0.22117209434509277] unsat
+04-27 18:52:02.004 - synthesize_mig: 67327:2 checking ...
+04-27 18:52:02.461 - synthesize_mig: 67327:2:[Time elapsed: 0.45732855796813965] unsat
+04-27 18:52:02.475 - synthesize_mig: 67327:3 checking ...
+04-27 18:52:03.876 - synthesize_mig: 67327:3:[Time elapsed: 1.4004302024841309] unsat
+04-27 18:52:03.887 - synthesize_mig: 67327:4 checking ...
+04-27 18:52:13.866 - synthesize_mig: 67327:4:[Time elapsed: 9.97885799407959] unsat
+04-27 18:52:13.884 - synthesize_mig: 67327:5 checking ...
+04-27 18:53:02.801 - synthesize_mig: 67327:5:[Time elapsed: 48.91651940345764] ***** sat *****
+
+04-27 18:53:02.804 - write_string: Writing to results/mig_all_b:
+67327
+mig
+5
+10 0
+0 0 2 1 4 0 3 1 5 0 6 0 1 0 4 0 5 0 0 0 1 0 2 0 7 1 8 0 9 0 
+
+
+04-27 18:53:03.406 - synthesize_mig: 67328:0 checking ...
+04-27 18:53:03.406 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:03.406 - synthesize_mig: 67328:0:[Time elapsed: 0.0002932548522949219] error
+
+04-27 18:53:03.406 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:03.992 - synthesize_mig: 67329:0 checking ...
+04-27 18:53:03.992 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:03.992 - synthesize_mig: 67329:0:[Time elapsed: 0.0002694129943847656] error
+
+04-27 18:53:03.992 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:04.563 - synthesize_mig: 67330:0 checking ...
+04-27 18:53:04.563 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:04.563 - synthesize_mig: 67330:0:[Time elapsed: 0.00022172927856445312] error
+
+04-27 18:53:04.563 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:05.131 - synthesize_mig: 67331:0 checking ...
+04-27 18:53:05.131 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:05.131 - synthesize_mig: 67331:0:[Time elapsed: 0.0002346038818359375] error
+
+04-27 18:53:05.131 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:05.709 - synthesize_mig: 67332:0 checking ...
+04-27 18:53:05.709 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:05.709 - synthesize_mig: 67332:0:[Time elapsed: 0.0002512931823730469] error
+
+04-27 18:53:05.709 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:06.271 - synthesize_mig: 67333:0 checking ...
+04-27 18:53:06.271 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:06.271 - synthesize_mig: 67333:0:[Time elapsed: 0.0002644062042236328] error
+
+04-27 18:53:06.271 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:06.829 - synthesize_mig: 67334:0 checking ...
+04-27 18:53:06.830 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:06.830 - synthesize_mig: 67334:0:[Time elapsed: 0.00026416778564453125] error
+
+04-27 18:53:06.830 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:07.390 - synthesize_mig: 67335:0 checking ...
+04-27 18:53:07.390 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:07.390 - synthesize_mig: 67335:0:[Time elapsed: 0.0002639293670654297] error
+
+04-27 18:53:07.390 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:07.949 - synthesize_mig: 67336:0 checking ...
+04-27 18:53:07.949 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:07.950 - synthesize_mig: 67336:0:[Time elapsed: 0.0009374618530273438] error
+
+04-27 18:53:07.950 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:08.541 - synthesize_mig: 67337:0 checking ...
+04-27 18:53:08.541 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:08.541 - synthesize_mig: 67337:0:[Time elapsed: 0.0002593994140625] error
+
+04-27 18:53:08.541 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:09.098 - synthesize_mig: 67338:0 checking ...
+04-27 18:53:09.098 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:09.099 - synthesize_mig: 67338:0:[Time elapsed: 0.0002617835998535156] error
+
+04-27 18:53:09.099 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:09.670 - synthesize_mig: 67339:0 checking ...
+04-27 18:53:09.670 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:09.670 - synthesize_mig: 67339:0:[Time elapsed: 0.00023865699768066406] error
+
+04-27 18:53:09.670 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:10.233 - synthesize_mig: 67340:0 checking ...
+04-27 18:53:10.234 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:10.234 - synthesize_mig: 67340:0:[Time elapsed: 0.0002624988555908203] error
+
+04-27 18:53:10.234 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:10.813 - synthesize_mig: 67341:0 checking ...
+04-27 18:53:10.813 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:10.813 - synthesize_mig: 67341:0:[Time elapsed: 0.000240325927734375] error
+
+04-27 18:53:10.813 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:11.388 - synthesize_mig: 67342:0 checking ...
+04-27 18:53:11.388 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:11.388 - synthesize_mig: 67342:0:[Time elapsed: 0.0002574920654296875] error
+
+04-27 18:53:11.388 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:11.957 - synthesize_mig: 67343:0 checking ...
+04-27 18:53:11.957 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:11.957 - synthesize_mig: 67343:0:[Time elapsed: 0.00021982192993164062] error
+
+04-27 18:53:11.957 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:12.515 - synthesize_mig: 67344:0 checking ...
+04-27 18:53:12.515 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:12.515 - synthesize_mig: 67344:0:[Time elapsed: 0.00023055076599121094] error
+
+04-27 18:53:12.515 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:13.065 - synthesize_mig: 67345:0 checking ...
+04-27 18:53:13.066 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:13.066 - synthesize_mig: 67345:0:[Time elapsed: 0.0006704330444335938] error
+
+04-27 18:53:13.066 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:13.618 - synthesize_mig: 67346:0 checking ...
+04-27 18:53:13.618 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:13.618 - synthesize_mig: 67346:0:[Time elapsed: 0.00024771690368652344] error
+
+04-27 18:53:13.619 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:14.181 - synthesize_mig: 67347:0 checking ...
+04-27 18:53:14.181 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:14.181 - synthesize_mig: 67347:0:[Time elapsed: 0.0002434253692626953] error
+
+04-27 18:53:14.181 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:14.751 - synthesize_mig: 67348:0 checking ...
+04-27 18:53:14.751 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:14.751 - synthesize_mig: 67348:0:[Time elapsed: 0.0002193450927734375] error
+
+04-27 18:53:14.751 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:15.322 - synthesize_mig: 67349:0 checking ...
+04-27 18:53:15.322 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:15.322 - synthesize_mig: 67349:0:[Time elapsed: 0.0002694129943847656] error
+
+04-27 18:53:15.322 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:15.896 - synthesize_mig: 67350:0 checking ...
+04-27 18:53:15.896 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:15.896 - synthesize_mig: 67350:0:[Time elapsed: 0.0002562999725341797] error
+
+04-27 18:53:15.896 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:16.464 - synthesize_mig: 67351:0 checking ...
+04-27 18:53:16.464 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:16.464 - synthesize_mig: 67351:0:[Time elapsed: 0.00022935867309570312] error
+
+04-27 18:53:16.464 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:17.033 - synthesize_mig: 67352:0 checking ...
+04-27 18:53:17.033 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:17.033 - synthesize_mig: 67352:0:[Time elapsed: 0.00022792816162109375] error
+
+04-27 18:53:17.033 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:17.600 - synthesize_mig: 67353:0 checking ...
+04-27 18:53:17.600 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:17.600 - synthesize_mig: 67353:0:[Time elapsed: 0.00021767616271972656] error
+
+04-27 18:53:17.600 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:18.162 - synthesize_mig: 67354:0 checking ...
+04-27 18:53:18.162 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:18.163 - synthesize_mig: 67354:0:[Time elapsed: 0.0006890296936035156] error
+
+04-27 18:53:18.163 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:18.738 - synthesize_mig: 67355:0 checking ...
+04-27 18:53:18.738 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:18.738 - synthesize_mig: 67355:0:[Time elapsed: 0.0004143714904785156] error
+
+04-27 18:53:18.738 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:19.302 - synthesize_mig: 67356:0 checking ...
+04-27 18:53:19.303 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:19.303 - synthesize_mig: 67356:0:[Time elapsed: 0.00023126602172851562] error
+
+04-27 18:53:19.303 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:19.859 - synthesize_mig: 67357:0 checking ...
+04-27 18:53:19.859 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:19.859 - synthesize_mig: 67357:0:[Time elapsed: 0.0002219676971435547] error
+
+04-27 18:53:19.859 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:20.423 - synthesize_mig: 67358:0 checking ...
+04-27 18:53:20.423 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:20.423 - synthesize_mig: 67358:0:[Time elapsed: 0.0002560615539550781] error
+
+04-27 18:53:20.423 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:20.985 - synthesize_mig: 67359:0 checking ...
+04-27 18:53:20.985 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:20.985 - synthesize_mig: 67359:0:[Time elapsed: 0.0004742145538330078] error
+
+04-27 18:53:20.985 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:21.545 - synthesize_mig: 67360:0 checking ...
+04-27 18:53:21.545 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:21.545 - synthesize_mig: 67360:0:[Time elapsed: 0.00025773048400878906] error
+
+04-27 18:53:21.545 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:22.105 - synthesize_mig: 67361:0 checking ...
+04-27 18:53:22.106 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:22.106 - synthesize_mig: 67361:0:[Time elapsed: 0.0002167224884033203] error
+
+04-27 18:53:22.106 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:22.663 - synthesize_mig: 67362:0 checking ...
+04-27 18:53:22.663 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:22.663 - synthesize_mig: 67362:0:[Time elapsed: 0.0002658367156982422] error
+
+04-27 18:53:22.663 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:23.230 - synthesize_mig: 67363:0 checking ...
+04-27 18:53:23.231 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:23.231 - synthesize_mig: 67363:0:[Time elapsed: 0.0002372264862060547] error
+
+04-27 18:53:23.231 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:23.823 - synthesize_mig: 67364:0 checking ...
+04-27 18:53:23.823 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:23.823 - synthesize_mig: 67364:0:[Time elapsed: 0.0002872943878173828] error
+
+04-27 18:53:23.823 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:24.392 - synthesize_mig: 67365:0 checking ...
+04-27 18:53:24.393 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:24.393 - synthesize_mig: 67365:0:[Time elapsed: 0.0002624988555908203] error
+
+04-27 18:53:24.393 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:24.968 - synthesize_mig: 67366:0 checking ...
+04-27 18:53:24.969 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:24.969 - synthesize_mig: 67366:0:[Time elapsed: 0.0002772808074951172] error
+
+04-27 18:53:24.969 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:25.536 - synthesize_mig: 67367:0 checking ...
+04-27 18:53:25.536 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:25.536 - synthesize_mig: 67367:0:[Time elapsed: 0.00025916099548339844] error
+
+04-27 18:53:25.536 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:26.116 - synthesize_mig: 67368:0 checking ...
+04-27 18:53:26.116 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:26.116 - synthesize_mig: 67368:0:[Time elapsed: 0.00024819374084472656] error
+
+04-27 18:53:26.116 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:26.685 - synthesize_mig: 67369:0 checking ...
+04-27 18:53:26.685 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:26.685 - synthesize_mig: 67369:0:[Time elapsed: 0.0002696514129638672] error
+
+04-27 18:53:26.685 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:27.255 - synthesize_mig: 67370:0 checking ...
+04-27 18:53:27.255 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:27.255 - synthesize_mig: 67370:0:[Time elapsed: 0.0002663135528564453] error
+
+04-27 18:53:27.255 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:27.815 - synthesize_mig: 67371:0 checking ...
+04-27 18:53:27.815 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:27.816 - synthesize_mig: 67371:0:[Time elapsed: 0.00022339820861816406] error
+
+04-27 18:53:27.816 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:28.369 - synthesize_mig: 67372:0 checking ...
+04-27 18:53:28.369 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:28.369 - synthesize_mig: 67372:0:[Time elapsed: 0.0002639293670654297] error
+
+04-27 18:53:28.369 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:28.935 - synthesize_mig: 67373:0 checking ...
+04-27 18:53:28.935 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:28.935 - synthesize_mig: 67373:0:[Time elapsed: 0.00022912025451660156] error
+
+04-27 18:53:28.935 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:29.526 - synthesize_mig: 67374:0 checking ...
+04-27 18:53:29.526 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:29.526 - synthesize_mig: 67374:0:[Time elapsed: 0.00024437904357910156] error
+
+04-27 18:53:29.526 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:30.086 - synthesize_mig: 67375:0 checking ...
+04-27 18:53:30.087 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:30.087 - synthesize_mig: 67375:0:[Time elapsed: 0.0002472400665283203] error
+
+04-27 18:53:30.087 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:30.651 - synthesize_mig: 67376:0 checking ...
+04-27 18:53:30.651 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:30.651 - synthesize_mig: 67376:0:[Time elapsed: 0.0002288818359375] error
+
+04-27 18:53:30.651 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:31.244 - synthesize_mig: 67377:0 checking ...
+04-27 18:53:31.244 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:31.244 - synthesize_mig: 67377:0:[Time elapsed: 0.00024890899658203125] error
+
+04-27 18:53:31.244 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:31.897 - synthesize_mig: 67378:0 checking ...
+04-27 18:53:31.897 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:31.897 - synthesize_mig: 67378:0:[Time elapsed: 0.00025582313537597656] error
+
+04-27 18:53:31.897 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:32.499 - synthesize_mig: 67379:0 checking ...
+04-27 18:53:32.499 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:32.499 - synthesize_mig: 67379:0:[Time elapsed: 0.0002608299255371094] error
+
+04-27 18:53:32.499 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:33.150 - synthesize_mig: 67380:0 checking ...
+04-27 18:53:33.150 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:33.150 - synthesize_mig: 67380:0:[Time elapsed: 0.0002772808074951172] error
+
+04-27 18:53:33.150 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:33.749 - synthesize_mig: 67381:0 checking ...
+04-27 18:53:33.749 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:33.749 - synthesize_mig: 67381:0:[Time elapsed: 0.0002474784851074219] error
+
+04-27 18:53:33.750 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:34.318 - synthesize_mig: 67382:0 checking ...
+04-27 18:53:34.318 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:34.318 - synthesize_mig: 67382:0:[Time elapsed: 0.00022101402282714844] error
+
+04-27 18:53:34.318 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:34.877 - synthesize_mig: 67383:0 checking ...
+04-27 18:53:34.878 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:34.878 - synthesize_mig: 67383:0:[Time elapsed: 0.00022101402282714844] error
+
+04-27 18:53:34.878 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:35.439 - synthesize_mig: 67384:0 checking ...
+04-27 18:53:35.440 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:35.440 - synthesize_mig: 67384:0:[Time elapsed: 0.00024390220642089844] error
+
+04-27 18:53:35.440 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:35.997 - synthesize_mig: 67385:0 checking ...
+04-27 18:53:35.997 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:35.997 - synthesize_mig: 67385:0:[Time elapsed: 0.00024199485778808594] error
+
+04-27 18:53:35.997 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:36.559 - synthesize_mig: 67386:0 checking ...
+04-27 18:53:36.560 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:36.560 - synthesize_mig: 67386:0:[Time elapsed: 0.00025272369384765625] error
+
+04-27 18:53:36.560 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:37.120 - synthesize_mig: 67387:0 checking ...
+04-27 18:53:37.121 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:37.121 - synthesize_mig: 67387:0:[Time elapsed: 0.0002465248107910156] error
+
+04-27 18:53:37.121 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:37.693 - synthesize_mig: 67388:0 checking ...
+04-27 18:53:37.693 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:37.693 - synthesize_mig: 67388:0:[Time elapsed: 0.00027370452880859375] error
+
+04-27 18:53:37.693 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:38.247 - synthesize_mig: 67389:0 checking ...
+04-27 18:53:38.247 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:38.247 - synthesize_mig: 67389:0:[Time elapsed: 0.0002601146697998047] error
+
+04-27 18:53:38.247 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:38.808 - synthesize_mig: 67390:0 checking ...
+04-27 18:53:38.808 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:38.808 - synthesize_mig: 67390:0:[Time elapsed: 0.0002593994140625] error
+
+04-27 18:53:38.808 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:39.369 - synthesize_mig: 67391:0 checking ...
+04-27 18:53:39.369 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:39.369 - synthesize_mig: 67391:0:[Time elapsed: 0.00022363662719726562] error
+
+04-27 18:53:39.369 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:39.935 - synthesize_mig: 67392:0 checking ...
+04-27 18:53:39.935 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:39.935 - synthesize_mig: 67392:0:[Time elapsed: 0.00022745132446289062] error
+
+04-27 18:53:39.935 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:40.501 - synthesize_mig: 67393:0 checking ...
+04-27 18:53:40.501 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:40.501 - synthesize_mig: 67393:0:[Time elapsed: 0.0002608299255371094] error
+
+04-27 18:53:40.501 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:41.067 - synthesize_mig: 67394:0 checking ...
+04-27 18:53:41.068 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:41.068 - synthesize_mig: 67394:0:[Time elapsed: 0.0002453327178955078] error
+
+04-27 18:53:41.068 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:41.637 - synthesize_mig: 67395:0 checking ...
+04-27 18:53:41.637 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:41.637 - synthesize_mig: 67395:0:[Time elapsed: 0.00024700164794921875] error
+
+04-27 18:53:41.637 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:42.198 - synthesize_mig: 67396:0 checking ...
+04-27 18:53:42.198 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:42.198 - synthesize_mig: 67396:0:[Time elapsed: 0.0002384185791015625] error
+
+04-27 18:53:42.198 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:42.760 - synthesize_mig: 67397:0 checking ...
+04-27 18:53:42.761 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:42.761 - synthesize_mig: 67397:0:[Time elapsed: 0.0002853870391845703] error
+
+04-27 18:53:42.761 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:43.325 - synthesize_mig: 67398:0 checking ...
+04-27 18:53:43.325 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:43.325 - synthesize_mig: 67398:0:[Time elapsed: 0.0002377033233642578] error
+
+04-27 18:53:43.325 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:43.891 - synthesize_mig: 67399:0 checking ...
+04-27 18:53:43.891 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:43.891 - synthesize_mig: 67399:0:[Time elapsed: 0.0002770423889160156] error
+
+04-27 18:53:43.891 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:44.467 - synthesize_mig: 67400:0 checking ...
+04-27 18:53:44.467 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:44.467 - synthesize_mig: 67400:0:[Time elapsed: 0.00024700164794921875] error
+
+04-27 18:53:44.467 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:45.038 - synthesize_mig: 67401:0 checking ...
+04-27 18:53:45.038 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:45.038 - synthesize_mig: 67401:0:[Time elapsed: 0.00023174285888671875] error
+
+04-27 18:53:45.038 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:45.612 - synthesize_mig: 67402:0 checking ...
+04-27 18:53:45.612 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:45.612 - synthesize_mig: 67402:0:[Time elapsed: 0.0002338886260986328] error
+
+04-27 18:53:45.612 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:46.176 - synthesize_mig: 67403:0 checking ...
+04-27 18:53:46.176 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:46.177 - synthesize_mig: 67403:0:[Time elapsed: 0.000286102294921875] error
+
+04-27 18:53:46.177 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:46.748 - synthesize_mig: 67404:0 checking ...
+04-27 18:53:46.748 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:46.748 - synthesize_mig: 67404:0:[Time elapsed: 0.00021386146545410156] error
+
+04-27 18:53:46.748 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:47.314 - synthesize_mig: 67405:0 checking ...
+04-27 18:53:47.314 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:47.314 - synthesize_mig: 67405:0:[Time elapsed: 0.00022411346435546875] error
+
+04-27 18:53:47.314 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:47.872 - synthesize_mig: 67406:0 checking ...
+04-27 18:53:47.872 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:47.872 - synthesize_mig: 67406:0:[Time elapsed: 0.0002512931823730469] error
+
+04-27 18:53:47.872 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:48.426 - synthesize_mig: 67407:0 checking ...
+04-27 18:53:48.426 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:48.426 - synthesize_mig: 67407:0:[Time elapsed: 0.0002758502960205078] error
+
+04-27 18:53:48.426 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:49.030 - synthesize_mig: 67408:0 checking ...
+04-27 18:53:49.031 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:49.031 - synthesize_mig: 67408:0:[Time elapsed: 0.00027108192443847656] error
+
+04-27 18:53:49.031 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:49.582 - synthesize_mig: 67409:0 checking ...
+04-27 18:53:49.583 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:49.583 - synthesize_mig: 67409:0:[Time elapsed: 0.0002593994140625] error
+
+04-27 18:53:49.583 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:50.141 - synthesize_mig: 67410:0 checking ...
+04-27 18:53:50.141 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:50.141 - synthesize_mig: 67410:0:[Time elapsed: 0.0002391338348388672] error
+
+04-27 18:53:50.141 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:50.704 - synthesize_mig: 67411:0 checking ...
+04-27 18:53:50.704 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:50.704 - synthesize_mig: 67411:0:[Time elapsed: 0.00021123886108398438] error
+
+04-27 18:53:50.704 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:51.270 - synthesize_mig: 67412:0 checking ...
+04-27 18:53:51.270 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:51.270 - synthesize_mig: 67412:0:[Time elapsed: 0.00046133995056152344] error
+
+04-27 18:53:51.270 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:51.823 - synthesize_mig: 67413:0 checking ...
+04-27 18:53:51.823 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:51.823 - synthesize_mig: 67413:0:[Time elapsed: 0.00023746490478515625] error
+
+04-27 18:53:51.824 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:52.383 - synthesize_mig: 67414:0 checking ...
+04-27 18:53:52.383 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:52.383 - synthesize_mig: 67414:0:[Time elapsed: 0.0002620220184326172] error
+
+04-27 18:53:52.383 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:52.948 - synthesize_mig: 67415:0 checking ...
+04-27 18:53:52.948 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:52.948 - synthesize_mig: 67415:0:[Time elapsed: 0.00027751922607421875] error
+
+04-27 18:53:52.948 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:53.516 - synthesize_mig: 67416:0 checking ...
+04-27 18:53:53.516 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:53.516 - synthesize_mig: 67416:0:[Time elapsed: 0.00024080276489257812] error
+
+04-27 18:53:53.516 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:54.071 - synthesize_mig: 67417:0 checking ...
+04-27 18:53:54.071 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:54.071 - synthesize_mig: 67417:0:[Time elapsed: 0.0006866455078125] error
+
+04-27 18:53:54.071 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:54.638 - synthesize_mig: 67418:0 checking ...
+04-27 18:53:54.638 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:54.638 - synthesize_mig: 67418:0:[Time elapsed: 0.00022649765014648438] error
+
+04-27 18:53:54.638 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:55.207 - synthesize_mig: 67419:0 checking ...
+04-27 18:53:55.207 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:55.207 - synthesize_mig: 67419:0:[Time elapsed: 0.0002613067626953125] error
+
+04-27 18:53:55.207 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:55.783 - synthesize_mig: 67420:0 checking ...
+04-27 18:53:55.783 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:55.783 - synthesize_mig: 67420:0:[Time elapsed: 0.0002620220184326172] error
+
+04-27 18:53:55.783 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:56.339 - synthesize_mig: 67421:0 checking ...
+04-27 18:53:56.339 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:56.339 - synthesize_mig: 67421:0:[Time elapsed: 0.00027680397033691406] error
+
+04-27 18:53:56.339 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:56.908 - synthesize_mig: 67422:0 checking ...
+04-27 18:53:56.908 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:56.908 - synthesize_mig: 67422:0:[Time elapsed: 0.00025177001953125] error
+
+04-27 18:53:56.909 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:57.472 - synthesize_mig: 67423:0 checking ...
+04-27 18:53:57.472 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:57.472 - synthesize_mig: 67423:0:[Time elapsed: 0.00025653839111328125] error
+
+04-27 18:53:57.472 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:58.026 - synthesize_mig: 67424:0 checking ...
+04-27 18:53:58.026 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:58.026 - synthesize_mig: 67424:0:[Time elapsed: 0.00023508071899414062] error
+
+04-27 18:53:58.026 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:58.570 - synthesize_mig: 67425:0 checking ...
+04-27 18:53:58.571 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:58.571 - synthesize_mig: 67425:0:[Time elapsed: 0.000217437744140625] error
+
+04-27 18:53:58.571 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:59.127 - synthesize_mig: 67426:0 checking ...
+04-27 18:53:59.127 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:59.127 - synthesize_mig: 67426:0:[Time elapsed: 0.00021076202392578125] error
+
+04-27 18:53:59.127 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:53:59.676 - synthesize_mig: 67427:0 checking ...
+04-27 18:53:59.676 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:53:59.676 - synthesize_mig: 67427:0:[Time elapsed: 0.00021338462829589844] error
+
+04-27 18:53:59.676 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:54:00.224 - synthesize_mig: 67428:0 checking ...
+04-27 18:54:00.224 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:54:00.224 - synthesize_mig: 67428:0:[Time elapsed: 0.00023317337036132812] error
+
+04-27 18:54:00.224 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:54:00.783 - synthesize_mig: 67429:0 checking ...
+04-27 18:54:00.783 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:54:00.783 - synthesize_mig: 67429:0:[Time elapsed: 0.00023031234741210938] error
+
+04-27 18:54:00.783 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:54:01.384 - synthesize_mig: 67430:0 checking ...
+04-27 18:54:01.384 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:54:01.385 - synthesize_mig: 67430:0:[Time elapsed: 0.0010328292846679688] error
+
+04-27 18:54:01.385 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:54:02.028 - synthesize_mig: 67431:0 checking ...
+04-27 18:54:02.028 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:54:02.028 - synthesize_mig: 67431:0:[Time elapsed: 0.0002918243408203125] error
+
+04-27 18:54:02.028 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:54:02.705 - synthesize_mig: 67432:0 checking ...
+04-27 18:54:02.706 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:54:02.706 - synthesize_mig: 67432:0:[Time elapsed: 0.00027108192443847656] error
+
+04-27 18:54:02.706 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:54:03.346 - synthesize_mig: 67433:0 checking ...
+04-27 18:54:03.346 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:54:03.346 - synthesize_mig: 67433:0:[Time elapsed: 0.0002701282501220703] error
+
+04-27 18:54:03.346 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:54:03.978 - synthesize_mig: 67434:0 checking ...
+04-27 18:54:03.979 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:54:03.979 - synthesize_mig: 67434:0:[Time elapsed: 0.00026726722717285156] error
+
+04-27 18:54:03.979 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:54:04.594 - synthesize_mig: 67435:0 checking ...
+04-27 18:54:04.594 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:54:04.594 - synthesize_mig: 67435:0:[Time elapsed: 0.00023031234741210938] error
+
+04-27 18:54:04.594 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:54:05.204 - synthesize_mig: 67436:0 checking ...
+04-27 18:54:05.204 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:54:05.204 - synthesize_mig: 67436:0:[Time elapsed: 0.0002765655517578125] error
+
+04-27 18:54:05.204 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:54:05.826 - synthesize_mig: 67437:0 checking ...
+04-27 18:54:05.826 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:54:05.826 - synthesize_mig: 67437:0:[Time elapsed: 0.0002484321594238281] error
+
+04-27 18:54:05.826 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:54:06.445 - synthesize_mig: 67438:0 checking ...
+04-27 18:54:06.445 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:54:06.445 - synthesize_mig: 67438:0:[Time elapsed: 0.00025272369384765625] error
+
+04-27 18:54:06.445 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:54:07.064 - synthesize_mig: 67439:0 checking ...
+04-27 18:54:07.064 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:54:07.064 - synthesize_mig: 67439:0:[Time elapsed: 0.0002758502960205078] error
+
+04-27 18:54:07.064 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:54:07.659 - synthesize_mig: 67440:0 checking ...
+04-27 18:54:07.659 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:54:07.659 - synthesize_mig: 67440:0:[Time elapsed: 0.0002613067626953125] error
+
+04-27 18:54:07.659 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:54:08.263 - synthesize_mig: 67441:0 checking ...
+04-27 18:54:08.263 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:54:08.263 - synthesize_mig: 67441:0:[Time elapsed: 0.00024271011352539062] error
+
+04-27 18:54:08.263 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:54:08.859 - synthesize_mig: 67442:0 checking ...
+04-27 18:54:08.859 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:54:08.859 - synthesize_mig: 67442:0:[Time elapsed: 0.00025343894958496094] error
+
+04-27 18:54:08.859 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:54:09.476 - synthesize_mig: 67443:0 checking ...
+04-27 18:54:09.477 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:54:09.477 - synthesize_mig: 67443:0:[Time elapsed: 0.0005049705505371094] error
+
+04-27 18:54:09.477 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:54:10.102 - synthesize_mig: 67444:0 checking ...
+04-27 18:54:10.102 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:54:10.102 - synthesize_mig: 67444:0:[Time elapsed: 0.0002675056457519531] error
+
+04-27 18:54:10.102 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:54:10.681 - synthesize_mig: 67445:0 checking ...
+04-27 18:54:10.681 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 18:54:10.681 - synthesize_mig: 67445:0:[Time elapsed: 0.000244140625] error
+
+04-27 18:54:10.681 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 18:54:11.265 - synthesize_mig: 67446:0 checking ...
+04-27 18:54:11.297 - synthesize_mig: 67446:0:[Time elapsed: 0.031216859817504883] unsat
+04-27 18:54:11.300 - synthesize_mig: 67446:1 checking ...
+04-27 18:54:11.473 - synthesize_mig: 67446:1:[Time elapsed: 0.17334675788879395] unsat
+04-27 18:54:11.480 - synthesize_mig: 67446:2 checking ...
+04-27 18:54:11.832 - synthesize_mig: 67446:2:[Time elapsed: 0.3516707420349121] unsat
+04-27 18:54:11.842 - synthesize_mig: 67446:3 checking ...
+04-27 18:54:12.589 - synthesize_mig: 67446:3:[Time elapsed: 0.7465696334838867] unsat
+04-27 18:54:12.604 - synthesize_mig: 67446:4 checking ...
+04-27 18:54:15.863 - synthesize_mig: 67446:4:[Time elapsed: 3.259178400039673] unsat
+04-27 18:54:15.882 - synthesize_mig: 67446:5 checking ...
+04-27 18:55:20.987 - synthesize_mig: 67446:5:[Time elapsed: 65.10545897483826] unsat
+04-27 18:55:21.007 - synthesize_mig: 67446:6 checking ...
+04-27 19:38:59.273 - synthesize_mig: 67446:6:[Time elapsed: 2618.2653472423553] unsat
+04-27 19:38:59.273 - synthesize_mig: 67446:Reached maximum complexity of 6. Exiting...
+04-27 19:38:59.273 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 19:38:59.849 - synthesize_mig: 67447:0 checking ...
+04-27 19:38:59.875 - synthesize_mig: 67447:0:[Time elapsed: 0.02547144889831543] unsat
+04-27 19:38:59.878 - synthesize_mig: 67447:1 checking ...
+04-27 19:39:00.059 - synthesize_mig: 67447:1:[Time elapsed: 0.18103957176208496] unsat
+04-27 19:39:00.065 - synthesize_mig: 67447:2 checking ...
+04-27 19:39:00.424 - synthesize_mig: 67447:2:[Time elapsed: 0.3592243194580078] unsat
+04-27 19:39:00.434 - synthesize_mig: 67447:3 checking ...
+04-27 19:39:01.557 - synthesize_mig: 67447:3:[Time elapsed: 1.1226167678833008] unsat
+04-27 19:39:01.570 - synthesize_mig: 67447:4 checking ...
+04-27 19:39:11.386 - synthesize_mig: 67447:4:[Time elapsed: 9.816490173339844] ***** sat *****
+
+04-27 19:39:11.390 - write_string: Writing to results/mig_all_b:
+67447
+mig
+4
+9 0
+1 0 4 0 5 0 1 0 2 0 3 0 0 1 3 0 4 0 0 0 6 0 7 0 
+
+
+04-27 19:39:11.955 - synthesize_mig: 67448:0 checking ...
+04-27 19:39:11.982 - synthesize_mig: 67448:0:[Time elapsed: 0.02651047706604004] unsat
+04-27 19:39:11.985 - synthesize_mig: 67448:1 checking ...
+04-27 19:39:12.172 - synthesize_mig: 67448:1:[Time elapsed: 0.18630599975585938] unsat
+04-27 19:39:12.177 - synthesize_mig: 67448:2 checking ...
+04-27 19:39:12.548 - synthesize_mig: 67448:2:[Time elapsed: 0.3711209297180176] unsat
+04-27 19:39:12.560 - synthesize_mig: 67448:3 checking ...
+04-27 19:39:13.224 - synthesize_mig: 67448:3:[Time elapsed: 0.6641132831573486] unsat
+04-27 19:39:13.236 - synthesize_mig: 67448:4 checking ...
+04-27 19:39:15.817 - synthesize_mig: 67448:4:[Time elapsed: 2.5801196098327637] unsat
+04-27 19:39:15.833 - synthesize_mig: 67448:5 checking ...
+04-27 19:40:20.404 - synthesize_mig: 67448:5:[Time elapsed: 64.57112503051758] unsat
+04-27 19:40:20.426 - synthesize_mig: 67448:6 checking ...
+04-27 20:31:22.389 - synthesize_mig: 67448:6:[Time elapsed: 3061.963812828064] unsat
+04-27 20:31:22.390 - synthesize_mig: 67448:Reached maximum complexity of 6. Exiting...
+04-27 20:31:22.390 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 20:31:22.986 - synthesize_mig: 67449:0 checking ...
+04-27 20:31:23.013 - synthesize_mig: 67449:0:[Time elapsed: 0.027021169662475586] unsat
+04-27 20:31:23.017 - synthesize_mig: 67449:1 checking ...
+04-27 20:31:23.204 - synthesize_mig: 67449:1:[Time elapsed: 0.18782687187194824] unsat
+04-27 20:31:23.210 - synthesize_mig: 67449:2 checking ...
+04-27 20:31:23.591 - synthesize_mig: 67449:2:[Time elapsed: 0.3809318542480469] unsat
+04-27 20:31:23.601 - synthesize_mig: 67449:3 checking ...
+04-27 20:31:24.436 - synthesize_mig: 67449:3:[Time elapsed: 0.8356640338897705] unsat
+04-27 20:31:24.448 - synthesize_mig: 67449:4 checking ...
+04-27 20:31:30.360 - synthesize_mig: 67449:4:[Time elapsed: 5.911592960357666] unsat
+04-27 20:31:30.379 - synthesize_mig: 67449:5 checking ...
+04-27 20:33:57.957 - synthesize_mig: 67449:5:[Time elapsed: 147.57819962501526] unsat
+04-27 20:33:57.983 - synthesize_mig: 67449:6 checking ...
+04-27 22:05:03.842 - synthesize_mig: 67449:6:[Time elapsed: 5465.859477519989] unsat
+04-27 22:05:03.843 - synthesize_mig: 67449:Reached maximum complexity of 6. Exiting...
+04-27 22:05:03.843 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 22:05:04.445 - synthesize_mig: 67450:0 checking ...
+04-27 22:05:04.473 - synthesize_mig: 67450:0:[Time elapsed: 0.028275012969970703] unsat
+04-27 22:05:04.477 - synthesize_mig: 67450:1 checking ...
+04-27 22:05:04.656 - synthesize_mig: 67450:1:[Time elapsed: 0.17931723594665527] unsat
+04-27 22:05:04.662 - synthesize_mig: 67450:2 checking ...
+04-27 22:05:05.017 - synthesize_mig: 67450:2:[Time elapsed: 0.3550550937652588] unsat
+04-27 22:05:05.025 - synthesize_mig: 67450:3 checking ...
+04-27 22:05:05.849 - synthesize_mig: 67450:3:[Time elapsed: 0.823767900466919] unsat
+04-27 22:05:05.861 - synthesize_mig: 67450:4 checking ...
+04-27 22:05:09.060 - synthesize_mig: 67450:4:[Time elapsed: 3.1993229389190674] unsat
+04-27 22:05:09.078 - synthesize_mig: 67450:5 checking ...
+04-27 22:06:24.645 - synthesize_mig: 67450:5:[Time elapsed: 75.5678825378418] unsat
+04-27 22:06:24.664 - synthesize_mig: 67450:6 checking ...
+04-27 23:33:44.606 - synthesize_mig: 67450:6:[Time elapsed: 5239.941511154175] unsat
+04-27 23:33:44.606 - synthesize_mig: 67450:Reached maximum complexity of 6. Exiting...
+04-27 23:33:44.606 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 23:33:45.218 - synthesize_mig: 67451:0 checking ...
+04-27 23:33:45.249 - synthesize_mig: 67451:0:[Time elapsed: 0.03004765510559082] unsat
+04-27 23:33:45.253 - synthesize_mig: 67451:1 checking ...
+04-27 23:33:45.440 - synthesize_mig: 67451:1:[Time elapsed: 0.18733572959899902] unsat
+04-27 23:33:45.447 - synthesize_mig: 67451:2 checking ...
+04-27 23:33:45.803 - synthesize_mig: 67451:2:[Time elapsed: 0.3558783531188965] unsat
+04-27 23:33:45.814 - synthesize_mig: 67451:3 checking ...
+04-27 23:33:46.849 - synthesize_mig: 67451:3:[Time elapsed: 1.0353832244873047] unsat
+04-27 23:33:46.864 - synthesize_mig: 67451:4 checking ...
+04-27 23:33:55.978 - synthesize_mig: 67451:4:[Time elapsed: 9.114306449890137] unsat
+04-27 23:33:55.996 - synthesize_mig: 67451:5 checking ...
+04-27 23:36:31.640 - synthesize_mig: 67451:5:[Time elapsed: 155.6431164741516] unsat
+04-27 23:36:31.662 - synthesize_mig: 67451:6 checking ...
+04-27 23:49:40.349 - synthesize_mig: 67451:6:[Time elapsed: 788.6871559619904] ***** sat *****
+
+04-27 23:49:40.354 - write_string: Writing to results/mig_all_b:
+67451
+mig
+6
+11 0
+1 0 2 0 3 0 2 0 3 0 6 1 4 0 5 0 7 1 1 0 5 0 7 0 0 0 6 0 8 0 5 1 9 0 10 0 
+
+
+04-27 23:49:40.959 - synthesize_mig: 67452:0 checking ...
+04-27 23:49:40.959 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 23:49:40.959 - synthesize_mig: 67452:0:[Time elapsed: 0.00026726722717285156] error
+
+04-27 23:49:40.959 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 23:49:41.516 - synthesize_mig: 67453:0 checking ...
+04-27 23:49:41.516 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-27 23:49:41.516 - synthesize_mig: 67453:0:[Time elapsed: 0.00027108192443847656] error
+
+04-27 23:49:41.516 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-27 23:49:42.085 - synthesize_mig: 67454:0 checking ...
+04-27 23:49:42.115 - synthesize_mig: 67454:0:[Time elapsed: 0.029998779296875] unsat
+04-27 23:49:42.118 - synthesize_mig: 67454:1 checking ...
+04-27 23:49:42.304 - synthesize_mig: 67454:1:[Time elapsed: 0.18640828132629395] unsat
+04-27 23:49:42.310 - synthesize_mig: 67454:2 checking ...
+04-27 23:49:42.660 - synthesize_mig: 67454:2:[Time elapsed: 0.3492608070373535] unsat
+04-27 23:49:42.669 - synthesize_mig: 67454:3 checking ...
+04-27 23:49:43.415 - synthesize_mig: 67454:3:[Time elapsed: 0.7454102039337158] unsat
+04-27 23:49:43.428 - synthesize_mig: 67454:4 checking ...
+04-27 23:49:46.568 - synthesize_mig: 67454:4:[Time elapsed: 3.139711380004883] unsat
+04-27 23:49:46.584 - synthesize_mig: 67454:5 checking ...
+04-27 23:50:58.458 - synthesize_mig: 67454:5:[Time elapsed: 71.87459182739258] unsat
+04-27 23:50:58.481 - synthesize_mig: 67454:6 checking ...
+04-28 00:25:11.039 - synthesize_mig: 67454:6:[Time elapsed: 2052.5576655864716] unsat
+04-28 00:25:11.040 - synthesize_mig: 67454:Reached maximum complexity of 6. Exiting...
+04-28 00:25:11.040 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-28 00:25:11.635 - synthesize_mig: 67455:0 checking ...
+04-28 00:25:11.664 - synthesize_mig: 67455:0:[Time elapsed: 0.02943873405456543] unsat
+04-28 00:25:11.668 - synthesize_mig: 67455:1 checking ...
+04-28 00:25:11.841 - synthesize_mig: 67455:1:[Time elapsed: 0.17311739921569824] unsat
+04-28 00:25:11.848 - synthesize_mig: 67455:2 checking ...
+04-28 00:25:12.204 - synthesize_mig: 67455:2:[Time elapsed: 0.3556513786315918] unsat
+04-28 00:25:12.214 - synthesize_mig: 67455:3 checking ...
+04-28 00:25:13.359 - synthesize_mig: 67455:3:[Time elapsed: 1.1449000835418701] unsat
+04-28 00:25:13.371 - synthesize_mig: 67455:4 checking ...
+04-28 00:25:24.166 - synthesize_mig: 67455:4:[Time elapsed: 10.795257806777954] unsat
+04-28 00:25:24.184 - synthesize_mig: 67455:5 checking ...
+04-28 00:30:23.354 - synthesize_mig: 67455:5:[Time elapsed: 299.17044019699097] ***** sat *****
+
+04-28 00:30:23.359 - write_string: Writing to results/mig_all_b:
+67455
+mig
+5
+10 0
+0 0 1 0 2 0 1 0 4 0 5 0 3 0 6 0 7 0 0 0 1 1 2 0 1 0 8 0 9 0 
+
+
+04-28 00:30:23.945 - synthesize_mig: 67456:0 checking ...
+04-28 00:30:23.978 - synthesize_mig: 67456:0:[Time elapsed: 0.032438039779663086] unsat
+04-28 00:30:23.982 - synthesize_mig: 67456:1 checking ...
+04-28 00:30:24.160 - synthesize_mig: 67456:1:[Time elapsed: 0.17809629440307617] unsat
+04-28 00:30:24.166 - synthesize_mig: 67456:2 checking ...
+04-28 00:30:24.518 - synthesize_mig: 67456:2:[Time elapsed: 0.3519859313964844] unsat
+04-28 00:30:24.527 - synthesize_mig: 67456:3 checking ...
+04-28 00:30:25.332 - synthesize_mig: 67456:3:[Time elapsed: 0.8042683601379395] unsat
+04-28 00:30:25.345 - synthesize_mig: 67456:4 checking ...
+04-28 00:30:28.426 - synthesize_mig: 67456:4:[Time elapsed: 3.0806236267089844] unsat
+04-28 00:30:28.445 - synthesize_mig: 67456:5 checking ...
+04-28 00:31:59.374 - synthesize_mig: 67456:5:[Time elapsed: 90.92943668365479] unsat
+04-28 00:31:59.394 - synthesize_mig: 67456:6 checking ...
+04-28 00:34:37.794 - synthesize_mig: 67456:6:[Time elapsed: 158.4000883102417] ***** sat *****
+
+04-28 00:34:37.798 - write_string: Writing to results/mig_all_b:
+67456
+mig
+6
+11 0
+1 0 2 1 3 0 1 0 4 0 5 0 2 0 6 0 7 1 1 0 6 1 7 0 0 0 3 0 8 1 7 1 9 0 10 0 
+
+
+04-28 00:34:38.401 - synthesize_mig: 67457:0 checking ...
+04-28 00:34:38.429 - synthesize_mig: 67457:0:[Time elapsed: 0.028335094451904297] unsat
+04-28 00:34:38.432 - synthesize_mig: 67457:1 checking ...
+04-28 00:34:38.610 - synthesize_mig: 67457:1:[Time elapsed: 0.1775667667388916] unsat
+04-28 00:34:38.617 - synthesize_mig: 67457:2 checking ...
+04-28 00:34:38.970 - synthesize_mig: 67457:2:[Time elapsed: 0.3535327911376953] unsat
+04-28 00:34:38.980 - synthesize_mig: 67457:3 checking ...
+04-28 00:34:39.963 - synthesize_mig: 67457:3:[Time elapsed: 0.9836459159851074] unsat
+04-28 00:34:39.980 - synthesize_mig: 67457:4 checking ...
+04-28 00:34:46.721 - synthesize_mig: 67457:4:[Time elapsed: 6.741535902023315] unsat
+04-28 00:34:46.738 - synthesize_mig: 67457:5 checking ...
+04-28 00:37:25.835 - synthesize_mig: 67457:5:[Time elapsed: 159.09674501419067] unsat
+04-28 00:37:25.856 - synthesize_mig: 67457:6 checking ...
+04-28 00:38:35.797 - synthesize_mig: 67457:6:[Time elapsed: 69.94093441963196] ***** sat *****
+
+04-28 00:38:35.801 - write_string: Writing to results/mig_all_b:
+67457
+mig
+6
+11 0
+2 0 4 1 5 0 1 1 2 0 3 0 3 0 4 1 5 0 4 0 6 0 7 1 0 1 4 0 8 0 3 0 9 0 10 1 
+
+
+04-28 00:38:36.384 - synthesize_mig: 67458:0 checking ...
+04-28 00:38:36.411 - synthesize_mig: 67458:0:[Time elapsed: 0.0271298885345459] unsat
+04-28 00:38:36.414 - synthesize_mig: 67458:1 checking ...
+04-28 00:38:36.586 - synthesize_mig: 67458:1:[Time elapsed: 0.17175936698913574] unsat
+04-28 00:38:36.592 - synthesize_mig: 67458:2 checking ...
+04-28 00:38:36.932 - synthesize_mig: 67458:2:[Time elapsed: 0.3394889831542969] unsat
+04-28 00:38:36.940 - synthesize_mig: 67458:3 checking ...
+04-28 00:38:37.636 - synthesize_mig: 67458:3:[Time elapsed: 0.6960561275482178] unsat
+04-28 00:38:37.648 - synthesize_mig: 67458:4 checking ...
+04-28 00:38:41.284 - synthesize_mig: 67458:4:[Time elapsed: 3.636469841003418] unsat
+04-28 00:38:41.301 - synthesize_mig: 67458:5 checking ...
+04-28 00:40:09.305 - synthesize_mig: 67458:5:[Time elapsed: 88.00397109985352] unsat
+04-28 00:40:09.324 - synthesize_mig: 67458:6 checking ...
+04-28 01:51:37.105 - synthesize_mig: 67458:6:[Time elapsed: 4287.781118392944] unsat
+04-28 01:51:37.105 - synthesize_mig: 67458:Reached maximum complexity of 6. Exiting...
+04-28 01:51:37.106 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-28 01:51:37.701 - synthesize_mig: 67459:0 checking ...
+04-28 01:51:37.732 - synthesize_mig: 67459:0:[Time elapsed: 0.031181812286376953] unsat
+04-28 01:51:37.735 - synthesize_mig: 67459:1 checking ...
+04-28 01:51:37.916 - synthesize_mig: 67459:1:[Time elapsed: 0.18100976943969727] unsat
+04-28 01:51:37.924 - synthesize_mig: 67459:2 checking ...
+04-28 01:51:38.295 - synthesize_mig: 67459:2:[Time elapsed: 0.3707733154296875] unsat
+04-28 01:51:38.305 - synthesize_mig: 67459:3 checking ...
+04-28 01:51:39.253 - synthesize_mig: 67459:3:[Time elapsed: 0.9480524063110352] unsat
+04-28 01:51:39.264 - synthesize_mig: 67459:4 checking ...
+04-28 01:51:47.464 - synthesize_mig: 67459:4:[Time elapsed: 8.200642585754395] unsat
+04-28 01:51:47.480 - synthesize_mig: 67459:5 checking ...
+04-28 01:55:22.540 - synthesize_mig: 67459:5:[Time elapsed: 215.0603575706482] unsat
+04-28 01:55:22.561 - synthesize_mig: 67459:6 checking ...
+04-28 01:58:18.485 - synthesize_mig: 67459:6:[Time elapsed: 175.92363619804382] ***** sat *****
+
+04-28 01:58:18.489 - write_string: Writing to results/mig_all_b:
+67459
+mig
+6
+11 0
+2 0 3 1 5 0 0 0 1 0 5 1 0 0 3 0 4 0 4 0 6 1 7 0 1 0 6 1 7 0 8 0 9 1 10 0 
+
+
+04-28 01:58:19.074 - synthesize_mig: 67460:0 checking ...
+04-28 01:58:19.075 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-28 01:58:19.075 - synthesize_mig: 67460:0:[Time elapsed: 0.0002923011779785156] error
+
+04-28 01:58:19.075 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-28 01:58:19.644 - synthesize_mig: 67461:0 checking ...
+04-28 01:58:19.644 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-28 01:58:19.644 - synthesize_mig: 67461:0:[Time elapsed: 0.0002529621124267578] error
+
+04-28 01:58:19.644 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-28 01:58:20.220 - synthesize_mig: 67462:0 checking ...
+04-28 01:58:20.251 - synthesize_mig: 67462:0:[Time elapsed: 0.030949115753173828] unsat
+04-28 01:58:20.255 - synthesize_mig: 67462:1 checking ...
+04-28 01:58:20.433 - synthesize_mig: 67462:1:[Time elapsed: 0.17844033241271973] unsat
+04-28 01:58:20.439 - synthesize_mig: 67462:2 checking ...
+04-28 01:58:20.801 - synthesize_mig: 67462:2:[Time elapsed: 0.36184144020080566] unsat
+04-28 01:58:20.810 - synthesize_mig: 67462:3 checking ...
+04-28 01:58:21.618 - synthesize_mig: 67462:3:[Time elapsed: 0.8075962066650391] unsat
+04-28 01:58:21.630 - synthesize_mig: 67462:4 checking ...
+04-28 01:58:24.352 - synthesize_mig: 67462:4:[Time elapsed: 2.7212109565734863] unsat
+04-28 01:58:24.368 - synthesize_mig: 67462:5 checking ...
+04-28 01:59:21.298 - synthesize_mig: 67462:5:[Time elapsed: 56.9298357963562] unsat
+04-28 01:59:21.319 - synthesize_mig: 67462:6 checking ...
+04-28 02:03:26.805 - synthesize_mig: 67462:6:[Time elapsed: 245.48554253578186] ***** sat *****
+
+04-28 02:03:26.809 - write_string: Writing to results/mig_all_b:
+67462
+mig
+6
+11 0
+2 0 3 1 4 0 0 0 1 0 4 0 3 0 5 0 7 0 0 0 6 0 7 1 1 1 5 0 6 0 8 0 9 0 10 1 
+
+
+04-28 02:03:27.403 - synthesize_mig: 67463:0 checking ...
+04-28 02:03:27.434 - synthesize_mig: 67463:0:[Time elapsed: 0.03012704849243164] unsat
+04-28 02:03:27.437 - synthesize_mig: 67463:1 checking ...
+04-28 02:03:27.608 - synthesize_mig: 67463:1:[Time elapsed: 0.17067551612854004] unsat
+04-28 02:03:27.614 - synthesize_mig: 67463:2 checking ...
+04-28 02:03:27.968 - synthesize_mig: 67463:2:[Time elapsed: 0.3537325859069824] unsat
+04-28 02:03:27.977 - synthesize_mig: 67463:3 checking ...
+04-28 02:03:28.988 - synthesize_mig: 67463:3:[Time elapsed: 1.0102105140686035] unsat
+04-28 02:03:29.000 - synthesize_mig: 67463:4 checking ...
+04-28 02:03:35.699 - synthesize_mig: 67463:4:[Time elapsed: 6.698524236679077] unsat
+04-28 02:03:35.717 - synthesize_mig: 67463:5 checking ...
+04-28 02:03:47.865 - synthesize_mig: 67463:5:[Time elapsed: 12.148534774780273] ***** sat *****
+
+04-28 02:03:47.869 - write_string: Writing to results/mig_all_b:
+67463
+mig
+5
+10 0
+1 0 4 0 5 0 1 0 2 1 3 0 1 0 6 1 7 0 0 0 3 0 6 0 7 1 8 0 9 0 
+
+
+04-28 02:03:48.437 - synthesize_mig: 67464:0 checking ...
+04-28 02:03:48.466 - synthesize_mig: 67464:0:[Time elapsed: 0.02875685691833496] unsat
+04-28 02:03:48.470 - synthesize_mig: 67464:1 checking ...
+04-28 02:03:48.654 - synthesize_mig: 67464:1:[Time elapsed: 0.183091402053833] unsat
+04-28 02:03:48.661 - synthesize_mig: 67464:2 checking ...
+04-28 02:03:49.015 - synthesize_mig: 67464:2:[Time elapsed: 0.35443735122680664] unsat
+04-28 02:03:49.027 - synthesize_mig: 67464:3 checking ...
+04-28 02:03:49.848 - synthesize_mig: 67464:3:[Time elapsed: 0.8213088512420654] unsat
+04-28 02:03:49.862 - synthesize_mig: 67464:4 checking ...
+04-28 02:03:53.330 - synthesize_mig: 67464:4:[Time elapsed: 3.4684157371520996] unsat
+04-28 02:03:53.351 - synthesize_mig: 67464:5 checking ...
+04-28 02:04:40.641 - synthesize_mig: 67464:5:[Time elapsed: 47.28950786590576] ***** sat *****
+
+04-28 02:04:40.644 - write_string: Writing to results/mig_all_b:
+67464
+mig
+5
+10 0
+1 0 4 0 5 0 1 0 2 0 3 1 1 1 2 0 6 0 0 0 6 0 7 1 2 0 8 1 9 0 
+
+
+04-28 02:04:41.243 - synthesize_mig: 67465:0 checking ...
+04-28 02:04:41.275 - synthesize_mig: 67465:0:[Time elapsed: 0.031333208084106445] unsat
+04-28 02:04:41.278 - synthesize_mig: 67465:1 checking ...
+04-28 02:04:41.459 - synthesize_mig: 67465:1:[Time elapsed: 0.18030166625976562] unsat
+04-28 02:04:41.465 - synthesize_mig: 67465:2 checking ...
+04-28 02:04:41.802 - synthesize_mig: 67465:2:[Time elapsed: 0.33675432205200195] unsat
+04-28 02:04:41.812 - synthesize_mig: 67465:3 checking ...
+04-28 02:04:42.600 - synthesize_mig: 67465:3:[Time elapsed: 0.7880988121032715] unsat
+04-28 02:04:42.614 - synthesize_mig: 67465:4 checking ...
+04-28 02:04:48.690 - synthesize_mig: 67465:4:[Time elapsed: 6.075575113296509] unsat
+04-28 02:04:48.705 - synthesize_mig: 67465:5 checking ...
+04-28 02:05:43.040 - synthesize_mig: 67465:5:[Time elapsed: 54.3353385925293] ***** sat *****
+
+04-28 02:05:43.044 - write_string: Writing to results/mig_all_b:
+67465
+mig
+5
+10 0
+2 1 4 0 5 0 0 1 4 0 5 0 0 0 3 0 6 0 1 0 2 0 7 0 7 1 8 0 9 0 
+
+
+04-28 02:05:43.629 - synthesize_mig: 67466:0 checking ...
+04-28 02:05:43.659 - synthesize_mig: 67466:0:[Time elapsed: 0.029657602310180664] unsat
+04-28 02:05:43.663 - synthesize_mig: 67466:1 checking ...
+04-28 02:05:43.842 - synthesize_mig: 67466:1:[Time elapsed: 0.17962241172790527] unsat
+04-28 02:05:43.849 - synthesize_mig: 67466:2 checking ...
+04-28 02:05:44.214 - synthesize_mig: 67466:2:[Time elapsed: 0.3641815185546875] unsat
+04-28 02:05:44.223 - synthesize_mig: 67466:3 checking ...
+04-28 02:05:44.986 - synthesize_mig: 67466:3:[Time elapsed: 0.763404369354248] unsat
+04-28 02:05:44.999 - synthesize_mig: 67466:4 checking ...
+04-28 02:05:48.244 - synthesize_mig: 67466:4:[Time elapsed: 3.2450902462005615] unsat
+04-28 02:05:48.260 - synthesize_mig: 67466:5 checking ...
+04-28 02:07:50.159 - synthesize_mig: 67466:5:[Time elapsed: 121.89923405647278] unsat
+04-28 02:07:50.190 - synthesize_mig: 67466:6 checking ...
+04-28 02:12:08.029 - synthesize_mig: 67466:6:[Time elapsed: 257.8391933441162] ***** sat *****
+
+04-28 02:12:08.034 - write_string: Writing to results/mig_all_b:
+67466
+mig
+6
+11 0
+1 0 2 1 5 0 1 0 4 0 5 0 2 0 3 1 6 0 1 0 6 0 7 0 0 0 7 0 8 1 1 0 9 1 10 0 
+
+
+04-28 02:12:08.634 - synthesize_mig: 67467:0 checking ...
+04-28 02:12:08.664 - synthesize_mig: 67467:0:[Time elapsed: 0.03041982650756836] unsat
+04-28 02:12:08.668 - synthesize_mig: 67467:1 checking ...
+04-28 02:12:08.850 - synthesize_mig: 67467:1:[Time elapsed: 0.18219780921936035] unsat
+04-28 02:12:08.857 - synthesize_mig: 67467:2 checking ...
+04-28 02:12:09.216 - synthesize_mig: 67467:2:[Time elapsed: 0.3583700656890869] unsat
+04-28 02:12:09.225 - synthesize_mig: 67467:3 checking ...
+04-28 02:12:10.266 - synthesize_mig: 67467:3:[Time elapsed: 1.0412006378173828] unsat
+04-28 02:12:10.279 - synthesize_mig: 67467:4 checking ...
+04-28 02:12:20.748 - synthesize_mig: 67467:4:[Time elapsed: 10.46889042854309] unsat
+04-28 02:12:20.764 - synthesize_mig: 67467:5 checking ...
+04-28 02:16:53.279 - synthesize_mig: 67467:5:[Time elapsed: 272.5150694847107] unsat
+04-28 02:16:53.301 - synthesize_mig: 67467:6 checking ...
+04-28 02:17:28.332 - synthesize_mig: 67467:6:[Time elapsed: 35.030914306640625] ***** sat *****
+
+04-28 02:17:28.339 - write_string: Writing to results/mig_all_b:
+67467
+mig
+6
+11 0
+0 0 3 0 4 0 2 0 3 1 5 0 1 0 2 0 5 0 0 0 1 0 7 1 4 0 5 0 9 1 6 0 8 0 10 1 
+
+
+04-28 02:17:28.933 - synthesize_mig: 67468:0 checking ...
+04-28 02:17:28.933 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-28 02:17:28.933 - synthesize_mig: 67468:0:[Time elapsed: 0.0002720355987548828] error
+
+04-28 02:17:28.933 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-28 02:17:29.509 - synthesize_mig: 67469:0 checking ...
+04-28 02:17:29.509 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-28 02:17:29.509 - synthesize_mig: 67469:0:[Time elapsed: 0.0002624988555908203] error
+
+04-28 02:17:29.509 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-28 02:17:30.069 - synthesize_mig: 67470:0 checking ...
+04-28 02:17:30.097 - synthesize_mig: 67470:0:[Time elapsed: 0.0276947021484375] unsat
+04-28 02:17:30.100 - synthesize_mig: 67470:1 checking ...
+04-28 02:17:30.264 - synthesize_mig: 67470:1:[Time elapsed: 0.16405177116394043] unsat
+04-28 02:17:30.270 - synthesize_mig: 67470:2 checking ...
+04-28 02:17:30.624 - synthesize_mig: 67470:2:[Time elapsed: 0.3539741039276123] unsat
+04-28 02:17:30.633 - synthesize_mig: 67470:3 checking ...
+04-28 02:17:31.490 - synthesize_mig: 67470:3:[Time elapsed: 0.8570148944854736] unsat
+04-28 02:17:31.505 - synthesize_mig: 67470:4 checking ...
+04-28 02:17:34.736 - synthesize_mig: 67470:4:[Time elapsed: 3.230215549468994] unsat
+04-28 02:17:34.753 - synthesize_mig: 67470:5 checking ...
+04-28 02:18:46.917 - synthesize_mig: 67470:5:[Time elapsed: 72.16420078277588] unsat
+04-28 02:18:46.937 - synthesize_mig: 67470:6 checking ...
+04-28 02:19:18.376 - synthesize_mig: 67470:6:[Time elapsed: 31.438910245895386] ***** sat *****
+
+04-28 02:19:18.379 - write_string: Writing to results/mig_all_b:
+67470
+mig
+6
+11 0
+3 1 4 0 5 0 1 0 2 0 3 1 1 0 2 0 4 0 1 0 5 0 8 0 0 0 6 1 7 0 7 1 9 0 10 0 
+
+
+04-28 02:19:18.951 - synthesize_mig: 67471:0 checking ...
+04-28 02:19:18.978 - synthesize_mig: 67471:0:[Time elapsed: 0.026139020919799805] unsat
+04-28 02:19:18.981 - synthesize_mig: 67471:1 checking ...
+04-28 02:19:19.148 - synthesize_mig: 67471:1:[Time elapsed: 0.16749143600463867] unsat
+04-28 02:19:19.154 - synthesize_mig: 67471:2 checking ...
+04-28 02:19:19.508 - synthesize_mig: 67471:2:[Time elapsed: 0.35407257080078125] unsat
+04-28 02:19:19.519 - synthesize_mig: 67471:3 checking ...
+04-28 02:19:20.586 - synthesize_mig: 67471:3:[Time elapsed: 1.0674026012420654] unsat
+04-28 02:19:20.598 - synthesize_mig: 67471:4 checking ...
+04-28 02:19:29.803 - synthesize_mig: 67471:4:[Time elapsed: 9.20408010482788] unsat
+04-28 02:19:29.820 - synthesize_mig: 67471:5 checking ...
+04-28 02:20:06.220 - synthesize_mig: 67471:5:[Time elapsed: 36.400310039520264] ***** sat *****
+
+04-28 02:20:06.224 - write_string: Writing to results/mig_all_b:
+67471
+mig
+5
+10 0
+1 0 2 1 4 0 1 0 4 0 5 0 1 0 6 0 7 1 0 0 3 0 7 0 6 1 8 0 9 0 
+
+
+04-28 02:20:06.812 - synthesize_mig: 67472:0 checking ...
+04-28 02:20:06.841 - synthesize_mig: 67472:0:[Time elapsed: 0.028818130493164062] unsat
+04-28 02:20:06.844 - synthesize_mig: 67472:1 checking ...
+04-28 02:20:07.022 - synthesize_mig: 67472:1:[Time elapsed: 0.17758512496948242] unsat
+04-28 02:20:07.028 - synthesize_mig: 67472:2 checking ...
+04-28 02:20:07.376 - synthesize_mig: 67472:2:[Time elapsed: 0.34775876998901367] unsat
+04-28 02:20:07.385 - synthesize_mig: 67472:3 checking ...
+04-28 02:20:08.160 - synthesize_mig: 67472:3:[Time elapsed: 0.775115966796875] unsat
+04-28 02:20:08.173 - synthesize_mig: 67472:4 checking ...
+04-28 02:20:11.944 - synthesize_mig: 67472:4:[Time elapsed: 3.770988702774048] unsat
+04-28 02:20:11.960 - synthesize_mig: 67472:5 checking ...
+04-28 02:21:54.010 - synthesize_mig: 67472:5:[Time elapsed: 102.04997253417969] unsat
+04-28 02:21:54.034 - synthesize_mig: 67472:6 checking ...
+04-28 03:31:11.146 - synthesize_mig: 67472:6:[Time elapsed: 4157.1114683151245] unsat
+04-28 03:31:11.147 - synthesize_mig: 67472:Reached maximum complexity of 6. Exiting...
+04-28 03:31:11.147 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-28 03:31:11.725 - synthesize_mig: 67473:0 checking ...
+04-28 03:31:11.763 - synthesize_mig: 67473:0:[Time elapsed: 0.037662506103515625] unsat
+04-28 03:31:11.767 - synthesize_mig: 67473:1 checking ...
+04-28 03:31:11.975 - synthesize_mig: 67473:1:[Time elapsed: 0.20826196670532227] unsat
+04-28 03:31:11.982 - synthesize_mig: 67473:2 checking ...
+04-28 03:31:12.378 - synthesize_mig: 67473:2:[Time elapsed: 0.395890474319458] unsat
+04-28 03:31:12.387 - synthesize_mig: 67473:3 checking ...
+04-28 03:31:13.289 - synthesize_mig: 67473:3:[Time elapsed: 0.9023125171661377] unsat
+04-28 03:31:13.302 - synthesize_mig: 67473:4 checking ...
+04-28 03:31:20.474 - synthesize_mig: 67473:4:[Time elapsed: 7.172288656234741] unsat
+04-28 03:31:20.488 - synthesize_mig: 67473:5 checking ...
+04-28 03:32:05.037 - synthesize_mig: 67473:5:[Time elapsed: 44.548747062683105] ***** sat *****
+
+04-28 03:32:05.041 - write_string: Writing to results/mig_all_b:
+67473
+mig
+5
+10 0
+2 1 4 0 5 0 0 1 3 0 4 0 0 1 5 0 7 0 1 0 2 0 3 0 6 0 8 1 9 0 
+
+
+04-28 03:32:05.608 - synthesize_mig: 67474:0 checking ...
+04-28 03:32:05.636 - synthesize_mig: 67474:0:[Time elapsed: 0.028151273727416992] unsat
+04-28 03:32:05.639 - synthesize_mig: 67474:1 checking ...
+04-28 03:32:05.808 - synthesize_mig: 67474:1:[Time elapsed: 0.16826915740966797] unsat
+04-28 03:32:05.814 - synthesize_mig: 67474:2 checking ...
+04-28 03:32:06.156 - synthesize_mig: 67474:2:[Time elapsed: 0.34188413619995117] unsat
+04-28 03:32:06.167 - synthesize_mig: 67474:3 checking ...
+04-28 03:32:06.985 - synthesize_mig: 67474:3:[Time elapsed: 0.8179135322570801] unsat
+04-28 03:32:06.998 - synthesize_mig: 67474:4 checking ...
+04-28 03:32:09.984 - synthesize_mig: 67474:4:[Time elapsed: 2.9865782260894775] unsat
+04-28 03:32:10.001 - synthesize_mig: 67474:5 checking ...
+04-28 03:33:33.040 - synthesize_mig: 67474:5:[Time elapsed: 83.038822889328] unsat
+04-28 03:33:33.059 - synthesize_mig: 67474:6 checking ...
+04-28 03:45:57.805 - synthesize_mig: 67474:6:[Time elapsed: 744.7456579208374] ***** sat *****
+
+04-28 03:45:57.809 - write_string: Writing to results/mig_all_b:
+67474
+mig
+6
+11 0
+1 0 2 0 3 0 3 0 4 1 5 0 1 0 3 0 4 1 2 0 5 1 8 0 0 0 7 1 8 0 6 0 9 1 10 0 
+
+
+04-28 03:45:58.391 - synthesize_mig: 67475:0 checking ...
+04-28 03:45:58.418 - synthesize_mig: 67475:0:[Time elapsed: 0.026659488677978516] unsat
+04-28 03:45:58.421 - synthesize_mig: 67475:1 checking ...
+04-28 03:45:58.598 - synthesize_mig: 67475:1:[Time elapsed: 0.17659568786621094] unsat
+04-28 03:45:58.603 - synthesize_mig: 67475:2 checking ...
+04-28 03:45:58.938 - synthesize_mig: 67475:2:[Time elapsed: 0.33481264114379883] unsat
+04-28 03:45:58.946 - synthesize_mig: 67475:3 checking ...
+04-28 03:45:59.861 - synthesize_mig: 67475:3:[Time elapsed: 0.9151802062988281] unsat
+04-28 03:45:59.872 - synthesize_mig: 67475:4 checking ...
+04-28 03:46:08.455 - synthesize_mig: 67475:4:[Time elapsed: 8.583757638931274] unsat
+04-28 03:46:08.470 - synthesize_mig: 67475:5 checking ...
+04-28 03:48:19.861 - synthesize_mig: 67475:5:[Time elapsed: 131.39112305641174] unsat
+04-28 03:48:19.881 - synthesize_mig: 67475:6 checking ...
+04-28 05:06:39.984 - synthesize_mig: 67475:6:[Time elapsed: 4700.103018283844] ***** sat *****
+
+04-28 05:06:39.989 - write_string: Writing to results/mig_all_b:
+67475
+mig
+6
+11 0
+1 0 3 1 4 0 3 1 4 0 5 0 2 1 4 0 5 0 0 0 6 0 7 1 1 0 2 0 3 0 8 0 9 0 10 0 
+
+
+04-28 05:06:40.567 - synthesize_mig: 67476:0 checking ...
+04-28 05:06:40.567 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-28 05:06:40.567 - synthesize_mig: 67476:0:[Time elapsed: 0.000308990478515625] error
+
+04-28 05:06:40.567 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-28 05:06:41.133 - synthesize_mig: 67477:0 checking ...
+04-28 05:06:41.133 - check: Z3ModelWrapper: Validation Error (code != mincode)
+
+04-28 05:06:41.133 - synthesize_mig: 67477:0:[Time elapsed: 0.00022673606872558594] error
+
+04-28 05:06:41.133 - write_string: Attempt to write empty string to results/mig_all_b
+
+04-28 05:06:41.757 - synthesize_mig: 67478:0 checking ...
+04-28 05:06:41.796 - synthesize_mig: 67478:0:[Time elapsed: 0.03873705863952637] unsat
+04-28 05:06:41.800 - synthesize_mig: 67478:1 checking ...
+04-28 05:06:42.018 - synthesize_mig: 67478:1:[Time elapsed: 0.21843242645263672] unsat
+04-28 05:06:42.026 - synthesize_mig: 67478:2 checking ...
+04-28 05:06:42.401 - synthesize_mig: 67478:2:[Time elapsed: 0.37456822395324707] unsat
+04-28 05:06:42.412 - synthesize_mig: 67478:3 checking ...
+04-28 05:06:43.112 - synthesize_mig: 67478:3:[Time elapsed: 0.7003374099731445] unsat
+04-28 05:06:43.125 - synthesize_mig: 67478:4 checking ...
+04-28 05:06:46.208 - synthesize_mig: 67478:4:[Time elapsed: 3.083555221557617] unsat
+04-28 05:06:46.225 - synthesize_mig: 67478:5 checking ...
+04-28 05:07:58.067 - synthesize_mig: 67478:5:[Time elapsed: 71.84265494346619] unsat
+04-28 05:07:58.086 - synthesize_mig: 67478:6 checking ...
