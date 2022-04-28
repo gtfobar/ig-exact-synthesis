@@ -58,9 +58,11 @@ def synthesize_mig(code, args):
 
 
     if args['optimized'] == 0:
+        logging.info('Optimizations disabled')
         z3_model_class = Z3ModelWrapper
     else:
-        z3_model_class = Z3ModelWrapperOptimized 
+        z3_model_class = Z3ModelWrapperOptimized
+        logging.info('Optimizations enabled')
 
     m = None
 
