@@ -136,7 +136,7 @@ def get_function_codes(args):
 
 def compute_single_function(code, args):
     # logging.info(f'\n***** Function {code} *****')
-    if args['check'] is None:
+    if args['check_complexity'] is None:
         m = synthesize_mig(code, args)
     else:
         m = check_complexity(code, args)
