@@ -1,0 +1,1717 @@
+INFO:root:[18225857, 18782913, 19687826, 19689110, 19691922, 19691926, 19691927, 19754130, 19754134, 19764937, 19773129, 19884178, 20737682, 20802694, 20802706, 20815561, 20815593, 23633443, 23686802, 23695250, 23698340, 23698976, 23698980, 23699171, 23702738, 23706694, 23707014, 23751814, 23751830, 23751905, 23752326, 23752338, 23752342, 23752598, 23762441, 23762477, 23762569, 23762573, 23762633, 23764517, 23764681, 23764713, 23774900, 23778861, 23778889, 23780230, 23781089, 23827992, 23828185, 23830052, 23840308, 23845766, 23845782, 24017558, 24024617, 24024737, 24024745, 24024749, 24024753, 24032865, 24090281, 26667275, 26909921, 26991209, 27180361, 27180393, 32238998, 56073961, 56129942, 56138918, 56139494, 56139497, 56162710, 56191110, 56191190, 56195206, 56195270, 56195302, 56195526, 56202473, 56204246, 56204449, 56204513, 56205025, 56205031, 56205033, 56260998, 56261012, 56270433, 56270569, 56322182, 56326790, 56333925, 56335977, 56336105, 56519056, 56519057, 56519090, 56522344, 56522345, 56522886, 56522918, 56523154, 56523158, 56523190, 56530529, 56532705, 56538721, 56551825, 56555113, 56584326, 56588688, 56588694, 57175254, 57185369, 57185499, 57185670, 57185861, 57186011, 57187398, 57187414, 57187542, 57187718, 57187782, 57187877, 57187879, 57187909, 57187910, 57187926, 57188001, 57188005, 57203078, 57240786, 57245062, 57251206, 57251214, 57251416, 57252935, 57253057, 57253074, 57253089, 57253090, 57253091, 57253250, 57253254, 57253314, 57253318, 57253330, 57253410, 57253446, 57253460, 57253462, 57253472, 57253474, 57253476, 57253585, 57253794, 57261126, 57261446, 57261638, 57267865, 57268614, 57268630, 57268886, 57268902, 57269904, 57269905, 57306258, 57306582, 57318945, 57372306, 57376390, 57384549, 57384609, 57398937, 57437846, 57440406, 57455689, 57455705, 57455737, 57456217, 57456219, 57456241, 57456273, 57456338, 57503376, 57503382, 57507462, 57515618, 57521434, 57521562, 57521566, 57521754, 57521755, 57523478, 57523795, 57529989, 57530001, 57530089, 57534102, 57534358, 57571974, 57572498, 57572502, 57572758, 57603657, 64412521, 64943721, 107047636, 107057470, 107058014, 107059364, 107066600, 107067080, 107080100, 107178676, 107198121, 107205289, 107206313, 107211172, 107211474, 107573958, 107574180, 107574914, 107576006, 107576034, 107576036, 107581502, 107581732, 107581734, 107581740, 107581742, 107581748, 107581758, 107581862, 107581878, 107582036, 107582038, 107582044, 107582070, 107582166, 107582167, 107582294, 107582296, 107582302, 107582356, 107582372, 107582374, 107582375, 107582388, 107582402, 107582406, 107582422, 107582438, 107582450, 107583408, 107583414, 107589686, 107589940, 107589944, 107589976, 107589987, 107589988, 107590004, 107590010, 107590052, 107590055, 107590082, 107590090, 107590091, 107590114, 107590115, 107590120, 107590196, 107590227, 107590268, 107590353, 107590359, 107590482, 107590594, 107590598, 107590610, 107590614, 107590625, 107590628, 107590742, 107590774, 107590803, 107591028, 107591030, 107591105, 107591106, 107591107, 107591110, 107591111, 107591138, 107591140, 107591144, 107591572, 107591576, 107591578, 107591632, 107591638, 107606310, 107606378, 107705730, 107705794, 107706518, 107712812, 107713108, 107713509, 107714484, 107714488, 107714528, 107722209, 107722704, 107722720, 107729829]
+INFO:root:Writing to results/10/meta:
+['/mnt/c/Users/alexander/Documents/cmc/8 sem/ВКР/ig-exact-synthesis/src/core/mig_synthesis.py', '-i', 'input/10/10_rogue', '-c', '9', '-d', 'results/10', '-t', '7200', '-j', '7']
+
+
+INFO:root:Starting parallel computing with 7 jobs, 7200 timeout
+INFO:root:19691926:9: checking ...
+INFO:root:18782913:9: checking ...
+INFO:root:18225857:9: checking ...
+INFO:root:19691927:9: checking ...
+INFO:root:19687826:9: checking ...
+INFO:root:19691922:9: checking ...
+INFO:root:19689110:9: checking ...
+INFO:root:19687826:unsat
+INFO:root:19687826:Time elapsed: 452.48784255981445
+INFO:root:Attempt to write empty string to results/10/19687826
+
+INFO:root:19691926:unsat
+INFO:root:19691926:Time elapsed: 452.5113344192505
+INFO:root:Attempt to write empty string to results/10/19691926
+
+INFO:root:19691922:unsat
+INFO:root:19691927:unsat
+INFO:root:19691922:Time elapsed: 452.49070048332214
+INFO:root:18782913:unsat
+INFO:root:19691927:Time elapsed: 452.50476598739624
+INFO:root:Attempt to write empty string to results/10/19691922
+
+INFO:root:18782913:Time elapsed: 452.51227831840515
+INFO:root:19689110:unsat
+INFO:root:Attempt to write empty string to results/10/19691927
+
+INFO:root:Attempt to write empty string to results/10/18782913
+
+INFO:root:19689110:Time elapsed: 452.48794770240784
+INFO:root:18225857:unsat
+INFO:root:Attempt to write empty string to results/10/19689110
+
+INFO:root:18225857:Time elapsed: 452.510057926178
+INFO:root:Attempt to write empty string to results/10/18225857
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/alexander/Documents/cmc/8 sem/ВКР/ig-exact-synthesis/src/core/mig_synthesis.py", line 131, in compute_in_parallel
+    iterator = future.result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 439, in result
+    self._condition.wait(timeout)
+  File "/usr/lib/python3.8/threading.py", line 302, in wait
+    waiter.acquire()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/alexander/Documents/cmc/8 sem/ВКР/ig-exact-synthesis/src/core/mig_synthesis.py", line 160, in <module>
+    main()
+  File "/mnt/c/Users/alexander/Documents/cmc/8 sem/ВКР/ig-exact-synthesis/src/core/mig_synthesis.py", line 157, in main
+    compute_in_parallel(function_codes, args)
+  File "/mnt/c/Users/alexander/Documents/cmc/8 sem/ВКР/ig-exact-synthesis/src/core/mig_synthesis.py", line 144, in compute_in_parallel
+    logging.info(error.traceback)  # Python's traceback of remote process
+  File "/home/alexander/.local/lib/python3.8/site-packages/pebble/pool/base_pool.py", line 44, in __exit__
+    self.join()
+  File "/home/alexander/.local/lib/python3.8/site-packages/pebble/pool/base_pool.py", line 72, in join
+    self._wait_queue_depletion(timeout)
+  File "/home/alexander/.local/lib/python3.8/site-packages/pebble/pool/base_pool.py", line 86, in _wait_queue_depletion
+    time.sleep(SLEEP_UNIT)
+KeyboardInterrupt
+INFO:root:[18225857, 18782913, 19687826, 19689110, 19691922, 19691926, 19691927, 19754130, 19754134, 19764937, 19773129, 19884178, 20737682, 20802694, 20802706, 20815561, 20815593, 23633443, 23686802, 23695250, 23698340, 23698976, 23698980, 23699171, 23702738, 23706694, 23707014, 23751814, 23751830, 23751905, 23752326, 23752338, 23752342, 23752598, 23762441, 23762477, 23762569, 23762573, 23762633, 23764517, 23764681, 23764713, 23774900, 23778861, 23778889, 23780230, 23781089, 23827992, 23828185, 23830052, 23840308, 23845766, 23845782, 24017558, 24024617, 24024737, 24024745, 24024749, 24024753, 24032865, 24090281, 26667275, 26909921, 26991209, 27180361, 27180393, 32238998, 56073961, 56129942, 56138918, 56139494, 56139497, 56162710, 56191110, 56191190, 56195206, 56195270, 56195302, 56195526, 56202473, 56204246, 56204449, 56204513, 56205025, 56205031, 56205033, 56260998, 56261012, 56270433, 56270569, 56322182, 56326790, 56333925, 56335977, 56336105, 56519056, 56519057, 56519090, 56522344, 56522345, 56522886, 56522918, 56523154, 56523158, 56523190, 56530529, 56532705, 56538721, 56551825, 56555113, 56584326, 56588688, 56588694, 57175254, 57185369, 57185499, 57185670, 57185861, 57186011, 57187398, 57187414, 57187542, 57187718, 57187782, 57187877, 57187879, 57187909, 57187910, 57187926, 57188001, 57188005, 57203078, 57240786, 57245062, 57251206, 57251214, 57251416, 57252935, 57253057, 57253074, 57253089, 57253090, 57253091, 57253250, 57253254, 57253314, 57253318, 57253330, 57253410, 57253446, 57253460, 57253462, 57253472, 57253474, 57253476, 57253585, 57253794, 57261126, 57261446, 57261638, 57267865, 57268614, 57268630, 57268886, 57268902, 57269904, 57269905, 57306258, 57306582, 57318945, 57372306, 57376390, 57384549, 57384609, 57398937, 57437846, 57440406, 57455689, 57455705, 57455737, 57456217, 57456219, 57456241, 57456273, 57456338, 57503376, 57503382, 57507462, 57515618, 57521434, 57521562, 57521566, 57521754, 57521755, 57523478, 57523795, 57529989, 57530001, 57530089, 57534102, 57534358, 57571974, 57572498, 57572502, 57572758, 57603657, 64412521, 64943721, 107047636, 107057470, 107058014, 107059364, 107066600, 107067080, 107080100, 107178676, 107198121, 107205289, 107206313, 107211172, 107211474, 107573958, 107574180, 107574914, 107576006, 107576034, 107576036, 107581502, 107581732, 107581734, 107581740, 107581742, 107581748, 107581758, 107581862, 107581878, 107582036, 107582038, 107582044, 107582070, 107582166, 107582167, 107582294, 107582296, 107582302, 107582356, 107582372, 107582374, 107582375, 107582388, 107582402, 107582406, 107582422, 107582438, 107582450, 107583408, 107583414, 107589686, 107589940, 107589944, 107589976, 107589987, 107589988, 107590004, 107590010, 107590052, 107590055, 107590082, 107590090, 107590091, 107590114, 107590115, 107590120, 107590196, 107590227, 107590268, 107590353, 107590359, 107590482, 107590594, 107590598, 107590610, 107590614, 107590625, 107590628, 107590742, 107590774, 107590803, 107591028, 107591030, 107591105, 107591106, 107591107, 107591110, 107591111, 107591138, 107591140, 107591144, 107591572, 107591576, 107591578, 107591632, 107591638, 107606310, 107606378, 107705730, 107705794, 107706518, 107712812, 107713108, 107713509, 107714484, 107714488, 107714528, 107722209, 107722704, 107722720, 107729829]
+INFO:root:Writing to results/10/meta:
+['/mnt/c/Users/alexander/Documents/cmc/8 sem/ВКР/ig-exact-synthesis/src/core/mig_synthesis.py', '-i', 'input/10/10_rogue', '-c', '9', '-d', 'results/10', '-t', '3600', '-j', '7']
+
+
+INFO:root:Starting parallel computing with 7 jobs, 3600 timeout
+INFO:root:19691926:9: checking ...
+INFO:root:19691922:9: checking ...
+INFO:root:19687826:9: checking ...
+INFO:root:18225857:9: checking ...
+INFO:root:19691927:9: checking ...
+INFO:root:18782913:9: checking ...
+INFO:root:19689110:9: checking ...
+INFO:root:function took longer than 3600 seconds
+INFO:root:function took longer than 3600 seconds
+INFO:root:function took longer than 3600 seconds
+INFO:root:function took longer than 3600 seconds
+INFO:root:function took longer than 3600 seconds
+INFO:root:function took longer than 3600 seconds
+INFO:root:function took longer than 3600 seconds
+INFO:root:19754130:9: checking ...
+INFO:root:19773129:9: checking ...
+INFO:root:20802694:9: checking ...
+INFO:root:19764937:9: checking ...
+INFO:root:19884178:9: checking ...
+INFO:root:20737682:9: checking ...
+INFO:root:19754134:9: checking ...
+INFO:root:20815561:9: checking ...
+INFO:root:20802706:9: checking ...
+INFO:root:23633443:9: checking ...
+INFO:root:23686802:9: checking ...
+INFO:root:23698340:9: checking ...
+INFO:root:23695250:9: checking ...
+INFO:root:20815593:9: checking ...
+INFO:root:23699171:9: checking ...
+INFO:root:23698980:9: checking ...
+INFO:root:23698976:9: checking ...
+INFO:root:23702738:9: checking ...
+INFO:root:23706694:9: checking ...
+INFO:root:23707014:9: checking ...
+INFO:root:23751814:9: checking ...
+INFO:root:23752342:9: checking ...
+INFO:root:23762441:9: checking ...
+INFO:root:23751830:9: checking ...
+INFO:root:23752326:9: checking ...
+INFO:root:23752598:9: checking ...
+INFO:root:23752338:9: checking ...
+INFO:root:23751905:9: checking ...
+INFO:root:23764517:9: checking ...
+INFO:root:23762569:9: checking ...
+INFO:root:23762477:9: checking ...
+INFO:root:23762573:9: checking ...
+INFO:root:23762633:9: checking ...
+INFO:root:23764681:9: checking ...
+INFO:root:23764713:9: checking ...
+INFO:root:23774900:9: checking ...
+INFO:root:23778861:9: checking ...
+INFO:root:23827992:9: checking ...
+INFO:root:23780230:9: checking ...
+INFO:root:23781089:9: checking ...
+INFO:root:23778889:9: checking ...
+INFO:root:23828185:9: checking ...
+INFO:root:23830052:9: checking ...
+INFO:root:23845766:9: checking ...
+INFO:root:23845782:9: checking ...
+INFO:root:24024617:9: checking ...
+INFO:root:23840308:9: checking ...
+INFO:root:24024737:9: checking ...
+INFO:root:24017558:9: checking ...
+INFO:root:24024745:9: checking ...
+INFO:root:24090281:9: checking ...
+INFO:root:26909921:9: checking ...
+INFO:root:24024749:9: checking ...
+INFO:root:26667275:9: checking ...
+INFO:root:24024753:9: checking ...
+INFO:root:24032865:9: checking ...
+INFO:root:32238998:9: checking ...
+INFO:root:56138918:9: checking ...
+INFO:root:56073961:9: checking ...
+INFO:root:27180393:9: checking ...
+INFO:root:56129942:9: checking ...
+INFO:root:26991209:9: checking ...
+INFO:root:27180361:9: checking ...
+INFO:root:56162710:9: checking ...
+INFO:root:56139494:9: checking ...
+INFO:root:56191190:9: checking ...
+INFO:root:56195206:9: checking ...
+INFO:root:56195270:9: checking ...
+INFO:root:56139497:9: checking ...
+INFO:root:56191110:9: checking ...
+INFO:root:56204246:9: checking ...
+INFO:root:56205025:9: checking ...
+INFO:root:56204449:9: checking ...
+INFO:root:56204513:9: checking ...
+INFO:root:56195302:9: checking ...
+INFO:root:56195526:9: checking ...
+INFO:root:56202473:9: checking ...
+INFO:root:56260998:9: checking ...
+INFO:root:56205031:9: checking ...
+INFO:root:56270433:9: checking ...
+INFO:root:56322182:9: checking ...
+INFO:root:56205033:9: checking ...
+INFO:root:56261012:9: checking ...
+INFO:root:56270569:9: checking ...
+INFO:root:56335977:9: checking ...
+INFO:root:56519057:9: checking ...
+INFO:root:56336105:9: checking ...
+INFO:root:56333925:9: checking ...
+INFO:root:56519056:9: checking ...
+INFO:root:56326790:9: checking ...
+INFO:root:56519090:9: checking ...
+INFO:root:56522918:9: checking ...
+INFO:root:56522345:9: checking ...
+INFO:root:56523190:9: checking ...
+INFO:root:56522886:9: checking ...
+INFO:root:56523158:9: checking ...
+INFO:root:56523154:9: checking ...
+INFO:root:56522344:9: checking ...
+INFO:root:56555113:9: checking ...
+INFO:root:56530529:9: checking ...
+INFO:root:56588688:9: checking ...
+INFO:root:56538721:9: checking ...
+INFO:root:56532705:9: checking ...
+INFO:root:56584326:9: checking ...
+INFO:root:56551825:9: checking ...
+INFO:root:57185861:9: checking ...
+INFO:root:57185499:9: checking ...
+INFO:root:57175254:9: checking ...
+INFO:root:56588694:9: checking ...
+INFO:root:57186011:9: checking ...
+INFO:root:57185670:9: checking ...
+INFO:root:57185369:9: checking ...
+INFO:root:57187414:9: checking ...
+INFO:root:57187877:9: checking ...
+INFO:root:57187398:9: checking ...
+INFO:root:57187542:9: checking ...
+INFO:root:57187879:9: checking ...
+INFO:root:57187782:9: checking ...
+INFO:root:57187718:9: checking ...
+INFO:root:57188005:9: checking ...
+INFO:root:57203078:9: checking ...
+INFO:root:57240786:9: checking ...
+INFO:root:57187909:9: checking ...
+INFO:root:57187926:9: checking ...
+INFO:root:57187910:9: checking ...
+INFO:root:57188001:9: checking ...
+INFO:root:57245062:9: checking ...
+INFO:root:57251206:9: checking ...
+INFO:root:57253074:9: checking ...
+INFO:root:57251214:9: checking ...
+INFO:root:57252935:9: checking ...
+INFO:root:57253057:9: checking ...
+INFO:root:57251416:9: checking ...
+INFO:root:57253091:9: checking ...
+INFO:root:57253314:9: checking ...
+INFO:root:57253090:9: checking ...
+INFO:root:57253089:9: checking ...
+INFO:root:57253250:9: checking ...
+INFO:root:57253254:9: checking ...
+INFO:root:57253318:9: checking ...
+INFO:root:57253460:9: checking ...
+INFO:root:57253446:9: checking ...
+INFO:root:57253462:9: checking ...
+INFO:root:57253410:9: checking ...
+INFO:root:57253472:9: checking ...
+INFO:root:57253330:9: checking ...
+INFO:root:57253474:9: checking ...
+INFO:root:57261638:9: checking ...
+INFO:root:57253476:9: checking ...
+INFO:root:57253585:9: checking ...
+INFO:root:57253794:9: checking ...
+INFO:root:57261126:9: checking ...
+INFO:root:57261446:9: checking ...
+INFO:root:57267865:9: checking ...
+INFO:root:57268614:9: checking ...
+INFO:root:57269905:9: checking ...
+INFO:root:57269904:9: checking ...
+INFO:root:57268630:9: checking ...
+INFO:root:57268902:9: checking ...
+INFO:root:57268886:9: checking ...
+INFO:root:57306258:9: checking ...
+INFO:root:57376390:9: checking ...
+INFO:root:57306582:9: checking ...
+INFO:root:57318945:9: checking ...
+INFO:root:57384609:9: checking ...
+INFO:root:57384549:9: checking ...
+INFO:root:57372306:9: checking ...
+INFO:root:57398937:9: checking ...
+INFO:root:57440406:9: checking ...
+INFO:root:57455737:9: checking ...
+INFO:root:57437846:9: checking ...
+INFO:root:57455705:9: checking ...
+INFO:root:57456217:9: checking ...
+INFO:root:57455689:9: checking ...
+INFO:root:57456219:9: checking ...
+INFO:root:57456338:9: checking ...
+INFO:root:57456273:9: checking ...
+INFO:root:57456241:9: checking ...
+INFO:root:57507462:9: checking ...
+INFO:root:57503382:9: checking ...
+INFO:root:57503376:9: checking ...
+INFO:root:57515618:9: checking ...
+INFO:root:57521562:9: checking ...
+INFO:root:57521434:9: checking ...
+INFO:root:57521566:9: checking ...
+INFO:root:57521755:9: checking ...
+INFO:root:57523478:9: checking ...
+INFO:root:57521754:9: checking ...
+INFO:root:57523795:9: checking ...
+INFO:root:57530089:9: checking ...
+INFO:root:57571974:9: checking ...
+INFO:root:57534358:9: checking ...
+INFO:root:57530001:9: checking ...
+INFO:root:57534102:9: checking ...
+INFO:root:57529989:9: checking ...
+INFO:root:57572498:9: checking ...
+Traceback (most recent call last):
+  File "/mnt/c/Users/alexander/Documents/cmc/8 sem/ВКР/ig-exact-synthesis/src/core/mig_synthesis.py", line 135, in compute_in_parallel
+    def compute_single_function(code, args):
+  File "/home/alexander/.local/lib/python3.8/site-packages/pebble/pool/base_pool.py", line 209, in next
+    raise result
+  File "/home/alexander/.local/lib/python3.8/site-packages/pebble/pool/base_pool.py", line 232, in chunk_result
+    return future.result(timeout=timeout)
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 446, in result
+    raise TimeoutError()
+concurrent.futures._base.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/alexander/Documents/cmc/8 sem/ВКР/ig-exact-synthesis/src/core/mig_synthesis.py", line 139, in compute_in_parallel
+    else:
+IndexError: tuple index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/alexander/Documents/cmc/8 sem/ВКР/ig-exact-synthesis/src/core/mig_synthesis.py", line 160, in <module>
+    
+  File "/mnt/c/Users/alexander/Documents/cmc/8 sem/ВКР/ig-exact-synthesis/src/core/mig_synthesis.py", line 157, in main
+    timeout = args.get('timeout', DEFAULT_TIMEOUT)
+  File "/mnt/c/Users/alexander/Documents/cmc/8 sem/ВКР/ig-exact-synthesis/src/core/mig_synthesis.py", line 144, in compute_in_parallel
+    if args['dir'] is None:
+  File "/home/alexander/.local/lib/python3.8/site-packages/pebble/pool/base_pool.py", line 44, in __exit__
+    self.join()
+  File "/home/alexander/.local/lib/python3.8/site-packages/pebble/pool/base_pool.py", line 72, in join
+    self._wait_queue_depletion(timeout)
+  File "/home/alexander/.local/lib/python3.8/site-packages/pebble/pool/base_pool.py", line 86, in _wait_queue_depletion
+    time.sleep(SLEEP_UNIT)
+KeyboardInterrupt
+INFO:root:57530001:unsat
+INFO:root:57530001:Time elapsed: 1052.9885926246643
+INFO:root:Attempt to write empty string to results/10/57530001
+
+INFO:root:57529989:unsat
+INFO:root:57530089:unsat
+INFO:root:57529989:Time elapsed: 1052.9861378669739
+INFO:root:57530089:Time elapsed: 1053.009221315384
+INFO:root:Attempt to write empty string to results/10/57529989
+
+INFO:root:Attempt to write empty string to results/10/57530089
+
+04-25 22:49:29.529 - main: ['/mnt/c/Users/alexander/Documents/cmc/8 sem/ВКР/ig-exact-synthesis/src/core/mig_synthesis.py', '-I', '-i', 'input/database_dump_MIG.txt', '-c', '10', '-d', 'results/10', '-l', 'results/10/10.log', '-j', '6', '-t', '3600']
+04-25 22:49:29.529 - improve_in_parallel: Starting parallel improvint of  with 6 jobs, 3600 timeout
+04-25 22:49:31.796 - mks1_parse_mig: Read all database? list index out of range
+04-25 22:49:31.798 - improve_in_parallel: 488
+04-25 22:49:31.812 - write_string: Writing to results/10/meta:
+57530089
+
+04-25 22:49:31.812 - write_string: Writing to results/10/meta:
+57534102
+
+04-25 22:49:31.813 - write_string: Writing to results/10/meta:
+57571974
+
+04-25 22:49:31.814 - write_string: Writing to results/10/meta:
+57572498
+
+04-25 22:49:31.814 - write_string: Writing to results/10/meta:
+57534358
+
+04-25 22:49:31.816 - write_string: Writing to results/10/meta:
+57572502
+
+04-25 22:49:32.305 - check_complexity: Optimizations enabled
+04-25 22:49:32.311 - check_complexity: 57530089:9: checking ...
+04-25 22:49:32.328 - check_complexity: Optimizations enabled
+04-25 22:49:32.332 - check_complexity: Optimizations enabled
+04-25 22:49:32.334 - check_complexity: 57534358:9: checking ...
+04-25 22:49:32.338 - check_complexity: 57572498:9: checking ...
+04-25 22:49:32.343 - check_complexity: Optimizations enabled
+04-25 22:49:32.350 - check_complexity: 57572502:9: checking ...
+04-25 22:49:32.362 - check_complexity: Optimizations enabled
+04-25 22:49:32.366 - check_complexity: Optimizations enabled
+04-25 22:49:32.368 - check_complexity: 57571974:9: checking ...
+04-25 22:49:32.372 - check_complexity: 57534102:9: checking ...
+04-25 22:59:44.284 - check_complexity: 57534358:unsat
+04-25 22:59:44.284 - check_complexity: 57572502:unsat
+04-25 22:59:44.284 - check_complexity: 57534358:Time elapsed: 611.9500029087067
+04-25 22:59:44.285 - check_complexity: 57572498:unsat
+04-25 22:59:44.285 - check_complexity: 57572502:Time elapsed: 611.9343712329865
+04-25 22:59:44.285 - check_complexity: 57534102:unsat
+04-25 22:59:44.285 - check_complexity: 57572498:Time elapsed: 611.9470298290253
+04-25 22:59:44.285 - check_complexity: 57571974:unsat
+04-25 22:59:44.285 - check_complexity: 57530089:unsat
+04-25 22:59:44.285 - check_complexity: 57534102:Time elapsed: 611.9131960868835
+04-25 22:59:44.286 - check_complexity: 57571974:Time elapsed: 611.9173502922058
+04-25 22:59:44.286 - write_string: Writing to None:
+57534358
+
+04-25 22:59:44.286 - check_complexity: 57530089:Time elapsed: 611.9738891124725
+04-25 22:59:44.286 - write_string: Writing to None:
+57534102
+
+04-25 22:59:44.286 - write_string: Writing to None:
+57572502
+
+04-25 22:59:44.286 - write_string: Writing to None:
+57572498
+
+04-25 22:59:44.287 - write_string: Writing to None:
+57571974
+
+04-25 22:59:44.287 - write_string: Attempt to write empty string to results/10/57534358
+
+04-25 22:59:44.287 - write_string: Writing to None:
+57530089
+
+04-25 22:59:44.287 - write_string: Attempt to write empty string to results/10/57534102
+
+04-25 22:59:44.287 - write_string: Attempt to write empty string to results/10/57572502
+
+04-25 22:59:44.288 - write_string: Attempt to write empty string to results/10/57572498
+
+04-25 22:59:44.288 - write_string: Attempt to write empty string to results/10/57571974
+
+04-25 22:59:44.288 - write_string: Attempt to write empty string to results/10/57530089
+
+04-25 22:59:44.313 - write_string: Writing to results/10/meta:
+57603657
+
+04-25 22:59:44.314 - write_string: Writing to results/10/meta:
+57572758
+
+04-25 22:59:44.320 - write_string: Writing to results/10/meta:
+64943721
+
+04-25 22:59:44.320 - write_string: Writing to results/10/meta:
+107047636
+
+04-25 22:59:44.320 - write_string: Writing to results/10/meta:
+64412521
+
+04-25 22:59:44.324 - write_string: Writing to results/10/meta:
+107057470
+
+04-25 23:06:19.990 - main: ['/mnt/c/Users/alexander/Documents/cmc/8 sem/ВКР/ig-exact-synthesis/src/core/mig_synthesis.py', '-I', '-i', 'input/database_dump_MIG.txt', '-c', '10', '-d', 'results/10', '-l', 'results/10/10.log', '-j', '6', '-t', '3600']
+04-25 23:06:19.991 - improve_in_parallel: Starting parallel improvint of  with 6 jobs, 3600 timeout
+04-25 23:06:22.149 - mks1_parse_mig: Read all database? list index out of range
+04-25 23:06:22.151 - improve_in_parallel: 488
+04-25 23:06:22.166 - write_string: Writing to results/10/meta:
+57530089
+
+04-25 23:06:22.166 - write_string: Writing to results/10/meta:
+57534358
+
+04-25 23:06:22.166 - write_string: Writing to results/10/meta:
+57534102
+
+04-25 23:06:22.167 - write_string: Writing to results/10/meta:
+57571974
+
+04-25 23:06:22.168 - write_string: Writing to results/10/meta:
+57572502
+
+04-25 23:06:22.170 - write_string: Writing to results/10/meta:
+57572498
+
+04-25 23:06:22.723 - check_complexity: Optimizations enabled
+04-25 23:06:22.729 - check_complexity: 57571974:9: checking ...
+04-25 23:06:22.740 - check_complexity: Optimizations enabled
+04-25 23:06:22.744 - check_complexity: 57530089:9: checking ...
+04-25 23:06:22.747 - check_complexity: Optimizations enabled
+04-25 23:06:22.748 - check_complexity: Optimizations enabled
+04-25 23:06:22.753 - check_complexity: 57534358:9: checking ...
+04-25 23:06:22.755 - check_complexity: 57534102:9: checking ...
+04-25 23:06:22.756 - check_complexity: Optimizations enabled
+04-25 23:06:22.762 - check_complexity: 57572498:9: checking ...
+04-25 23:06:22.770 - check_complexity: Optimizations enabled
+04-25 23:06:22.774 - check_complexity: 57572502:9: checking ...
+04-26 00:06:22.218 - improve_in_parallel: ('Task timeout', 3600)
+04-26 00:06:22.220 - improve_in_parallel: ('Task timeout', 3600)
+04-26 00:06:22.223 - improve_in_parallel: ('Task timeout', 3600)
+04-26 00:06:22.224 - improve_in_parallel: ('Task timeout', 3600)
+04-26 00:06:22.226 - improve_in_parallel: ('Task timeout', 3600)
+04-26 00:06:22.228 - improve_in_parallel: ('Task timeout', 3600)
+04-26 00:06:22.232 - write_string: Writing to results/10/meta:
+57572758
+
+04-26 00:06:22.233 - write_string: Writing to results/10/meta:
+57603657
+
+04-26 00:06:22.237 - write_string: Writing to results/10/meta:
+64412521
+
+04-26 00:06:22.237 - write_string: Writing to results/10/meta:
+64943721
+
+04-26 00:06:22.241 - write_string: Writing to results/10/meta:
+107047636
+
+04-26 00:06:22.243 - write_string: Writing to results/10/meta:
+107057470
+
+04-26 00:06:22.782 - check_complexity: Optimizations enabled
+04-26 00:06:22.786 - check_complexity: 64412521:9: checking ...
+04-26 00:06:22.787 - check_complexity: Optimizations enabled
+04-26 00:06:22.790 - check_complexity: 107047636:9: checking ...
+04-26 00:06:22.796 - check_complexity: Optimizations enabled
+04-26 00:06:22.800 - check_complexity: 107057470:9: checking ...
+04-26 00:06:22.803 - check_complexity: Optimizations enabled
+04-26 00:06:22.804 - check_complexity: Optimizations enabled
+04-26 00:06:22.807 - check_complexity: 57572758:9: checking ...
+04-26 00:06:22.808 - check_complexity: 57603657:9: checking ...
+04-26 00:06:22.817 - check_complexity: Optimizations enabled
+04-26 00:06:22.820 - check_complexity: 64943721:9: checking ...
+04-26 01:06:22.228 - improve_in_parallel: ()
+04-26 01:06:22.281 - improve_in_parallel: ('Task timeout', 3600)
+04-26 01:06:22.284 - improve_in_parallel: ('Task timeout', 3600)
+04-26 01:06:22.286 - improve_in_parallel: ('Task timeout', 3600)
+04-26 01:06:22.288 - improve_in_parallel: ('Task timeout', 3600)
+04-26 01:06:22.290 - improve_in_parallel: ('Task timeout', 3600)
+04-26 01:06:22.295 - write_string: Writing to results/10/meta:
+107058014
+
+04-26 01:06:22.295 - write_string: Writing to results/10/meta:
+107059364
+
+04-26 01:06:22.296 - write_string: Writing to results/10/meta:
+107066600
+
+04-26 01:06:22.302 - write_string: Writing to results/10/meta:
+107080100
+
+04-26 01:06:22.302 - write_string: Writing to results/10/meta:
+107067080
+
+04-26 01:06:22.303 - write_string: Writing to results/10/meta:
+107178676
+
+04-26 01:06:22.811 - check_complexity: Optimizations enabled
+04-26 01:06:22.814 - check_complexity: 107058014:9: checking ...
+04-26 01:06:22.831 - check_complexity: Optimizations enabled
+04-26 01:06:22.834 - check_complexity: 107066600:9: checking ...
+04-26 01:06:22.835 - check_complexity: Optimizations enabled
+04-26 01:06:22.838 - check_complexity: Optimizations enabled
+04-26 01:06:22.839 - check_complexity: 107067080:9: checking ...
+04-26 01:06:22.841 - check_complexity: 107178676:9: checking ...
+04-26 01:06:22.848 - check_complexity: Optimizations enabled
+04-26 01:06:22.851 - check_complexity: Optimizations enabled
+04-26 01:06:22.852 - check_complexity: 107059364:9: checking ...
+04-26 01:06:22.854 - check_complexity: 107080100:9: checking ...
+04-26 02:06:22.290 - improve_in_parallel: ()
+04-26 02:06:22.374 - improve_in_parallel: ('Task timeout', 3600)
+04-26 02:06:22.376 - improve_in_parallel: ('Task timeout', 3600)
+04-26 02:06:22.379 - improve_in_parallel: ('Task timeout', 3600)
+04-26 02:06:22.381 - improve_in_parallel: ('Task timeout', 3600)
+04-26 02:06:22.383 - improve_in_parallel: ('Task timeout', 3600)
+04-26 02:06:22.388 - write_string: Writing to results/10/meta:
+107198121
+
+04-26 02:06:22.388 - write_string: Writing to results/10/meta:
+107205289
+
+04-26 02:06:22.389 - write_string: Writing to results/10/meta:
+107206313
+
+04-26 02:06:22.391 - write_string: Writing to results/10/meta:
+107211172
+
+04-26 02:06:22.395 - write_string: Writing to results/10/meta:
+107211474
+
+04-26 02:06:22.395 - write_string: Writing to results/10/meta:
+107573958
+
+04-26 02:06:22.882 - check_complexity: Optimizations enabled
+04-26 02:06:22.886 - check_complexity: 107198121:9: checking ...
+04-26 02:06:22.907 - check_complexity: Optimizations enabled
+04-26 02:06:22.910 - check_complexity: 107206313:9: checking ...
+04-26 02:06:22.911 - check_complexity: Optimizations enabled
+04-26 02:06:22.915 - check_complexity: 107211474:9: checking ...
+04-26 02:06:22.925 - check_complexity: Optimizations enabled
+04-26 02:06:22.926 - check_complexity: Optimizations enabled
+04-26 02:06:22.929 - check_complexity: 107205289:9: checking ...
+04-26 02:06:22.929 - check_complexity: 107211172:9: checking ...
+04-26 02:06:22.934 - check_complexity: Optimizations enabled
+04-26 02:06:22.937 - check_complexity: 107573958:9: checking ...
+04-26 03:06:22.383 - improve_in_parallel: ()
+04-26 03:06:22.433 - improve_in_parallel: ('Task timeout', 3600)
+04-26 03:06:22.435 - improve_in_parallel: ('Task timeout', 3600)
+04-26 03:06:22.438 - improve_in_parallel: ('Task timeout', 3600)
+04-26 03:06:22.440 - improve_in_parallel: ('Task timeout', 3600)
+04-26 03:06:22.442 - improve_in_parallel: ('Task timeout', 3600)
+04-26 03:06:22.447 - write_string: Writing to results/10/meta:
+107574914
+
+04-26 03:06:22.447 - write_string: Writing to results/10/meta:
+107574180
+
+04-26 03:06:22.448 - write_string: Writing to results/10/meta:
+107576006
+
+04-26 03:06:22.453 - write_string: Writing to results/10/meta:
+107576034
+
+04-26 03:06:22.453 - write_string: Writing to results/10/meta:
+107576036
+
+04-26 03:06:22.454 - write_string: Writing to results/10/meta:
+107581502
+
+04-26 03:06:22.932 - check_complexity: Optimizations enabled
+04-26 03:06:22.936 - check_complexity: 107576006:9: checking ...
+04-26 03:06:22.961 - check_complexity: Optimizations enabled
+04-26 03:06:22.964 - check_complexity: 107576034:9: checking ...
+04-26 03:06:22.967 - check_complexity: Optimizations enabled
+04-26 03:06:22.970 - check_complexity: 107576036:9: checking ...
+04-26 03:06:22.979 - check_complexity: Optimizations enabled
+04-26 03:06:22.980 - check_complexity: Optimizations enabled
+04-26 03:06:22.982 - check_complexity: Optimizations enabled
+04-26 03:06:22.982 - check_complexity: 107581502:9: checking ...
+04-26 03:06:22.984 - check_complexity: 107574914:9: checking ...
+04-26 03:06:22.985 - check_complexity: 107574180:9: checking ...
+04-26 04:06:22.442 - improve_in_parallel: ()
+04-26 04:06:22.548 - improve_in_parallel: ('Task timeout', 3600)
+04-26 04:06:22.550 - improve_in_parallel: ('Task timeout', 3600)
+04-26 04:06:22.553 - improve_in_parallel: ('Task timeout', 3600)
+04-26 04:06:22.555 - improve_in_parallel: ('Task timeout', 3600)
+04-26 04:06:22.556 - improve_in_parallel: ('Task timeout', 3600)
+04-26 04:06:22.561 - write_string: Writing to results/10/meta:
+107581732
+
+04-26 04:06:22.562 - write_string: Writing to results/10/meta:
+107581734
+
+04-26 04:06:22.564 - write_string: Writing to results/10/meta:
+107581740
+
+04-26 04:06:22.564 - write_string: Writing to results/10/meta:
+107581742
+
+04-26 04:06:22.568 - write_string: Writing to results/10/meta:
+107581758
+
+04-26 04:06:22.570 - write_string: Writing to results/10/meta:
+107581748
+
+04-26 04:06:23.024 - check_complexity: Optimizations enabled
+04-26 04:06:23.028 - check_complexity: 107581734:9: checking ...
+04-26 04:06:23.058 - check_complexity: Optimizations enabled
+04-26 04:06:23.062 - check_complexity: 107581742:9: checking ...
+04-26 04:06:23.089 - check_complexity: Optimizations enabled
+04-26 04:06:23.090 - check_complexity: Optimizations enabled
+04-26 04:06:23.091 - check_complexity: Optimizations enabled
+04-26 04:06:23.092 - check_complexity: 107581748:9: checking ...
+04-26 04:06:23.095 - check_complexity: 107581732:9: checking ...
+04-26 04:06:23.095 - check_complexity: 107581740:9: checking ...
+04-26 04:06:23.102 - check_complexity: Optimizations enabled
+04-26 04:06:23.106 - check_complexity: 107581758:9: checking ...
+04-26 05:06:22.557 - improve_in_parallel: ()
+04-26 05:06:22.595 - improve_in_parallel: ('Task timeout', 3600)
+04-26 05:06:22.597 - improve_in_parallel: ('Task timeout', 3600)
+04-26 05:06:22.599 - improve_in_parallel: ('Task timeout', 3600)
+04-26 05:06:22.601 - improve_in_parallel: ('Task timeout', 3600)
+04-26 05:06:22.603 - improve_in_parallel: ('Task timeout', 3600)
+04-26 05:06:22.608 - write_string: Writing to results/10/meta:
+107581862
+
+04-26 05:06:22.610 - write_string: Writing to results/10/meta:
+107581878
+
+04-26 05:06:22.610 - write_string: Writing to results/10/meta:
+107582036
+
+04-26 05:06:22.611 - write_string: Writing to results/10/meta:
+107582038
+
+04-26 05:06:22.613 - write_string: Writing to results/10/meta:
+107582044
+
+04-26 05:06:22.619 - write_string: Writing to results/10/meta:
+107582070
+
+04-26 05:06:23.092 - check_complexity: Optimizations enabled
+04-26 05:06:23.096 - check_complexity: 107582038:9: checking ...
+04-26 05:06:23.109 - check_complexity: Optimizations enabled
+04-26 05:06:23.112 - check_complexity: 107582044:9: checking ...
+04-26 05:06:23.118 - check_complexity: Optimizations enabled
+04-26 05:06:23.121 - check_complexity: 107581878:9: checking ...
+04-26 05:06:23.137 - check_complexity: Optimizations enabled
+04-26 05:06:23.137 - check_complexity: Optimizations enabled
+04-26 05:06:23.140 - check_complexity: 107581862:9: checking ...
+04-26 05:06:23.140 - check_complexity: 107582036:9: checking ...
+04-26 05:06:23.145 - check_complexity: Optimizations enabled
+04-26 05:06:23.149 - check_complexity: 107582070:9: checking ...
+04-26 06:06:22.604 - improve_in_parallel: ()
+04-26 06:06:22.708 - improve_in_parallel: ('Task timeout', 3600)
+04-26 06:06:22.710 - improve_in_parallel: ('Task timeout', 3600)
+04-26 06:06:22.713 - improve_in_parallel: ('Task timeout', 3600)
+04-26 06:06:22.715 - improve_in_parallel: ('Task timeout', 3600)
+04-26 06:06:22.717 - improve_in_parallel: ('Task timeout', 3600)
+04-26 06:06:22.722 - write_string: Writing to results/10/meta:
+107582166
+
+04-26 06:06:22.722 - write_string: Writing to results/10/meta:
+107582167
+
+04-26 06:06:22.725 - write_string: Writing to results/10/meta:
+107582294
+
+04-26 06:06:22.725 - write_string: Writing to results/10/meta:
+107582296
+
+04-26 06:06:22.725 - write_string: Writing to results/10/meta:
+107582302
+
+04-26 06:06:22.729 - write_string: Writing to results/10/meta:
+107582356
+
+04-26 06:06:23.206 - check_complexity: Optimizations enabled
+04-26 06:06:23.207 - check_complexity: Optimizations enabled
+04-26 06:06:23.210 - check_complexity: 107582356:9: checking ...
+04-26 06:06:23.211 - check_complexity: 107582167:9: checking ...
+04-26 06:06:23.227 - check_complexity: Optimizations enabled
+04-26 06:06:23.231 - check_complexity: 107582294:9: checking ...
+04-26 06:06:23.245 - check_complexity: Optimizations enabled
+04-26 06:06:23.248 - check_complexity: 107582302:9: checking ...
+04-26 06:06:23.254 - check_complexity: Optimizations enabled
+04-26 06:06:23.258 - check_complexity: 107582166:9: checking ...
+04-26 06:06:23.259 - check_complexity: Optimizations enabled
+04-26 06:06:23.262 - check_complexity: 107582296:9: checking ...
+04-26 07:06:22.717 - improve_in_parallel: ()
+04-26 07:06:22.731 - improve_in_parallel: ('Task timeout', 3600)
+04-26 07:06:22.733 - improve_in_parallel: ('Task timeout', 3600)
+04-26 07:06:22.736 - improve_in_parallel: ('Task timeout', 3600)
+04-26 07:06:22.738 - improve_in_parallel: ('Task timeout', 3600)
+04-26 07:06:22.744 - write_string: Writing to results/10/meta:
+107582372
+
+04-26 07:06:22.744 - write_string: Writing to results/10/meta:
+107582374
+
+04-26 07:06:22.745 - write_string: Writing to results/10/meta:
+107582375
+
+04-26 07:06:22.751 - write_string: Writing to results/10/meta:
+107582388
+
+04-26 07:06:22.752 - write_string: Writing to results/10/meta:
+107582402
+
+04-26 07:06:22.848 - improve_in_parallel: ('Task timeout', 3600)
+04-26 07:06:22.854 - write_string: Writing to results/10/meta:
+107582406
+
+04-26 07:06:23.258 - check_complexity: Optimizations enabled
+04-26 07:06:23.261 - check_complexity: 107582388:9: checking ...
+04-26 07:06:23.265 - check_complexity: Optimizations enabled
+04-26 07:06:23.269 - check_complexity: 107582375:9: checking ...
+04-26 07:06:23.275 - check_complexity: Optimizations enabled
+04-26 07:06:23.278 - check_complexity: 107582372:9: checking ...
+04-26 07:06:23.283 - check_complexity: Optimizations enabled
+04-26 07:06:23.287 - check_complexity: 107582374:9: checking ...
+04-26 07:06:23.312 - check_complexity: Optimizations enabled
+04-26 07:06:23.316 - check_complexity: 107582402:9: checking ...
+04-26 07:06:23.364 - check_complexity: Optimizations enabled
+04-26 07:06:23.367 - check_complexity: 107582406:9: checking ...
+04-26 08:06:22.829 - improve_in_parallel: ('Task timeout', 3600)
+04-26 08:06:22.831 - improve_in_parallel: ('Task timeout', 3600)
+04-26 08:06:22.833 - improve_in_parallel: ('Task timeout', 3600)
+04-26 08:06:22.835 - improve_in_parallel: ('Task timeout', 3600)
+04-26 08:06:22.838 - improve_in_parallel: ('Task timeout', 3600)
+04-26 08:06:22.843 - write_string: Writing to results/10/meta:
+107582422
+
+04-26 08:06:22.844 - write_string: Writing to results/10/meta:
+107582438
+
+04-26 08:06:22.845 - write_string: Writing to results/10/meta:
+107582450
+
+04-26 08:06:22.847 - write_string: Writing to results/10/meta:
+107583408
+
+04-26 08:06:22.849 - write_string: Writing to results/10/meta:
+107583414
+
+04-26 08:06:22.947 - improve_in_parallel: ('Task timeout', 3600)
+04-26 08:06:22.952 - write_string: Writing to results/10/meta:
+107589686
+
+04-26 08:06:23.368 - check_complexity: Optimizations enabled
+04-26 08:06:23.371 - check_complexity: 107582438:9: checking ...
+04-26 08:06:23.386 - check_complexity: Optimizations enabled
+04-26 08:06:23.390 - check_complexity: 107582450:9: checking ...
+04-26 08:06:23.394 - check_complexity: Optimizations enabled
+04-26 08:06:23.398 - check_complexity: 107582422:9: checking ...
+04-26 08:06:23.404 - check_complexity: Optimizations enabled
+04-26 08:06:23.408 - check_complexity: 107583414:9: checking ...
+04-26 08:06:23.416 - check_complexity: Optimizations enabled
+04-26 08:06:23.419 - check_complexity: 107583408:9: checking ...
+04-26 08:06:23.491 - check_complexity: Optimizations enabled
+04-26 08:06:23.496 - check_complexity: 107589686:9: checking ...
+04-26 09:06:22.927 - improve_in_parallel: ('Task timeout', 3600)
+04-26 09:06:22.930 - improve_in_parallel: ('Task timeout', 3600)
+04-26 09:06:22.932 - improve_in_parallel: ('Task timeout', 3600)
+04-26 09:06:22.933 - improve_in_parallel: ('Task timeout', 3600)
+04-26 09:06:22.935 - improve_in_parallel: ('Task timeout', 3600)
+04-26 09:06:22.942 - write_string: Writing to results/10/meta:
+107589940
+
+04-26 09:06:22.942 - write_string: Writing to results/10/meta:
+107589944
+
+04-26 09:06:22.943 - write_string: Writing to results/10/meta:
+107589976
+
+04-26 09:06:22.946 - write_string: Writing to results/10/meta:
+107589987
+
+04-26 09:06:22.951 - write_string: Writing to results/10/meta:
+107589988
+
+04-26 09:06:23.049 - improve_in_parallel: ('Task timeout', 3600)
+04-26 09:06:23.055 - write_string: Writing to results/10/meta:
+107590004
+
+04-26 09:06:23.432 - check_complexity: Optimizations enabled
+04-26 09:06:23.437 - check_complexity: 107589940:9: checking ...
+04-26 09:06:23.437 - check_complexity: Optimizations enabled
+04-26 09:06:23.440 - check_complexity: 107589944:9: checking ...
+04-26 09:06:23.472 - check_complexity: Optimizations enabled
+04-26 09:06:23.475 - check_complexity: 107589976:9: checking ...
+04-26 09:06:23.487 - check_complexity: Optimizations enabled
+04-26 09:06:23.490 - check_complexity: 107589987:9: checking ...
+04-26 09:06:23.507 - check_complexity: Optimizations enabled
+04-26 09:06:23.511 - check_complexity: 107589988:9: checking ...
+04-26 09:06:23.582 - check_complexity: Optimizations enabled
+04-26 09:06:23.586 - check_complexity: 107590004:9: checking ...
+04-26 10:06:23.031 - improve_in_parallel: ('Task timeout', 3600)
+04-26 10:06:23.034 - improve_in_parallel: ('Task timeout', 3600)
+04-26 10:06:23.036 - improve_in_parallel: ('Task timeout', 3600)
+04-26 10:06:23.039 - improve_in_parallel: ('Task timeout', 3600)
+04-26 10:06:23.040 - improve_in_parallel: ('Task timeout', 3600)
+04-26 10:06:23.046 - write_string: Writing to results/10/meta:
+107590010
+
+04-26 10:06:23.047 - write_string: Writing to results/10/meta:
+107590052
+
+04-26 10:06:23.048 - write_string: Writing to results/10/meta:
+107590055
+
+04-26 10:06:23.052 - write_string: Writing to results/10/meta:
+107590082
+
+04-26 10:06:23.053 - write_string: Writing to results/10/meta:
+107590090
+
+04-26 10:06:23.155 - improve_in_parallel: ('Task timeout', 3600)
+04-26 10:06:23.506 - check_complexity: Optimizations enabled
+04-26 10:06:23.510 - check_complexity: 107590082:9: checking ...
+04-26 10:06:23.537 - check_complexity: Optimizations enabled
+04-26 10:06:23.541 - check_complexity: 107590055:9: checking ...
+04-26 10:06:23.543 - check_complexity: Optimizations enabled
+04-26 10:06:23.546 - check_complexity: 107590010:9: checking ...
+04-26 10:06:23.548 - check_complexity: Optimizations enabled
+04-26 10:06:23.551 - check_complexity: 107590052:9: checking ...
+04-26 10:06:23.592 - check_complexity: Optimizations enabled
+04-26 10:06:23.595 - check_complexity: 107590090:9: checking ...
+04-26 11:06:23.090 - improve_in_parallel: ('Task timeout', 3600)
+04-26 11:06:23.093 - improve_in_parallel: ('Task timeout', 3600)
+04-26 11:06:23.095 - improve_in_parallel: ('Task timeout', 3600)
+04-26 11:06:23.097 - improve_in_parallel: ('Task timeout', 3600)
+04-26 11:06:23.099 - improve_in_parallel: ('Task timeout', 3600)
+04-26 11:06:23.104 - write_string: Writing to results/10/meta:
+107590114
+
+04-26 11:06:23.105 - write_string: Writing to results/10/meta:
+107590115
+
+04-26 11:06:23.106 - write_string: Writing to results/10/meta:
+107590120
+
+04-26 11:06:23.108 - write_string: Writing to results/10/meta:
+107590196
+
+04-26 11:06:23.112 - write_string: Writing to results/10/meta:
+107590227
+
+04-26 11:06:23.208 - improve_in_parallel: ('Task timeout', 3600)
+04-26 11:06:23.213 - write_string: Writing to results/10/meta:
+107590268
+
+04-26 11:06:23.628 - check_complexity: Optimizations enabled
+04-26 11:06:23.631 - check_complexity: 107590196:9: checking ...
+04-26 11:06:23.636 - check_complexity: Optimizations enabled
+04-26 11:06:23.639 - check_complexity: 107590115:9: checking ...
+04-26 11:06:23.645 - check_complexity: Optimizations enabled
+04-26 11:06:23.648 - check_complexity: 107590120:9: checking ...
+04-26 11:06:23.660 - check_complexity: Optimizations enabled
+04-26 11:06:23.663 - check_complexity: Optimizations enabled
+04-26 11:06:23.663 - check_complexity: 107590227:9: checking ...
+04-26 11:06:23.667 - check_complexity: 107590114:9: checking ...
+04-26 11:06:23.752 - check_complexity: Optimizations enabled
+04-26 11:06:23.755 - check_complexity: 107590268:9: checking ...
+04-26 12:06:23.180 - improve_in_parallel: ('Task timeout', 3600)
+04-26 12:06:23.183 - improve_in_parallel: ('Task timeout', 3600)
+04-26 12:06:23.183 - improve_in_parallel: ('Task timeout', 3600)
+04-26 12:06:23.185 - improve_in_parallel: ('Task timeout', 3600)
+04-26 12:06:23.187 - improve_in_parallel: ('Task timeout', 3600)
+04-26 12:06:23.192 - write_string: Writing to results/10/meta:
+107590353
+
+04-26 12:06:23.193 - write_string: Writing to results/10/meta:
+107590359
+
+04-26 12:06:23.194 - write_string: Writing to results/10/meta:
+107590482
+
+04-26 12:06:23.199 - write_string: Writing to results/10/meta:
+107590598
+
+04-26 12:06:23.199 - write_string: Writing to results/10/meta:
+107590594
+
+04-26 12:06:23.295 - improve_in_parallel: ('Task timeout', 3600)
+04-26 12:06:23.302 - write_string: Writing to results/10/meta:
+107590610
+
+04-26 12:06:23.679 - check_complexity: Optimizations enabled
+04-26 12:06:23.683 - check_complexity: 107590598:9: checking ...
+04-26 12:06:23.684 - check_complexity: Optimizations enabled
+04-26 12:06:23.687 - check_complexity: 107590359:9: checking ...
+04-26 12:06:23.730 - check_complexity: Optimizations enabled
+04-26 12:06:23.733 - check_complexity: 107590353:9: checking ...
+04-26 12:06:23.738 - check_complexity: Optimizations enabled
+04-26 12:06:23.742 - check_complexity: 107590482:9: checking ...
+04-26 12:06:23.751 - check_complexity: Optimizations enabled
+04-26 12:06:23.755 - check_complexity: 107590594:9: checking ...
+04-26 12:06:23.804 - check_complexity: Optimizations enabled
+04-26 12:06:23.808 - check_complexity: 107590610:9: checking ...
+04-26 13:06:23.241 - improve_in_parallel: ('Task timeout', 3600)
+04-26 13:06:23.243 - improve_in_parallel: ('Task timeout', 3600)
+04-26 13:06:23.245 - improve_in_parallel: ('Task timeout', 3600)
+04-26 13:06:23.247 - improve_in_parallel: ('Task timeout', 3600)
+04-26 13:06:23.249 - improve_in_parallel: ('Task timeout', 3600)
+04-26 13:06:23.254 - write_string: Writing to results/10/meta:
+107590614
+
+04-26 13:06:23.255 - write_string: Writing to results/10/meta:
+107590625
+
+04-26 13:06:23.258 - write_string: Writing to results/10/meta:
+107590628
+
+04-26 13:06:23.258 - write_string: Writing to results/10/meta:
+107590742
+
+04-26 13:06:23.266 - write_string: Writing to results/10/meta:
+107590774
+
+04-26 13:06:23.360 - improve_in_parallel: ('Task timeout', 3600)
+04-26 13:06:23.366 - write_string: Writing to results/10/meta:
+107590803
+
+04-26 13:06:23.757 - check_complexity: Optimizations enabled
+04-26 13:06:23.758 - check_complexity: Optimizations enabled
+04-26 13:06:23.761 - check_complexity: 107590628:9: checking ...
+04-26 13:06:23.761 - check_complexity: 107590774:9: checking ...
+04-26 13:06:23.782 - check_complexity: Optimizations enabled
+04-26 13:06:23.785 - check_complexity: 107590614:9: checking ...
+04-26 13:06:23.788 - check_complexity: Optimizations enabled
+04-26 13:06:23.792 - check_complexity: 107590742:9: checking ...
+04-26 13:06:23.797 - check_complexity: Optimizations enabled
+04-26 13:06:23.801 - check_complexity: 107590625:9: checking ...
+04-26 13:06:23.906 - check_complexity: Optimizations enabled
+04-26 13:06:23.909 - check_complexity: 107590803:9: checking ...
+04-26 14:06:23.343 - improve_in_parallel: ('Task timeout', 3600)
+04-26 14:06:23.345 - improve_in_parallel: ('Task timeout', 3600)
+04-26 14:06:23.348 - improve_in_parallel: ('Task timeout', 3600)
+04-26 14:06:23.351 - improve_in_parallel: ('Task timeout', 3600)
+04-26 14:06:23.353 - improve_in_parallel: ('Task timeout', 3600)
+04-26 14:06:23.359 - write_string: Writing to results/10/meta:
+107591028
+
+04-26 14:06:23.359 - write_string: Writing to results/10/meta:
+107591030
+
+04-26 14:06:23.360 - write_string: Writing to results/10/meta:
+107591105
+
+04-26 14:06:23.366 - write_string: Writing to results/10/meta:
+107591106
+
+04-26 14:06:23.369 - write_string: Writing to results/10/meta:
+107591107
+
+04-26 14:06:23.466 - improve_in_parallel: ('Task timeout', 3600)
+04-26 14:06:23.472 - write_string: Writing to results/10/meta:
+107591110
+
+04-26 14:06:23.871 - check_complexity: Optimizations enabled
+04-26 14:06:23.875 - check_complexity: 107591105:9: checking ...
+04-26 14:06:23.879 - check_complexity: Optimizations enabled
+04-26 14:06:23.882 - check_complexity: 107591106:9: checking ...
+04-26 14:06:23.901 - check_complexity: Optimizations enabled
+04-26 14:06:23.905 - check_complexity: 107591107:9: checking ...
+04-26 14:06:23.914 - check_complexity: Optimizations enabled
+04-26 14:06:23.917 - check_complexity: 107591028:9: checking ...
+04-26 14:06:23.927 - check_complexity: Optimizations enabled
+04-26 14:06:23.931 - check_complexity: 107591030:9: checking ...
+04-26 14:06:24.073 - check_complexity: Optimizations enabled
+04-26 14:06:24.076 - check_complexity: 107591110:9: checking ...
+04-26 15:06:23.444 - improve_in_parallel: ('Task timeout', 3600)
+04-26 15:06:23.447 - improve_in_parallel: ('Task timeout', 3600)
+04-26 15:06:23.450 - improve_in_parallel: ('Task timeout', 3600)
+04-26 15:06:23.452 - improve_in_parallel: ('Task timeout', 3600)
+04-26 15:06:23.454 - improve_in_parallel: ('Task timeout', 3600)
+04-26 15:06:23.460 - write_string: Writing to results/10/meta:
+107591111
+
+04-26 15:06:23.460 - write_string: Writing to results/10/meta:
+107591138
+
+04-26 15:06:23.462 - write_string: Writing to results/10/meta:
+107591140
+
+04-26 15:06:23.466 - write_string: Writing to results/10/meta:
+107591144
+
+04-26 15:06:23.469 - write_string: Writing to results/10/meta:
+107591572
+
+04-26 15:06:23.564 - improve_in_parallel: ('Task timeout', 3600)
+04-26 15:06:23.570 - write_string: Writing to results/10/meta:
+107591576
+
+04-26 15:06:23.992 - check_complexity: Optimizations enabled
+04-26 15:06:23.996 - check_complexity: 107591111:9: checking ...
+04-26 15:06:24.000 - check_complexity: Optimizations enabled
+04-26 15:06:24.003 - check_complexity: Optimizations enabled
+04-26 15:06:24.004 - check_complexity: 107591144:9: checking ...
+04-26 15:06:24.007 - check_complexity: 107591138:9: checking ...
+04-26 15:06:24.017 - check_complexity: Optimizations enabled
+04-26 15:06:24.020 - check_complexity: 107591140:9: checking ...
+04-26 15:06:24.026 - check_complexity: Optimizations enabled
+04-26 15:06:24.030 - check_complexity: 107591572:9: checking ...
+04-26 15:06:24.062 - check_complexity: Optimizations enabled
+04-26 15:06:24.066 - check_complexity: 107591576:9: checking ...
+04-26 16:06:23.470 - improve_in_parallel: ('Task timeout', 3600)
+04-26 16:06:23.473 - improve_in_parallel: ('Task timeout', 3600)
+04-26 16:06:23.476 - improve_in_parallel: ('Task timeout', 3600)
+04-26 16:06:23.478 - improve_in_parallel: ('Task timeout', 3600)
+04-26 16:06:23.480 - improve_in_parallel: ('Task timeout', 3600)
+04-26 16:06:23.485 - write_string: Writing to results/10/meta:
+107591578
+
+04-26 16:06:23.486 - write_string: Writing to results/10/meta:
+107591632
+
+04-26 16:06:23.489 - write_string: Writing to results/10/meta:
+107591638
+
+04-26 16:06:23.489 - write_string: Writing to results/10/meta:
+107606310
+
+04-26 16:06:23.494 - write_string: Writing to results/10/meta:
+107606378
+
+04-26 16:06:23.590 - improve_in_parallel: ('Task timeout', 3600)
+04-26 16:06:23.596 - write_string: Writing to results/10/meta:
+107705730
+
+04-26 16:06:23.985 - check_complexity: Optimizations enabled
+04-26 16:06:23.989 - check_complexity: 107606378:9: checking ...
+04-26 16:06:23.999 - check_complexity: Optimizations enabled
+04-26 16:06:24.003 - check_complexity: Optimizations enabled
+04-26 16:06:24.003 - check_complexity: 107591638:9: checking ...
+04-26 16:06:24.007 - check_complexity: 107591632:9: checking ...
+04-26 16:06:24.040 - check_complexity: Optimizations enabled
+04-26 16:06:24.044 - check_complexity: 107606310:9: checking ...
+04-26 16:06:24.087 - check_complexity: Optimizations enabled
+04-26 16:06:24.091 - check_complexity: 107591578:9: checking ...
+04-26 16:06:24.170 - check_complexity: Optimizations enabled
+04-26 16:06:24.174 - check_complexity: 107705730:9: checking ...
+04-26 17:06:23.519 - improve_in_parallel: ('Task timeout', 3600)
+04-26 17:06:23.522 - improve_in_parallel: ('Task timeout', 3600)
+04-26 17:06:23.523 - improve_in_parallel: ('Task timeout', 3600)
+04-26 17:06:23.525 - improve_in_parallel: ('Task timeout', 3600)
+04-26 17:06:23.528 - improve_in_parallel: ('Task timeout', 3600)
+04-26 17:06:23.533 - write_string: Writing to results/10/meta:
+107705794
+
+04-26 17:06:23.533 - write_string: Writing to results/10/meta:
+107706518
+
+04-26 17:06:23.535 - write_string: Writing to results/10/meta:
+107712812
+
+04-26 17:06:23.543 - write_string: Writing to results/10/meta:
+107713108
+
+04-26 17:06:23.545 - write_string: Writing to results/10/meta:
+107713509
+
+04-26 17:06:23.639 - improve_in_parallel: ('Task timeout', 3600)
+04-26 17:06:23.645 - write_string: Writing to results/10/meta:
+107714484
+
+04-26 17:06:24.010 - check_complexity: Optimizations enabled
+04-26 17:06:24.013 - check_complexity: 107713509:9: checking ...
+04-26 17:06:24.065 - check_complexity: Optimizations enabled
+04-26 17:06:24.069 - check_complexity: 107712812:9: checking ...
+04-26 17:06:24.077 - check_complexity: Optimizations enabled
+04-26 17:06:24.081 - check_complexity: 107706518:9: checking ...
+04-26 17:06:24.086 - check_complexity: Optimizations enabled
+04-26 17:06:24.090 - check_complexity: 107713108:9: checking ...
+04-26 17:06:24.098 - check_complexity: Optimizations enabled
+04-26 17:06:24.101 - check_complexity: 107705794:9: checking ...
+04-26 17:06:24.220 - check_complexity: Optimizations enabled
+04-26 17:06:24.224 - check_complexity: 107714484:9: checking ...
+04-26 18:06:23.612 - improve_in_parallel: ('Task timeout', 3600)
+04-26 18:06:23.615 - improve_in_parallel: ('Task timeout', 3600)
+04-26 18:06:23.617 - improve_in_parallel: ('Task timeout', 3600)
+04-26 18:06:23.619 - improve_in_parallel: ('Task timeout', 3600)
+04-26 18:06:23.621 - improve_in_parallel: ('Task timeout', 3600)
+04-26 18:06:23.627 - write_string: Writing to results/10/meta:
+107714488
+
+04-26 18:06:23.628 - write_string: Writing to results/10/meta:
+107714528
+
+04-26 18:06:23.631 - write_string: Writing to results/10/meta:
+107722209
+
+04-26 18:06:23.632 - write_string: Writing to results/10/meta:
+107722704
+
+04-26 18:06:23.633 - write_string: Writing to results/10/meta:
+107722720
+
+04-26 18:06:23.730 - improve_in_parallel: ('Task timeout', 3600)
+04-26 18:06:23.736 - write_string: Writing to results/10/meta:
+107729829
+
+04-26 18:06:24.119 - check_complexity: Optimizations enabled
+04-26 18:06:24.123 - check_complexity: 107722704:9: checking ...
+04-26 18:06:24.154 - check_complexity: Optimizations enabled
+04-26 18:06:24.156 - check_complexity: Optimizations enabled
+04-26 18:06:24.157 - check_complexity: 107714528:9: checking ...
+04-26 18:06:24.160 - check_complexity: 107714488:9: checking ...
+04-26 18:06:24.165 - check_complexity: Optimizations enabled
+04-26 18:06:24.168 - check_complexity: 107722720:9: checking ...
+04-26 18:06:24.195 - check_complexity: Optimizations enabled
+04-26 18:06:24.198 - check_complexity: 107722209:9: checking ...
+04-26 18:06:24.274 - check_complexity: Optimizations enabled
+04-26 18:06:24.277 - check_complexity: 107729829:9: checking ...
+04-26 19:06:23.679 - improve_in_parallel: ('Task timeout', 3600)
+04-26 19:06:23.682 - improve_in_parallel: ('Task timeout', 3600)
+04-26 19:06:23.685 - improve_in_parallel: ('Task timeout', 3600)
+04-26 19:06:23.688 - improve_in_parallel: ('Task timeout', 3600)
+04-26 19:06:23.690 - improve_in_parallel: ('Task timeout', 3600)
+04-26 19:06:23.696 - write_string: Writing to results/10/meta:
+107729833
+
+04-26 19:06:23.697 - write_string: Writing to results/10/meta:
+107729837
+
+04-26 19:06:23.698 - write_string: Writing to results/10/meta:
+108174889
+
+04-26 19:06:23.703 - write_string: Writing to results/10/meta:
+108238440
+
+04-26 19:06:23.705 - write_string: Writing to results/10/meta:
+108246184
+
+04-26 19:06:23.798 - improve_in_parallel: ('Task timeout', 3600)
+04-26 19:06:23.805 - write_string: Writing to results/10/meta:
+108248169
+
+04-26 19:06:24.195 - check_complexity: Optimizations enabled
+04-26 19:06:24.198 - check_complexity: 107729837:9: checking ...
+04-26 19:06:24.217 - check_complexity: Optimizations enabled
+04-26 19:06:24.219 - check_complexity: Optimizations enabled
+04-26 19:06:24.221 - check_complexity: 108174889:9: checking ...
+04-26 19:06:24.223 - check_complexity: 108238440:9: checking ...
+04-26 19:06:24.225 - check_complexity: Optimizations enabled
+04-26 19:06:24.228 - check_complexity: 108246184:9: checking ...
+04-26 19:06:24.274 - check_complexity: Optimizations enabled
+04-26 19:06:24.278 - check_complexity: 108248169:9: checking ...
+04-26 19:06:24.292 - check_complexity: Optimizations enabled
+04-26 19:06:24.295 - check_complexity: 107729833:9: checking ...
+04-26 20:06:23.777 - improve_in_parallel: ('Task timeout', 3600)
+04-26 20:06:23.780 - improve_in_parallel: ('Task timeout', 3600)
+04-26 20:06:23.782 - improve_in_parallel: ('Task timeout', 3600)
+04-26 20:06:23.784 - improve_in_parallel: ('Task timeout', 3600)
+04-26 20:06:23.786 - improve_in_parallel: ('Task timeout', 3600)
+04-26 20:06:23.793 - write_string: Writing to results/10/meta:
+108255817
+
+04-26 20:06:23.793 - write_string: Writing to results/10/meta:
+108255849
+
+04-26 20:06:23.794 - write_string: Writing to results/10/meta:
+108259734
+
+04-26 20:06:23.797 - write_string: Writing to results/10/meta:
+108559337
+
+04-26 20:06:23.797 - write_string: Writing to results/10/meta:
+108565478
+
+04-26 20:06:23.895 - improve_in_parallel: ('Task timeout', 3600)
+04-26 20:06:23.900 - write_string: Writing to results/10/meta:
+108566565
+
+04-26 20:06:24.340 - check_complexity: Optimizations enabled
+04-26 20:06:24.343 - check_complexity: Optimizations enabled
+04-26 20:06:24.344 - check_complexity: 108259734:9: checking ...
+04-26 20:06:24.347 - check_complexity: 108565478:9: checking ...
+04-26 20:06:24.359 - check_complexity: Optimizations enabled
+04-26 20:06:24.360 - check_complexity: Optimizations enabled
+04-26 20:06:24.363 - check_complexity: 108255817:9: checking ...
+04-26 20:06:24.363 - check_complexity: 108255849:9: checking ...
+04-26 20:06:24.386 - check_complexity: Optimizations enabled
+04-26 20:06:24.389 - check_complexity: 108559337:9: checking ...
+04-26 20:06:24.409 - check_complexity: Optimizations enabled
+04-26 20:06:24.412 - check_complexity: 108566565:9: checking ...
+04-26 21:06:23.886 - improve_in_parallel: ('Task timeout', 3600)
+04-26 21:06:23.887 - improve_in_parallel: ('Task timeout', 3600)
+04-26 21:06:23.889 - improve_in_parallel: ('Task timeout', 3600)
+04-26 21:06:23.891 - improve_in_parallel: ('Task timeout', 3600)
+04-26 21:06:23.893 - improve_in_parallel: ('Task timeout', 3600)
+04-26 21:06:23.900 - write_string: Writing to results/10/meta:
+108566573
+
+04-26 21:06:23.900 - write_string: Writing to results/10/meta:
+108566635
+
+04-26 21:06:23.903 - write_string: Writing to results/10/meta:
+108566693
+
+04-26 21:06:23.908 - write_string: Writing to results/10/meta:
+108566821
+
+04-26 21:06:23.910 - write_string: Writing to results/10/meta:
+108567267
+
+04-26 21:06:24.005 - improve_in_parallel: ('Task timeout', 3600)
+04-26 21:06:24.011 - write_string: Writing to results/10/meta:
+108567333
+
+04-26 21:06:24.421 - check_complexity: Optimizations enabled
+04-26 21:06:24.425 - check_complexity: 108566821:9: checking ...
+04-26 21:06:24.471 - check_complexity: Optimizations enabled
+04-26 21:06:24.473 - check_complexity: Optimizations enabled
+04-26 21:06:24.475 - check_complexity: 108566635:9: checking ...
+04-26 21:06:24.475 - check_complexity: Optimizations enabled
+04-26 21:06:24.477 - check_complexity: 108566693:9: checking ...
+04-26 21:06:24.479 - check_complexity: 108566573:9: checking ...
+04-26 21:06:24.484 - check_complexity: Optimizations enabled
+04-26 21:06:24.487 - check_complexity: 108567267:9: checking ...
+04-26 21:06:24.593 - check_complexity: Optimizations enabled
+04-26 21:06:24.597 - check_complexity: 108567333:9: checking ...
+04-26 22:06:23.979 - improve_in_parallel: ('Task timeout', 3600)
+04-26 22:06:23.982 - improve_in_parallel: ('Task timeout', 3600)
+04-26 22:06:23.985 - improve_in_parallel: ('Task timeout', 3600)
+04-26 22:06:23.987 - improve_in_parallel: ('Task timeout', 3600)
+04-26 22:06:23.989 - improve_in_parallel: ('Task timeout', 3600)
+04-26 22:06:23.996 - write_string: Writing to results/10/meta:
+108567397
+
+04-26 22:06:23.996 - write_string: Writing to results/10/meta:
+108567430
+
+04-26 22:06:24.000 - write_string: Writing to results/10/meta:
+108568102
+
+04-26 22:06:24.003 - write_string: Writing to results/10/meta:
+108573545
+
+04-26 22:06:24.006 - write_string: Writing to results/10/meta:
+108575077
+
+04-26 22:06:24.101 - improve_in_parallel: ('Task timeout', 3600)
+04-26 22:06:24.108 - write_string: Writing to results/10/meta:
+108575081
+
+04-26 22:06:24.538 - check_complexity: Optimizations enabled
+04-26 22:06:24.542 - check_complexity: 108568102:9: checking ...
+04-26 22:06:24.542 - check_complexity: Optimizations enabled
+04-26 22:06:24.546 - check_complexity: 108567430:9: checking ...
+04-26 22:06:24.560 - check_complexity: Optimizations enabled
+04-26 22:06:24.564 - check_complexity: 108567397:9: checking ...
+04-26 22:06:24.573 - check_complexity: Optimizations enabled
+04-26 22:06:24.574 - check_complexity: Optimizations enabled
+04-26 22:06:24.577 - check_complexity: 108573545:9: checking ...
+04-26 22:06:24.578 - check_complexity: 108575077:9: checking ...
+04-26 22:06:24.651 - check_complexity: Optimizations enabled
+04-26 22:06:24.655 - check_complexity: 108575081:9: checking ...
+04-26 23:06:24.023 - improve_in_parallel: ('Task timeout', 3600)
+04-26 23:06:24.026 - improve_in_parallel: ('Task timeout', 3600)
+04-26 23:06:24.029 - improve_in_parallel: ('Task timeout', 3600)
+04-26 23:06:24.032 - improve_in_parallel: ('Task timeout', 3600)
+04-26 23:06:24.034 - improve_in_parallel: ('Task timeout', 3600)
+04-26 23:06:24.040 - write_string: Writing to results/10/meta:
+108576097
+
+04-26 23:06:24.040 - write_string: Writing to results/10/meta:
+108575174
+
+04-26 23:06:24.041 - write_string: Writing to results/10/meta:
+108630309
+
+04-26 23:06:24.045 - write_string: Writing to results/10/meta:
+108630580
+
+04-26 23:06:24.047 - write_string: Writing to results/10/meta:
+108630660
+
+04-26 23:06:24.144 - improve_in_parallel: ('Task timeout', 3600)
+04-26 23:06:24.152 - write_string: Writing to results/10/meta:
+108630661
+
+04-26 23:06:24.548 - check_complexity: Optimizations enabled
+04-26 23:06:24.551 - check_complexity: 108575174:9: checking ...
+04-26 23:06:24.584 - check_complexity: Optimizations enabled
+04-26 23:06:24.587 - check_complexity: 108630580:9: checking ...
+04-26 23:06:24.593 - check_complexity: Optimizations enabled
+04-26 23:06:24.597 - check_complexity: 108630309:9: checking ...
+04-26 23:06:24.606 - check_complexity: Optimizations enabled
+04-26 23:06:24.609 - check_complexity: Optimizations enabled
+04-26 23:06:24.610 - check_complexity: 108630661:9: checking ...
+04-26 23:06:24.613 - check_complexity: 108576097:9: checking ...
+04-26 23:06:24.613 - check_complexity: Optimizations enabled
+04-26 23:06:24.616 - check_complexity: 108630660:9: checking ...
+04-27 00:06:24.121 - improve_in_parallel: ('Task timeout', 3600)
+04-27 00:06:24.123 - improve_in_parallel: ('Task timeout', 3600)
+04-27 00:06:24.125 - improve_in_parallel: ('Task timeout', 3600)
+04-27 00:06:24.127 - improve_in_parallel: ('Task timeout', 3600)
+04-27 00:06:24.129 - improve_in_parallel: ('Task timeout', 3600)
+04-27 00:06:24.136 - write_string: Writing to results/10/meta:
+108630676
+
+04-27 00:06:24.137 - write_string: Writing to results/10/meta:
+108630662
+
+04-27 00:06:24.138 - write_string: Writing to results/10/meta:
+108630694
+
+04-27 00:06:24.141 - write_string: Writing to results/10/meta:
+108630695
+
+04-27 00:06:24.143 - write_string: Writing to results/10/meta:
+108630756
+
+04-27 00:06:24.240 - improve_in_parallel: ('Task timeout', 3600)
+04-27 00:06:24.246 - write_string: Writing to results/10/meta:
+108630758
+
+04-27 00:06:24.631 - check_complexity: Optimizations enabled
+04-27 00:06:24.635 - check_complexity: 108630662:9: checking ...
+04-27 00:06:24.663 - check_complexity: Optimizations enabled
+04-27 00:06:24.667 - check_complexity: 108630756:9: checking ...
+04-27 00:06:24.667 - check_complexity: Optimizations enabled
+04-27 00:06:24.670 - check_complexity: 108630676:9: checking ...
+04-27 00:06:24.682 - check_complexity: Optimizations enabled
+04-27 00:06:24.686 - check_complexity: 108630694:9: checking ...
+04-27 00:06:24.707 - check_complexity: Optimizations enabled
+04-27 00:06:24.711 - check_complexity: 108630695:9: checking ...
+04-27 00:06:24.837 - check_complexity: Optimizations enabled
+04-27 00:06:24.841 - check_complexity: 108630758:9: checking ...
+04-27 01:06:24.199 - improve_in_parallel: ('Task timeout', 3600)
+04-27 01:06:24.200 - improve_in_parallel: ('Task timeout', 3600)
+04-27 01:06:24.204 - improve_in_parallel: ('Task timeout', 3600)
+04-27 01:06:24.205 - improve_in_parallel: ('Task timeout', 3600)
+04-27 01:06:24.207 - improve_in_parallel: ('Task timeout', 3600)
+04-27 01:06:24.213 - write_string: Writing to results/10/meta:
+108630820
+
+04-27 01:06:24.213 - write_string: Writing to results/10/meta:
+108630850
+
+04-27 01:06:24.214 - write_string: Writing to results/10/meta:
+108630858
+
+04-27 01:06:24.219 - write_string: Writing to results/10/meta:
+108630951
+
+04-27 01:06:24.219 - write_string: Writing to results/10/meta:
+108630916
+
+04-27 01:06:24.316 - improve_in_parallel: ('Task timeout', 3600)
+04-27 01:06:24.322 - write_string: Writing to results/10/meta:
+108630982
+
+04-27 01:06:24.719 - check_complexity: Optimizations enabled
+04-27 01:06:24.722 - check_complexity: 108630916:9: checking ...
+04-27 01:06:24.727 - check_complexity: Optimizations enabled
+04-27 01:06:24.730 - check_complexity: 108630858:9: checking ...
+04-27 01:06:24.740 - check_complexity: Optimizations enabled
+04-27 01:06:24.744 - check_complexity: 108630850:9: checking ...
+04-27 01:06:24.765 - check_complexity: Optimizations enabled
+04-27 01:06:24.769 - check_complexity: 108630951:9: checking ...
+04-27 01:06:24.812 - check_complexity: Optimizations enabled
+04-27 01:06:24.816 - check_complexity: 108630820:9: checking ...
+04-27 01:06:24.900 - check_complexity: Optimizations enabled
+04-27 01:06:24.903 - check_complexity: 108630982:9: checking ...
+04-27 02:06:24.268 - improve_in_parallel: ('Task timeout', 3600)
+04-27 02:06:24.271 - improve_in_parallel: ('Task timeout', 3600)
+04-27 02:06:24.273 - improve_in_parallel: ('Task timeout', 3600)
+04-27 02:06:24.275 - improve_in_parallel: ('Task timeout', 3600)
+04-27 02:06:24.277 - improve_in_parallel: ('Task timeout', 3600)
+04-27 02:06:24.282 - write_string: Writing to results/10/meta:
+108631010
+
+04-27 02:06:24.283 - write_string: Writing to results/10/meta:
+108631013
+
+04-27 02:06:24.284 - write_string: Writing to results/10/meta:
+108631014
+
+04-27 02:06:24.287 - write_string: Writing to results/10/meta:
+108631714
+
+04-27 02:06:24.291 - write_string: Writing to results/10/meta:
+108631715
+
+04-27 02:06:24.387 - improve_in_parallel: ('Task timeout', 3600)
+04-27 02:06:24.393 - write_string: Writing to results/10/meta:
+108631720
+
+04-27 02:06:24.778 - check_complexity: Optimizations enabled
+04-27 02:06:24.782 - check_complexity: 108631014:9: checking ...
+04-27 02:06:24.810 - check_complexity: Optimizations enabled
+04-27 02:06:24.814 - check_complexity: 108631010:9: checking ...
+04-27 02:06:24.840 - check_complexity: Optimizations enabled
+04-27 02:06:24.844 - check_complexity: 108631714:9: checking ...
+04-27 02:06:24.867 - check_complexity: Optimizations enabled
+04-27 02:06:24.870 - check_complexity: 108631013:9: checking ...
+04-27 02:06:24.871 - check_complexity: Optimizations enabled
+04-27 02:06:24.875 - check_complexity: 108631715:9: checking ...
+04-27 02:06:24.892 - check_complexity: Optimizations enabled
+04-27 02:06:24.896 - check_complexity: 108631720:9: checking ...
+04-27 03:06:24.339 - improve_in_parallel: ('Task timeout', 3600)
+04-27 03:06:24.341 - improve_in_parallel: ('Task timeout', 3600)
+04-27 03:06:24.344 - improve_in_parallel: ('Task timeout', 3600)
+04-27 03:06:24.346 - improve_in_parallel: ('Task timeout', 3600)
+04-27 03:06:24.348 - improve_in_parallel: ('Task timeout', 3600)
+04-27 03:06:24.354 - write_string: Writing to results/10/meta:
+108631778
+
+04-27 03:06:24.355 - write_string: Writing to results/10/meta:
+108631977
+
+04-27 03:06:24.356 - write_string: Writing to results/10/meta:
+108632109
+
+04-27 03:06:24.361 - write_string: Writing to results/10/meta:
+108632110
+
+04-27 03:06:24.361 - write_string: Writing to results/10/meta:
+108632118
+
+04-27 03:06:24.458 - improve_in_parallel: ('Task timeout', 3600)
+04-27 03:06:24.463 - write_string: Writing to results/10/meta:
+108632356
+
+04-27 03:06:24.854 - check_complexity: Optimizations enabled
+04-27 03:06:24.857 - check_complexity: 108632109:9: checking ...
+04-27 03:06:24.861 - check_complexity: Optimizations enabled
+04-27 03:06:24.865 - check_complexity: 108632118:9: checking ...
+04-27 03:06:24.878 - check_complexity: Optimizations enabled
+04-27 03:06:24.881 - check_complexity: 108631977:9: checking ...
+04-27 03:06:24.900 - check_complexity: Optimizations enabled
+04-27 03:06:24.904 - check_complexity: 108632110:9: checking ...
+04-27 03:06:24.905 - check_complexity: Optimizations enabled
+04-27 03:06:24.908 - check_complexity: 108631778:9: checking ...
+04-27 03:06:24.994 - check_complexity: Optimizations enabled
+04-27 03:06:24.997 - check_complexity: 108632356:9: checking ...
+04-27 04:06:24.447 - improve_in_parallel: ('Task timeout', 3600)
+04-27 04:06:24.450 - improve_in_parallel: ('Task timeout', 3600)
+04-27 04:06:24.453 - improve_in_parallel: ('Task timeout', 3600)
+04-27 04:06:24.455 - improve_in_parallel: ('Task timeout', 3600)
+04-27 04:06:24.457 - improve_in_parallel: ('Task timeout', 3600)
+04-27 04:06:24.463 - write_string: Writing to results/10/meta:
+108632357
+
+04-27 04:06:24.463 - write_string: Writing to results/10/meta:
+108632364
+
+04-27 04:06:24.465 - write_string: Writing to results/10/meta:
+108632372
+
+04-27 04:06:24.469 - write_string: Writing to results/10/meta:
+108632492
+
+04-27 04:06:24.470 - write_string: Writing to results/10/meta:
+108632426
+
+04-27 04:06:24.567 - improve_in_parallel: ('Task timeout', 3600)
+04-27 04:06:24.573 - write_string: Writing to results/10/meta:
+108632615
+
+04-27 04:06:24.983 - check_complexity: Optimizations enabled
+04-27 04:06:24.987 - check_complexity: 108632364:9: checking ...
+04-27 04:06:25.001 - check_complexity: Optimizations enabled
+04-27 04:06:25.005 - check_complexity: 108632492:9: checking ...
+04-27 04:06:25.005 - check_complexity: Optimizations enabled
+04-27 04:06:25.008 - check_complexity: 108632426:9: checking ...
+04-27 04:06:25.015 - check_complexity: Optimizations enabled
+04-27 04:06:25.018 - check_complexity: 108632372:9: checking ...
+04-27 04:06:25.021 - check_complexity: Optimizations enabled
+04-27 04:06:25.024 - check_complexity: 108632357:9: checking ...
+04-27 04:06:25.105 - check_complexity: Optimizations enabled
+04-27 04:06:25.108 - check_complexity: 108632615:9: checking ...
+04-27 05:06:24.557 - improve_in_parallel: ('Task timeout', 3600)
+04-27 05:06:24.560 - improve_in_parallel: ('Task timeout', 3600)
+04-27 05:06:24.562 - improve_in_parallel: ('Task timeout', 3600)
+04-27 05:06:24.565 - improve_in_parallel: ('Task timeout', 3600)
+04-27 05:06:24.567 - improve_in_parallel: ('Task timeout', 3600)
+04-27 05:06:24.574 - write_string: Writing to results/10/meta:
+108632646
+
+04-27 05:06:24.574 - write_string: Writing to results/10/meta:
+108632649
+
+04-27 05:06:24.575 - write_string: Writing to results/10/meta:
+108632662
+
+04-27 05:06:24.580 - write_string: Writing to results/10/meta:
+108632684
+
+04-27 05:06:24.581 - write_string: Writing to results/10/meta:
+108632708
+
+04-27 05:06:24.679 - improve_in_parallel: ('Task timeout', 3600)
+04-27 05:06:24.685 - write_string: Writing to results/10/meta:
+108632709
+
+04-27 05:06:25.017 - check_complexity: Optimizations enabled
+04-27 05:06:25.020 - check_complexity: 108632646:9: checking ...
+04-27 05:06:25.082 - check_complexity: Optimizations enabled
+04-27 05:06:25.085 - check_complexity: 108632649:9: checking ...
+04-27 05:06:25.174 - check_complexity: Optimizations enabled
+04-27 05:06:25.174 - check_complexity: Optimizations enabled
+04-27 05:06:25.177 - check_complexity: 108632662:9: checking ...
+04-27 05:06:25.178 - check_complexity: 108632684:9: checking ...
+04-27 05:06:25.192 - check_complexity: Optimizations enabled
+04-27 05:06:25.195 - check_complexity: 108632708:9: checking ...
+04-27 05:06:25.274 - check_complexity: Optimizations enabled
+04-27 05:06:25.277 - check_complexity: 108632709:9: checking ...
+04-27 06:06:24.627 - improve_in_parallel: ('Task timeout', 3600)
+04-27 06:06:24.629 - improve_in_parallel: ('Task timeout', 3600)
+04-27 06:06:24.632 - improve_in_parallel: ('Task timeout', 3600)
+04-27 06:06:24.634 - improve_in_parallel: ('Task timeout', 3600)
+04-27 06:06:24.636 - improve_in_parallel: ('Task timeout', 3600)
+04-27 06:06:24.642 - write_string: Writing to results/10/meta:
+108632711
+
+04-27 06:06:24.642 - write_string: Writing to results/10/meta:
+108632710
+
+04-27 06:06:24.643 - write_string: Writing to results/10/meta:
+108632717
+
+04-27 06:06:24.649 - write_string: Writing to results/10/meta:
+108632724
+
+04-27 06:06:24.650 - write_string: Writing to results/10/meta:
+108632743
+
+04-27 06:06:24.748 - improve_in_parallel: ('Task timeout', 3600)
+04-27 06:06:24.754 - write_string: Writing to results/10/meta:
+108632756
+
+04-27 06:06:25.156 - check_complexity: Optimizations enabled
+04-27 06:06:25.160 - check_complexity: 108632711:9: checking ...
+04-27 06:06:25.193 - check_complexity: Optimizations enabled
+04-27 06:06:25.196 - check_complexity: 108632717:9: checking ...
+04-27 06:06:25.211 - check_complexity: Optimizations enabled
+04-27 06:06:25.214 - check_complexity: 108632743:9: checking ...
+04-27 06:06:25.217 - check_complexity: Optimizations enabled
+04-27 06:06:25.220 - check_complexity: 108632710:9: checking ...
+04-27 06:06:25.246 - check_complexity: Optimizations enabled
+04-27 06:06:25.250 - check_complexity: 108632724:9: checking ...
+04-27 06:06:25.287 - check_complexity: Optimizations enabled
+04-27 06:06:25.291 - check_complexity: 108632756:9: checking ...
+04-27 07:06:24.668 - improve_in_parallel: ('Task timeout', 3600)
+04-27 07:06:24.673 - improve_in_parallel: ('Task timeout', 3600)
+04-27 07:06:24.673 - improve_in_parallel: ('Task timeout', 3600)
+04-27 07:06:24.675 - improve_in_parallel: ('Task timeout', 3600)
+04-27 07:06:24.678 - improve_in_parallel: ('Task timeout', 3600)
+04-27 07:06:24.684 - write_string: Writing to results/10/meta:
+108632786
+
+04-27 07:06:24.685 - write_string: Writing to results/10/meta:
+108632774
+
+04-27 07:06:24.689 - write_string: Writing to results/10/meta:
+108632997
+
+04-27 07:06:24.689 - write_string: Writing to results/10/meta:
+108633026
+
+04-27 07:06:24.689 - write_string: Writing to results/10/meta:
+108632802
+
+04-27 07:06:24.787 - improve_in_parallel: ('Task timeout', 3600)
+04-27 07:06:24.793 - write_string: Writing to results/10/meta:
+108633641
+
+04-27 07:06:25.146 - check_complexity: Optimizations enabled
+04-27 07:06:25.150 - check_complexity: 108632786:9: checking ...
+04-27 07:06:25.193 - check_complexity: Optimizations enabled
+04-27 07:06:25.197 - check_complexity: 108632802:9: checking ...
+04-27 07:06:25.261 - check_complexity: Optimizations enabled
+04-27 07:06:25.264 - check_complexity: 108632774:9: checking ...
+04-27 07:06:25.267 - check_complexity: Optimizations enabled
+04-27 07:06:25.270 - check_complexity: 108633026:9: checking ...
+04-27 07:06:25.287 - check_complexity: Optimizations enabled
+04-27 07:06:25.290 - check_complexity: 108632997:9: checking ...
+04-27 07:06:25.317 - check_complexity: Optimizations enabled
+04-27 07:06:25.320 - check_complexity: 108633641:9: checking ...
+04-27 08:06:24.747 - improve_in_parallel: ('Task timeout', 3600)
+04-27 08:06:24.749 - improve_in_parallel: ('Task timeout', 3600)
+04-27 08:06:24.752 - improve_in_parallel: ('Task timeout', 3600)
+04-27 08:06:24.754 - improve_in_parallel: ('Task timeout', 3600)
+04-27 08:06:24.756 - improve_in_parallel: ('Task timeout', 3600)
+04-27 08:06:24.762 - write_string: Writing to results/10/meta:
+108633731
+
+04-27 08:06:24.763 - write_string: Writing to results/10/meta:
+108633765
+
+04-27 08:06:24.764 - write_string: Writing to results/10/meta:
+108633766
+
+04-27 08:06:24.766 - write_string: Writing to results/10/meta:
+108633767
+
+04-27 08:06:24.769 - write_string: Writing to results/10/meta:
+108638318
+
+04-27 08:06:24.867 - improve_in_parallel: ('Task timeout', 3600)
+04-27 08:06:24.873 - write_string: Writing to results/10/meta:
+108638565
+
+04-27 08:06:25.287 - check_complexity: Optimizations enabled
+04-27 08:06:25.288 - check_complexity: Optimizations enabled
+04-27 08:06:25.291 - check_complexity: 108638318:9: checking ...
+04-27 08:06:25.292 - check_complexity: 108633765:9: checking ...
+04-27 08:06:25.324 - check_complexity: Optimizations enabled
+04-27 08:06:25.327 - check_complexity: 108638565:9: checking ...
+04-27 08:06:25.328 - check_complexity: Optimizations enabled
+04-27 08:06:25.332 - check_complexity: 108633766:9: checking ...
+04-27 08:06:25.349 - check_complexity: Optimizations enabled
+04-27 08:06:25.351 - check_complexity: Optimizations enabled
+04-27 08:06:25.353 - check_complexity: 108633767:9: checking ...
+04-27 08:06:25.354 - check_complexity: 108633731:9: checking ...
+04-27 08:16:27.754 - check_complexity: 108633766:9:unsat
+04-27 08:16:27.755 - check_complexity: 108633766:9:Time elapsed: 602.4225707054138
+04-27 08:16:27.757 - check_complexity: 108633765:9:unsat
+04-27 08:16:27.757 - write_string: Writing to results/10/unsat:
+108633766
+
+
+04-27 08:16:27.757 - check_complexity: 108633765:9:Time elapsed: 602.4651846885681
+04-27 08:16:27.758 - write_string: Attempt to write empty string to results/10/108633766
+
+04-27 08:16:27.758 - write_string: Writing to results/10/unsat:
+108633765
+
+
+04-27 08:16:27.758 - check_complexity: 108633767:9:unsat
+04-27 08:16:27.759 - check_complexity: 108638565:9:unsat
+04-27 08:16:27.762 - check_complexity: 108638318:9:unsat
+04-27 08:16:27.762 - check_complexity: 108638565:9:Time elapsed: 602.4318671226501
+04-27 08:16:27.762 - check_complexity: 108633731:9:unsat
+04-27 08:16:27.762 - check_complexity: 108633767:9:Time elapsed: 602.4052984714508
+04-27 08:16:27.762 - check_complexity: 108638318:9:Time elapsed: 602.4702513217926
+04-27 08:16:27.763 - write_string: Attempt to write empty string to results/10/108633765
+
+04-27 08:16:27.763 - check_complexity: 108633731:9:Time elapsed: 602.4075765609741
+04-27 08:16:27.763 - write_string: Writing to results/10/unsat:
+108638565
+
+
+04-27 08:16:27.764 - write_string: Writing to results/10/unsat:
+108633767
+
+
+04-27 08:16:27.764 - write_string: Writing to results/10/unsat:
+108638318
+
+
+04-27 08:16:27.764 - write_string: Writing to results/10/unsat:
+108633731
+
+
+04-27 08:16:27.764 - write_string: Attempt to write empty string to results/10/108638565
+
+04-27 08:16:27.764 - write_string: Attempt to write empty string to results/10/108633767
+
+04-27 08:16:27.765 - write_string: Attempt to write empty string to results/10/108638318
+
+04-27 08:16:27.765 - write_string: Attempt to write empty string to results/10/108633731
+
+04-27 08:16:27.785 - write_string: Writing to results/10/meta:
+108638948
+
+04-27 08:16:27.785 - write_string: Writing to results/10/meta:
+108639330
+
+04-27 08:16:27.789 - write_string: Writing to results/10/meta:
+108639338
+
+04-27 08:16:27.793 - write_string: Writing to results/10/meta:
+108639394
+
+04-27 08:16:27.796 - write_string: Writing to results/10/meta:
+108639398
+
+04-27 08:16:27.796 - write_string: Writing to results/10/meta:
+108639430
+
+04-27 08:16:28.238 - check_complexity: Optimizations enabled
+04-27 08:16:28.246 - check_complexity: 108639430:9: checking ...
+04-27 08:16:28.303 - check_complexity: Optimizations enabled
+04-27 08:16:28.311 - check_complexity: 108638948:9: checking ...
+04-27 08:16:28.313 - check_complexity: Optimizations enabled
+04-27 08:16:28.316 - check_complexity: Optimizations enabled
+04-27 08:16:28.320 - check_complexity: 108639330:9: checking ...
+04-27 08:16:28.324 - check_complexity: 108639398:9: checking ...
+04-27 08:16:28.350 - check_complexity: Optimizations enabled
+04-27 08:16:28.352 - check_complexity: Optimizations enabled
+04-27 08:16:28.359 - check_complexity: 108639394:9: checking ...
+04-27 08:16:28.359 - check_complexity: 108639338:9: checking ...

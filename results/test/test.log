@@ -1,0 +1,1603 @@
+04-25 23:00:37.377 - main: ['/mnt/c/Users/alexander/Documents/cmc/8 sem/ВКР/ig-exact-synthesis/src/core/mig_synthesis.py', '-I', '-i', 'input/database_dump_MIG.txt', '-c', '3', '-d', 'results/test', '-l', 'results/test/test.log', '-j', '6', '-t', '3600']
+04-25 23:00:37.378 - improve_in_parallel: Starting parallel improvint of  with 6 jobs, 3600 timeout
+04-25 23:00:39.546 - mks1_parse_mig: Read all database? list index out of range
+04-25 23:00:39.548 - improve_in_parallel: 1
+04-25 23:00:39.559 - write_string: Writing to results/test/meta:
+18556799
+
+04-25 23:00:39.887 - check_complexity: Optimizations enabled
+04-25 23:00:39.898 - check_complexity: 18556799:2: checking ...
+04-25 23:00:40.121 - check_complexity: 18556799:unsat
+04-25 23:00:40.122 - check_complexity: 18556799:Time elapsed: 0.22261643409729004
+04-25 23:00:40.124 - write_string: Writing to results/test/unsat:
+18556799
+
+04-25 23:00:40.125 - write_string: Attempt to write empty string to results/test/18556799
+
+04-25 23:01:20.255 - main: ['/mnt/c/Users/alexander/Documents/cmc/8 sem/ВКР/ig-exact-synthesis/src/core/mig_synthesis.py', '-I', '-i', 'input/database_dump_MIG.txt', '-c', '3', '-d', 'results/test', '-l', 'results/test/test.log', '-j', '6', '-t', '3600']
+04-25 23:01:20.256 - improve_in_parallel: Starting parallel improvint of  with 6 jobs, 3600 timeout
+04-25 23:01:22.519 - mks1_parse_mig: Read all database? list index out of range
+04-25 23:01:22.520 - improve_in_parallel: 41
+04-25 23:01:22.531 - write_string: Writing to results/test/meta:
+267448335
+
+04-25 23:01:22.532 - write_string: Writing to results/test/meta:
+3
+
+04-25 23:01:22.533 - write_string: Writing to results/test/meta:
+23
+
+04-25 23:01:22.534 - write_string: Writing to results/test/meta:
+60
+
+04-25 23:01:22.553 - write_string: Writing to results/test/meta:
+287
+
+04-25 23:01:22.553 - write_string: Writing to results/test/meta:
+63
+
+04-25 23:01:23.053 - check_complexity: Optimizations enabled
+04-25 23:01:23.058 - check_complexity: 23:2: checking ...
+04-25 23:01:23.083 - check_complexity: Optimizations enabled
+04-25 23:01:23.089 - check_complexity: 267448335:2: checking ...
+04-25 23:01:23.098 - check_complexity: Optimizations enabled
+04-25 23:01:23.101 - check_complexity: Optimizations enabled
+04-25 23:01:23.104 - check_complexity: 60:2: checking ...
+04-25 23:01:23.104 - check_complexity: Optimizations enabled
+04-25 23:01:23.108 - check_complexity: 287:2: checking ...
+04-25 23:01:23.109 - check_complexity: 63:2: checking ...
+04-25 23:01:23.117 - check_complexity: Optimizations enabled
+04-25 23:01:23.122 - check_complexity: 3:2: checking ...
+04-25 23:01:23.452 - check_complexity: 23:unsat
+04-25 23:01:23.452 - check_complexity: 23:Time elapsed: 0.3939070701599121
+04-25 23:01:23.453 - write_string: Writing to results/test/unsat:
+23
+
+04-25 23:01:23.454 - write_string: Attempt to write empty string to results/test/23
+
+04-25 23:01:23.461 - write_string: Writing to results/test/meta:
+383
+
+04-25 23:01:23.478 - check_complexity: 267448335:unsat
+04-25 23:01:23.478 - check_complexity: 267448335:Time elapsed: 0.38885045051574707
+04-25 23:01:23.479 - write_string: Writing to results/test/unsat:
+267448335
+
+04-25 23:01:23.479 - write_string: Attempt to write empty string to results/test/267448335
+
+04-25 23:01:23.487 - write_string: Writing to results/test/meta:
+975
+
+04-25 23:01:23.517 - check_complexity: 3:unsat
+04-25 23:01:23.517 - check_complexity: 3:Time elapsed: 0.3947775363922119
+04-25 23:01:23.519 - write_string: Writing to results/test/unsat:
+3
+
+04-25 23:01:23.519 - check_complexity: 287:unsat
+04-25 23:01:23.519 - check_complexity: 287:Time elapsed: 0.4108586311340332
+04-25 23:01:23.520 - write_string: Attempt to write empty string to results/test/3
+
+04-25 23:01:23.521 - write_string: Writing to results/test/unsat:
+287
+
+04-25 23:01:23.522 - check_complexity: 60:unsat
+04-25 23:01:23.522 - write_string: Attempt to write empty string to results/test/287
+
+04-25 23:01:23.522 - check_complexity: 60:Time elapsed: 0.4182736873626709
+04-25 23:01:23.526 - write_string: Writing to results/test/unsat:
+60
+
+04-25 23:01:23.528 - write_string: Attempt to write empty string to results/test/60
+
+04-25 23:01:23.528 - write_string: Writing to results/test/meta:
+1023
+
+04-25 23:01:23.530 - write_string: Writing to results/test/meta:
+1919
+
+04-25 23:01:23.537 - write_string: Writing to results/test/meta:
+4080
+
+04-25 23:01:23.537 - check_complexity: 63:unsat
+04-25 23:01:23.537 - check_complexity: 63:Time elapsed: 0.42760586738586426
+04-25 23:01:23.540 - write_string: Writing to results/test/unsat:
+63
+
+04-25 23:01:23.541 - write_string: Attempt to write empty string to results/test/63
+
+04-25 23:01:23.548 - write_string: Writing to results/test/meta:
+6143
+
+04-25 23:01:24.012 - check_complexity: Optimizations enabled
+04-25 23:01:24.015 - check_complexity: 975:2: checking ...
+04-25 23:01:24.042 - check_complexity: Optimizations enabled
+04-25 23:01:24.044 - check_complexity: 383:2: checking ...
+04-25 23:01:24.053 - check_complexity: Optimizations enabled
+04-25 23:01:24.056 - check_complexity: 4080:2: checking ...
+04-25 23:01:24.097 - check_complexity: Optimizations enabled
+04-25 23:01:24.102 - check_complexity: 6143:2: checking ...
+04-25 23:01:24.110 - check_complexity: Optimizations enabled
+04-25 23:01:24.114 - check_complexity: 1023:2: checking ...
+04-25 23:01:24.120 - check_complexity: Optimizations enabled
+04-25 23:01:24.123 - check_complexity: 1919:2: checking ...
+04-25 23:01:24.406 - check_complexity: 383:unsat
+04-25 23:01:24.406 - check_complexity: 383:Time elapsed: 0.3615291118621826
+04-25 23:01:24.408 - write_string: Writing to results/test/unsat:
+383
+
+04-25 23:01:24.409 - write_string: Attempt to write empty string to results/test/383
+
+04-25 23:01:24.417 - write_string: Writing to results/test/meta:
+15615
+
+04-25 23:01:24.439 - check_complexity: 975:unsat
+04-25 23:01:24.439 - check_complexity: 975:Time elapsed: 0.42380762100219727
+04-25 23:01:24.440 - write_string: Writing to results/test/unsat:
+975
+
+04-25 23:01:24.441 - write_string: Attempt to write empty string to results/test/975
+
+04-25 23:01:24.448 - write_string: Writing to results/test/meta:
+16383
+
+04-25 23:01:24.455 - check_complexity: 4080:unsat
+04-25 23:01:24.456 - check_complexity: 4080:Time elapsed: 0.3993265628814697
+04-25 23:01:24.457 - write_string: Writing to results/test/unsat:
+4080
+
+04-25 23:01:24.457 - write_string: Attempt to write empty string to results/test/4080
+
+04-25 23:01:24.462 - write_string: Writing to results/test/meta:
+65835
+
+04-25 23:01:24.482 - check_complexity: 6143:unsat
+04-25 23:01:24.482 - check_complexity: 6143:Time elapsed: 0.37999606132507324
+04-25 23:01:24.483 - write_string: Writing to results/test/unsat:
+6143
+
+04-25 23:01:24.484 - write_string: Attempt to write empty string to results/test/6143
+
+04-25 23:01:24.491 - write_string: Writing to results/test/meta:
+66047
+
+04-25 23:01:24.512 - check_complexity: 1919:unsat
+04-25 23:01:24.512 - check_complexity: 1919:Time elapsed: 0.38855600357055664
+04-25 23:01:24.513 - write_string: Writing to results/test/unsat:
+1919
+
+04-25 23:01:24.514 - write_string: Attempt to write empty string to results/test/1919
+
+04-25 23:01:24.515 - check_complexity: 1023:unsat
+04-25 23:01:24.515 - check_complexity: 1023:Time elapsed: 0.40131568908691406
+04-25 23:01:24.516 - write_string: Writing to results/test/unsat:
+1023
+
+04-25 23:01:24.517 - write_string: Attempt to write empty string to results/test/1023
+
+04-25 23:01:24.521 - write_string: Writing to results/test/meta:
+66391
+
+04-25 23:01:24.524 - write_string: Writing to results/test/meta:
+67447
+
+04-25 23:01:24.944 - check_complexity: Optimizations enabled
+04-25 23:01:24.948 - check_complexity: 15615:2: checking ...
+04-25 23:01:24.996 - check_complexity: Optimizations enabled
+04-25 23:01:24.999 - check_complexity: Optimizations enabled
+04-25 23:01:25.000 - check_complexity: 16383:2: checking ...
+04-25 23:01:25.001 - check_complexity: 65835:2: checking ...
+04-25 23:01:25.042 - check_complexity: Optimizations enabled
+04-25 23:01:25.046 - check_complexity: 66047:2: checking ...
+04-25 23:01:25.062 - check_complexity: Optimizations enabled
+04-25 23:01:25.063 - check_complexity: Optimizations enabled
+04-25 23:01:25.066 - check_complexity: 67447:2: checking ...
+04-25 23:01:25.067 - check_complexity: 66391:2: checking ...
+04-25 23:01:25.324 - check_complexity: 15615:unsat
+04-25 23:01:25.324 - check_complexity: 15615:Time elapsed: 0.37650012969970703
+04-25 23:01:25.325 - write_string: Writing to results/test/unsat:
+15615
+
+04-25 23:01:25.326 - write_string: Attempt to write empty string to results/test/15615
+
+04-25 23:01:25.333 - write_string: Writing to results/test/meta:
+67583
+
+04-25 23:01:25.343 - check_complexity: 16383:unsat
+04-25 23:01:25.343 - check_complexity: 16383:Time elapsed: 0.3431868553161621
+04-25 23:01:25.344 - write_string: Writing to results/test/unsat:
+16383
+
+04-25 23:01:25.345 - write_string: Attempt to write empty string to results/test/16383
+
+04-25 23:01:25.351 - write_string: Writing to results/test/meta:
+72639
+
+04-25 23:01:25.365 - check_complexity: 65835:unsat
+04-25 23:01:25.366 - check_complexity: 65835:Time elapsed: 0.363924503326416
+04-25 23:01:25.367 - write_string: Writing to results/test/unsat:
+65835
+
+04-25 23:01:25.367 - write_string: Attempt to write empty string to results/test/65835
+
+04-25 23:01:25.374 - write_string: Writing to results/test/meta:
+73727
+
+04-25 23:01:25.429 - check_complexity: 67447:unsat
+04-25 23:01:25.429 - check_complexity: 67447:Time elapsed: 0.3624093532562256
+04-25 23:01:25.430 - write_string: Writing to results/test/unsat:
+67447
+
+04-25 23:01:25.431 - write_string: Attempt to write empty string to results/test/67447
+
+04-25 23:01:25.437 - check_complexity: 66047:unsat
+04-25 23:01:25.438 - check_complexity: 66047:Time elapsed: 0.3915271759033203
+04-25 23:01:25.438 - write_string: Writing to results/test/meta:
+98303
+
+04-25 23:01:25.439 - write_string: Writing to results/test/unsat:
+66047
+
+04-25 23:01:25.440 - write_string: Attempt to write empty string to results/test/66047
+
+04-25 23:01:25.447 - write_string: Writing to results/test/meta:
+197583
+
+04-25 23:01:25.458 - check_complexity: 66391:unsat
+04-25 23:01:25.458 - check_complexity: 66391:Time elapsed: 0.390700101852417
+04-25 23:01:25.459 - write_string: Writing to results/test/unsat:
+66391
+
+04-25 23:01:25.460 - write_string: Attempt to write empty string to results/test/66391
+
+04-25 23:01:25.466 - write_string: Writing to results/test/meta:
+199935
+
+04-25 23:01:25.886 - check_complexity: Optimizations enabled
+04-25 23:01:25.888 - check_complexity: 67583:2: checking ...
+04-25 23:01:25.961 - check_complexity: Optimizations enabled
+04-25 23:01:25.964 - check_complexity: Optimizations enabled
+04-25 23:01:25.965 - check_complexity: 73727:2: checking ...
+04-25 23:01:25.967 - check_complexity: 72639:2: checking ...
+04-25 23:01:26.058 - check_complexity: Optimizations enabled
+04-25 23:01:26.058 - check_complexity: Optimizations enabled
+04-25 23:01:26.064 - check_complexity: 199935:2: checking ...
+04-25 23:01:26.066 - check_complexity: 98303:2: checking ...
+04-25 23:01:26.066 - check_complexity: Optimizations enabled
+04-25 23:01:26.070 - check_complexity: 197583:2: checking ...
+04-25 23:01:26.313 - check_complexity: 67583:unsat
+04-25 23:01:26.313 - check_complexity: 67583:Time elapsed: 0.4240844249725342
+04-25 23:01:26.314 - write_string: Writing to results/test/unsat:
+67583
+
+04-25 23:01:26.315 - write_string: Attempt to write empty string to results/test/67583
+
+04-25 23:01:26.319 - write_string: Writing to results/test/meta:
+200703
+
+04-25 23:01:26.351 - check_complexity: 72639:unsat
+04-25 23:01:26.351 - check_complexity: 72639:Time elapsed: 0.383608341217041
+04-25 23:01:26.352 - write_string: Writing to results/test/unsat:
+72639
+
+04-25 23:01:26.352 - write_string: Attempt to write empty string to results/test/72639
+
+04-25 23:01:26.355 - check_complexity: 73727:unsat
+04-25 23:01:26.356 - check_complexity: 73727:Time elapsed: 0.39057183265686035
+04-25 23:01:26.357 - write_string: Writing to results/test/unsat:
+73727
+
+04-25 23:01:26.357 - write_string: Attempt to write empty string to results/test/73727
+
+04-25 23:01:26.361 - write_string: Writing to results/test/meta:
+202071
+
+04-25 23:01:26.364 - write_string: Writing to results/test/meta:
+202111
+
+04-25 23:01:26.427 - check_complexity: 199935:unsat
+04-25 23:01:26.428 - check_complexity: 199935:Time elapsed: 0.363771915435791
+04-25 23:01:26.429 - write_string: Writing to results/test/unsat:
+199935
+
+04-25 23:01:26.429 - write_string: Attempt to write empty string to results/test/199935
+
+04-25 23:01:26.436 - write_string: Writing to results/test/meta:
+202751
+
+04-25 23:01:26.442 - check_complexity: 197583:unsat
+04-25 23:01:26.442 - check_complexity: 197583:Time elapsed: 0.3721041679382324
+04-25 23:01:26.444 - write_string: Writing to results/test/unsat:
+197583
+
+04-25 23:01:26.445 - write_string: Attempt to write empty string to results/test/197583
+
+04-25 23:01:26.447 - check_complexity: 98303:unsat
+04-25 23:01:26.447 - check_complexity: 98303:Time elapsed: 0.38118791580200195
+04-25 23:01:26.448 - write_string: Writing to results/test/unsat:
+98303
+
+04-25 23:01:26.449 - write_string: Attempt to write empty string to results/test/98303
+
+04-25 23:01:26.452 - write_string: Writing to results/test/meta:
+249855
+
+04-25 23:01:26.456 - write_string: Writing to results/test/meta:
+434175
+
+04-25 23:01:26.864 - check_complexity: Optimizations enabled
+04-25 23:01:26.867 - check_complexity: 202111:2: checking ...
+04-25 23:01:26.903 - check_complexity: Optimizations enabled
+04-25 23:01:26.907 - check_complexity: 200703:2: checking ...
+04-25 23:01:26.927 - check_complexity: Optimizations enabled
+04-25 23:01:26.930 - check_complexity: 202071:2: checking ...
+04-25 23:01:26.973 - check_complexity: Optimizations enabled
+04-25 23:01:26.976 - check_complexity: Optimizations enabled
+04-25 23:01:26.978 - check_complexity: 202751:2: checking ...
+04-25 23:01:26.979 - check_complexity: 249855:2: checking ...
+04-25 23:01:27.019 - check_complexity: Optimizations enabled
+04-25 23:01:27.021 - check_complexity: 434175:2: checking ...
+04-25 23:01:27.270 - check_complexity: 202111:unsat
+04-25 23:01:27.271 - check_complexity: 202111:Time elapsed: 0.4036900997161865
+04-25 23:01:27.272 - write_string: Writing to results/test/unsat:
+202111
+
+04-25 23:01:27.272 - write_string: Attempt to write empty string to results/test/202111
+
+04-25 23:01:27.281 - write_string: Writing to results/test/meta:
+460663
+
+04-25 23:01:27.305 - check_complexity: 200703:unsat
+04-25 23:01:27.306 - check_complexity: 200703:Time elapsed: 0.39839768409729004
+04-25 23:01:27.307 - write_string: Writing to results/test/unsat:
+200703
+
+04-25 23:01:27.308 - check_complexity: 202071:unsat
+04-25 23:01:27.308 - write_string: Attempt to write empty string to results/test/200703
+
+04-25 23:01:27.308 - check_complexity: 202071:Time elapsed: 0.3775155544281006
+04-25 23:01:27.309 - write_string: Writing to results/test/unsat:
+202071
+
+04-25 23:01:27.310 - write_string: Attempt to write empty string to results/test/202071
+
+04-25 23:01:27.315 - write_string: Writing to results/test/meta:
+460799
+
+04-25 23:01:27.317 - write_string: Writing to results/test/meta:
+466943
+
+04-25 23:01:27.341 - check_complexity: 249855:unsat
+04-25 23:01:27.341 - check_complexity: 249855:Time elapsed: 0.3613104820251465
+04-25 23:01:27.342 - write_string: Writing to results/test/unsat:
+249855
+
+04-25 23:01:27.343 - write_string: Attempt to write empty string to results/test/249855
+
+04-25 23:01:27.349 - write_string: Writing to results/test/meta:
+489343
+
+04-25 23:01:27.394 - check_complexity: 202751:unsat
+04-25 23:01:27.394 - check_complexity: 202751:Time elapsed: 0.4158351421356201
+04-25 23:01:27.395 - write_string: Writing to results/test/unsat:
+202751
+
+04-25 23:01:27.396 - write_string: Attempt to write empty string to results/test/202751
+
+04-25 23:01:27.401 - write_string: Writing to results/test/meta:
+996159
+
+04-25 23:01:27.459 - check_complexity: 434175:unsat
+04-25 23:01:27.460 - check_complexity: 434175:Time elapsed: 0.43799829483032227
+04-25 23:01:27.460 - write_string: Writing to results/test/unsat:
+434175
+
+04-25 23:01:27.461 - write_string: Attempt to write empty string to results/test/434175
+
+04-25 23:01:27.468 - write_string: Writing to results/test/meta:
+996351
+
+04-25 23:01:27.855 - check_complexity: Optimizations enabled
+04-25 23:01:27.859 - check_complexity: 460663:2: checking ...
+04-25 23:01:27.899 - check_complexity: Optimizations enabled
+04-25 23:01:27.900 - check_complexity: Optimizations enabled
+04-25 23:01:27.903 - check_complexity: 460799:2: checking ...
+04-25 23:01:27.903 - check_complexity: 489343:2: checking ...
+04-25 23:01:27.914 - check_complexity: Optimizations enabled
+04-25 23:01:27.918 - check_complexity: 466943:2: checking ...
+04-25 23:01:27.953 - check_complexity: Optimizations enabled
+04-25 23:01:27.957 - check_complexity: 996159:2: checking ...
+04-25 23:01:28.044 - check_complexity: Optimizations enabled
+04-25 23:01:28.048 - check_complexity: 996351:2: checking ...
+04-25 23:01:28.238 - check_complexity: 460663:unsat
+04-25 23:01:28.238 - check_complexity: 460663:Time elapsed: 0.37825918197631836
+04-25 23:01:28.239 - write_string: Writing to results/test/unsat:
+460663
+
+04-25 23:01:28.240 - write_string: Attempt to write empty string to results/test/460663
+
+04-25 23:01:28.247 - write_string: Writing to results/test/meta:
+1044735
+
+04-25 23:01:28.297 - check_complexity: 460799:unsat
+04-25 23:01:28.297 - check_complexity: 460799:Time elapsed: 0.3942544460296631
+04-25 23:01:28.298 - write_string: Writing to results/test/unsat:
+460799
+
+04-25 23:01:28.299 - write_string: Attempt to write empty string to results/test/460799
+
+04-25 23:01:28.304 - check_complexity: 489343:unsat
+04-25 23:01:28.304 - check_complexity: 489343:Time elapsed: 0.4009511470794678
+04-25 23:01:28.305 - write_string: Writing to results/test/unsat:
+489343
+
+04-25 23:01:28.306 - write_string: Writing to results/test/meta:
+1779711
+
+04-25 23:01:28.306 - write_string: Attempt to write empty string to results/test/489343
+
+04-25 23:01:28.312 - write_string: Writing to results/test/meta:
+3982335
+
+04-25 23:01:28.326 - check_complexity: 996159:unsat
+04-25 23:01:28.327 - check_complexity: 996159:Time elapsed: 0.3698122501373291
+04-25 23:01:28.328 - write_string: Writing to results/test/unsat:
+996159
+
+04-25 23:01:28.329 - write_string: Attempt to write empty string to results/test/996159
+
+04-25 23:01:28.338 - write_string: Writing to results/test/meta:
+16776960
+
+04-25 23:01:28.342 - check_complexity: 466943:unsat
+04-25 23:01:28.342 - check_complexity: 466943:Time elapsed: 0.42436885833740234
+04-25 23:01:28.343 - write_string: Writing to results/test/unsat:
+466943
+
+04-25 23:01:28.344 - write_string: Attempt to write empty string to results/test/466943
+
+04-25 23:01:28.350 - write_string: Writing to results/test/meta:
+18556799
+
+04-25 23:01:28.447 - check_complexity: 996351:unsat
+04-25 23:01:28.448 - check_complexity: 996351:Time elapsed: 0.39959144592285156
+04-25 23:01:28.449 - write_string: Writing to results/test/unsat:
+996351
+
+04-25 23:01:28.449 - write_string: Attempt to write empty string to results/test/996351
+
+04-25 23:01:28.772 - check_complexity: Optimizations enabled
+04-25 23:01:28.775 - check_complexity: 1044735:2: checking ...
+04-25 23:01:28.835 - check_complexity: Optimizations enabled
+04-25 23:01:28.838 - check_complexity: 3982335:2: checking ...
+04-25 23:01:28.848 - check_complexity: Optimizations enabled
+04-25 23:01:28.851 - check_complexity: 1779711:2: checking ...
+04-25 23:01:28.856 - check_complexity: Optimizations enabled
+04-25 23:01:28.859 - check_complexity: 18556799:2: checking ...
+04-25 23:01:28.870 - check_complexity: Optimizations enabled
+04-25 23:01:28.874 - check_complexity: 16776960:2: checking ...
+04-25 23:01:29.105 - check_complexity: 1044735:unsat
+04-25 23:01:29.105 - check_complexity: 1044735:Time elapsed: 0.3295104503631592
+04-25 23:01:29.106 - write_string: Writing to results/test/unsat:
+1044735
+
+04-25 23:01:29.106 - write_string: Attempt to write empty string to results/test/1044735
+
+04-25 23:01:29.145 - check_complexity: 3982335:unsat
+04-25 23:01:29.146 - check_complexity: 3982335:Time elapsed: 0.3073418140411377
+04-25 23:01:29.146 - write_string: Writing to results/test/unsat:
+3982335
+
+04-25 23:01:29.147 - write_string: Attempt to write empty string to results/test/3982335
+
+04-25 23:01:29.152 - check_complexity: 18556799:unsat
+04-25 23:01:29.152 - check_complexity: 18556799:Time elapsed: 0.2926042079925537
+04-25 23:01:29.153 - write_string: Writing to results/test/unsat:
+18556799
+
+04-25 23:01:29.154 - write_string: Attempt to write empty string to results/test/18556799
+
+04-25 23:01:29.168 - check_complexity: 16776960:unsat
+04-25 23:01:29.168 - check_complexity: 16776960:Time elapsed: 0.29414892196655273
+04-25 23:01:29.169 - write_string: Writing to results/test/unsat:
+16776960
+
+04-25 23:01:29.170 - write_string: Attempt to write empty string to results/test/16776960
+
+04-25 23:01:29.193 - check_complexity: 1779711:unsat
+04-25 23:01:29.194 - check_complexity: 1779711:Time elapsed: 0.3427400588989258
+04-25 23:01:29.195 - write_string: Writing to results/test/unsat:
+1779711
+
+04-25 23:01:29.196 - write_string: Attempt to write empty string to results/test/1779711
+
+04-25 23:02:54.302 - main: ['/mnt/c/Users/alexander/Documents/cmc/8 sem/ВКР/ig-exact-synthesis/src/core/mig_synthesis.py', '-I', '-i', 'input/database_dump_MIG.txt', '-c', '3', '-d', 'results/test', '-l', 'results/test/test.log', '-j', '6', '-t', '3600']
+04-25 23:02:54.302 - improve_in_parallel: Starting parallel improvint of  with 6 jobs, 3600 timeout
+04-25 23:02:56.374 - mks1_parse_mig: Read all database? list index out of range
+04-25 23:02:56.375 - improve_in_parallel: 41
+04-25 23:02:56.386 - write_string: Writing to results/test/meta:
+267448335
+
+04-25 23:02:56.387 - write_string: Writing to results/test/meta:
+23
+
+04-25 23:02:56.387 - write_string: Writing to results/test/meta:
+3
+
+04-25 23:02:56.388 - write_string: Writing to results/test/meta:
+60
+
+04-25 23:02:56.388 - write_string: Writing to results/test/meta:
+63
+
+04-25 23:02:56.390 - write_string: Writing to results/test/meta:
+287
+
+04-25 23:02:56.859 - check_complexity: Optimizations enabled
+04-25 23:02:56.863 - check_complexity: 23:2: checking ...
+04-25 23:02:56.895 - check_complexity: Optimizations enabled
+04-25 23:02:56.897 - check_complexity: Optimizations enabled
+04-25 23:02:56.900 - check_complexity: Optimizations enabled
+04-25 23:02:56.901 - check_complexity: 267448335:2: checking ...
+04-25 23:02:56.902 - check_complexity: 63:2: checking ...
+04-25 23:02:56.905 - check_complexity: 60:2: checking ...
+04-25 23:02:56.906 - check_complexity: Optimizations enabled
+04-25 23:02:56.907 - check_complexity: Optimizations enabled
+04-25 23:02:56.912 - check_complexity: 287:2: checking ...
+04-25 23:02:56.912 - check_complexity: 3:2: checking ...
+04-25 23:02:57.276 - check_complexity: 23:unsat
+04-25 23:02:57.277 - check_complexity: 23:Time elapsed: 0.41332197189331055
+04-25 23:02:57.278 - write_string: Writing to results/test/unsat:
+23
+
+
+04-25 23:02:57.279 - write_string: Attempt to write empty string to results/test/23
+
+04-25 23:02:57.286 - write_string: Writing to results/test/meta:
+383
+
+04-25 23:02:57.302 - check_complexity: 63:unsat
+04-25 23:02:57.303 - check_complexity: 63:Time elapsed: 0.40065884590148926
+04-25 23:02:57.303 - write_string: Writing to results/test/unsat:
+63
+
+
+04-25 23:02:57.304 - write_string: Attempt to write empty string to results/test/63
+
+04-25 23:02:57.311 - write_string: Writing to results/test/meta:
+975
+
+04-25 23:02:57.316 - check_complexity: 267448335:unsat
+04-25 23:02:57.316 - check_complexity: 267448335:Time elapsed: 0.41524720191955566
+04-25 23:02:57.317 - write_string: Writing to results/test/unsat:
+267448335
+
+
+04-25 23:02:57.318 - write_string: Attempt to write empty string to results/test/267448335
+
+04-25 23:02:57.323 - write_string: Writing to results/test/meta:
+1023
+
+04-25 23:02:57.323 - check_complexity: 60:unsat
+04-25 23:02:57.324 - check_complexity: 60:Time elapsed: 0.4182314872741699
+04-25 23:02:57.325 - write_string: Writing to results/test/unsat:
+60
+
+
+04-25 23:02:57.326 - write_string: Attempt to write empty string to results/test/60
+
+04-25 23:02:57.333 - write_string: Writing to results/test/meta:
+1919
+
+04-25 23:02:57.343 - check_complexity: 287:unsat
+04-25 23:02:57.344 - check_complexity: 287:Time elapsed: 0.43131065368652344
+04-25 23:02:57.345 - write_string: Writing to results/test/unsat:
+287
+
+
+04-25 23:02:57.345 - write_string: Attempt to write empty string to results/test/287
+
+04-25 23:02:57.351 - check_complexity: 3:unsat
+04-25 23:02:57.351 - check_complexity: 3:Time elapsed: 0.4386758804321289
+04-25 23:02:57.352 - write_string: Writing to results/test/meta:
+4080
+
+04-25 23:02:57.352 - write_string: Writing to results/test/unsat:
+3
+
+
+04-25 23:02:57.353 - write_string: Attempt to write empty string to results/test/3
+
+04-25 23:02:57.360 - write_string: Writing to results/test/meta:
+6143
+
+04-25 23:02:57.842 - check_complexity: Optimizations enabled
+04-25 23:02:57.845 - check_complexity: 383:2: checking ...
+04-25 23:02:57.848 - check_complexity: Optimizations enabled
+04-25 23:02:57.850 - check_complexity: 1919:2: checking ...
+04-25 23:02:57.866 - check_complexity: Optimizations enabled
+04-25 23:02:57.869 - check_complexity: 4080:2: checking ...
+04-25 23:02:57.870 - check_complexity: Optimizations enabled
+04-25 23:02:57.872 - check_complexity: 975:2: checking ...
+04-25 23:02:57.882 - check_complexity: Optimizations enabled
+04-25 23:02:57.884 - check_complexity: 1023:2: checking ...
+04-25 23:02:57.902 - check_complexity: Optimizations enabled
+04-25 23:02:57.905 - check_complexity: 6143:2: checking ...
+04-25 23:02:58.213 - check_complexity: 1919:unsat
+04-25 23:02:58.214 - check_complexity: 1919:Time elapsed: 0.3629770278930664
+04-25 23:02:58.215 - write_string: Writing to results/test/unsat:
+1919
+
+
+04-25 23:02:58.216 - write_string: Attempt to write empty string to results/test/1919
+
+04-25 23:02:58.223 - write_string: Writing to results/test/meta:
+15615
+
+04-25 23:02:58.253 - check_complexity: 4080:unsat
+04-25 23:02:58.254 - check_complexity: 4080:Time elapsed: 0.3845705986022949
+04-25 23:02:58.255 - write_string: Writing to results/test/unsat:
+4080
+
+
+04-25 23:02:58.255 - write_string: Attempt to write empty string to results/test/4080
+
+04-25 23:02:58.257 - check_complexity: 383:unsat
+04-25 23:02:58.259 - check_complexity: 975:unsat
+04-25 23:02:58.260 - check_complexity: 383:Time elapsed: 0.4117248058319092
+04-25 23:02:58.260 - check_complexity: 975:Time elapsed: 0.3872349262237549
+04-25 23:02:58.261 - write_string: Writing to results/test/unsat:
+975
+
+
+04-25 23:02:58.261 - write_string: Writing to results/test/unsat:
+383
+
+
+04-25 23:02:58.261 - write_string: Attempt to write empty string to results/test/975
+
+04-25 23:02:58.266 - write_string: Attempt to write empty string to results/test/383
+
+04-25 23:02:58.267 - write_string: Writing to results/test/meta:
+65835
+
+04-25 23:02:58.268 - write_string: Writing to results/test/meta:
+16383
+
+04-25 23:02:58.273 - write_string: Writing to results/test/meta:
+66047
+
+04-25 23:02:58.282 - check_complexity: 1023:unsat
+04-25 23:02:58.282 - check_complexity: 1023:Time elapsed: 0.3979983329772949
+04-25 23:02:58.283 - write_string: Writing to results/test/unsat:
+1023
+
+
+04-25 23:02:58.284 - write_string: Attempt to write empty string to results/test/1023
+
+04-25 23:02:58.289 - write_string: Writing to results/test/meta:
+66391
+
+04-25 23:02:58.318 - check_complexity: 6143:unsat
+04-25 23:02:58.319 - check_complexity: 6143:Time elapsed: 0.4133110046386719
+04-25 23:02:58.320 - write_string: Writing to results/test/unsat:
+6143
+
+
+04-25 23:02:58.320 - write_string: Attempt to write empty string to results/test/6143
+
+04-25 23:02:58.326 - write_string: Writing to results/test/meta:
+67447
+
+04-25 23:02:58.783 - check_complexity: Optimizations enabled
+04-25 23:02:58.787 - check_complexity: 66391:2: checking ...
+04-25 23:02:58.789 - check_complexity: Optimizations enabled
+04-25 23:02:58.792 - check_complexity: 15615:2: checking ...
+04-25 23:02:58.817 - check_complexity: Optimizations enabled
+04-25 23:02:58.820 - check_complexity: 65835:2: checking ...
+04-25 23:02:58.843 - check_complexity: Optimizations enabled
+04-25 23:02:58.846 - check_complexity: Optimizations enabled
+04-25 23:02:58.847 - check_complexity: 16383:2: checking ...
+04-25 23:02:58.849 - check_complexity: 66047:2: checking ...
+04-25 23:02:58.873 - check_complexity: Optimizations enabled
+04-25 23:02:58.876 - check_complexity: 67447:2: checking ...
+04-25 23:02:59.137 - check_complexity: 15615:unsat
+04-25 23:02:59.137 - check_complexity: 15615:Time elapsed: 0.3447692394256592
+04-25 23:02:59.139 - write_string: Writing to results/test/unsat:
+15615
+
+
+04-25 23:02:59.140 - write_string: Attempt to write empty string to results/test/15615
+
+04-25 23:02:59.145 - write_string: Writing to results/test/meta:
+67583
+
+04-25 23:02:59.150 - check_complexity: 66391:unsat
+04-25 23:02:59.151 - check_complexity: 66391:Time elapsed: 0.36353635787963867
+04-25 23:02:59.151 - write_string: Writing to results/test/unsat:
+66391
+
+
+04-25 23:02:59.152 - write_string: Attempt to write empty string to results/test/66391
+
+04-25 23:02:59.159 - write_string: Writing to results/test/meta:
+72639
+
+04-25 23:02:59.211 - check_complexity: 65835:unsat
+04-25 23:02:59.211 - check_complexity: 65835:Time elapsed: 0.39078855514526367
+04-25 23:02:59.212 - write_string: Writing to results/test/unsat:
+65835
+
+
+04-25 23:02:59.212 - write_string: Attempt to write empty string to results/test/65835
+
+04-25 23:02:59.220 - write_string: Writing to results/test/meta:
+73727
+
+04-25 23:02:59.250 - check_complexity: 67447:unsat
+04-25 23:02:59.251 - check_complexity: 67447:Time elapsed: 0.37442803382873535
+04-25 23:02:59.252 - write_string: Writing to results/test/unsat:
+67447
+
+
+04-25 23:02:59.252 - write_string: Attempt to write empty string to results/test/67447
+
+04-25 23:02:59.259 - write_string: Writing to results/test/meta:
+98303
+
+04-25 23:02:59.264 - check_complexity: 66047:unsat
+04-25 23:02:59.264 - check_complexity: 66047:Time elapsed: 0.41503095626831055
+04-25 23:02:59.265 - write_string: Writing to results/test/unsat:
+66047
+
+
+04-25 23:02:59.266 - write_string: Attempt to write empty string to results/test/66047
+
+04-25 23:02:59.274 - write_string: Writing to results/test/meta:
+197583
+
+04-25 23:02:59.286 - check_complexity: 16383:unsat
+04-25 23:02:59.286 - check_complexity: 16383:Time elapsed: 0.4385826587677002
+04-25 23:02:59.287 - write_string: Writing to results/test/unsat:
+16383
+
+
+04-25 23:02:59.287 - write_string: Attempt to write empty string to results/test/16383
+
+04-25 23:02:59.294 - write_string: Writing to results/test/meta:
+199935
+
+04-25 23:02:59.660 - check_complexity: Optimizations enabled
+04-25 23:02:59.662 - check_complexity: 67583:2: checking ...
+04-25 23:02:59.664 - check_complexity: Optimizations enabled
+04-25 23:02:59.667 - check_complexity: 72639:2: checking ...
+04-25 23:02:59.719 - check_complexity: Optimizations enabled
+04-25 23:02:59.723 - check_complexity: 73727:2: checking ...
+04-25 23:02:59.807 - check_complexity: Optimizations enabled
+04-25 23:02:59.810 - check_complexity: 98303:2: checking ...
+04-25 23:02:59.840 - check_complexity: Optimizations enabled
+04-25 23:02:59.843 - check_complexity: 199935:2: checking ...
+04-25 23:02:59.850 - check_complexity: Optimizations enabled
+04-25 23:02:59.853 - check_complexity: 197583:2: checking ...
+04-25 23:03:00.004 - check_complexity: 72639:unsat
+04-25 23:03:00.004 - check_complexity: 72639:Time elapsed: 0.3365335464477539
+04-25 23:03:00.005 - write_string: Writing to results/test/unsat:
+72639
+
+
+04-25 23:03:00.006 - write_string: Attempt to write empty string to results/test/72639
+
+04-25 23:03:00.013 - write_string: Writing to results/test/meta:
+200703
+
+04-25 23:03:00.039 - check_complexity: 67583:unsat
+04-25 23:03:00.039 - check_complexity: 67583:Time elapsed: 0.3766462802886963
+04-25 23:03:00.041 - write_string: Writing to results/test/unsat:
+67583
+
+
+04-25 23:03:00.042 - write_string: Attempt to write empty string to results/test/67583
+
+04-25 23:03:00.050 - write_string: Writing to results/test/meta:
+202071
+
+04-25 23:03:00.086 - check_complexity: 73727:unsat
+04-25 23:03:00.086 - check_complexity: 73727:Time elapsed: 0.3631298542022705
+04-25 23:03:00.088 - write_string: Writing to results/test/unsat:
+73727
+
+
+04-25 23:03:00.088 - write_string: Attempt to write empty string to results/test/73727
+
+04-25 23:03:00.094 - write_string: Writing to results/test/meta:
+202111
+
+04-25 23:03:00.206 - check_complexity: 98303:unsat
+04-25 23:03:00.206 - check_complexity: 98303:Time elapsed: 0.39543700218200684
+04-25 23:03:00.206 - check_complexity: 199935:unsat
+04-25 23:03:00.206 - check_complexity: 199935:Time elapsed: 0.36354851722717285
+04-25 23:03:00.207 - write_string: Writing to results/test/unsat:
+98303
+
+
+04-25 23:03:00.207 - write_string: Writing to results/test/unsat:
+199935
+
+
+04-25 23:03:00.208 - write_string: Attempt to write empty string to results/test/98303
+
+04-25 23:03:00.208 - write_string: Attempt to write empty string to results/test/199935
+
+04-25 23:03:00.216 - write_string: Writing to results/test/meta:
+202751
+
+04-25 23:03:00.216 - write_string: Writing to results/test/meta:
+249855
+
+04-25 23:03:00.256 - check_complexity: 197583:unsat
+04-25 23:03:00.256 - check_complexity: 197583:Time elapsed: 0.40302538871765137
+04-25 23:03:00.257 - write_string: Writing to results/test/unsat:
+197583
+
+
+04-25 23:03:00.258 - write_string: Attempt to write empty string to results/test/197583
+
+04-25 23:03:00.263 - write_string: Writing to results/test/meta:
+434175
+
+04-25 23:03:00.559 - check_complexity: Optimizations enabled
+04-25 23:03:00.560 - check_complexity: Optimizations enabled
+04-25 23:03:00.562 - check_complexity: 200703:2: checking ...
+04-25 23:03:00.563 - check_complexity: 202071:2: checking ...
+04-25 23:03:00.624 - check_complexity: Optimizations enabled
+04-25 23:03:00.628 - check_complexity: 202111:2: checking ...
+04-25 23:03:00.770 - check_complexity: Optimizations enabled
+04-25 23:03:00.773 - check_complexity: 249855:2: checking ...
+04-25 23:03:00.792 - check_complexity: Optimizations enabled
+04-25 23:03:00.796 - check_complexity: 202751:2: checking ...
+04-25 23:03:00.820 - check_complexity: Optimizations enabled
+04-25 23:03:00.823 - check_complexity: 434175:2: checking ...
+04-25 23:03:00.919 - check_complexity: 202071:unsat
+04-25 23:03:00.919 - check_complexity: 202071:Time elapsed: 0.355837345123291
+04-25 23:03:00.920 - check_complexity: 200703:unsat
+04-25 23:03:00.920 - check_complexity: 200703:Time elapsed: 0.35802674293518066
+04-25 23:03:00.920 - write_string: Writing to results/test/unsat:
+202071
+
+
+04-25 23:03:00.921 - write_string: Attempt to write empty string to results/test/202071
+
+04-25 23:03:00.921 - write_string: Writing to results/test/unsat:
+200703
+
+
+04-25 23:03:00.922 - write_string: Attempt to write empty string to results/test/200703
+
+04-25 23:03:00.928 - write_string: Writing to results/test/meta:
+460663
+
+04-25 23:03:00.929 - write_string: Writing to results/test/meta:
+460799
+
+04-25 23:03:01.003 - check_complexity: 202111:unsat
+04-25 23:03:01.003 - check_complexity: 202111:Time elapsed: 0.3750598430633545
+04-25 23:03:01.004 - write_string: Writing to results/test/unsat:
+202111
+
+
+04-25 23:03:01.005 - write_string: Attempt to write empty string to results/test/202111
+
+04-25 23:03:01.012 - write_string: Writing to results/test/meta:
+466943
+
+04-25 23:03:01.152 - check_complexity: 249855:unsat
+04-25 23:03:01.153 - check_complexity: 249855:Time elapsed: 0.3791787624359131
+04-25 23:03:01.153 - write_string: Writing to results/test/unsat:
+249855
+
+
+04-25 23:03:01.154 - write_string: Attempt to write empty string to results/test/249855
+
+04-25 23:03:01.160 - write_string: Writing to results/test/meta:
+489343
+
+04-25 23:03:01.176 - check_complexity: 202751:unsat
+04-25 23:03:01.176 - check_complexity: 202751:Time elapsed: 0.38006019592285156
+04-25 23:03:01.177 - write_string: Writing to results/test/unsat:
+202751
+
+
+04-25 23:03:01.178 - write_string: Attempt to write empty string to results/test/202751
+
+04-25 23:03:01.184 - write_string: Writing to results/test/meta:
+996159
+
+04-25 23:03:01.225 - check_complexity: 434175:unsat
+04-25 23:03:01.226 - check_complexity: 434175:Time elapsed: 0.4021494388580322
+04-25 23:03:01.226 - write_string: Writing to results/test/unsat:
+434175
+
+
+04-25 23:03:01.227 - write_string: Attempt to write empty string to results/test/434175
+
+04-25 23:03:01.233 - write_string: Writing to results/test/meta:
+996351
+
+04-25 23:03:01.467 - check_complexity: Optimizations enabled
+04-25 23:03:01.467 - check_complexity: Optimizations enabled
+04-25 23:03:01.470 - check_complexity: 460799:2: checking ...
+04-25 23:03:01.471 - check_complexity: 460663:2: checking ...
+04-25 23:03:01.552 - check_complexity: Optimizations enabled
+04-25 23:03:01.555 - check_complexity: 466943:2: checking ...
+04-25 23:03:01.729 - check_complexity: Optimizations enabled
+04-25 23:03:01.732 - check_complexity: Optimizations enabled
+04-25 23:03:01.733 - check_complexity: 489343:2: checking ...
+04-25 23:03:01.735 - check_complexity: 996159:2: checking ...
+04-25 23:03:01.821 - check_complexity: Optimizations enabled
+04-25 23:03:01.823 - check_complexity: 996351:2: checking ...
+04-25 23:03:01.872 - check_complexity: 460799:unsat
+04-25 23:03:01.872 - check_complexity: 460799:Time elapsed: 0.401702880859375
+04-25 23:03:01.873 - write_string: Writing to results/test/unsat:
+460799
+
+
+04-25 23:03:01.874 - write_string: Attempt to write empty string to results/test/460799
+
+04-25 23:03:01.876 - check_complexity: 460663:unsat
+04-25 23:03:01.876 - check_complexity: 460663:Time elapsed: 0.4048454761505127
+04-25 23:03:01.877 - write_string: Writing to results/test/unsat:
+460663
+
+
+04-25 23:03:01.878 - write_string: Attempt to write empty string to results/test/460663
+
+04-25 23:03:01.881 - write_string: Writing to results/test/meta:
+1044735
+
+04-25 23:03:01.887 - write_string: Writing to results/test/meta:
+1779711
+
+04-25 23:03:01.990 - check_complexity: 466943:unsat
+04-25 23:03:01.991 - check_complexity: 466943:Time elapsed: 0.43486857414245605
+04-25 23:03:01.992 - write_string: Writing to results/test/unsat:
+466943
+
+
+04-25 23:03:01.992 - write_string: Attempt to write empty string to results/test/466943
+
+04-25 23:03:01.998 - write_string: Writing to results/test/meta:
+3982335
+
+04-25 23:03:02.120 - check_complexity: 489343:unsat
+04-25 23:03:02.120 - check_complexity: 489343:Time elapsed: 0.3866913318634033
+04-25 23:03:02.121 - write_string: Writing to results/test/unsat:
+489343
+
+
+04-25 23:03:02.122 - write_string: Attempt to write empty string to results/test/489343
+
+04-25 23:03:02.129 - write_string: Writing to results/test/meta:
+16776960
+
+04-25 23:03:02.137 - check_complexity: 996159:unsat
+04-25 23:03:02.137 - check_complexity: 996159:Time elapsed: 0.4011662006378174
+04-25 23:03:02.138 - write_string: Writing to results/test/unsat:
+996159
+
+
+04-25 23:03:02.138 - write_string: Attempt to write empty string to results/test/996159
+
+04-25 23:03:02.145 - write_string: Writing to results/test/meta:
+18556799
+
+04-25 23:03:02.208 - check_complexity: 996351:unsat
+04-25 23:03:02.209 - check_complexity: 996351:Time elapsed: 0.38517165184020996
+04-25 23:03:02.209 - write_string: Writing to results/test/unsat:
+996351
+
+
+04-25 23:03:02.210 - write_string: Attempt to write empty string to results/test/996351
+
+04-25 23:03:02.411 - check_complexity: Optimizations enabled
+04-25 23:03:02.414 - check_complexity: 1044735:2: checking ...
+04-25 23:03:02.423 - check_complexity: Optimizations enabled
+04-25 23:03:02.426 - check_complexity: 1779711:2: checking ...
+04-25 23:03:02.507 - check_complexity: Optimizations enabled
+04-25 23:03:02.509 - check_complexity: 3982335:2: checking ...
+04-25 23:03:02.648 - check_complexity: Optimizations enabled
+04-25 23:03:02.651 - check_complexity: 18556799:2: checking ...
+04-25 23:03:02.657 - check_complexity: Optimizations enabled
+04-25 23:03:02.660 - check_complexity: 16776960:2: checking ...
+04-25 23:03:02.710 - check_complexity: 1044735:unsat
+04-25 23:03:02.710 - check_complexity: 1044735:Time elapsed: 0.29637622833251953
+04-25 23:03:02.711 - write_string: Writing to results/test/unsat:
+1044735
+
+
+04-25 23:03:02.712 - write_string: Attempt to write empty string to results/test/1044735
+
+04-25 23:03:02.779 - check_complexity: 1779711:unsat
+04-25 23:03:02.779 - check_complexity: 1779711:Time elapsed: 0.35269784927368164
+04-25 23:03:02.780 - write_string: Writing to results/test/unsat:
+1779711
+
+
+04-25 23:03:02.781 - write_string: Attempt to write empty string to results/test/1779711
+
+04-25 23:03:02.801 - check_complexity: 3982335:unsat
+04-25 23:03:02.802 - check_complexity: 3982335:Time elapsed: 0.2917442321777344
+04-25 23:03:02.803 - write_string: Writing to results/test/unsat:
+3982335
+
+
+04-25 23:03:02.804 - write_string: Attempt to write empty string to results/test/3982335
+
+04-25 23:03:02.905 - check_complexity: 18556799:unsat
+04-25 23:03:02.905 - check_complexity: 18556799:Time elapsed: 0.25414347648620605
+04-25 23:03:02.907 - write_string: Writing to results/test/unsat:
+18556799
+
+
+04-25 23:03:02.908 - write_string: Attempt to write empty string to results/test/18556799
+
+04-25 23:03:02.918 - check_complexity: 16776960:unsat
+04-25 23:03:02.918 - check_complexity: 16776960:Time elapsed: 0.2582826614379883
+04-25 23:03:02.920 - write_string: Writing to results/test/unsat:
+16776960
+
+
+04-25 23:03:02.921 - write_string: Attempt to write empty string to results/test/16776960
+
+04-25 23:04:55.305 - main: ['/mnt/c/Users/alexander/Documents/cmc/8 sem/ВКР/ig-exact-synthesis/src/core/mig_synthesis.py', '-I', '-i', 'input/database_dump_MIG.txt', '-c', '3', '-d', 'results/test', '-l', 'results/test/test.log', '-j', '6', '-t', '3600']
+04-25 23:04:55.305 - improve_in_parallel: Starting parallel improvint of  with 6 jobs, 3600 timeout
+04-25 23:04:57.390 - mks1_parse_mig: Read all database? list index out of range
+04-25 23:04:57.392 - improve_in_parallel: 1
+04-25 23:04:57.404 - write_string: Writing to results/test/meta:
+18556799
+
+04-25 23:04:57.732 - check_complexity: Optimizations enabled
+04-25 23:04:57.736 - check_complexity: 18556799:2: checking ...
+04-25 23:04:57.957 - check_complexity: 18556799:2:unsat
+04-25 23:04:57.958 - check_complexity: 18556799:2:Time elapsed: 0.22124218940734863
+04-25 23:04:57.959 - write_string: Writing to results/test/unsat:
+18556799
+
+
+04-25 23:04:57.960 - write_string: Attempt to write empty string to results/test/18556799
+
+04-25 23:05:06.594 - main: ['/mnt/c/Users/alexander/Documents/cmc/8 sem/ВКР/ig-exact-synthesis/src/core/mig_synthesis.py', '-I', '-i', 'input/database_dump_MIG.txt', '-c', '3', '-d', 'results/test', '-l', 'results/test/test.log', '-j', '6', '-t', '3600']
+04-25 23:05:06.595 - improve_in_parallel: Starting parallel improvint of  with 6 jobs, 3600 timeout
+04-25 23:05:08.591 - mks1_parse_mig: Read all database? list index out of range
+04-25 23:05:08.592 - improve_in_parallel: 41
+04-25 23:05:08.603 - write_string: Writing to results/test/meta:
+267448335
+
+04-25 23:05:08.604 - write_string: Writing to results/test/meta:
+3
+
+04-25 23:05:08.605 - write_string: Writing to results/test/meta:
+23
+
+04-25 23:05:08.605 - write_string: Writing to results/test/meta:
+60
+
+04-25 23:05:08.606 - write_string: Writing to results/test/meta:
+63
+
+04-25 23:05:08.607 - write_string: Writing to results/test/meta:
+287
+
+04-25 23:05:09.099 - check_complexity: Optimizations enabled
+04-25 23:05:09.103 - check_complexity: Optimizations enabled
+04-25 23:05:09.104 - check_complexity: 63:2: checking ...
+04-25 23:05:09.108 - check_complexity: 3:2: checking ...
+04-25 23:05:09.116 - check_complexity: Optimizations enabled
+04-25 23:05:09.122 - check_complexity: 60:2: checking ...
+04-25 23:05:09.131 - check_complexity: Optimizations enabled
+04-25 23:05:09.134 - check_complexity: Optimizations enabled
+04-25 23:05:09.137 - check_complexity: 287:2: checking ...
+04-25 23:05:09.141 - check_complexity: 267448335:2: checking ...
+04-25 23:05:09.170 - check_complexity: Optimizations enabled
+04-25 23:05:09.177 - check_complexity: 23:2: checking ...
+04-25 23:05:09.484 - check_complexity: 60:2:unsat
+04-25 23:05:09.485 - check_complexity: 60:2:Time elapsed: 0.36270904541015625
+04-25 23:05:09.486 - write_string: Writing to results/test/unsat:
+60
+
+
+04-25 23:05:09.487 - write_string: Attempt to write empty string to results/test/60
+
+04-25 23:05:09.491 - write_string: Writing to results/test/meta:
+383
+
+04-25 23:05:09.499 - check_complexity: 63:2:unsat
+04-25 23:05:09.500 - check_complexity: 63:2:Time elapsed: 0.394866943359375
+04-25 23:05:09.500 - write_string: Writing to results/test/unsat:
+63
+
+
+04-25 23:05:09.501 - write_string: Attempt to write empty string to results/test/63
+
+04-25 23:05:09.508 - write_string: Writing to results/test/meta:
+975
+
+04-25 23:05:09.528 - check_complexity: 3:2:unsat
+04-25 23:05:09.529 - check_complexity: 3:2:Time elapsed: 0.420215368270874
+04-25 23:05:09.530 - write_string: Writing to results/test/unsat:
+3
+
+
+04-25 23:05:09.530 - write_string: Attempt to write empty string to results/test/3
+
+04-25 23:05:09.532 - check_complexity: 267448335:2:unsat
+04-25 23:05:09.532 - check_complexity: 267448335:2:Time elapsed: 0.39111781120300293
+04-25 23:05:09.533 - write_string: Writing to results/test/unsat:
+267448335
+
+
+04-25 23:05:09.534 - write_string: Attempt to write empty string to results/test/267448335
+
+04-25 23:05:09.538 - write_string: Writing to results/test/meta:
+1023
+
+04-25 23:05:09.540 - write_string: Writing to results/test/meta:
+1919
+
+04-25 23:05:09.553 - check_complexity: 287:2:unsat
+04-25 23:05:09.553 - check_complexity: 287:2:Time elapsed: 0.415499210357666
+04-25 23:05:09.554 - write_string: Writing to results/test/unsat:
+287
+
+
+04-25 23:05:09.555 - write_string: Attempt to write empty string to results/test/287
+
+04-25 23:05:09.561 - write_string: Writing to results/test/meta:
+4080
+
+04-25 23:05:09.596 - check_complexity: 23:2:unsat
+04-25 23:05:09.597 - check_complexity: 23:2:Time elapsed: 0.41959547996520996
+04-25 23:05:09.598 - write_string: Writing to results/test/unsat:
+23
+
+
+04-25 23:05:09.598 - write_string: Attempt to write empty string to results/test/23
+
+04-25 23:05:09.604 - write_string: Writing to results/test/meta:
+6143
+
+04-25 23:05:10.061 - check_complexity: Optimizations enabled
+04-25 23:05:10.064 - check_complexity: 975:2: checking ...
+04-25 23:05:10.081 - check_complexity: Optimizations enabled
+04-25 23:05:10.085 - check_complexity: 383:2: checking ...
+04-25 23:05:10.125 - check_complexity: Optimizations enabled
+04-25 23:05:10.129 - check_complexity: 1023:2: checking ...
+04-25 23:05:10.150 - check_complexity: Optimizations enabled
+04-25 23:05:10.154 - check_complexity: 4080:2: checking ...
+04-25 23:05:10.156 - check_complexity: Optimizations enabled
+04-25 23:05:10.159 - check_complexity: 1919:2: checking ...
+04-25 23:05:10.203 - check_complexity: Optimizations enabled
+04-25 23:05:10.206 - check_complexity: 6143:2: checking ...
+04-25 23:05:10.462 - check_complexity: 975:2:unsat
+04-25 23:05:10.462 - check_complexity: 975:2:Time elapsed: 0.39739370346069336
+04-25 23:05:10.463 - write_string: Writing to results/test/unsat:
+975
+
+
+04-25 23:05:10.464 - write_string: Attempt to write empty string to results/test/975
+
+04-25 23:05:10.469 - check_complexity: 383:2:unsat
+04-25 23:05:10.469 - check_complexity: 383:2:Time elapsed: 0.3835315704345703
+04-25 23:05:10.470 - write_string: Writing to results/test/unsat:
+383
+
+
+04-25 23:05:10.471 - write_string: Attempt to write empty string to results/test/383
+
+04-25 23:05:10.471 - write_string: Writing to results/test/meta:
+15615
+
+04-25 23:05:10.479 - write_string: Writing to results/test/meta:
+16383
+
+04-25 23:05:10.532 - check_complexity: 1023:2:unsat
+04-25 23:05:10.532 - check_complexity: 1023:2:Time elapsed: 0.40282583236694336
+04-25 23:05:10.533 - write_string: Writing to results/test/unsat:
+1023
+
+
+04-25 23:05:10.534 - write_string: Attempt to write empty string to results/test/1023
+
+04-25 23:05:10.540 - write_string: Writing to results/test/meta:
+65835
+
+04-25 23:05:10.549 - check_complexity: 4080:2:unsat
+04-25 23:05:10.549 - check_complexity: 4080:2:Time elapsed: 0.39527034759521484
+04-25 23:05:10.550 - write_string: Writing to results/test/unsat:
+4080
+
+
+04-25 23:05:10.551 - write_string: Attempt to write empty string to results/test/4080
+
+04-25 23:05:10.559 - write_string: Writing to results/test/meta:
+66047
+
+04-25 23:05:10.562 - check_complexity: 1919:2:unsat
+04-25 23:05:10.562 - check_complexity: 1919:2:Time elapsed: 0.40299344062805176
+04-25 23:05:10.563 - write_string: Writing to results/test/unsat:
+1919
+
+
+04-25 23:05:10.564 - write_string: Attempt to write empty string to results/test/1919
+
+04-25 23:05:10.571 - write_string: Writing to results/test/meta:
+66391
+
+04-25 23:05:10.613 - check_complexity: 6143:2:unsat
+04-25 23:05:10.613 - check_complexity: 6143:2:Time elapsed: 0.40647196769714355
+04-25 23:05:10.614 - write_string: Writing to results/test/unsat:
+6143
+
+
+04-25 23:05:10.615 - write_string: Attempt to write empty string to results/test/6143
+
+04-25 23:05:10.622 - write_string: Writing to results/test/meta:
+67447
+
+04-25 23:05:11.114 - check_complexity: Optimizations enabled
+04-25 23:05:11.118 - check_complexity: 15615:2: checking ...
+04-25 23:05:11.120 - check_complexity: Optimizations enabled
+04-25 23:05:11.124 - check_complexity: 16383:2: checking ...
+04-25 23:05:11.172 - check_complexity: Optimizations enabled
+04-25 23:05:11.176 - check_complexity: 66391:2: checking ...
+04-25 23:05:11.190 - check_complexity: Optimizations enabled
+04-25 23:05:11.196 - check_complexity: 65835:2: checking ...
+04-25 23:05:11.221 - check_complexity: Optimizations enabled
+04-25 23:05:11.225 - check_complexity: 66047:2: checking ...
+04-25 23:05:11.296 - check_complexity: Optimizations enabled
+04-25 23:05:11.302 - check_complexity: 67447:2: checking ...
+04-25 23:05:11.708 - check_complexity: 15615:2:unsat
+04-25 23:05:11.708 - check_complexity: 15615:2:Time elapsed: 0.5899143218994141
+04-25 23:05:11.710 - write_string: Writing to results/test/unsat:
+15615
+
+
+04-25 23:05:11.711 - write_string: Attempt to write empty string to results/test/15615
+
+04-25 23:05:11.720 - write_string: Writing to results/test/meta:
+67583
+
+04-25 23:05:11.737 - check_complexity: 16383:2:unsat
+04-25 23:05:11.738 - check_complexity: 16383:2:Time elapsed: 0.6132221221923828
+04-25 23:05:11.739 - write_string: Writing to results/test/unsat:
+16383
+
+
+04-25 23:05:11.740 - write_string: Attempt to write empty string to results/test/16383
+
+04-25 23:05:11.742 - check_complexity: 66391:2:unsat
+04-25 23:05:11.742 - check_complexity: 66391:2:Time elapsed: 0.5657613277435303
+04-25 23:05:11.743 - write_string: Writing to results/test/unsat:
+66391
+
+
+04-25 23:05:11.745 - write_string: Attempt to write empty string to results/test/66391
+
+04-25 23:05:11.753 - check_complexity: 65835:2:unsat
+04-25 23:05:11.753 - write_string: Writing to results/test/meta:
+72639
+
+04-25 23:05:11.753 - check_complexity: 65835:2:Time elapsed: 0.5573687553405762
+04-25 23:05:11.755 - write_string: Writing to results/test/meta:
+73727
+
+04-25 23:05:11.756 - write_string: Writing to results/test/unsat:
+65835
+
+
+04-25 23:05:11.756 - write_string: Attempt to write empty string to results/test/65835
+
+04-25 23:05:11.765 - write_string: Writing to results/test/meta:
+98303
+
+04-25 23:05:11.806 - check_complexity: 66047:2:unsat
+04-25 23:05:11.807 - check_complexity: 66047:2:Time elapsed: 0.5817904472351074
+04-25 23:05:11.808 - write_string: Writing to results/test/unsat:
+66047
+
+
+04-25 23:05:11.811 - write_string: Attempt to write empty string to results/test/66047
+
+04-25 23:05:11.819 - write_string: Writing to results/test/meta:
+197583
+
+04-25 23:05:11.849 - check_complexity: 67447:2:unsat
+04-25 23:05:11.849 - check_complexity: 67447:2:Time elapsed: 0.5467159748077393
+04-25 23:05:11.850 - write_string: Writing to results/test/unsat:
+67447
+
+
+04-25 23:05:11.851 - write_string: Attempt to write empty string to results/test/67447
+
+04-25 23:05:11.859 - write_string: Writing to results/test/meta:
+199935
+
+04-25 23:05:12.307 - check_complexity: Optimizations enabled
+04-25 23:05:12.311 - check_complexity: 73727:2: checking ...
+04-25 23:05:12.351 - check_complexity: Optimizations enabled
+04-25 23:05:12.354 - check_complexity: 67583:2: checking ...
+04-25 23:05:12.367 - check_complexity: Optimizations enabled
+04-25 23:05:12.369 - check_complexity: 72639:2: checking ...
+04-25 23:05:12.383 - check_complexity: Optimizations enabled
+04-25 23:05:12.385 - check_complexity: 98303:2: checking ...
+04-25 23:05:12.407 - check_complexity: Optimizations enabled
+04-25 23:05:12.410 - check_complexity: 197583:2: checking ...
+04-25 23:05:12.421 - check_complexity: Optimizations enabled
+04-25 23:05:12.424 - check_complexity: 199935:2: checking ...
+04-25 23:05:12.768 - check_complexity: 73727:2:unsat
+04-25 23:05:12.769 - check_complexity: 73727:2:Time elapsed: 0.45771217346191406
+04-25 23:05:12.770 - write_string: Writing to results/test/unsat:
+73727
+
+
+04-25 23:05:12.771 - write_string: Attempt to write empty string to results/test/73727
+
+04-25 23:05:12.781 - write_string: Writing to results/test/meta:
+200703
+
+04-25 23:05:12.799 - check_complexity: 72639:2:unsat
+04-25 23:05:12.799 - check_complexity: 72639:2:Time elapsed: 0.4295186996459961
+04-25 23:05:12.800 - write_string: Writing to results/test/unsat:
+72639
+
+
+04-25 23:05:12.801 - write_string: Attempt to write empty string to results/test/72639
+
+04-25 23:05:12.808 - write_string: Writing to results/test/meta:
+202071
+
+04-25 23:05:12.819 - check_complexity: 67583:2:unsat
+04-25 23:05:12.819 - check_complexity: 67583:2:Time elapsed: 0.4647994041442871
+04-25 23:05:12.820 - write_string: Writing to results/test/unsat:
+67583
+
+
+04-25 23:05:12.821 - write_string: Attempt to write empty string to results/test/67583
+
+04-25 23:05:12.829 - write_string: Writing to results/test/meta:
+202111
+
+04-25 23:05:12.842 - check_complexity: 197583:2:unsat
+04-25 23:05:12.842 - check_complexity: 197583:2:Time elapsed: 0.4319131374359131
+04-25 23:05:12.843 - write_string: Writing to results/test/unsat:
+197583
+
+
+04-25 23:05:12.843 - write_string: Attempt to write empty string to results/test/197583
+
+04-25 23:05:12.849 - write_string: Writing to results/test/meta:
+202751
+
+04-25 23:05:12.851 - check_complexity: 98303:2:unsat
+04-25 23:05:12.851 - check_complexity: 98303:2:Time elapsed: 0.46544957160949707
+04-25 23:05:12.852 - write_string: Writing to results/test/unsat:
+98303
+
+
+04-25 23:05:12.853 - write_string: Attempt to write empty string to results/test/98303
+
+04-25 23:05:12.859 - write_string: Writing to results/test/meta:
+249855
+
+04-25 23:05:12.885 - check_complexity: 199935:2:unsat
+04-25 23:05:12.886 - check_complexity: 199935:2:Time elapsed: 0.46166014671325684
+04-25 23:05:12.887 - write_string: Writing to results/test/unsat:
+199935
+
+
+04-25 23:05:12.887 - write_string: Attempt to write empty string to results/test/199935
+
+04-25 23:05:12.894 - write_string: Writing to results/test/meta:
+434175
+
+04-25 23:05:13.336 - check_complexity: Optimizations enabled
+04-25 23:05:13.340 - check_complexity: 200703:2: checking ...
+04-25 23:05:13.408 - check_complexity: Optimizations enabled
+04-25 23:05:13.412 - check_complexity: 202071:2: checking ...
+04-25 23:05:13.434 - check_complexity: Optimizations enabled
+04-25 23:05:13.436 - check_complexity: 434175:2: checking ...
+04-25 23:05:13.438 - check_complexity: Optimizations enabled
+04-25 23:05:13.440 - check_complexity: 202751:2: checking ...
+04-25 23:05:13.442 - check_complexity: Optimizations enabled
+04-25 23:05:13.445 - check_complexity: 202111:2: checking ...
+04-25 23:05:13.457 - check_complexity: Optimizations enabled
+04-25 23:05:13.460 - check_complexity: 249855:2: checking ...
+04-25 23:05:13.726 - check_complexity: 200703:2:unsat
+04-25 23:05:13.726 - check_complexity: 200703:2:Time elapsed: 0.3855020999908447
+04-25 23:05:13.727 - write_string: Writing to results/test/unsat:
+200703
+
+
+04-25 23:05:13.727 - write_string: Attempt to write empty string to results/test/200703
+
+04-25 23:05:13.732 - write_string: Writing to results/test/meta:
+460663
+
+04-25 23:05:13.778 - check_complexity: 202071:2:unsat
+04-25 23:05:13.778 - check_complexity: 202071:2:Time elapsed: 0.365673303604126
+04-25 23:05:13.779 - write_string: Writing to results/test/unsat:
+202071
+
+
+04-25 23:05:13.780 - write_string: Attempt to write empty string to results/test/202071
+
+04-25 23:05:13.787 - write_string: Writing to results/test/meta:
+460799
+
+04-25 23:05:13.832 - check_complexity: 434175:2:unsat
+04-25 23:05:13.833 - check_complexity: 434175:2:Time elapsed: 0.395876407623291
+04-25 23:05:13.834 - write_string: Writing to results/test/unsat:
+434175
+
+
+04-25 23:05:13.834 - write_string: Attempt to write empty string to results/test/434175
+
+04-25 23:05:13.837 - check_complexity: 202111:2:unsat
+04-25 23:05:13.837 - check_complexity: 202111:2:Time elapsed: 0.3917102813720703
+04-25 23:05:13.838 - write_string: Writing to results/test/unsat:
+202111
+
+
+04-25 23:05:13.839 - write_string: Attempt to write empty string to results/test/202111
+
+04-25 23:05:13.841 - write_string: Writing to results/test/meta:
+466943
+
+04-25 23:05:13.846 - write_string: Writing to results/test/meta:
+489343
+
+04-25 23:05:13.850 - check_complexity: 202751:2:unsat
+04-25 23:05:13.850 - check_complexity: 202751:2:Time elapsed: 0.4097111225128174
+04-25 23:05:13.851 - write_string: Writing to results/test/unsat:
+202751
+
+
+04-25 23:05:13.852 - write_string: Attempt to write empty string to results/test/202751
+
+04-25 23:05:13.860 - write_string: Writing to results/test/meta:
+996159
+
+04-25 23:05:13.895 - check_complexity: 249855:2:unsat
+04-25 23:05:13.895 - check_complexity: 249855:2:Time elapsed: 0.4352681636810303
+04-25 23:05:13.896 - write_string: Writing to results/test/unsat:
+249855
+
+
+04-25 23:05:13.896 - write_string: Attempt to write empty string to results/test/249855
+
+04-25 23:05:13.902 - write_string: Writing to results/test/meta:
+996351
+
+04-25 23:05:14.284 - check_complexity: Optimizations enabled
+04-25 23:05:14.287 - check_complexity: 460663:2: checking ...
+04-25 23:05:14.349 - check_complexity: Optimizations enabled
+04-25 23:05:14.352 - check_complexity: 460799:2: checking ...
+04-25 23:05:14.389 - check_complexity: Optimizations enabled
+04-25 23:05:14.392 - check_complexity: 466943:2: checking ...
+04-25 23:05:14.427 - check_complexity: Optimizations enabled
+04-25 23:05:14.429 - check_complexity: 489343:2: checking ...
+04-25 23:05:14.434 - check_complexity: Optimizations enabled
+04-25 23:05:14.437 - check_complexity: 996159:2: checking ...
+04-25 23:05:14.467 - check_complexity: Optimizations enabled
+04-25 23:05:14.471 - check_complexity: 996351:2: checking ...
+04-25 23:05:14.680 - check_complexity: 460663:2:unsat
+04-25 23:05:14.680 - check_complexity: 460663:2:Time elapsed: 0.3922250270843506
+04-25 23:05:14.681 - write_string: Writing to results/test/unsat:
+460663
+
+
+04-25 23:05:14.682 - write_string: Attempt to write empty string to results/test/460663
+
+04-25 23:05:14.690 - write_string: Writing to results/test/meta:
+1044735
+
+04-25 23:05:14.762 - check_complexity: 460799:2:unsat
+04-25 23:05:14.762 - check_complexity: 460799:2:Time elapsed: 0.4101700782775879
+04-25 23:05:14.764 - write_string: Writing to results/test/unsat:
+460799
+
+
+04-25 23:05:14.773 - write_string: Attempt to write empty string to results/test/460799
+
+04-25 23:05:14.785 - check_complexity: 466943:2:unsat
+04-25 23:05:14.787 - check_complexity: 466943:2:Time elapsed: 0.39300084114074707
+04-25 23:05:14.794 - write_string: Writing to results/test/unsat:
+466943
+
+
+04-25 23:05:14.796 - write_string: Attempt to write empty string to results/test/466943
+
+04-25 23:05:14.798 - write_string: Writing to results/test/meta:
+1779711
+
+04-25 23:05:14.806 - write_string: Writing to results/test/meta:
+3982335
+
+04-25 23:05:14.859 - check_complexity: 489343:2:unsat
+04-25 23:05:14.859 - check_complexity: 489343:2:Time elapsed: 0.4295806884765625
+04-25 23:05:14.860 - write_string: Writing to results/test/unsat:
+489343
+
+
+04-25 23:05:14.861 - write_string: Attempt to write empty string to results/test/489343
+
+04-25 23:05:14.866 - check_complexity: 996159:2:unsat
+04-25 23:05:14.866 - check_complexity: 996159:2:Time elapsed: 0.4285731315612793
+04-25 23:05:14.867 - write_string: Writing to results/test/unsat:
+996159
+
+
+04-25 23:05:14.869 - write_string: Attempt to write empty string to results/test/996159
+
+04-25 23:05:14.872 - write_string: Writing to results/test/meta:
+16776960
+
+04-25 23:05:14.879 - write_string: Writing to results/test/meta:
+18556799
+
+04-25 23:05:14.916 - check_complexity: 996351:2:unsat
+04-25 23:05:14.916 - check_complexity: 996351:2:Time elapsed: 0.4451942443847656
+04-25 23:05:14.917 - write_string: Writing to results/test/unsat:
+996351
+
+
+04-25 23:05:14.918 - write_string: Attempt to write empty string to results/test/996351
+
+04-25 23:05:15.242 - check_complexity: Optimizations enabled
+04-25 23:05:15.245 - check_complexity: 1044735:2: checking ...
+04-25 23:05:15.342 - check_complexity: Optimizations enabled
+04-25 23:05:15.346 - check_complexity: 3982335:2: checking ...
+04-25 23:05:15.354 - check_complexity: Optimizations enabled
+04-25 23:05:15.357 - check_complexity: 16776960:2: checking ...
+04-25 23:05:15.366 - check_complexity: Optimizations enabled
+04-25 23:05:15.369 - check_complexity: 1779711:2: checking ...
+04-25 23:05:15.421 - check_complexity: Optimizations enabled
+04-25 23:05:15.424 - check_complexity: 18556799:2: checking ...
+04-25 23:05:15.586 - check_complexity: 1044735:2:unsat
+04-25 23:05:15.587 - check_complexity: 1044735:2:Time elapsed: 0.34136390686035156
+04-25 23:05:15.588 - write_string: Writing to results/test/unsat:
+1044735
+
+
+04-25 23:05:15.589 - write_string: Attempt to write empty string to results/test/1044735
+
+04-25 23:05:15.714 - check_complexity: 16776960:2:unsat
+04-25 23:05:15.714 - check_complexity: 3982335:2:unsat
+04-25 23:05:15.714 - check_complexity: 16776960:2:Time elapsed: 0.3570067882537842
+04-25 23:05:15.714 - check_complexity: 3982335:2:Time elapsed: 0.3681948184967041
+04-25 23:05:15.715 - write_string: Writing to results/test/unsat:
+16776960
+
+
+04-25 23:05:15.715 - write_string: Writing to results/test/unsat:
+3982335
+
+
+04-25 23:05:15.716 - write_string: Attempt to write empty string to results/test/16776960
+
+04-25 23:05:15.716 - write_string: Attempt to write empty string to results/test/3982335
+
+04-25 23:05:15.746 - check_complexity: 1779711:2:unsat
+04-25 23:05:15.746 - check_complexity: 1779711:2:Time elapsed: 0.37703824043273926
+04-25 23:05:15.747 - write_string: Writing to results/test/unsat:
+1779711
+
+
+04-25 23:05:15.748 - write_string: Attempt to write empty string to results/test/1779711
+
+04-25 23:05:15.759 - check_complexity: 18556799:2:unsat
+04-25 23:05:15.759 - check_complexity: 18556799:2:Time elapsed: 0.3352179527282715
+04-25 23:05:15.760 - write_string: Writing to results/test/unsat:
+18556799
+
+
+04-25 23:05:15.761 - write_string: Attempt to write empty string to results/test/18556799
+
